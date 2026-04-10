@@ -12,16 +12,529 @@
     "types": [
       "bakery",
       "food_store",
+      "store",
       "restaurant",
       "food",
       "point_of_interest",
-      "store",
       "establishment"
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923579",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.366874",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Hackney Picturehouse",
+    "place_id": "ChIJ582g7-QcdkgR7yaRfVM65YQ",
+    "rating": 4.2,
+    "total_ratings": 486,
+    "address": "270 Mare St, London E8 1HE, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5446763,
+    "lng": -0.055004199999999996,
+    "price_level": null,
+    "types": [
+      "movie_theater",
+      "coworking_space",
+      "pizza_restaurant",
+      "coffee_shop",
+      "cafe",
+      "food_store",
+      "bar",
+      "store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366895",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "McDonald's",
+    "place_id": "ChIJT9REE1IddkgR2QfCScglWEU",
+    "rating": 3.2,
+    "total_ratings": 2063,
+    "address": "359/363 Mare St, London E8 1HY, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.547820699999995,
+    "lng": -0.055076799999999995,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "fast_food_restaurant",
+      "chicken_restaurant",
+      "breakfast_restaurant",
+      "hamburger_restaurant",
+      "diner",
+      "american_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "service",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366900",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Palaette London Hackney",
+    "place_id": "ChIJccLTGg4ddkgRWd4TurnlLO8",
+    "rating": 4.4,
+    "total_ratings": 1291,
+    "address": "415 Mare St, London E8 1HN, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.549329799999995,
+    "lng": -0.0552232,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "mediterranean_restaurant",
+      "cocktail_bar",
+      "breakfast_restaurant",
+      "brunch_restaurant",
+      "food_store",
+      "bar",
+      "store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366905",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Hackney Church Brew Co.",
+    "place_id": "ChIJywGJqfQddkgRpJea-TZ_IZo",
+    "rating": 4.4,
+    "total_ratings": 425,
+    "address": "17 Bohemia Pl, London E8 1DU, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5473845,
+    "lng": -0.052393300000000004,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "brewpub",
+      "brewery",
+      "beer_garden",
+      "pub",
+      "liquor_store",
+      "bar",
+      "manufacturer",
+      "store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "service",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366909",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "M&S Foodhall",
+    "place_id": "ChIJRTaPJPscdkgRxjVWdpv5WlE",
+    "rating": 4.1,
+    "total_ratings": 818,
+    "address": "351 Mare St, London E8 1JB, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5476311,
+    "lng": -0.0551462,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "supermarket",
+      "deli",
+      "sandwich_shop",
+      "bakery",
+      "grocery_store",
+      "food_store",
+      "store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366913",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "LARDO",
+    "place_id": "ChIJcUPdmuUcdkgR7xiH0Dc5OrU",
+    "rating": 4.3,
+    "total_ratings": 1351,
+    "address": "Unit 3, 201 Richmond Rd, London E8 3NJ, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5436087,
+    "lng": -0.05711,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "italian_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366917",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "DALLA",
+    "place_id": "ChIJ-UgboQUddkgR5VbVYqgqle4",
+    "rating": 4.6,
+    "total_ratings": 300,
+    "address": "120-122 Morning Ln, London E9 6LH, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5469444,
+    "lng": -0.0494444,
+    "price_level": null,
+    "types": [
+      "italian_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366921",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "WAVE",
+    "place_id": "ChIJF_kxdtYddkgR2ljex8ywClg",
+    "rating": 4.6,
+    "total_ratings": 673,
+    "address": "11 Dispensary Ln, London E8 1FT, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.548877399999995,
+    "lng": -0.0546374,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "vegan_restaurant",
+      "breakfast_restaurant",
+      "vegetarian_restaurant",
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366925",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Old Ship Pub & Hotel Hackney",
+    "place_id": "ChIJJ4w-1uQcdkgRob3JzA4qots",
+    "rating": 4.4,
+    "total_ratings": 1317,
+    "address": "2 Sylvester Path, London E8 1EN, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5459336,
+    "lng": -0.0558105,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "gastropub",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366930",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Yuki bar",
+    "place_id": "ChIJr7wxt4UddkgRKIVItZHBsaw",
+    "rating": 4.4,
+    "total_ratings": 104,
+    "address": "426 Reading Ln, London E8 1DS, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5444896,
+    "lng": -0.0584945,
+    "price_level": null,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366934",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Bun & Sum",
+    "place_id": "ChIJKfbwsKgddkgRXSmdhS8xQ1U",
+    "rating": 3.6,
+    "total_ratings": 280,
+    "address": "224 Graham Rd, London E8 1BP, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5465199,
+    "lng": -0.05620340000000001,
+    "price_level": null,
+    "types": [
+      "hamburger_restaurant",
+      "american_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366939",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "KFC Hackney - Mare Street",
+    "place_id": "ChIJyd1xvOQcdkgRm2lXbqugopA",
+    "rating": 3.2,
+    "total_ratings": 755,
+    "address": "311 Mare St, London E8 1EJ, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.546181399999995,
+    "lng": -0.05536460000000001,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "fast_food_restaurant",
+      "chicken_restaurant",
+      "electric_vehicle_charging_station",
+      "meal_takeaway",
+      "chicken_wings_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "transportation_service",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366944",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Temple of Seitan",
+    "place_id": "ChIJE0Hsc6gddkgR9_LjrWFKkLQ",
+    "rating": 4,
+    "total_ratings": 324,
+    "address": "10 Morning Ln, London E9 6NA, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5459568,
+    "lng": -0.0539493,
+    "price_level": null,
+    "types": [
+      "vegan_restaurant",
+      "vegetarian_restaurant",
+      "fast_food_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366948",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Brazilian Centre HACKNEY - Produtos Brasileiros (Brazilian Products)",
+    "place_id": "ChIJPZ5oLuQcdkgRAVopixsJ3TY",
+    "rating": 4.4,
+    "total_ratings": 171,
+    "address": "223 Mare St, London E8 3QE, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5418479,
+    "lng": -0.055416,
+    "price_level": null,
+    "types": [
+      "butcher_shop",
+      "brazilian_restaurant",
+      "coffee_shop",
+      "cafe",
+      "food_delivery",
+      "supermarket",
+      "grocery_store",
+      "food_store",
+      "manufacturer",
+      "store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "service",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366953",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Tonkotsu Mare Street",
+    "place_id": "ChIJ1x9OEPscdkgRg2Pa9IdGhEI",
+    "rating": 4.5,
+    "total_ratings": 1126,
+    "address": "382 Mare St, London E8 1HR, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5487141,
+    "lng": -0.054931,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "restaurant",
+      "ramen_restaurant",
+      "japanese_restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366958",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "B\u00e1nh M\u00ec H\u1ed9i-An - Vietnamese Street Food in London",
+    "place_id": "ChIJ7ZH90vocdkgRvqSy00YN6VA",
+    "rating": 4.9,
+    "total_ratings": 362,
+    "address": "242 Graham Rd, London E8 1BP, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5465551,
+    "lng": -0.0555696,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "sandwich_shop",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366961",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Peck Peck",
+    "place_id": "ChIJQWFYTDQddkgRvH8t4T0OpWI",
+    "rating": 4.7,
+    "total_ratings": 986,
+    "address": "320 Mare St, London E8 1HA, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.546489799999996,
+    "lng": -0.0548371,
+    "price_level": null,
+    "types": [
+      "restaurant",
+      "bar",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366965",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Burnt Mill - Wood Fired Pizza",
+    "place_id": "ChIJX0BwZqUddkgRvOzgk49rffY",
+    "rating": 4.9,
+    "total_ratings": 596,
+    "address": "Ground Floor, 257 Mare St, London E8 3NS, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5430159,
+    "lng": -0.0555011,
+    "price_level": null,
+    "types": [
+      "pizza_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366969",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "PizzaExpress",
+    "place_id": "ChIJ1bQU5EgddkgRW3D9Sy6WFjo",
+    "rating": 4.3,
+    "total_ratings": 446,
+    "address": "298 Mare St, London E8 1HE, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5454964,
+    "lng": -0.0549879,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "pizza_restaurant",
+      "italian_restaurant",
+      "meal_takeaway",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.366973",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   },
@@ -36,26 +549,26 @@
     "lng": -0.057233200000000005,
     "price_level": "PRICE_LEVEL_MODERATE",
     "types": [
-      "catering_service",
       "bar_and_grill",
       "coffee_shop",
       "cafe",
-      "food_delivery",
       "market",
-      "bar",
+      "catering_service",
+      "food_delivery",
       "event_venue",
+      "bar",
       "food_store",
       "restaurant",
       "food",
       "point_of_interest",
-      "service",
       "store",
+      "service",
       "establishment"
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923599",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.594048",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   },
@@ -72,14 +585,14 @@
     "types": [
       "bar",
       "pizza_restaurant",
-      "meal_takeaway",
-      "italian_restaurant",
-      "cocktail_bar",
       "pizza_delivery",
+      "vegetarian_restaurant",
       "meal_delivery",
       "food_delivery",
-      "vegetarian_restaurant",
+      "meal_takeaway",
+      "italian_restaurant",
       "event_venue",
+      "cocktail_bar",
       "restaurant",
       "food",
       "point_of_interest",
@@ -87,39 +600,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923605",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_hackney.json"
-    }
-  },
-  {
-    "name": "Hackney Picturehouse",
-    "place_id": "ChIJ582g7-QcdkgR7yaRfVM65YQ",
-    "rating": 4.2,
-    "total_ratings": 486,
-    "address": "270 Mare St, London E8 1HE, UK",
-    "neighbourhood": "Hackney",
-    "lat": 51.5446763,
-    "lng": -0.055004199999999996,
-    "price_level": null,
-    "types": [
-      "movie_theater",
-      "pizza_restaurant",
-      "coffee_shop",
-      "cafe",
-      "coworking_space",
-      "bar",
-      "food_store",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "store",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923617",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.594071",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   },
@@ -141,38 +623,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923621",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_hackney.json"
-    }
-  },
-  {
-    "name": "McDonald's",
-    "place_id": "ChIJT9REE1IddkgR2QfCScglWEU",
-    "rating": 3.2,
-    "total_ratings": 2063,
-    "address": "359/363 Mare St, London E8 1HY, UK",
-    "neighbourhood": "Hackney",
-    "lat": 51.547820699999995,
-    "lng": -0.055076799999999995,
-    "price_level": "PRICE_LEVEL_INEXPENSIVE",
-    "types": [
-      "fast_food_restaurant",
-      "chicken_restaurant",
-      "diner",
-      "hamburger_restaurant",
-      "american_restaurant",
-      "breakfast_restaurant",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "service",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923627",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.594078",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   },
@@ -194,38 +646,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923632",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_hackney.json"
-    }
-  },
-  {
-    "name": "Palaette London Hackney",
-    "place_id": "ChIJccLTGg4ddkgRWd4TurnlLO8",
-    "rating": 4.4,
-    "total_ratings": 1291,
-    "address": "415 Mare St, London E8 1HN, UK",
-    "neighbourhood": "Hackney",
-    "lat": 51.549329799999995,
-    "lng": -0.0552232,
-    "price_level": "PRICE_LEVEL_MODERATE",
-    "types": [
-      "mediterranean_restaurant",
-      "cocktail_bar",
-      "breakfast_restaurant",
-      "brunch_restaurant",
-      "bar",
-      "food_store",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "store",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923637",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.594083",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   },
@@ -249,40 +671,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923641",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_hackney.json"
-    }
-  },
-  {
-    "name": "Hackney Church Brew Co.",
-    "place_id": "ChIJywGJqfQddkgRpJea-TZ_IZo",
-    "rating": 4.4,
-    "total_ratings": 425,
-    "address": "17 Bohemia Pl, London E8 1DU, UK",
-    "neighbourhood": "Hackney",
-    "lat": 51.5473845,
-    "lng": -0.052393300000000004,
-    "price_level": "PRICE_LEVEL_MODERATE",
-    "types": [
-      "brewpub",
-      "brewery",
-      "pub",
-      "beer_garden",
-      "liquor_store",
-      "bar",
-      "manufacturer",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "service",
-      "store",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923646",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.594088",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   },
@@ -307,8 +697,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923650",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.594107",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   },
@@ -331,38 +721,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923658",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_hackney.json"
-    }
-  },
-  {
-    "name": "M&S Foodhall",
-    "place_id": "ChIJRTaPJPscdkgRxjVWdpv5WlE",
-    "rating": 4.1,
-    "total_ratings": 818,
-    "address": "351 Mare St, London E8 1JB, UK",
-    "neighbourhood": "Hackney",
-    "lat": 51.5476311,
-    "lng": -0.0551462,
-    "price_level": "PRICE_LEVEL_MODERATE",
-    "types": [
-      "supermarket",
-      "deli",
-      "sandwich_shop",
-      "grocery_store",
-      "bakery",
-      "food_store",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "store",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923663",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.594112",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   },
@@ -386,8 +746,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923667",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.594117",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   },
@@ -404,10 +764,10 @@
     "types": [
       "pub",
       "karaoke",
-      "night_club",
       "beer_garden",
-      "bar",
+      "night_club",
       "event_venue",
+      "bar",
       "restaurant",
       "food",
       "point_of_interest",
@@ -416,8 +776,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923672",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.594122",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   },
@@ -440,32 +800,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923677",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_hackney.json"
-    }
-  },
-  {
-    "name": "DALLA",
-    "place_id": "ChIJ-UgboQUddkgR5VbVYqgqle4",
-    "rating": 4.6,
-    "total_ratings": 300,
-    "address": "120-122 Morning Ln, London E9 6LH, UK",
-    "neighbourhood": "Hackney",
-    "lat": 51.5469444,
-    "lng": -0.0494444,
-    "price_level": null,
-    "types": [
-      "italian_restaurant",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923681",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.594127",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   },
@@ -487,32 +823,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923687",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_hackney.json"
-    }
-  },
-  {
-    "name": "LARDO",
-    "place_id": "ChIJcUPdmuUcdkgR7xiH0Dc5OrU",
-    "rating": 4.3,
-    "total_ratings": 1351,
-    "address": "Unit 3, 201 Richmond Rd, London E8 3NJ, UK",
-    "neighbourhood": "Hackney",
-    "lat": 51.5436087,
-    "lng": -0.05711,
-    "price_level": "PRICE_LEVEL_MODERATE",
-    "types": [
-      "italian_restaurant",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923692",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.594131",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   },
@@ -535,8 +847,268 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.923696",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.594136",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Tom's Pasta",
+    "place_id": "ChIJ8cs4xExv9UURB2zWHtFB7UI",
+    "rating": 4.5,
+    "total_ratings": 572,
+    "address": "Hackney Downs Studios, 17 Amhurst Terrace, Lower Clapton, London E8 2BT, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.554443,
+    "lng": -0.06641749999999999,
+    "price_level": null,
+    "types": [
+      "italian_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.831458",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "FORNO",
+    "place_id": "ChIJIVtLdb4ddkgRSxKCld0Z_To",
+    "rating": 4.4,
+    "total_ratings": 729,
+    "address": "322 Andrews Rd, London E8 4RP, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.534602899999996,
+    "lng": -0.05777329999999999,
+    "price_level": null,
+    "types": [
+      "bakery",
+      "deli",
+      "meal_takeaway",
+      "cafe",
+      "liquor_store",
+      "grocery_store",
+      "food_store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.831480",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Premier Inn London Hackney hotel",
+    "place_id": "ChIJFb0Cf5IcdkgRXo7YY_zVO1A",
+    "rating": 4.2,
+    "total_ratings": 946,
+    "address": "27 Dalston Ln, London E8 3DF, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.546385099999995,
+    "lng": -0.0731894,
+    "price_level": null,
+    "types": [
+      "hotel",
+      "bed_and_breakfast",
+      "inn",
+      "lodging",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.831487",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Miga",
+    "place_id": "ChIJtUWINwAddkgRZpNHXJfDHaE",
+    "rating": 4.6,
+    "total_ratings": 576,
+    "address": "1 Mare St, London E8 4RP, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.534533599999996,
+    "lng": -0.0576598,
+    "price_level": null,
+    "types": [
+      "korean_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.831493",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Cafe Cecilia",
+    "place_id": "ChIJCX4xlukddkgR8tsZRDamZIY",
+    "rating": 4.5,
+    "total_ratings": 518,
+    "address": "32 Andrews Rd, London E8 4FX, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.534555999999995,
+    "lng": -0.060122999999999996,
+    "price_level": null,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.831499",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "The Dove",
+    "place_id": "ChIJRyNnMugcdkgRrUqql3TicnY",
+    "rating": 4.3,
+    "total_ratings": 1475,
+    "address": "24-28 Broadway Market, London E8 4QJ, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5363409,
+    "lng": -0.061691699999999995,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "pub",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.831504",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Royal Inn on the Park",
+    "place_id": "ChIJTSB4nx8ddkgRnL4-9OThZn8",
+    "rating": 4.2,
+    "total_ratings": 1382,
+    "address": "111 Lauriston Rd, London E9 7HJ, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5367702,
+    "lng": -0.043253799999999995,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "pub",
+      "gastropub",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.831509",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Love Shack",
+    "place_id": "ChIJb8gMSM8ddkgRWsfjuytKgZw",
+    "rating": 4.7,
+    "total_ratings": 1199,
+    "address": "Arch 298, 299 Cambridge Heath Rd, London E2 9HA, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.532253999999995,
+    "lng": -0.057219,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "vegan_restaurant",
+      "cocktail_bar",
+      "vegetarian_restaurant",
+      "bar",
+      "event_venue",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.831514",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "Angelina",
+    "place_id": "ChIJMVn0pZIcdkgRhP999ah47qk",
+    "rating": 4.8,
+    "total_ratings": 1906,
+    "address": "56 Dalston Ln, London E8 3AH, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.5461368,
+    "lng": -0.0712472,
+    "price_level": null,
+    "types": [
+      "restaurant",
+      "fusion_restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.831519",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_hackney.json"
+    }
+  },
+  {
+    "name": "The Spread Eagle",
+    "place_id": "ChIJRTiIhgQddkgRd2qqglOkPso",
+    "rating": 4.5,
+    "total_ratings": 1651,
+    "address": "224 Homerton High St, London E9 6AS, UK",
+    "neighbourhood": "Hackney",
+    "lat": 51.548637299999996,
+    "lng": -0.0407243,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "pub",
+      "cocktail_bar",
+      "vegan_restaurant",
+      "vegetarian_restaurant",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.831524",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_hackney.json"
     }
   }

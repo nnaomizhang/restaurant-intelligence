@@ -3,7 +3,7 @@
     "name": "Prince of Peckham Pub",
     "place_id": "ChIJGxf-DQoDdkgRGC7MySEtU_8",
     "rating": 4.3,
-    "total_ratings": 2274,
+    "total_ratings": 2275,
     "address": "1 Clayton Rd, London SE15 5JA, UK",
     "neighbourhood": "Peckham",
     "lat": 51.4736548,
@@ -12,47 +12,23 @@
     "types": [
       "pub",
       "caribbean_restaurant",
-      "karaoke",
-      "night_club",
-      "meal_takeaway",
       "live_music_venue",
+      "meal_takeaway",
+      "night_club",
+      "karaoke",
+      "event_venue",
       "bar",
+      "service",
       "association_or_organization",
       "restaurant",
       "food",
-      "event_venue",
-      "service",
       "point_of_interest",
       "establishment"
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781232",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_peckham.json"
-    }
-  },
-  {
-    "name": "Jumbi",
-    "place_id": "ChIJQTSKNzIDdkgRjiHxRgITOFc",
-    "rating": 4.3,
-    "total_ratings": 330,
-    "address": "Unit 4.1, Copeland Park, 133 Copeland Rd, London SE15 3SN, UK",
-    "neighbourhood": "Peckham",
-    "lat": 51.469883,
-    "lng": -0.06558300000000002,
-    "price_level": null,
-    "types": [
-      "caribbean_restaurant",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781255",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:50.647495",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   },
@@ -71,39 +47,11 @@
       "food_court",
       "cultural_center",
       "coffee_shop",
-      "cafe",
       "food_store",
+      "cafe",
+      "event_venue",
       "bar",
-      "restaurant",
-      "food",
       "store",
-      "event_venue",
-      "point_of_interest",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781262",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_peckham.json"
-    }
-  },
-  {
-    "name": "Copeland Park",
-    "place_id": "ChIJ85g3GqEDdkgRR7YnXnWnSuM",
-    "rating": 4.5,
-    "total_ratings": 809,
-    "address": "133 Copeland Rd, London SE15 3SN, UK",
-    "neighbourhood": "Peckham",
-    "lat": 51.469592,
-    "lng": -0.0652571,
-    "price_level": null,
-    "types": [
-      "event_venue",
-      "movie_theater",
-      "art_gallery",
-      "night_club",
-      "performing_arts_theater",
       "restaurant",
       "food",
       "point_of_interest",
@@ -111,8 +59,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781267",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:50.647518",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   },
@@ -136,8 +84,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781271",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:50.647525",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   },
@@ -162,8 +110,468 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781275",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:50.647530",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "McDonald's",
+    "place_id": "ChIJAabxEa0adkgR8ZJGH_sw6cc",
+    "rating": 3.1,
+    "total_ratings": 1864,
+    "address": "72, 76 Rye Ln, London SE15 5DQ, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.470620600000004,
+    "lng": -0.0691767,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "fast_food_restaurant",
+      "hamburger_restaurant",
+      "breakfast_restaurant",
+      "chicken_restaurant",
+      "diner",
+      "american_restaurant",
+      "service",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647534",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Guacamoles",
+    "place_id": "ChIJi5OoMwADdkgR3-aZ3TopttQ",
+    "rating": 4.8,
+    "total_ratings": 627,
+    "address": "48 Rye Ln, London SE15 5BY, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.4711788,
+    "lng": -0.07018869999999999,
+    "price_level": null,
+    "types": [
+      "mexican_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647540",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Persepolis",
+    "place_id": "ChIJ0xmPXXUDdkgR83zodK1GNX8",
+    "rating": 4.5,
+    "total_ratings": 1163,
+    "address": "28-30 Peckham High St, London SE15 5DT, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.4733342,
+    "lng": -0.0717997,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "vegetarian_restaurant",
+      "food_store",
+      "middle_eastern_restaurant",
+      "event_venue",
+      "store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647546",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Market Place Food Hall Peckham",
+    "place_id": "ChIJ41eORZwDdkgRhlgnr0vTAk4",
+    "rating": 4.4,
+    "total_ratings": 778,
+    "address": "Unit 10, The Aylesham Centre, Rye Ln, London SE15 5EW, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.4724138,
+    "lng": -0.0695655,
+    "price_level": null,
+    "types": [
+      "food_court",
+      "cocktail_bar",
+      "sports_bar",
+      "seafood_restaurant",
+      "live_music_venue",
+      "sports_complex",
+      "sports_activity_location",
+      "event_venue",
+      "bar",
+      "service",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647551",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Hausu",
+    "place_id": "ChIJg6L2y6EDdkgRriu_C0ub-fA",
+    "rating": 4.6,
+    "total_ratings": 191,
+    "address": "11a Station Wy, London SE15 4RX, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.4700651,
+    "lng": -0.0694246,
+    "price_level": null,
+    "types": [
+      "restaurant",
+      "coffee_shop",
+      "food_store",
+      "cafe",
+      "bar",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647556",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "The CLF Art Lounge",
+    "place_id": "ChIJs15TLICp2EcRxQ6TX9t9EFk",
+    "rating": 4.3,
+    "total_ratings": 418,
+    "address": "120 Peckham Hill St, London SE15 5JT, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.474790999999996,
+    "lng": -0.0696312,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "live_music_venue",
+      "lounge_bar",
+      "night_club",
+      "event_venue",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647564",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "TAQUIZA - Cocina Mexicana",
+    "place_id": "ChIJiSSGm0cDdkgRQ5kPMmHJiHg",
+    "rating": 4.8,
+    "total_ratings": 244,
+    "address": "115 Rye Ln, London SE15 4ST, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.470504399999996,
+    "lng": -0.0685385,
+    "price_level": null,
+    "types": [
+      "mexican_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647570",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Hanar",
+    "place_id": "ChIJlUvrZ1YDdkgR-zgZI_K6qZk",
+    "rating": 4.6,
+    "total_ratings": 379,
+    "address": "Arch 163 Peckham Rye, London SE15 4ST, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.470392499999996,
+    "lng": -0.0683112,
+    "price_level": null,
+    "types": [
+      "middle_eastern_restaurant",
+      "halal_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647575",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Tola",
+    "place_id": "ChIJLwF3U3UDdkgR8VvHLbiSG-E",
+    "rating": 4.2,
+    "total_ratings": 282,
+    "address": "56 Peckham High St, London SE15 5DP, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.4732135,
+    "lng": -0.0705064,
+    "price_level": null,
+    "types": [
+      "cocktail_bar",
+      "night_club",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647579",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Levan Restaurant Peckham",
+    "place_id": "ChIJLf7AEaYDdkgRtoySw4VaPQM",
+    "rating": 4.5,
+    "total_ratings": 578,
+    "address": "12-16 Blenheim Grove, London SE15 4QL, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.469708,
+    "lng": -0.0691507,
+    "price_level": null,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647584",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Burger King",
+    "place_id": "ChIJ98NcCaADdkgRJl5K0nYR2C4",
+    "rating": 3.3,
+    "total_ratings": 1078,
+    "address": "46-52 Peckham High St, London SE15 5DP, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.473212499999995,
+    "lng": -0.0708685,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "fast_food_restaurant",
+      "hamburger_restaurant",
+      "american_restaurant",
+      "service",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647588",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "KFC Peckham - Rye Lane",
+    "place_id": "ChIJDTi4HKADdkgRBtqwmm97SuU",
+    "rating": 3.6,
+    "total_ratings": 1075,
+    "address": "32-36 Rye Ln, London SE15 5BS, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.471779999999995,
+    "lng": -0.06984599999999999,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "fast_food_restaurant",
+      "electric_vehicle_charging_station",
+      "chicken_restaurant",
+      "chicken_wings_restaurant",
+      "meal_takeaway",
+      "transportation_service",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647593",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Tianjin Dumpling",
+    "place_id": "ChIJa5lHDm8DdkgREddk-UkvyJo",
+    "rating": 4.6,
+    "total_ratings": 251,
+    "address": "Unit 10, Aylesham Centre, Market Place, London SE15 5EW, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.4724138,
+    "lng": -0.0695655,
+    "price_level": null,
+    "types": [
+      "meal_takeaway",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647598",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Nando's Peckham",
+    "place_id": "ChIJ9W6nsYADdkgRfAvki51mSbI",
+    "rating": 4.2,
+    "total_ratings": 492,
+    "address": "Aylesham Shopping Centre, Rye Ln, London SE15 5EN, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.4730924,
+    "lng": -0.0696235,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "restaurant",
+      "portuguese_restaurant",
+      "chicken_restaurant",
+      "meal_delivery",
+      "food_delivery",
+      "service",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647603",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Rye Lane Cornerhouse, Peckham",
+    "place_id": "ChIJHbDJu0kDdkgRMLGJKirmFEY",
+    "rating": 4.5,
+    "total_ratings": 117,
+    "address": "133a Rye Ln, London SE15 4BQ, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.469824599999995,
+    "lng": -0.0680959,
+    "price_level": null,
+    "types": [
+      "cafe",
+      "coworking_space",
+      "gym",
+      "live_music_venue",
+      "sports_activity_location",
+      "event_venue",
+      "bar",
+      "health",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.647608",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Jumbi",
+    "place_id": "ChIJQTSKNzIDdkgRjiHxRgITOFc",
+    "rating": 4.3,
+    "total_ratings": 330,
+    "address": "Unit 4.1, Copeland Park, 133 Copeland Rd, London SE15 3SN, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.469883,
+    "lng": -0.06558300000000002,
+    "price_level": null,
+    "types": [
+      "caribbean_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.882098",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Copeland Park",
+    "place_id": "ChIJ85g3GqEDdkgRR7YnXnWnSuM",
+    "rating": 4.5,
+    "total_ratings": 809,
+    "address": "133 Copeland Rd, London SE15 3SN, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.469592,
+    "lng": -0.0652571,
+    "price_level": null,
+    "types": [
+      "event_venue",
+      "art_gallery",
+      "performing_arts_theater",
+      "movie_theater",
+      "night_club",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:50.882122",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   },
@@ -187,38 +595,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781279",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_peckham.json"
-    }
-  },
-  {
-    "name": "McDonald's",
-    "place_id": "ChIJAabxEa0adkgR8ZJGH_sw6cc",
-    "rating": 3.1,
-    "total_ratings": 1864,
-    "address": "72, 76 Rye Ln, London SE15 5DQ, UK",
-    "neighbourhood": "Peckham",
-    "lat": 51.470620600000004,
-    "lng": -0.0691767,
-    "price_level": "PRICE_LEVEL_INEXPENSIVE",
-    "types": [
-      "fast_food_restaurant",
-      "diner",
-      "hamburger_restaurant",
-      "breakfast_restaurant",
-      "chicken_restaurant",
-      "american_restaurant",
-      "restaurant",
-      "food",
-      "service",
-      "point_of_interest",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781283",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:50.882128",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   },
@@ -241,32 +619,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781288",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_peckham.json"
-    }
-  },
-  {
-    "name": "Guacamoles",
-    "place_id": "ChIJi5OoMwADdkgR3-aZ3TopttQ",
-    "rating": 4.8,
-    "total_ratings": 627,
-    "address": "48 Rye Ln, London SE15 5BY, UK",
-    "neighbourhood": "Peckham",
-    "lat": 51.4711788,
-    "lng": -0.07018869999999999,
-    "price_level": null,
-    "types": [
-      "mexican_restaurant",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781293",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:50.882135",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   },
@@ -282,8 +636,8 @@
     "price_level": "PRICE_LEVEL_INEXPENSIVE",
     "types": [
       "bar_and_grill",
-      "cafe",
       "bar",
+      "cafe",
       "association_or_organization",
       "restaurant",
       "food",
@@ -292,36 +646,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781297",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_peckham.json"
-    }
-  },
-  {
-    "name": "Persepolis",
-    "place_id": "ChIJ0xmPXXUDdkgR83zodK1GNX8",
-    "rating": 4.5,
-    "total_ratings": 1163,
-    "address": "28-30 Peckham High St, London SE15 5DT, UK",
-    "neighbourhood": "Peckham",
-    "lat": 51.4733342,
-    "lng": -0.0717997,
-    "price_level": "PRICE_LEVEL_INEXPENSIVE",
-    "types": [
-      "vegetarian_restaurant",
-      "middle_eastern_restaurant",
-      "food_store",
-      "restaurant",
-      "food",
-      "store",
-      "event_venue",
-      "point_of_interest",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781301",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:50.882140",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   },
@@ -345,8 +671,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781305",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:50.882146",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   },
@@ -368,41 +694,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781309",
-      "collector_version": "1.0",
-      "raw_file_path": "data/raw/google_places_peckham.json"
-    }
-  },
-  {
-    "name": "Market Place Food Hall Peckham",
-    "place_id": "ChIJ41eORZwDdkgRhlgnr0vTAk4",
-    "rating": 4.4,
-    "total_ratings": 778,
-    "address": "Unit 10, The Aylesham Centre, Rye Ln, London SE15 5EW, UK",
-    "neighbourhood": "Peckham",
-    "lat": 51.4724138,
-    "lng": -0.0695655,
-    "price_level": null,
-    "types": [
-      "food_court",
-      "sports_bar",
-      "seafood_restaurant",
-      "live_music_venue",
-      "sports_complex",
-      "cocktail_bar",
-      "bar",
-      "sports_activity_location",
-      "restaurant",
-      "food",
-      "event_venue",
-      "service",
-      "point_of_interest",
-      "establishment"
-    ],
-    "lineage": {
-      "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781313",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:50.882150",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   },
@@ -426,8 +719,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781316",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:50.882155",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   },
@@ -450,8 +743,8 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781320",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:50.882162",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   },
@@ -476,36 +769,137 @@
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781323",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:50.882166",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   },
   {
-    "name": "Hausu",
-    "place_id": "ChIJg6L2y6EDdkgRriu_C0ub-fA",
-    "rating": 4.6,
-    "total_ratings": 191,
-    "address": "11a Station Wy, London SE15 4RX, UK",
+    "name": "The Camberwell Arms",
+    "place_id": "ChIJoaxnTn8DdkgRmUPgKypV5uA",
+    "rating": 4.5,
+    "total_ratings": 1125,
+    "address": "65 Camberwell Church St, London SE5 8TR, UK",
     "neighbourhood": "Peckham",
-    "lat": 51.4700651,
-    "lng": -0.0694246,
-    "price_level": null,
+    "lat": 51.4737687,
+    "lng": -0.0883342,
+    "price_level": "PRICE_LEVEL_MODERATE",
     "types": [
-      "restaurant",
-      "coffee_shop",
-      "cafe",
-      "food_store",
+      "pub",
       "bar",
+      "restaurant",
       "food",
-      "store",
       "point_of_interest",
       "establishment"
     ],
     "lineage": {
       "source_name": "google_places",
-      "collection_timestamp": "2026-04-10T00:13:24.781327",
-      "collector_version": "1.0",
+      "collection_timestamp": "2026-04-10T01:38:51.126905",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "McDonald's",
+    "place_id": "ChIJO6VAkRIDdkgRSMtnnzKuOMg",
+    "rating": 3.4,
+    "total_ratings": 4221,
+    "address": "Retail Park, 518 Old Kent Rd, Malt St, London SE1 5BA, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.484380599999994,
+    "lng": -0.0683815,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "fast_food_restaurant",
+      "hamburger_restaurant",
+      "diner",
+      "chicken_restaurant",
+      "breakfast_restaurant",
+      "american_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "service",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.126925",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "The Angel Oak",
+    "place_id": "ChIJ2zBNcqMDdkgRDdNeS-tFVcs",
+    "rating": 4.2,
+    "total_ratings": 1431,
+    "address": "31 Peckham Rye, London SE15 3NX, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.464622399999996,
+    "lng": -0.0655177,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "pub",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.126930",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Silk Road",
+    "place_id": "ChIJobyta38DdkgRIpSH5gbZlZg",
+    "rating": 4.5,
+    "total_ratings": 1314,
+    "address": "47 Camberwell Church St, London SE5 8TR, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.473900099999994,
+    "lng": -0.0893852,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "chinese_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.126934",
+      "collector_version": "1.1",
+      "raw_file_path": "data/raw/google_places_peckham.json"
+    }
+  },
+  {
+    "name": "Earl of Derby",
+    "place_id": "ChIJ9xPLUqoDdkgR8qZvBJsJiJs",
+    "rating": 4.5,
+    "total_ratings": 431,
+    "address": "87 Dennett's Rd, London SE14 5LW, UK",
+    "neighbourhood": "Peckham",
+    "lat": 51.4709167,
+    "lng": -0.050222199999999995,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "pub",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T01:38:51.126938",
+      "collector_version": "1.1",
       "raw_file_path": "data/raw/google_places_peckham.json"
     }
   }

@@ -17,46 +17,53 @@ def get_restaurants(lat: float, lng: float, neighbourhood: str) -> list[dict]:
         "X-Goog-FieldMask": "places.displayName,places.rating,places.formattedAddress,places.location,places.priceLevel,places.userRatingCount,places.id,places.types"
     }
 
-    body = {
-        "includedTypes": ["restaurant"],
-        "maxResultCount": 20,
-        "locationRestriction": {
-            "circle": {
-                "center": {
-                    "latitude": lat,
-                    "longitude": lng
-                },
-                "radius": 1000.0
+    all_restaurants = {}
+    radii = [500, 1000, 1500]
+
+    for radius in radii:
+        body = {
+            "includedTypes": ["restaurant"],
+            "maxResultCount": 20,
+            "locationRestriction": {
+                "circle": {
+                    "center": {
+                        "latitude": lat,
+                        "longitude": lng
+                    },
+                    "radius": float(radius)
+                }
             }
         }
-    }
 
-    response = requests.post(URL, headers=headers, json=body)
-    data = response.json()
+        response = requests.post(URL, headers=headers, json=body)
+        data = response.json()
 
-    restaurants = []
-    for place in data.get("places", []):
-        record = {
-            "name": place.get("displayName", {}).get("text"),
-            "place_id": place.get("id"),
-            "rating": place.get("rating"),
-            "total_ratings": place.get("userRatingCount"),
-            "address": place.get("formattedAddress"),
-            "neighbourhood": neighbourhood,
-            "lat": place.get("location", {}).get("latitude"),
-            "lng": place.get("location", {}).get("longitude"),
-            "price_level": place.get("priceLevel"),
-            "types": place.get("types", [])
-        }
-        record = add_lineage(
-            record,
-            source="google_places",
-            version="1.0",
-            raw_file_path=f"data/raw/google_places_{neighbourhood.lower()}.json"
-        )
-        restaurants.append(record)
+        for place in data.get("places", []):
+            place_id = place.get("id")
+            if place_id in all_restaurants:
+                continue
 
-    return restaurants
+            record = {
+                "name": place.get("displayName", {}).get("text"),
+                "place_id": place_id,
+                "rating": place.get("rating"),
+                "total_ratings": place.get("userRatingCount"),
+                "address": place.get("formattedAddress"),
+                "neighbourhood": neighbourhood,
+                "lat": place.get("location", {}).get("latitude"),
+                "lng": place.get("location", {}).get("longitude"),
+                "price_level": place.get("priceLevel"),
+                "types": place.get("types", [])
+            }
+            record = add_lineage(
+                record,
+                source="google_places",
+                version="1.1",
+                raw_file_path=f"data/raw/google_places_{neighbourhood.lower()}.json"
+            )
+            all_restaurants[place_id] = record
+
+    return list(all_restaurants.values())
 
 def save_raw(data: list[dict], neighbourhood: str):
     os.makedirs("data/raw", exist_ok=True)
