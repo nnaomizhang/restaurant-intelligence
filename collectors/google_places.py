@@ -8,12 +8,10 @@ API docs: https://developers.google.com/maps/documentation/places/web-service
 Endpoints used:
   - Nearby Search:  find restaurants within radius
   - Place Details:  full info + reviews per restaurant
-
-Rate limits: 100 requests/second
 """
 
 import requests
-from collectors.config import GOOGLE_PLACES_API_KEY, RAW_DIR
+from config import GOOGLE_PLACES_API_KEY, RAW_DIR
 from collectors.base import BaseCollector
 
 
@@ -214,13 +212,10 @@ class GooglePlacesCollector(BaseCollector):
 # CLI entry point
 # ------------------------------------------------------------------
 if __name__ == "__main__":
-    from collectors.config import TARGET_AREAS
+    from config import TARGET_AREAS
 
     collector = GooglePlacesCollector()
     results = collector.collect_all(TARGET_AREAS)
 
     total = sum(len(v) for v in results.values())
     print(f"\nDone. Collected {total} restaurants across {len(results)} areas.")
-
-
-    
