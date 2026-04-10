@@ -19,6 +19,7 @@ import shutil
 from pathlib import Path
 from datetime import datetime
 from unittest.mock import patch, MagicMock
+from dotenv import load_dotenv
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))

@@ -5,6 +5,7 @@ Fetches company data for restaurant businesses in target areas.
 
 API docs: https://developer.company-information.service.gov.uk/
 Auth:     HTTP Basic (API key as username, empty password)
+Rate:     600 requests / 5 minutes
 
 Key endpoints:
   - /advanced-search/companies — find companies by SIC code + location
@@ -23,6 +24,10 @@ class CompaniesHouseCollector(BaseCollector):
 
     BASE_URL = "https://api.company-information.service.gov.uk"
     VERSION = "1.0"
+
+    # Keep request volume under control
+    MAX_CANDIDATES_PER_AREA = 30
+    MIN_RESULTS_BEFORE_SKIP_FALLBACK = 15
 
     # Restaurant-related SIC codes
     SIC_CODES = {
@@ -53,22 +58,23 @@ class CompaniesHouseCollector(BaseCollector):
 
         # Step 1: Search for restaurant companies
         companies = self._search_companies(area)
-        self.logger.info(f"Found {len(companies)} candidate companies")
+        self.logger.info(f"Found {len(companies)} candidate companies before capping")
+
+        # Cap detail fetching to stay within API budget
+        companies = companies[:self.MAX_CANDIDATES_PER_AREA]
+        self.logger.info(f"Fetching details for {len(companies)} companies")
 
         # Step 2: Fetch detailed profiles
         detailed = []
         for i, company in enumerate(companies):
             number = company.get("company_number", "")
             name = company.get("title", company.get("company_name", "?"))
-            self.logger.info(
-                f"  [{i+1}/{len(companies)}] {name} ({number})"
-            )
+            self.logger.info(f"  [{i+1}/{len(companies)}] {name} ({number})")
 
             profile = self._get_profile(number)
             if not profile:
                 continue
 
-            # Enrich with filing history and officers
             profile["filing_summary"] = self._get_filing_history(number)
             profile["officers"] = self._get_officers(number)
             profile["neighbourhood"] = area["name"]
@@ -77,7 +83,9 @@ class CompaniesHouseCollector(BaseCollector):
             profile["distress_signals"] = self._calculate_distress(profile)
 
             detailed.append(profile)
-            self.rate_limit(0.5, 0.3)  # ~600 req/5min limit
+
+            # 3 detail requests per company total; keep modest pace
+            self.rate_limit(0.5, 0.3)
 
         self.logger.info(
             f"Fetched details for {len(detailed)}/{len(companies)} companies"
@@ -96,52 +104,92 @@ class CompaniesHouseCollector(BaseCollector):
         """
         Search for restaurant companies near a target area.
 
-        Uses two strategies:
-          1. Advanced search by SIC code + location (most precise)
-          2. Keyword search as fallback
+        Strategy:
+          1. Advanced search by SIC code and a sequence of broad locations
+          2. Filter results locally to the target area
+          3. Only use keyword fallback if advanced search is too weak
         """
         companies = []
         seen_numbers = set()
 
-        # Strategy 1: Advanced search by SIC code
-        for sic_code, sic_desc in self.SIC_CODES.items():
-            self.logger.info(f"  Searching SIC {sic_code} ({sic_desc})...")
-            results = self._advanced_search(
-                sic_code=sic_code,
-                location=area["name"],
-            )
-            for r in results:
-                num = r.get("company_number")
-                if num and num not in seen_numbers:
-                    seen_numbers.add(num)
-                    companies.append(r)
-            self.rate_limit(0.5, 0.2)
-
-        # Strategy 2: Keyword search fallback
-        keywords = [
-            f"restaurant {area['name']}",
-            f"cafe {area['name']}",
-            f"kitchen {area['name']}",
-            f"food {area['name']}",
+        search_locations = [
+            area["name"],
+            area.get("local_authority", ""),
+            "London",
         ]
-        for keyword in keywords:
-            self.logger.info(f"  Keyword search: '{keyword}'")
-            results = self._keyword_search(keyword)
-            for r in results:
-                num = r.get("company_number")
-                if num and num not in seen_numbers:
-                    # Only add if it has a restaurant SIC code
-                    sic = r.get("sic_codes") or []
-                    if any(s in self.SIC_CODES for s in sic):
+
+        # Strategy 1: advanced search
+        for location in search_locations:
+            if not location:
+                continue
+
+            self.logger.info(f"Trying advanced search location: {location}")
+
+            for sic_code, sic_desc in self.SIC_CODES.items():
+                self.logger.info(f"  Searching SIC {sic_code} ({sic_desc}) in {location}...")
+                results = self._advanced_search(
+                    sic_code=sic_code,
+                    location=location,
+                )
+
+                for r in results:
+                    num = r.get("company_number")
+                    if not num or num in seen_numbers:
+                        continue
+
+                    if self._address_matches_area(r, area):
                         seen_numbers.add(num)
                         companies.append(r)
-            self.rate_limit(0.5, 0.2)
+
+                self.rate_limit(0.5, 0.2)
+
+                # Stop early if we already have enough
+                if len(companies) >= self.MAX_CANDIDATES_PER_AREA:
+                    return companies
+
+            # If advanced search is already good enough, skip fallbacks
+            if len(companies) >= self.MIN_RESULTS_BEFORE_SKIP_FALLBACK:
+                return companies
+
+        # Strategy 2: keyword search fallback only if needed
+        if len(companies) < self.MIN_RESULTS_BEFORE_SKIP_FALLBACK:
+            keywords = [
+                f"restaurant {area['name']}",
+                f"cafe {area['name']}",
+                f"food {area['name']}",
+                f"restaurant {area.get('local_authority', '')}".strip(),
+                "restaurant london",
+            ]
+
+            for keyword in keywords:
+                if not keyword:
+                    continue
+
+                self.logger.info(f"  Keyword search: '{keyword}'")
+                results = self._keyword_search(keyword)
+
+                for r in results:
+                    num = r.get("company_number")
+                    if not num or num in seen_numbers:
+                        continue
+
+                    sic = r.get("sic_codes") or []
+                    has_restaurant_sic = (not sic) or any(
+                        s in self.SIC_CODES for s in sic
+                    )
+
+                    if has_restaurant_sic and self._address_matches_area(r, area):
+                        seen_numbers.add(num)
+                        companies.append(r)
+
+                self.rate_limit(0.5, 0.2)
+
+                if len(companies) >= self.MAX_CANDIDATES_PER_AREA:
+                    return companies
 
         return companies
 
-    def _advanced_search(
-        self, sic_code: str, location: str
-    ) -> list[dict]:
+    def _advanced_search(self, sic_code: str, location: str) -> list[dict]:
         """Search companies by SIC code and location."""
         url = f"{self.BASE_URL}/advanced-search/companies"
         params = {
@@ -159,11 +207,10 @@ class CompaniesHouseCollector(BaseCollector):
                 data = response.json()
                 return data.get("items", [])
             elif response.status_code == 416:
-                # Advanced search not available — fall through
                 return []
             else:
                 self.logger.warning(
-                    f"Advanced search HTTP {response.status_code}"
+                    f"Advanced search HTTP {response.status_code} for location={location}, sic={sic_code}"
                 )
                 return []
         except requests.RequestException as e:
@@ -181,6 +228,7 @@ class CompaniesHouseCollector(BaseCollector):
             )
             if response.status_code == 200:
                 return response.json().get("items", [])
+            self.logger.warning(f"Keyword search HTTP {response.status_code} for query='{query}'")
             return []
         except requests.RequestException as e:
             self.logger.error(f"Keyword search failed: {e}")
@@ -289,33 +337,24 @@ class CompaniesHouseCollector(BaseCollector):
         """
         signals = []
 
-        # Accounts overdue
         if profile.get("accounts_overdue"):
             signals.append("Accounts overdue")
 
-        # Confirmation statement overdue
         if profile.get("confirmation_overdue"):
             signals.append("Confirmation statement overdue")
 
-        # Company not active
         status = (profile.get("status") or "").lower()
         if status in ("dissolved", "liquidation", "administration"):
             signals.append(f"Company status: {status}")
 
-        # High officer turnover (>2 resignations in recent officers)
         officers = profile.get("officers", [])
-        recent_resignations = sum(
-            1 for o in officers if o.get("resigned_on")
-        )
+        recent_resignations = sum(1 for o in officers if o.get("resigned_on"))
         if recent_resignations > 2:
             signals.append(
                 f"High officer turnover ({recent_resignations} resignations)"
             )
 
-        # Very few filings (suggests dormancy)
-        total_filings = (
-            profile.get("filing_summary", {}).get("total_filings", 0)
-        )
+        total_filings = profile.get("filing_summary", {}).get("total_filings", 0)
         if total_filings < 3:
             signals.append(f"Very few filings ({total_filings} total)")
 
@@ -324,6 +363,27 @@ class CompaniesHouseCollector(BaseCollector):
     # ------------------------------------------------------------------
     # Helpers
     # ------------------------------------------------------------------
+
+    def _address_matches_area(self, company: dict, area: dict) -> bool:
+        """
+        Filter broad search results back down to the target area.
+        Uses postcode prefix, area name, and local authority.
+        """
+        text = " ".join([
+            company.get("address_snippet", ""),
+            company.get("description", ""),
+            company.get("title", ""),
+        ]).lower()
+
+        postcode_prefix = area.get("postcode_prefix", "").lower()
+        area_name = area.get("name", "").lower()
+        local_authority = area.get("local_authority", "").lower()
+
+        return any([
+            postcode_prefix and postcode_prefix in text,
+            area_name and area_name in text,
+            local_authority and local_authority in text,
+        ])
 
     @staticmethod
     def _format_address(addr: dict) -> str:

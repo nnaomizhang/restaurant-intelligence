@@ -26,11 +26,10 @@ for d in [RAW_DIR, PROCESSED_DIR, LOGS_DIR,
 # ---------------------------------------------------------------------------
 # Environment
 # ---------------------------------------------------------------------------
-load_dotenv(ROOT_DIR / ".env")
+load_dotenv(Path(__file__).resolve().parent / ".env")
 
 GOOGLE_PLACES_API_KEY = os.getenv("GOOGLE_PLACES_API_KEY", "")
 COMPANIES_HOUSE_API_KEY = os.getenv("COMPANIES_HOUSE_API_KEY", "")
-ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 
 # ---------------------------------------------------------------------------
