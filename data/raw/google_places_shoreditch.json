@@ -1,0 +1,558 @@
+[
+  {
+    "name": "Dishoom Shoreditch",
+    "place_id": "ChIJxYs1ArocdkgR-G13PLmofec",
+    "rating": 4.8,
+    "total_ratings": 44654,
+    "address": "7 Boundary St, London E2 7JE, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5245002,
+    "lng": -0.0765998,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "indian_restaurant",
+      "halal_restaurant",
+      "vegetarian_restaurant",
+      "cafe",
+      "meal_takeaway",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707817",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "Duck & Waffle",
+    "place_id": "ChIJX__2lbIcdkgRPCpSjiwV5LM",
+    "rating": 4.4,
+    "total_ratings": 16236,
+    "address": "110 Bishopsgate, London EC2N 4AY, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5162529,
+    "lng": -0.0811942,
+    "price_level": "PRICE_LEVEL_EXPENSIVE",
+    "types": [
+      "cocktail_bar",
+      "breakfast_restaurant",
+      "british_restaurant",
+      "brunch_restaurant",
+      "restaurant",
+      "food",
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707840",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "McDonald's",
+    "place_id": "ChIJGS7Sga0cdkgR46nd-S661TM",
+    "rating": 3.6,
+    "total_ratings": 8402,
+    "address": "Unit 25, The Concourse Liverpool Street Station, London EC2M 7PY, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5176109,
+    "lng": -0.08233299999999999,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "fast_food_restaurant",
+      "hamburger_restaurant",
+      "chicken_restaurant",
+      "breakfast_restaurant",
+      "diner",
+      "american_restaurant",
+      "restaurant",
+      "food",
+      "service",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707846",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "Eataly London",
+    "place_id": "ChIJpyikXVwddkgRUsUTva-SGR4",
+    "rating": 4.1,
+    "total_ratings": 6381,
+    "address": "135 Bishopsgate, London EC2M 3YD, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5178605,
+    "lng": -0.0804078,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "food_court",
+      "liquor_store",
+      "italian_restaurant",
+      "grocery_store",
+      "cafe",
+      "pizza_restaurant",
+      "market",
+      "food_store",
+      "restaurant",
+      "food",
+      "bar",
+      "educational_institution",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707850",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "The Blues Kitchen Shoreditch",
+    "place_id": "ChIJv16nk7ocdkgR5P9wUhZgUpU",
+    "rating": 4.4,
+    "total_ratings": 8446,
+    "address": "134-146 Curtain Rd, London EC2A 3AR, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5265519,
+    "lng": -0.08018009999999999,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "bar",
+      "karaoke",
+      "cocktail_bar",
+      "bar_and_grill",
+      "live_music_venue",
+      "night_club",
+      "american_restaurant",
+      "restaurant",
+      "food",
+      "service",
+      "event_venue",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707855",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "BOXPARK Shoreditch",
+    "place_id": "ChIJm6mb0bAcdkgRnhFQuVBJDCw",
+    "rating": 4.3,
+    "total_ratings": 9145,
+    "address": "2-10 Bethnal Grn Rd, London E1 6GY, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.523472299999995,
+    "lng": -0.0757539,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "food_court",
+      "clothing_store",
+      "restaurant",
+      "food",
+      "bar",
+      "store",
+      "event_venue",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707860",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "art'otel London Hoxton",
+    "place_id": "ChIJ2wxwN6UcdkgRmU9Lsb9uoWw",
+    "rating": 4.6,
+    "total_ratings": 847,
+    "address": "1-3 Rivington St, London EC2A 3DT, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5261886,
+    "lng": -0.083359,
+    "price_level": null,
+    "types": [
+      "hotel",
+      "lodging",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707866",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "SUSHISAMBA London",
+    "place_id": "ChIJi_vxlrIcdkgRIz_Ec6MJUBA",
+    "rating": 4.5,
+    "total_ratings": 13191,
+    "address": "Heron Tower, London EC2N 4AY, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5162529,
+    "lng": -0.0809449,
+    "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+    "types": [
+      "restaurant",
+      "lounge_bar",
+      "peruvian_restaurant",
+      "cocktail_bar",
+      "sushi_restaurant",
+      "japanese_restaurant",
+      "brazilian_restaurant",
+      "night_club",
+      "food",
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707870",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "Montcalm Royal London House",
+    "place_id": "ChIJhwDB864cdkgRK8J3pxQsxwI",
+    "rating": 4.3,
+    "total_ratings": 2638,
+    "address": "22-25 Finsbury Square, London EC2A 1DX, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5216694,
+    "lng": -0.0855833,
+    "price_level": null,
+    "types": [
+      "hotel",
+      "lodging",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707874",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "Gloria",
+    "place_id": "ChIJj99O4ScddkgRNnDfPFxdplY",
+    "rating": 4.8,
+    "total_ratings": 22740,
+    "address": "54-56 Great Eastern St, London EC2A 3QR, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5251266,
+    "lng": -0.0813541,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "italian_restaurant",
+      "family_restaurant",
+      "mediterranean_restaurant",
+      "pizza_restaurant",
+      "european_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707879",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "Los Mochis London City",
+    "place_id": "ChIJWdod-rgddkgRus3lFrOzbg8",
+    "rating": 4.5,
+    "total_ratings": 2793,
+    "address": "100 Liverpool St, London EC2M 2AT, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5178587,
+    "lng": -0.08358320000000001,
+    "price_level": null,
+    "types": [
+      "mexican_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707883",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "manteca",
+    "place_id": "ChIJG9ssOq8FdkgRGTu5-ErLMaI",
+    "rating": 4.4,
+    "total_ratings": 3233,
+    "address": "49-51 Curtain Rd, London EC2A 3PT, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.524015399999996,
+    "lng": -0.0805726,
+    "price_level": "PRICE_LEVEL_EXPENSIVE",
+    "types": [
+      "italian_restaurant",
+      "cocktail_bar",
+      "wine_bar",
+      "bar_and_grill",
+      "food_store",
+      "restaurant",
+      "food",
+      "bar",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707887",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "The Ivy City Garden",
+    "place_id": "ChIJGQYOZK0cdkgRFTkB1_nIObE",
+    "rating": 4.4,
+    "total_ratings": 4233,
+    "address": "Dashwood House, 69 Old Broad St, London EC2M 1QS, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5169435,
+    "lng": -0.08273459999999999,
+    "price_level": "PRICE_LEVEL_EXPENSIVE",
+    "types": [
+      "british_restaurant",
+      "breakfast_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707891",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "Flight Club Shoreditch",
+    "place_id": "ChIJBWTd664cdkgRr3oSfWBdQME",
+    "rating": 4.5,
+    "total_ratings": 4635,
+    "address": "2A Worship St, London EC2A 2AH, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5219806,
+    "lng": -0.0865396,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "bar",
+      "cocktail_bar",
+      "brunch_restaurant",
+      "restaurant",
+      "food",
+      "event_venue",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707895",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "SMOKESTAK",
+    "place_id": "ChIJoVjVfDMddkgRb9dyhTLOh_I",
+    "rating": 4.5,
+    "total_ratings": 5197,
+    "address": "35 Sclater St, London E1 6LB, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5237461,
+    "lng": -0.0729121,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "barbecue_restaurant",
+      "deli",
+      "meal_takeaway",
+      "food_store",
+      "restaurant",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707899",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "Padella Shoreditch",
+    "place_id": "ChIJmdTnioQddkgRkUPct-OykWI",
+    "rating": 4.7,
+    "total_ratings": 3574,
+    "address": "Padella, Shoreditch, 1 Phipp St, London EC2A 4PS, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.523382299999994,
+    "lng": -0.0817686,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "italian_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707903",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "Flat Iron Shoreditch",
+    "place_id": "ChIJ4fJtcrAcdkgRaKt1kPBO7pk",
+    "rating": 4.7,
+    "total_ratings": 4935,
+    "address": "77 Curtain Rd, London EC2A 3BS, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5249622,
+    "lng": -0.08045619999999999,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "steak_house",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707907",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "Blacklock Shoreditch",
+    "place_id": "ChIJ44hFhjgddkgRdPaKatX_eGY",
+    "rating": 4.7,
+    "total_ratings": 3118,
+    "address": "28-30 Rivington St, London EC2A 3DZ, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5260159,
+    "lng": -0.0819621,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "cocktail_bar",
+      "british_restaurant",
+      "restaurant",
+      "food",
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707911",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "Bike Shed Moto Co.",
+    "place_id": "ChIJ9e503dICdkgRulsUq3cF-8Y",
+    "rating": 4.7,
+    "total_ratings": 4911,
+    "address": "384 Old St, London EC1V 9LT, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5271434,
+    "lng": -0.0788825,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "restaurant",
+      "barber_shop",
+      "diner",
+      "cafe",
+      "hair_care",
+      "clothing_store",
+      "food",
+      "service",
+      "health",
+      "store",
+      "event_venue",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707916",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  },
+  {
+    "name": "Premier Inn London City (Old Street) hotel",
+    "place_id": "ChIJLY7nJnGo2EcR1pbI95KUWOs",
+    "rating": 4.1,
+    "total_ratings": 2348,
+    "address": "Corsham St, London N1 6DR, UK",
+    "neighbourhood": "Shoreditch",
+    "lat": 51.5274692,
+    "lng": -0.08763309999999999,
+    "price_level": null,
+    "types": [
+      "hotel",
+      "inn",
+      "bed_and_breakfast",
+      "lodging",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "lineage": {
+      "source_name": "google_places",
+      "collection_timestamp": "2026-04-10T00:11:27.707921",
+      "collector_version": "1.0",
+      "raw_file_path": "data/raw/google_places_shoreditch.json"
+    }
+  }
+]
