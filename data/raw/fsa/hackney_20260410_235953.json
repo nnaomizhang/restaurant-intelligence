@@ -17,9 +17,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -40,9 +40,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -63,9 +63,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -86,9 +86,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -109,9 +109,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -132,9 +132,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -155,9 +155,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -178,9 +178,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -201,32 +201,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "1904027",
-    "business_name": "All Good Beer (& plenty of wine.)",
-    "business_type": "Pub/bar/nightclub",
-    "address": "17 AMHURST TERRACE, Hackney",
-    "postcode": "E8 2BT",
-    "rating_value": 5,
-    "rating_date": "2025-12-09T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 0,
-    "score_structural": 0,
-    "score_management": 0,
-    "latitude": "51.5543425",
-    "longitude": "-0.0662962",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -247,9 +224,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -270,9 +247,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -293,9 +270,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -316,9 +293,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -339,9 +316,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -362,9 +339,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -385,9 +362,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -408,9 +385,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -431,9 +408,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -454,9 +431,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -477,9 +454,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -500,9 +477,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -523,9 +500,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -546,9 +523,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -569,9 +546,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -592,9 +569,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -615,9 +592,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -638,9 +615,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -661,9 +638,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -684,9 +661,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -707,9 +684,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -730,9 +707,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -753,9 +730,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -776,9 +753,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -799,9 +776,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -822,9 +799,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -845,9 +822,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -868,9 +845,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -891,9 +868,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -914,9 +891,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -937,9 +914,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -960,9 +937,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -983,9 +960,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1006,9 +983,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1029,9 +1006,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1052,9 +1029,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1075,9 +1052,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1098,32 +1075,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "470202",
-    "business_name": "Dalston Superstore",
-    "business_type": "Pub/bar/nightclub",
-    "address": "117 KINGSLAND HIGH STREET, Hackney",
-    "postcode": "E8 2PB",
-    "rating_value": 5,
-    "rating_date": "2023-04-24T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 5,
-    "latitude": "51.5503585",
-    "longitude": "-0.0755664",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1144,9 +1098,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1167,32 +1121,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "1086913",
-    "business_name": "Diddy's Bar",
-    "business_type": "Pub/bar/nightclub",
-    "address": "69 MARE STREET, Hackney",
-    "postcode": "E8 4RG",
-    "rating_value": 5,
-    "rating_date": "2022-09-05T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 5,
-    "latitude": "51.5367647",
-    "longitude": "-0.0572208",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1213,9 +1144,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1236,9 +1167,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1259,9 +1190,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1282,9 +1213,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1305,9 +1236,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1328,9 +1259,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1351,9 +1282,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1374,9 +1305,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1397,9 +1328,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1420,9 +1351,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1443,9 +1374,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1466,9 +1397,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1489,9 +1420,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1512,9 +1443,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1535,9 +1466,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1558,9 +1489,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1581,9 +1512,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1604,9 +1535,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1627,9 +1558,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1650,9 +1581,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1673,9 +1604,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1696,9 +1627,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1719,9 +1650,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1742,9 +1673,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1765,9 +1696,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1788,9 +1719,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1811,9 +1742,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1834,9 +1765,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1857,9 +1788,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1880,9 +1811,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1903,9 +1834,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1926,32 +1857,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "1202272",
-    "business_name": "Hackney Church Brewery Co",
-    "business_type": "Pub/bar/nightclub",
-    "address": "17 BOHEMIA PLACE, Hackney",
-    "postcode": "E8 1DU",
-    "rating_value": 5,
-    "rating_date": "2022-09-01T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 0,
-    "latitude": "51.54738",
-    "longitude": "-0.05226",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1972,9 +1880,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -1995,9 +1903,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2018,9 +1926,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2041,9 +1949,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2064,9 +1972,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2087,9 +1995,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2110,9 +2018,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2133,9 +2041,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2156,9 +2064,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2179,9 +2087,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2202,9 +2110,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2225,9 +2133,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2248,9 +2156,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2271,9 +2179,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2294,9 +2202,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2317,32 +2225,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "470458",
-    "business_name": "Junction House",
-    "business_type": "Pub/bar/nightclub",
-    "address": "578 KINGSLAND ROAD, Hackney",
-    "postcode": "E8 4AH",
-    "rating_value": 5,
-    "rating_date": "2019-02-28T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 5,
-    "latitude": "51.5455815",
-    "longitude": "-0.0754506",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2363,9 +2248,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2386,9 +2271,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2409,9 +2294,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2432,9 +2317,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2455,9 +2340,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2478,9 +2363,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2501,9 +2386,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2524,9 +2409,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2547,9 +2432,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2570,9 +2455,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2593,9 +2478,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2616,9 +2501,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2639,9 +2524,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2662,9 +2547,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2685,9 +2570,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2708,9 +2593,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2731,9 +2616,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2754,9 +2639,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2777,9 +2662,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2800,9 +2685,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2823,9 +2708,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2846,9 +2731,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2869,9 +2754,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2892,9 +2777,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2915,9 +2800,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2938,9 +2823,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2961,9 +2846,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -2984,9 +2869,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3007,9 +2892,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3030,32 +2915,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "468738",
-    "business_name": "Off Broadway",
-    "business_type": "Pub/bar/nightclub",
-    "address": "63-65 BROADWAY MARKET, Hackney",
-    "postcode": "E8 4PH",
-    "rating_value": 5,
-    "rating_date": "2022-09-14T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 5,
-    "latitude": "51.5373825",
-    "longitude": "-0.0614051",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3076,32 +2938,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "469472",
-    "business_name": "Old Ship Hackney",
-    "business_type": "Pub/bar/nightclub",
-    "address": "THE OLD SHIP 2 SYLVESTER PATH, Hackney",
-    "postcode": "E8 1EN",
-    "rating_value": 5,
-    "rating_date": "2025-04-08T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 5,
-    "latitude": "51.5459221",
-    "longitude": "-0.0557723",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3122,9 +2961,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3145,9 +2984,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3168,9 +3007,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3191,9 +3030,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3214,9 +3053,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3237,9 +3076,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3260,9 +3099,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3283,9 +3122,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3306,9 +3145,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3329,9 +3168,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3352,9 +3191,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3375,9 +3214,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3398,9 +3237,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3421,9 +3260,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3444,9 +3283,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3467,9 +3306,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3490,9 +3329,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3513,9 +3352,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3536,9 +3375,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3559,9 +3398,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3582,9 +3421,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3605,9 +3444,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3628,9 +3467,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3651,9 +3490,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3674,9 +3513,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3697,9 +3536,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3720,9 +3559,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3743,9 +3582,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3766,9 +3605,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3789,9 +3628,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3812,9 +3651,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3835,32 +3674,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "1212440",
-    "business_name": "Sapori Dolci LTD",
-    "business_type": "Pub/bar/nightclub",
-    "address": "UNCLE SAMS BAR 438 KINGSLAND ROAD, Hackney",
-    "postcode": "E8 4AA",
-    "rating_value": 5,
-    "rating_date": "2021-08-26T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 5,
-    "latitude": "51.5423053",
-    "longitude": "-0.0758195",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3881,9 +3697,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3904,9 +3720,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3927,9 +3743,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3950,9 +3766,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3973,9 +3789,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -3996,9 +3812,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4019,9 +3835,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4042,9 +3858,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4065,9 +3881,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4088,9 +3904,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4111,9 +3927,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4134,9 +3950,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4157,9 +3973,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4180,9 +3996,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4203,9 +4019,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4226,9 +4042,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4249,9 +4065,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4272,9 +4088,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4295,32 +4111,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "469132",
-    "business_name": "The Baxters Court",
-    "business_type": "Pub/bar/nightclub",
-    "address": "BAXTER COURT 282 MARE STREET, Hackney",
-    "postcode": "E8 1HE",
-    "rating_value": 5,
-    "rating_date": "2025-01-18T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 0,
-    "score_structural": 5,
-    "score_management": 0,
-    "latitude": "51.5453058",
-    "longitude": "-0.054939",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4341,9 +4134,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4364,55 +4157,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "470008",
-    "business_name": "The Cock Tavern",
-    "business_type": "Pub/bar/nightclub",
-    "address": "THE COCK TAVERN 315 MARE STREET, Hackney",
-    "postcode": "E8 1EJ",
-    "rating_value": 5,
-    "rating_date": "2025-01-18T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 5,
-    "latitude": "51.5463471",
-    "longitude": "-0.0553706",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "470678",
-    "business_name": "The Dove Freehouse and Kitchen",
-    "business_type": "Pub/bar/nightclub",
-    "address": "THE DOVE 24-28 BROADWAY MARKET, Hackney",
-    "postcode": "E8 4QJ",
-    "rating_value": 5,
-    "rating_date": "2025-05-19T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": null,
-    "score_structural": null,
-    "score_management": null,
-    "latitude": "51.5363711",
-    "longitude": "-0.0616933",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4433,9 +4180,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4456,9 +4203,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4479,9 +4226,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4502,9 +4249,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4525,9 +4272,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4548,32 +4295,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "469610",
-    "business_name": "The Pembury Tavern",
-    "business_type": "Pub/bar/nightclub",
-    "address": "90 AMHURST ROAD, Hackney",
-    "postcode": "E8 1JH",
-    "rating_value": 5,
-    "rating_date": "2025-03-13T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 0,
-    "score_structural": 5,
-    "score_management": 0,
-    "latitude": "51.549396",
-    "longitude": "-0.0591928",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4594,9 +4318,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4617,9 +4341,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4640,9 +4364,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4663,9 +4387,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4686,32 +4410,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "470727",
-    "business_name": "The Victoria",
-    "business_type": "Pub/bar/nightclub",
-    "address": "THE VICTORIA 451 QUEENSBRIDGE ROAD, Hackney",
-    "postcode": "E8 3AS",
-    "rating_value": 5,
-    "rating_date": "2022-09-20T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 5,
-    "latitude": "51.5457444",
-    "longitude": "-0.0700497",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4732,9 +4433,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4755,9 +4456,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4778,9 +4479,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4801,9 +4502,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4824,9 +4525,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4847,9 +4548,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4870,32 +4571,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "991625",
-    "business_name": "Viktor Wynd Limited T/A The Last Tuesday Society",
-    "business_type": "Pub/bar/nightclub",
-    "address": "11 MARE STREET, Hackney",
-    "postcode": "E8 4RP",
-    "rating_value": 5,
-    "rating_date": "2022-09-05T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 5,
-    "latitude": "51.5346866",
-    "longitude": "-0.0577131",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4916,9 +4594,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4939,9 +4617,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4962,9 +4640,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -4985,9 +4663,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5008,9 +4686,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5031,9 +4709,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5054,55 +4732,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "1827808",
-    "business_name": "Bar Lotus",
-    "business_type": "Pub/bar/nightclub",
-    "address": "480 KINGSLAND ROAD, Hackney",
-    "postcode": "E8 4AE",
-    "rating_value": 4,
-    "rating_date": "2024-10-24T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 0,
-    "score_structural": 0,
-    "score_management": 10,
-    "latitude": "51.5432768",
-    "longitude": "-0.0758362",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "1852660",
-    "business_name": "Binch",
-    "business_type": "Pub/bar/nightclub",
-    "address": "51 GREENWOOD ROAD, Hackney",
-    "postcode": "E8 1NT",
-    "rating_value": 4,
-    "rating_date": "2025-06-19T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 10,
-    "score_structural": 0,
-    "score_management": 10,
-    "latitude": "51.546159",
-    "longitude": "-0.0641044",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5123,9 +4755,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5146,9 +4778,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5169,9 +4801,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5192,9 +4824,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5215,9 +4847,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5238,9 +4870,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5261,9 +4893,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5284,9 +4916,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5307,9 +4939,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5330,9 +4962,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5353,9 +4985,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5376,9 +5008,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5399,9 +5031,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5422,9 +5054,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5445,9 +5077,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5468,9 +5100,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5491,9 +5123,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5514,9 +5146,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5537,9 +5169,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5560,9 +5192,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5583,32 +5215,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "1808550",
-    "business_name": "Farrs School of Dancing",
-    "business_type": "Pub/bar/nightclub",
-    "address": "17-19 DALSTON LANE, Hackney",
-    "postcode": "E8 3DF",
-    "rating_value": 4,
-    "rating_date": "2025-03-12T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 0,
-    "score_structural": 0,
-    "score_management": 10,
-    "latitude": "51.5464018",
-    "longitude": "-0.0739304",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5629,9 +5238,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5652,9 +5261,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5675,9 +5284,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5698,9 +5307,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5721,32 +5330,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "907287",
-    "business_name": "Helgi's",
-    "business_type": "Pub/bar/nightclub",
-    "address": "177 MARE STREET, Hackney",
-    "postcode": "E8 3RH",
-    "rating_value": 4,
-    "rating_date": "2024-10-17T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 10,
-    "latitude": "51.5401606",
-    "longitude": "-0.0559369",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5767,9 +5353,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5790,9 +5376,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5813,9 +5399,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5836,9 +5422,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5859,9 +5445,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5882,9 +5468,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5905,9 +5491,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5928,9 +5514,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5951,9 +5537,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5974,9 +5560,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -5997,9 +5583,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6020,9 +5606,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6043,9 +5629,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6066,9 +5652,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6089,9 +5675,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6112,9 +5698,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6135,9 +5721,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6158,9 +5744,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6181,9 +5767,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6204,9 +5790,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6227,9 +5813,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6250,9 +5836,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6273,9 +5859,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6296,32 +5882,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "470586",
-    "business_name": "Ridley Road Market Bar",
-    "business_type": "Pub/bar/nightclub",
-    "address": "49 RIDLEY ROAD, Hackney",
-    "postcode": "E8 2NP",
-    "rating_value": 4,
-    "rating_date": "2025-09-11T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 10,
-    "latitude": "51.5483213",
-    "longitude": "-0.0725369",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6342,9 +5905,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6365,9 +5928,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6388,9 +5951,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6411,9 +5974,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6434,9 +5997,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6457,9 +6020,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6480,9 +6043,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6503,9 +6066,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6526,9 +6089,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6549,101 +6112,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "469423",
-    "business_name": "The Cat & Mutton",
-    "business_type": "Pub/bar/nightclub",
-    "address": "THE CAT AND MUTTON 76 BROADWAY MARKET, Hackney",
-    "postcode": "E8 4QJ",
-    "rating_value": 4,
-    "rating_date": "2025-08-27T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 10,
-    "latitude": null,
-    "longitude": null,
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "1905961",
-    "business_name": "The DC Lion",
-    "business_type": "Pub/bar/nightclub",
-    "address": "282 MARE STREET, Hackney",
-    "postcode": "E8 1HE",
-    "rating_value": 4,
-    "rating_date": "2026-01-07T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 5,
-    "score_management": 10,
-    "latitude": "51.5453058",
-    "longitude": "-0.054939",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "469831",
-    "business_name": "The Haggerston",
-    "business_type": "Pub/bar/nightclub",
-    "address": "THE HAGGERSTON 438 KINGSLAND ROAD, Hackney",
-    "postcode": "E8 4AA",
-    "rating_value": 4,
-    "rating_date": "2025-04-24T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 0,
-    "score_structural": 10,
-    "score_management": 5,
-    "latitude": "51.5423053",
-    "longitude": "-0.0758195",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "468764",
-    "business_name": "The Three Compasses",
-    "business_type": "Pub/bar/nightclub",
-    "address": "99 DALSTON LANE, Hackney",
-    "postcode": "E8 1NH",
-    "rating_value": 4,
-    "rating_date": "2022-04-08T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 10,
-    "score_management": 5,
-    "latitude": "51.5482916",
-    "longitude": "-0.0686176",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6664,32 +6135,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "469116",
-    "business_name": "The Wishing Well",
-    "business_type": "Pub/bar/nightclub",
-    "address": "THE CROWN 418 MARE STREET, Hackney",
-    "postcode": "E8 1HP",
-    "rating_value": 4,
-    "rating_date": "2022-12-13T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 5,
-    "score_structural": 10,
-    "score_management": 5,
-    "latitude": "51.5494976",
-    "longitude": "-0.0544719",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6710,9 +6158,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6733,9 +6181,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6756,9 +6204,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6779,9 +6227,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6802,9 +6250,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6825,9 +6273,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6848,9 +6296,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6871,9 +6319,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6894,9 +6342,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6917,9 +6365,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6940,9 +6388,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6963,9 +6411,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -6986,9 +6434,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7009,9 +6457,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7032,9 +6480,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7055,9 +6503,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7078,9 +6526,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7101,9 +6549,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7124,9 +6572,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7147,9 +6595,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7170,9 +6618,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7193,9 +6641,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7216,9 +6664,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7239,9 +6687,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7262,9 +6710,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7285,9 +6733,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7308,9 +6756,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7331,9 +6779,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7354,9 +6802,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7377,9 +6825,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7400,9 +6848,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7423,9 +6871,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7446,9 +6894,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7469,9 +6917,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7492,9 +6940,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7515,9 +6963,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7538,9 +6986,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7561,9 +7009,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7584,32 +7032,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "468848",
-    "business_name": "The Dolphin",
-    "business_type": "Pub/bar/nightclub",
-    "address": "THE DOLPHIN 165 MARE STREET, Hackney",
-    "postcode": "E8 3RH",
-    "rating_value": 3,
-    "rating_date": "2020-04-03T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": 10,
-    "score_structural": 10,
-    "score_management": 10,
-    "latitude": "51.5399135",
-    "longitude": "-0.0562215",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7630,9 +7055,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7653,9 +7078,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7676,9 +7101,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7699,9 +7124,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7722,9 +7147,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7745,9 +7170,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7768,9 +7193,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7791,9 +7216,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7814,9 +7239,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7837,9 +7262,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7860,9 +7285,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7883,9 +7308,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7906,9 +7331,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7929,9 +7354,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7952,9 +7377,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7975,9 +7400,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -7998,9 +7423,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8021,9 +7446,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8044,9 +7469,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8067,9 +7492,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8090,9 +7515,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8113,9 +7538,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8136,9 +7561,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8159,9 +7584,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8182,9 +7607,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8205,9 +7630,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8228,9 +7653,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8251,9 +7676,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8274,9 +7699,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8297,9 +7722,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8320,9 +7745,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8343,9 +7768,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8366,9 +7791,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8389,9 +7814,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8412,9 +7837,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8435,9 +7860,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8458,9 +7883,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8481,9 +7906,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8504,9 +7929,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8527,9 +7952,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8550,9 +7975,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8573,9 +7998,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8596,9 +8021,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8619,9 +8044,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8642,9 +8067,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8665,9 +8090,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8688,9 +8113,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8711,9 +8136,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8734,9 +8159,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8757,9 +8182,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8780,9 +8205,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8803,9 +8228,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8826,9 +8251,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8849,9 +8274,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8872,9 +8297,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8895,9 +8320,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8918,9 +8343,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8941,9 +8366,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8964,9 +8389,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -8987,32 +8412,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
-    }
-  },
-  {
-    "fsa_id": "1903963",
-    "business_name": "The Duke Of Richmond",
-    "business_type": "Pub/bar/nightclub",
-    "address": "316 QUEENSBRIDGE ROAD, Hackney",
-    "postcode": "E8 3NH",
-    "rating_value": null,
-    "rating_date": "1901-01-01T00:00:00",
-    "local_authority": "Hackney",
-    "business_type_id": 7843,
-    "score_hygiene": null,
-    "score_structural": null,
-    "score_management": null,
-    "latitude": "51.5429337",
-    "longitude": "-0.0696586",
-    "neighbourhood": "Hackney",
-    "_lineage": {
-      "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
-      "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -9033,9 +8435,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -9056,9 +8458,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -9079,9 +8481,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -9102,9 +8504,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   },
   {
@@ -9125,9 +8527,9 @@
     "neighbourhood": "Hackney",
     "_lineage": {
       "source": "fsa",
-      "collected_at": "2026-04-10T15:03:21.535995+00:00",
+      "collected_at": "2026-04-10T22:59:53.469636+00:00",
       "collector_version": "1.0",
-      "run_id": "6dec5611"
+      "run_id": "0458824c"
     }
   }
 ]

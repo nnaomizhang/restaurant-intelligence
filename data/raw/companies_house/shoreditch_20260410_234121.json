@@ -1,0 +1,3290 @@
+[
+  {
+    "company_number": "14547855",
+    "company_name": "AB SHOREDITCH LTD",
+    "status": "active",
+    "incorporation_date": "2022-12-19",
+    "dissolution_date": null,
+    "registered_address": "27 Margaret Street, Fourth Floor, London, W1W 8RY",
+    "sic_codes": [
+      "47290"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-12-31",
+    "last_accounts_date": "2025-03-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-07-14",
+    "filing_summary": {
+      "total_filings": 15,
+      "recent_filings": [
+        {
+          "date": "2025-11-17",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-07-01",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-10-22",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-08-19",
+          "type": "PSC01",
+          "description": "notification-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2024-08-19",
+          "type": "PSC07",
+          "description": "cessation-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2024-08-01",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-03-18",
+          "type": "AA01",
+          "description": "change-account-reference-date-company-current-extended",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-01-04",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-09-25",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2023-05-31",
+          "type": "PSC07",
+          "description": "cessation-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "DE PAULA CARMO, Marcus Vinicius",
+        "role": "director",
+        "appointed_on": "2022-12-19",
+        "resigned_on": null,
+        "nationality": "Brazilian"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "BR019889",
+    "company_name": "AD LONDON SHOREDITCH OPERATIONS B.V.",
+    "status": "open",
+    "incorporation_date": "2016-09-01",
+    "dissolution_date": null,
+    "registered_address": "Cannon Place 78 Cannon Street, London, EC4N 6AF",
+    "sic_codes": [],
+    "type": "uk-establishment",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": null,
+    "filing_summary": {
+      "total_filings": 0,
+      "recent_filings": []
+    },
+    "officers": [],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "Very few filings (0 total)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "09500844",
+    "company_name": "AITCH SHOREDITCH LIMITED",
+    "status": "active",
+    "incorporation_date": "2015-03-20",
+    "dissolution_date": null,
+    "registered_address": "1st Floor Cordy House, 87-95 Curtain Road, London, EC2A 3BS",
+    "sic_codes": [
+      "41100"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-05-31",
+    "last_accounts_date": "2024-08-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-04-22",
+    "filing_summary": {
+      "total_filings": 37,
+      "recent_filings": [
+        {
+          "date": "2026-04-08",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2026-03-12",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2025-04-16",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-04-04",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-04-03",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-04-02",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-03-28",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-03-25",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-05-17",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-03-01",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "REYNOLDS, Chelsea",
+        "role": "director",
+        "appointed_on": "2017-01-22",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "SPIRES, Christopher John",
+        "role": "director",
+        "appointed_on": "2017-11-15",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "ROSE, Paul Clifford",
+        "role": "director",
+        "appointed_on": "2015-03-20",
+        "resigned_on": "2019-08-02",
+        "nationality": "British"
+      },
+      {
+        "name": "SMITH, Henry Thomas",
+        "role": "director",
+        "appointed_on": "2015-03-20",
+        "resigned_on": "2024-03-28",
+        "nationality": "British"
+      },
+      {
+        "name": "STEDMAN, Simon Christoffer",
+        "role": "director",
+        "appointed_on": "2015-03-20",
+        "resigned_on": "2017-11-15",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "High officer turnover (3 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "15116173",
+    "company_name": "ARCHER SHOREDITCH LIMITED",
+    "status": "active",
+    "incorporation_date": "2023-09-05",
+    "dissolution_date": null,
+    "registered_address": "20 Balderton Street, London, W1K 6TL",
+    "sic_codes": [
+      "55100",
+      "70229"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-09-30",
+    "last_accounts_date": "2024-12-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-09-18",
+    "filing_summary": {
+      "total_filings": 18,
+      "recent_filings": [
+        {
+          "date": "2025-10-04",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-09-19",
+          "type": "CH04",
+          "description": "change-corporate-secretary-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-09-12",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-09-12",
+          "type": "CH01",
+          "description": "change-person-director-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-09-10",
+          "type": "CH01",
+          "description": "change-person-director-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-09-03",
+          "type": "CH04",
+          "description": "change-corporate-secretary-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-12-13",
+          "type": "CH04",
+          "description": "change-corporate-secretary-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-09-04",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-08-07",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-04-29",
+          "type": "AA01",
+          "description": "change-account-reference-date-company-previous-shortened",
+          "category": "accounts"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "CSC CLS (UK) LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2023-09-05",
+        "resigned_on": null,
+        "nationality": null
+      },
+      {
+        "name": "PASLEY-TYLER, Guy Julian, Mr.",
+        "role": "director",
+        "appointed_on": "2023-09-05",
+        "resigned_on": null,
+        "nationality": "British,"
+      },
+      {
+        "name": "SEYRLING, Dominic Lucas",
+        "role": "director",
+        "appointed_on": "2023-09-05",
+        "resigned_on": null,
+        "nationality": "Swiss"
+      },
+      {
+        "name": "TANNER, Matthew Colenso",
+        "role": "director",
+        "appointed_on": "2023-09-05",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "11514882",
+    "company_name": "ARCH SHOREDITCH LTD",
+    "status": "liquidation",
+    "incorporation_date": "2018-08-13",
+    "dissolution_date": null,
+    "registered_address": "Sterling Ford, Centurion Court, 83 Camp Road, St. Albans, Herts, AL1 5JN",
+    "sic_codes": [
+      "96020"
+    ],
+    "type": "ltd",
+    "accounts_overdue": true,
+    "accounts_next_due": "2025-05-31",
+    "last_accounts_date": "2023-08-31",
+    "confirmation_overdue": true,
+    "confirmation_next_due": "2025-08-26",
+    "filing_summary": {
+      "total_filings": 20,
+      "recent_filings": [
+        {
+          "date": "2025-10-17",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2025-10-17",
+          "type": "LIQ02",
+          "description": "liquidation-voluntary-statement-of-affairs",
+          "category": "insolvency"
+        },
+        {
+          "date": "2025-10-17",
+          "type": "600",
+          "description": "liquidation-voluntary-appointment-of-liquidator",
+          "category": "insolvency"
+        },
+        {
+          "date": "2025-10-17",
+          "type": "RESOLUTIONS",
+          "description": "resolution",
+          "category": "resolution"
+        },
+        {
+          "date": "2025-08-07",
+          "type": "DISS16(SOAS)",
+          "description": "dissolved-compulsory-strike-off-suspended",
+          "category": "dissolution"
+        },
+        {
+          "date": "2025-07-29",
+          "type": "GAZ1",
+          "description": "gazette-notice-compulsory",
+          "category": "gazette"
+        },
+        {
+          "date": "2024-08-15",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-05-27",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-09-14",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-05-28",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "DIVITO, Nicolina Domenica",
+        "role": "director",
+        "appointed_on": "2018-08-13",
+        "resigned_on": null,
+        "nationality": "Irish"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "Accounts overdue",
+      "Confirmation statement overdue",
+      "Company status: liquidation"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "OE008501",
+    "company_name": "ASH LND SHOREDITCH PROPERTIES B.V.",
+    "status": "registered",
+    "incorporation_date": "2022-12-16",
+    "dissolution_date": null,
+    "registered_address": "219 Leidseweg, Voorschoten, 2253AE",
+    "sic_codes": [],
+    "type": "registered-overseas-entity",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-12-29",
+    "filing_summary": {
+      "total_filings": 4,
+      "recent_filings": [
+        {
+          "date": "2025-12-17",
+          "type": "OE02",
+          "description": "annual-update",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-12-17",
+          "type": "OE02",
+          "description": "annual-update",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-12-19",
+          "type": "OE02",
+          "description": "annual-update",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-12-16",
+          "type": "OE01",
+          "description": "registration-overseas-entity",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "ASH FINANCIAL HOLDING B.V.",
+        "role": "corporate-managing-officer",
+        "appointed_on": "2022-12-16",
+        "resigned_on": null,
+        "nationality": null
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "OE008492",
+    "company_name": "ASH LONDON SHOREDITCH OPERATIONS B.V.",
+    "status": "registered",
+    "incorporation_date": "2022-12-16",
+    "dissolution_date": null,
+    "registered_address": "219 Leidseweg, Voorschoten, 2253AE",
+    "sic_codes": [],
+    "type": "registered-overseas-entity",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-12-29",
+    "filing_summary": {
+      "total_filings": 4,
+      "recent_filings": [
+        {
+          "date": "2025-12-17",
+          "type": "OE02",
+          "description": "annual-update",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-12-17",
+          "type": "OE02",
+          "description": "annual-update",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-12-19",
+          "type": "OE02",
+          "description": "annual-update",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-12-16",
+          "type": "OE01",
+          "description": "registration-overseas-entity",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "ASH OPERATIONS HOLDING B.V.",
+        "role": "corporate-managing-officer",
+        "appointed_on": "2022-12-16",
+        "resigned_on": null,
+        "nationality": null
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "BR025458",
+    "company_name": "AS LND SHOREDITCH PROPERTIES B.V.",
+    "status": "open",
+    "incorporation_date": "2012-03-19",
+    "dissolution_date": null,
+    "registered_address": "Cannon Place 78 Cannon Street, London, EC4N 6AF",
+    "sic_codes": [],
+    "type": "uk-establishment",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": null,
+    "filing_summary": {
+      "total_filings": 0,
+      "recent_filings": []
+    },
+    "officers": [],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "Very few filings (0 total)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "FC040348",
+    "company_name": "AS LND SHOREDITCH PROPERTIES B.V.",
+    "status": "active",
+    "incorporation_date": "2012-03-19",
+    "dissolution_date": null,
+    "registered_address": "Leidseweg 219, 2253 Ae, Voorschoten",
+    "sic_codes": [],
+    "type": "oversea-company",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": null,
+    "filing_summary": {
+      "total_filings": 6,
+      "recent_filings": [
+        {
+          "date": "2025-10-17",
+          "type": "OSNM01",
+          "description": "change-of-name-overseas-by-resolution-with-date",
+          "category": "change-of-name"
+        },
+        {
+          "date": "2025-10-17",
+          "type": "OSCH01",
+          "description": "change-company-details-by-uk-establishment-overseas-company-with-change-details",
+          "category": "other"
+        },
+        {
+          "date": "2025-03-10",
+          "type": "OSAP05",
+          "description": "appoint-person-authorised-represent-overseas-company-with-appointment-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-03-07",
+          "type": "OSTM03",
+          "description": "termination-person-authorised-overseas-company",
+          "category": "officers"
+        },
+        {
+          "date": "2023-03-09",
+          "type": "OS-PAR",
+          "description": "appointment-at-registration-of-person-authorised-to-represent",
+          "category": "annual-return"
+        },
+        {
+          "date": "2023-03-09",
+          "type": "OSIN01",
+          "description": "register-overseas-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "CITIZENM FINANCIAL HOLDING B.V.",
+        "role": "corporate-director",
+        "appointed_on": "2023-03-09",
+        "resigned_on": null,
+        "nationality": null
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "FC034796",
+    "company_name": "AS LONDON SHOREDITCH OPERATIONS B.V.",
+    "status": "active",
+    "incorporation_date": "2016-09-01",
+    "dissolution_date": null,
+    "registered_address": "219 Leidseweg, Voorschoten, 2253AE",
+    "sic_codes": [],
+    "type": "oversea-company",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": "2015-12-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": null,
+    "filing_summary": {
+      "total_filings": 11,
+      "recent_filings": [
+        {
+          "date": "2025-10-17",
+          "type": "OSNM01",
+          "description": "change-of-name-overseas-by-resolution-with-date",
+          "category": "change-of-name"
+        },
+        {
+          "date": "2025-10-17",
+          "type": "OSCH01",
+          "description": "change-company-details-by-uk-establishment-overseas-company-with-change-details",
+          "category": "other"
+        },
+        {
+          "date": "2025-03-10",
+          "type": "OSAP05",
+          "description": "appoint-person-authorised-represent-overseas-company-with-appointment-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-03-10",
+          "type": "OSTM03",
+          "description": "termination-person-authorised-overseas-company",
+          "category": "officers"
+        },
+        {
+          "date": "2023-06-19",
+          "type": "OSTM01",
+          "description": "termination-person-director-overseas-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2023-05-23",
+          "type": "OSAP02",
+          "description": "appoint-corporate-director-overseas-company-with-appointment-date",
+          "category": "officers"
+        },
+        {
+          "date": "2023-03-20",
+          "type": "OSTM03",
+          "description": "termination-person-authorised-overseas-company",
+          "category": "officers"
+        },
+        {
+          "date": "2023-03-20",
+          "type": "OSAP05",
+          "description": "appoint-person-authorised-represent-overseas-company-with-appointment-date",
+          "category": "officers"
+        },
+        {
+          "date": "2022-11-11",
+          "type": "OSCH01",
+          "description": "change-company-details-by-uk-establishment-overseas-company-with-change-details",
+          "category": "other"
+        },
+        {
+          "date": "2017-11-23",
+          "type": "OS-PAR",
+          "description": "appointment-at-registration-of-person-authorised-to-represent",
+          "category": "annual-return"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "CITIZENM OPERATIONS HOLDING B.V.",
+        "role": "corporate-director",
+        "appointed_on": "2016-09-01",
+        "resigned_on": null,
+        "nationality": null
+      },
+      {
+        "name": "CITIZENM OPERATIONS HOLDCO 1 B.V.",
+        "role": "corporate-director",
+        "appointed_on": "2017-11-23",
+        "resigned_on": "2017-11-23",
+        "nationality": null
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "15271773",
+    "company_name": "ATTENDANT SHOREDITCH LIMITED",
+    "status": "active",
+    "incorporation_date": "2023-11-09",
+    "dissolution_date": null,
+    "registered_address": "Attendant Cafe 75 Leather Lane, London, EC1N 7TJ",
+    "sic_codes": [
+      "56102"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-09-30",
+    "last_accounts_date": "2024-12-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-12-18",
+    "filing_summary": {
+      "total_filings": 9,
+      "recent_filings": [
+        {
+          "date": "2025-12-17",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-09-23",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-unaudited-abridged",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-06-19",
+          "type": "AA01",
+          "description": "change-account-reference-date-company-previous-extended",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-12-18",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-12-07",
+          "type": "PSC07",
+          "description": "cessation-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2023-12-07",
+          "type": "PSC07",
+          "description": "cessation-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2023-12-07",
+          "type": "PSC02",
+          "description": "notification-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2023-12-04",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-11-09",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "DE OLIVEIRA, Ryan",
+        "role": "director",
+        "appointed_on": "2023-11-09",
+        "resigned_on": null,
+        "nationality": "Portuguese"
+      },
+      {
+        "name": "MCKEOWN, Roshan Jonathan",
+        "role": "director",
+        "appointed_on": "2023-11-09",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "16178327",
+    "company_name": "BANGKOK BITES SHOREDITCH LIMITED",
+    "status": "active",
+    "incorporation_date": "2025-01-13",
+    "dissolution_date": null,
+    "registered_address": "Unit 1.02 93-101 Greenfield Road, East London Business Centre, London, E1 1EJ",
+    "sic_codes": [
+      "56103"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-10-13",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-01-26",
+    "filing_summary": {
+      "total_filings": 3,
+      "recent_filings": [
+        {
+          "date": "2026-03-29",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2026-03-29",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-01-13",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "TAHER, Abdul",
+        "role": "director",
+        "appointed_on": "2025-01-13",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "ZAHIDI, Muhammad Zain Ali",
+        "role": "director",
+        "appointed_on": "2026-03-20",
+        "resigned_on": null,
+        "nationality": "Pakistani"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "12469095",
+    "company_name": "BARBERSMITHS SHOREDITCH LIMITED",
+    "status": "active",
+    "incorporation_date": "2020-02-18",
+    "dissolution_date": null,
+    "registered_address": "143 Commercial Street, London, E1 6BJ",
+    "sic_codes": [
+      "96020"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-10-31",
+    "last_accounts_date": "2025-01-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-02-05",
+    "filing_summary": {
+      "total_filings": 15,
+      "recent_filings": [
+        {
+          "date": "2026-01-22",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-08-13",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-02-24",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-10-06",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-09-10",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2024-04-17",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-10-06",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-04-05",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-10-17",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2022-03-01",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "SMITH, Daniel Philip David",
+        "role": "director",
+        "appointed_on": "2020-02-18",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "07710706",
+    "company_name": "BC SHOREDITCH LIMITED",
+    "status": "active",
+    "incorporation_date": "2011-07-19",
+    "dissolution_date": null,
+    "registered_address": "Seymour Mews House, 26-37 Seymour Mews, London, W1H 6BN",
+    "sic_codes": [
+      "41100"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-09-30",
+    "last_accounts_date": "2024-12-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-08-02",
+    "filing_summary": {
+      "total_filings": 60,
+      "recent_filings": [
+        {
+          "date": "2025-07-22",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-07-15",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-small",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-07-19",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-07-18",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-small",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-07-24",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-small",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-07-19",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-11-28",
+          "type": "SH19",
+          "description": "capital-statement-capital-company-with-date-currency-figure",
+          "category": "capital"
+        },
+        {
+          "date": "2022-11-28",
+          "type": "SH20",
+          "description": "legacy",
+          "category": "capital"
+        },
+        {
+          "date": "2022-11-28",
+          "type": "CAP-SS",
+          "description": "legacy",
+          "category": "insolvency"
+        },
+        {
+          "date": "2022-11-28",
+          "type": "RESOLUTIONS",
+          "description": "resolution",
+          "category": "resolution"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "CAVENDISH SQUARE SECRETARIAT",
+        "role": "corporate-secretary",
+        "appointed_on": "2011-07-19",
+        "resigned_on": null,
+        "nationality": null
+      },
+      {
+        "name": "KELHAM, Barnaby James",
+        "role": "director",
+        "appointed_on": "2014-08-14",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "LEWIS, Clive Robert",
+        "role": "director",
+        "appointed_on": "2011-07-19",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "LEWIS, Joseph Alexander",
+        "role": "director",
+        "appointed_on": "2011-07-19",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "WATERLOW SECRETARIES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2011-07-19",
+        "resigned_on": "2011-07-19",
+        "nationality": null
+      },
+      {
+        "name": "DAVIES, Dunstana Adeshola",
+        "role": "director",
+        "appointed_on": "2011-07-19",
+        "resigned_on": "2011-07-19",
+        "nationality": "British"
+      },
+      {
+        "name": "ROSEHILL, Michael Henry",
+        "role": "director",
+        "appointed_on": "2014-08-26",
+        "resigned_on": "2022-03-04",
+        "nationality": "Irish,"
+      },
+      {
+        "name": "STACEY, John Marcus William",
+        "role": "director",
+        "appointed_on": "2011-07-19",
+        "resigned_on": "2014-08-14",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "High officer turnover (4 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "15120581",
+    "company_name": "BLACK COW SHOREDITCH LTD",
+    "status": "active",
+    "incorporation_date": "2023-09-06",
+    "dissolution_date": null,
+    "registered_address": "117 Gilson Place, Coppetts Road, London, N10 1BF",
+    "sic_codes": [
+      "56101"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-12-31",
+    "last_accounts_date": "2024-09-30",
+    "confirmation_overdue": true,
+    "confirmation_next_due": "2026-02-19",
+    "filing_summary": {
+      "total_filings": 30,
+      "recent_filings": [
+        {
+          "date": "2026-03-09",
+          "type": "AA01",
+          "description": "change-account-reference-date-company-current-extended",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-11-11",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-11-11",
+          "type": "RT01",
+          "description": "administrative-restoration-company",
+          "category": "restoration"
+        },
+        {
+          "date": "2025-10-21",
+          "type": "GAZ2",
+          "description": "gazette-dissolved-compulsory",
+          "category": "gazette"
+        },
+        {
+          "date": "2025-09-09",
+          "type": "DISS16(SOAS)",
+          "description": "dissolved-compulsory-strike-off-suspended",
+          "category": "dissolution"
+        },
+        {
+          "date": "2025-08-05",
+          "type": "GAZ1",
+          "description": "gazette-notice-compulsory",
+          "category": "gazette"
+        },
+        {
+          "date": "2025-02-05",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-02-05",
+          "type": "PSC09",
+          "description": "withdrawal-of-a-person-with-significant-control-statement",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2025-02-05",
+          "type": "PSC09",
+          "description": "withdrawal-of-a-person-with-significant-control-statement",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2025-02-04",
+          "type": "PSC08",
+          "description": "notification-of-a-person-with-significant-control-statement",
+          "category": "persons-with-significant-control"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "BATITO, Amir",
+        "role": "director",
+        "appointed_on": "2023-09-06",
+        "resigned_on": null,
+        "nationality": "Israeli"
+      },
+      {
+        "name": "KRAUS, Shiri",
+        "role": "director",
+        "appointed_on": "2024-02-05",
+        "resigned_on": null,
+        "nationality": "British,Israeli"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "Confirmation statement overdue"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "LP015585",
+    "company_name": "BL SHOREDITCH LIMITED PARTNERSHIP",
+    "status": "active",
+    "incorporation_date": "2013-06-24",
+    "dissolution_date": null,
+    "registered_address": "York House, 45 Seymour Street, London, W1H 7LX",
+    "sic_codes": [],
+    "type": "limited-partnership",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": null,
+    "filing_summary": {
+      "total_filings": 2,
+      "recent_filings": [
+        {
+          "date": "2014-04-05",
+          "type": "PRE14",
+          "description": "selection-of-documents-registered-before-April-2014",
+          "category": "historical"
+        },
+        {
+          "date": "2013-06-24",
+          "type": "LP5",
+          "description": "legacy",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "Very few filings (2 total)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "05326670",
+    "company_name": "BL SHOREDITCH DEVELOPMENT LIMITED",
+    "status": "active",
+    "incorporation_date": "2005-01-07",
+    "dissolution_date": null,
+    "registered_address": "York House, 45 Seymour Street, London, W1H 7LX",
+    "sic_codes": [
+      "41100"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-12-31",
+    "last_accounts_date": "2025-03-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-01-21",
+    "filing_summary": {
+      "total_filings": 106,
+      "recent_filings": [
+        {
+          "date": "2026-01-19",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2026-01-09",
+          "type": "RP01AP01",
+          "description": "replacement-filing-of-director-appointment-with-name",
+          "category": "officers"
+        },
+        {
+          "date": "2025-09-18",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-audit-exemption-subsiduary",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-09-18",
+          "type": "PARENT_ACC",
+          "description": "legacy",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-09-18",
+          "type": "GUARANTEE2",
+          "description": "legacy",
+          "category": "other"
+        },
+        {
+          "date": "2025-09-18",
+          "type": "AGREEMENT2",
+          "description": "legacy",
+          "category": "other"
+        },
+        {
+          "date": "2025-05-01",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-05-01",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-01-22",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-08-21",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-audit-exemption-subsiduary",
+          "category": "accounts"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "BRITISH LAND COMPANY SECRETARIAL LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2016-12-06",
+        "resigned_on": null,
+        "nationality": null
+      },
+      {
+        "name": "MACEY, Paul Stuart",
+        "role": "director",
+        "appointed_on": "2018-12-20",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "MCNUFF, Jonathan Charles",
+        "role": "director",
+        "appointed_on": "2018-12-20",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "SCHULDENFREI, James Joseph",
+        "role": "director",
+        "appointed_on": "2025-04-22",
+        "resigned_on": null,
+        "nationality": "British,German,Polish"
+      },
+      {
+        "name": "SECKER, Matthew Robert",
+        "role": "director",
+        "appointed_on": "2018-12-20",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "BRAINE, Anthony",
+        "role": "secretary",
+        "appointed_on": "2005-01-07",
+        "resigned_on": "2007-08-16",
+        "nationality": "British"
+      },
+      {
+        "name": "EKPO, Ndiana",
+        "role": "secretary",
+        "appointed_on": "2009-04-30",
+        "resigned_on": "2016-12-06",
+        "nationality": "Other"
+      },
+      {
+        "name": "PHILP, Clive James",
+        "role": "secretary",
+        "appointed_on": "2007-08-16",
+        "resigned_on": "2008-06-04",
+        "nationality": "British"
+      },
+      {
+        "name": "SCUDAMORE, Rebecca Jane",
+        "role": "secretary",
+        "appointed_on": "2008-06-13",
+        "resigned_on": "2009-04-30",
+        "nationality": "Other"
+      },
+      {
+        "name": "WATERLOW SECRETARIES LIMITED",
+        "role": "corporate-nominee-secretary",
+        "appointed_on": "2005-01-07",
+        "resigned_on": "2005-01-07",
+        "nationality": null
+      },
+      {
+        "name": "BRAINE, Anthony",
+        "role": "director",
+        "appointed_on": "2007-08-13",
+        "resigned_on": "2014-07-31",
+        "nationality": "British"
+      },
+      {
+        "name": "GUNSTON, Michael Ian",
+        "role": "director",
+        "appointed_on": "2005-01-07",
+        "resigned_on": "2007-01-31",
+        "nationality": "British"
+      },
+      {
+        "name": "MIDDLETON, Charles John",
+        "role": "director",
+        "appointed_on": "2015-04-30",
+        "resigned_on": "2022-03-31",
+        "nationality": "British"
+      },
+      {
+        "name": "PENRICE, Victoria Margaret",
+        "role": "director",
+        "appointed_on": "2014-08-01",
+        "resigned_on": "2015-04-29",
+        "nationality": "British"
+      },
+      {
+        "name": "PENRICE, Victoria Margaret",
+        "role": "director",
+        "appointed_on": "2014-08-01",
+        "resigned_on": "2015-04-29",
+        "nationality": "British"
+      },
+      {
+        "name": "WARR, Virginia",
+        "role": "director",
+        "appointed_on": "2022-03-18",
+        "resigned_on": "2025-04-18",
+        "nationality": "British"
+      },
+      {
+        "name": "WEBB, Nigel Mark",
+        "role": "director",
+        "appointed_on": "2018-12-20",
+        "resigned_on": "2023-06-30",
+        "nationality": "British"
+      },
+      {
+        "name": "WESTON SMITH, John Harry",
+        "role": "director",
+        "appointed_on": "2005-01-07",
+        "resigned_on": "2006-07-14",
+        "nationality": "British"
+      },
+      {
+        "name": "WATERLOW NOMINEES LIMITED",
+        "role": "corporate-nominee-director",
+        "appointed_on": "2005-01-07",
+        "resigned_on": "2005-01-07",
+        "nationality": null
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "High officer turnover (14 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "08570561",
+    "company_name": "BL SHOREDITCH GENERAL PARTNER LIMITED",
+    "status": "active",
+    "incorporation_date": "2013-06-14",
+    "dissolution_date": null,
+    "registered_address": "York House, 45 Seymour Street, London, W1H 7LX",
+    "sic_codes": [
+      "41100"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-12-31",
+    "last_accounts_date": "2025-03-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-06-28",
+    "filing_summary": {
+      "total_filings": 61,
+      "recent_filings": [
+        {
+          "date": "2025-08-07",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-06-19",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-05-01",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-05-01",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-06-29",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-06-20",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-01-22",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2023-11-23",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2023-07-06",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-07-03",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "BRITISH LAND COMPANY SECRETARIAL LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2016-12-06",
+        "resigned_on": null,
+        "nationality": null
+      },
+      {
+        "name": "BERGIN, Gavin Joseph",
+        "role": "director",
+        "appointed_on": "2021-03-29",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "MACEY, Paul Stuart",
+        "role": "director",
+        "appointed_on": "2019-01-25",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "MCNUFF, Jonathan Charles",
+        "role": "director",
+        "appointed_on": "2018-05-04",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "SCHULDENFREI, James Joseph",
+        "role": "director",
+        "appointed_on": "2025-04-22",
+        "resigned_on": null,
+        "nationality": "British,German,Polish"
+      },
+      {
+        "name": "SECKER, Matthew Robert",
+        "role": "director",
+        "appointed_on": "2019-01-25",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "EKPO, Ndiana",
+        "role": "secretary",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2016-12-06",
+        "nationality": null
+      },
+      {
+        "name": "BARZYCKI, Sarah Morrell",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2018-03-30",
+        "nationality": "British"
+      },
+      {
+        "name": "BELL, Lucinda Margaret",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2018-01-19",
+        "nationality": "British"
+      },
+      {
+        "name": "BRAINE, Anthony",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2014-07-31",
+        "nationality": "British"
+      },
+      {
+        "name": "CARTER, Simon Geoffrey",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2015-01-30",
+        "nationality": "British"
+      },
+      {
+        "name": "FORSHAW, Christopher Michael John",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2017-04-05",
+        "nationality": "British"
+      },
+      {
+        "name": "GROSE, Benjamin Toby",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2014-10-02",
+        "nationality": "British"
+      },
+      {
+        "name": "JAMES, Bruce Michael",
+        "role": "director",
+        "appointed_on": "2018-05-04",
+        "resigned_on": "2021-12-31",
+        "nationality": "British"
+      },
+      {
+        "name": "MIDDLETON, Charles John",
+        "role": "director",
+        "appointed_on": "2018-05-04",
+        "resigned_on": "2022-03-31",
+        "nationality": "British"
+      },
+      {
+        "name": "PENRICE, Victoria Margaret",
+        "role": "director",
+        "appointed_on": "2014-08-01",
+        "resigned_on": "2015-04-29",
+        "nationality": "British"
+      },
+      {
+        "name": "ROBERTS, Timothy Andrew",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2018-05-04",
+        "nationality": "British"
+      },
+      {
+        "name": "SAYERS, Catherine Fiona",
+        "role": "director",
+        "appointed_on": "2023-11-17",
+        "resigned_on": "2024-01-22",
+        "nationality": "British"
+      },
+      {
+        "name": "VANDEVIVERE, Jean-Marc",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2016-01-31",
+        "nationality": "French"
+      },
+      {
+        "name": "WARR, Virginia",
+        "role": "director",
+        "appointed_on": "2022-03-18",
+        "resigned_on": "2025-04-18",
+        "nationality": "British"
+      },
+      {
+        "name": "WEBB, Nigel Mark",
+        "role": "director",
+        "appointed_on": "2019-01-25",
+        "resigned_on": "2023-06-30",
+        "nationality": "British"
+      },
+      {
+        "name": "WEBB, Nigel Mark",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2018-05-04",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "High officer turnover (16 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "08570560",
+    "company_name": "BL SHOREDITCH NO. 1 LIMITED",
+    "status": "active",
+    "incorporation_date": "2013-06-14",
+    "dissolution_date": null,
+    "registered_address": "York House, 45 Seymour Street, London, W1H 7LX",
+    "sic_codes": [
+      "41100"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-12-31",
+    "last_accounts_date": "2025-03-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-06-28",
+    "filing_summary": {
+      "total_filings": 57,
+      "recent_filings": [
+        {
+          "date": "2025-10-23",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-06-19",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-05-01",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-05-01",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-11-18",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-11-11",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-09-30",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-06-20",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-12-20",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-07-03",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "BRITISH LAND COMPANY SECRETARIAL LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2016-12-06",
+        "resigned_on": null,
+        "nationality": null
+      },
+      {
+        "name": "BUNTING, Alan",
+        "role": "director",
+        "appointed_on": "2022-03-18",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "MACEY, Paul Stuart",
+        "role": "director",
+        "appointed_on": "2016-02-22",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "MCNUFF, Jonathan Charles",
+        "role": "director",
+        "appointed_on": "2016-02-22",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "MURRELL, Peter James",
+        "role": "director",
+        "appointed_on": "2024-11-11",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "SCHULDENFREI, James Joseph",
+        "role": "director",
+        "appointed_on": "2025-04-22",
+        "resigned_on": null,
+        "nationality": "British,German,Polish"
+      },
+      {
+        "name": "EKPO, Ndiana",
+        "role": "secretary",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2016-12-06",
+        "nationality": null
+      },
+      {
+        "name": "BARZYCKI, Sarah Morrell",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2022-03-18",
+        "nationality": "British"
+      },
+      {
+        "name": "BELL, Lucinda Margaret",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2018-01-19",
+        "nationality": "British"
+      },
+      {
+        "name": "BRAINE, Anthony",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2014-07-31",
+        "nationality": "British"
+      },
+      {
+        "name": "CARTER, Simon Geoffrey",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2015-01-30",
+        "nationality": "British"
+      },
+      {
+        "name": "FORSHAW, Christopher Michael John",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2017-04-05",
+        "nationality": "British"
+      },
+      {
+        "name": "GROSE, Benjamin Toby",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2014-10-02",
+        "nationality": "British"
+      },
+      {
+        "name": "MIDDLETON, Charles John",
+        "role": "director",
+        "appointed_on": "2016-02-22",
+        "resigned_on": "2022-03-31",
+        "nationality": "British"
+      },
+      {
+        "name": "PENRICE, Victoria Margaret",
+        "role": "director",
+        "appointed_on": "2014-08-01",
+        "resigned_on": "2015-04-29",
+        "nationality": "British"
+      },
+      {
+        "name": "ROBERTS, Timothy Andrew",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2019-03-31",
+        "nationality": "British"
+      },
+      {
+        "name": "TAYLOR, Jonathan David",
+        "role": "director",
+        "appointed_on": "2022-03-18",
+        "resigned_on": "2024-11-11",
+        "nationality": "British"
+      },
+      {
+        "name": "VANDEVIVERE, Jean-Marc",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2016-01-31",
+        "nationality": "French"
+      },
+      {
+        "name": "WARR, Virginia",
+        "role": "director",
+        "appointed_on": "2022-03-18",
+        "resigned_on": "2025-04-18",
+        "nationality": "British"
+      },
+      {
+        "name": "WEBB, Nigel Mark",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2023-06-30",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "High officer turnover (14 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "08570558",
+    "company_name": "BL SHOREDITCH NO. 2 LIMITED",
+    "status": "active",
+    "incorporation_date": "2013-06-14",
+    "dissolution_date": null,
+    "registered_address": "York House, 45 Seymour Street, London, W1H 7LX",
+    "sic_codes": [
+      "41100"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-12-31",
+    "last_accounts_date": "2025-03-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-06-28",
+    "filing_summary": {
+      "total_filings": 66,
+      "recent_filings": [
+        {
+          "date": "2025-09-18",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-audit-exemption-subsiduary",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-09-18",
+          "type": "PARENT_ACC",
+          "description": "legacy",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-09-18",
+          "type": "GUARANTEE2",
+          "description": "legacy",
+          "category": "other"
+        },
+        {
+          "date": "2025-09-18",
+          "type": "AGREEMENT2",
+          "description": "legacy",
+          "category": "other"
+        },
+        {
+          "date": "2025-06-19",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-05-01",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-05-01",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-11-18",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-11-11",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-09-30",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-full",
+          "category": "accounts"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "BRITISH LAND COMPANY SECRETARIAL LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2016-12-06",
+        "resigned_on": null,
+        "nationality": null
+      },
+      {
+        "name": "BUNTING, Alan",
+        "role": "director",
+        "appointed_on": "2022-03-18",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "MACEY, Paul Stuart",
+        "role": "director",
+        "appointed_on": "2016-02-22",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "MCNUFF, Jonathan Charles",
+        "role": "director",
+        "appointed_on": "2016-02-22",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "MURRELL, Peter James",
+        "role": "director",
+        "appointed_on": "2024-11-11",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "SCHULDENFREI, James Joseph",
+        "role": "director",
+        "appointed_on": "2025-04-22",
+        "resigned_on": null,
+        "nationality": "British,German,Polish"
+      },
+      {
+        "name": "EKPO, Ndiana",
+        "role": "secretary",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2016-12-06",
+        "nationality": null
+      },
+      {
+        "name": "BARZYCKI, Sarah Morrell",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2022-03-18",
+        "nationality": "British"
+      },
+      {
+        "name": "BELL, Lucinda Margaret",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2018-01-19",
+        "nationality": "British"
+      },
+      {
+        "name": "BRAINE, Anthony",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2014-07-31",
+        "nationality": "British"
+      },
+      {
+        "name": "CARTER, Simon Geoffrey",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2015-01-30",
+        "nationality": "British"
+      },
+      {
+        "name": "FORSHAW, Christopher Michael John",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2017-04-05",
+        "nationality": "British"
+      },
+      {
+        "name": "GROSE, Benjamin Toby",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2014-10-02",
+        "nationality": "British"
+      },
+      {
+        "name": "MIDDLETON, Charles John",
+        "role": "director",
+        "appointed_on": "2016-02-22",
+        "resigned_on": "2022-03-31",
+        "nationality": "British"
+      },
+      {
+        "name": "PENRICE, Victoria Margaret",
+        "role": "director",
+        "appointed_on": "2014-08-01",
+        "resigned_on": "2015-04-29",
+        "nationality": "British"
+      },
+      {
+        "name": "ROBERTS, Timothy Andrew",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2019-03-31",
+        "nationality": "British"
+      },
+      {
+        "name": "TAYLOR, Jonathan David",
+        "role": "director",
+        "appointed_on": "2022-03-18",
+        "resigned_on": "2024-11-11",
+        "nationality": "British"
+      },
+      {
+        "name": "VANDEVIVERE, Jean-Marc",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2016-01-31",
+        "nationality": "French"
+      },
+      {
+        "name": "WARR, Virginia",
+        "role": "director",
+        "appointed_on": "2022-03-18",
+        "resigned_on": "2025-04-18",
+        "nationality": "British"
+      },
+      {
+        "name": "WEBB, Nigel Mark",
+        "role": "director",
+        "appointed_on": "2013-06-14",
+        "resigned_on": "2023-06-30",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "High officer turnover (14 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "16703962",
+    "company_name": "BOMBAY CORNER (SHOREDITCH) LTD",
+    "status": "dissolved",
+    "incorporation_date": "2025-09-09",
+    "dissolution_date": "2025-12-23",
+    "registered_address": "336 High Road, Romford, RM6 6AJ",
+    "sic_codes": [
+      "56103"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": null,
+    "filing_summary": {
+      "total_filings": 4,
+      "recent_filings": [
+        {
+          "date": "2025-12-23",
+          "type": "GAZ2(A)",
+          "description": "gazette-dissolved-voluntary",
+          "category": "gazette"
+        },
+        {
+          "date": "2025-10-07",
+          "type": "GAZ1(A)",
+          "description": "gazette-notice-voluntary",
+          "category": "gazette"
+        },
+        {
+          "date": "2025-09-29",
+          "type": "DS01",
+          "description": "dissolution-application-strike-off-company",
+          "category": "dissolution"
+        },
+        {
+          "date": "2025-09-09",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "PATEL, Asif Abdul",
+        "role": "director",
+        "appointed_on": "2025-09-09",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "Company status: dissolved"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "11863370",
+    "company_name": "BOND SHOREDITCH LIMITED",
+    "status": "active",
+    "incorporation_date": "2019-03-06",
+    "dissolution_date": null,
+    "registered_address": "419 Wick Lane, Lg04 , Ink Court, London, E3 2PW",
+    "sic_codes": [
+      "96020"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-12-31",
+    "last_accounts_date": "2025-03-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-03-19",
+    "filing_summary": {
+      "total_filings": 15,
+      "recent_filings": [
+        {
+          "date": "2026-03-16",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-11-04",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-03-07",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-12-03",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-04-22",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-09-26",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-04-28",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-11-02",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2022-03-17",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2021-12-13",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "MOORE, Ursula Kathryn",
+        "role": "secretary",
+        "appointed_on": "2019-03-06",
+        "resigned_on": null,
+        "nationality": null
+      },
+      {
+        "name": "MOORE, Ursula Kathryn",
+        "role": "director",
+        "appointed_on": "2019-03-06",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "16288233",
+    "company_name": "BONE SHOREDITCH LTD",
+    "status": "active",
+    "incorporation_date": "2025-03-03",
+    "dissolution_date": null,
+    "registered_address": "10 Orsman Road Orsman Road, London, N1 5QJ",
+    "sic_codes": [
+      "56102",
+      "56210"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-12-03",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-03-16",
+    "filing_summary": {
+      "total_filings": 3,
+      "recent_filings": [
+        {
+          "date": "2026-03-13",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-07-30",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2025-03-03",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "SHARIF, Abdinasir Ali",
+        "role": "director",
+        "appointed_on": "2025-03-03",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "OE013353",
+    "company_name": "BOP (SHOREDITCH) S.À.R.L.",
+    "status": "registered",
+    "incorporation_date": "2023-01-16",
+    "dissolution_date": null,
+    "registered_address": "15 Boulevard F.W. Raiffeisen, Luxembourg, 2411",
+    "sic_codes": [],
+    "type": "registered-overseas-entity",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-01-29",
+    "filing_summary": {
+      "total_filings": 4,
+      "recent_filings": [
+        {
+          "date": "2026-01-16",
+          "type": "OE02",
+          "description": "annual-update",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-01-15",
+          "type": "OE02",
+          "description": "annual-update",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-01-25",
+          "type": "OE02",
+          "description": "annual-update",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-01-16",
+          "type": "OE01",
+          "description": "registration-overseas-entity",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "09234710",
+    "company_name": "BRANCH SHOREDITCH LIMITED",
+    "status": "active",
+    "incorporation_date": "2014-09-25",
+    "dissolution_date": null,
+    "registered_address": "18-20 St. John Street, London, EC1M 4NX",
+    "sic_codes": [
+      "68209"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-12-31",
+    "last_accounts_date": "2025-03-31",
+    "confirmation_overdue": true,
+    "confirmation_next_due": "2025-10-09",
+    "filing_summary": {
+      "total_filings": 49,
+      "recent_filings": [
+        {
+          "date": "2026-03-30",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2026-03-04",
+          "type": "DISS40",
+          "description": "gazette-filings-brought-up-to-date",
+          "category": "gazette"
+        },
+        {
+          "date": "2025-12-16",
+          "type": "GAZ1",
+          "description": "gazette-notice-compulsory",
+          "category": "gazette"
+        },
+        {
+          "date": "2024-12-19",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-11-19",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-12-22",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-09-28",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-12-23",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2022-09-26",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-04-06",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "ANTONIOU, Christakis",
+        "role": "secretary",
+        "appointed_on": "2014-09-25",
+        "resigned_on": null,
+        "nationality": null
+      },
+      {
+        "name": "ANTONIOU, Christakis, Dr",
+        "role": "director",
+        "appointed_on": "2014-09-25",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "ZIENAU, Matthew Sebastian",
+        "role": "director",
+        "appointed_on": "2019-05-01",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "PAGE, Stephen John",
+        "role": "director",
+        "appointed_on": "2014-09-25",
+        "resigned_on": "2020-08-19",
+        "nationality": "English"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "Confirmation statement overdue"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "06859405",
+    "company_name": "BRIDGE SHOREDITCH LIMITED",
+    "status": "active",
+    "incorporation_date": "2009-03-26",
+    "dissolution_date": null,
+    "registered_address": "Building 1 Meadows Business Park, Blackwater, Camberley, GU17 9AB",
+    "sic_codes": [
+      "82990"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-09-30",
+    "last_accounts_date": "2024-12-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-04-09",
+    "filing_summary": {
+      "total_filings": 71,
+      "recent_filings": [
+        {
+          "date": "2026-03-31",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2026-03-30",
+          "type": "CH01",
+          "description": "change-person-director-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2026-03-30",
+          "type": "CH01",
+          "description": "change-person-director-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2026-03-30",
+          "type": "CH01",
+          "description": "change-person-director-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-12-03",
+          "type": "PSC05",
+          "description": "change-to-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2025-11-17",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2025-09-24",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-03-26",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-09-17",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-05-16",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "OAKWOOD CORPORATE SECRETARY LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2020-02-26",
+        "resigned_on": null,
+        "nationality": null
+      },
+      {
+        "name": "AITCHISON, Paul Leonard",
+        "role": "director",
+        "appointed_on": "2024-01-19",
+        "resigned_on": null,
+        "nationality": "Australian"
+      },
+      {
+        "name": "COOK, Michael Brian",
+        "role": "director",
+        "appointed_on": "2024-01-19",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "KAVANAGH, Peter",
+        "role": "director",
+        "appointed_on": "2024-01-19",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "TAYLER BRADSHAW LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2009-03-26",
+        "resigned_on": "2015-03-24",
+        "nationality": null
+      },
+      {
+        "name": "DUNNING, Nicholas Anthony Robert",
+        "role": "director",
+        "appointed_on": "2018-10-08",
+        "resigned_on": "2024-01-19",
+        "nationality": "British"
+      },
+      {
+        "name": "HARRISON, Graham Martin",
+        "role": "director",
+        "appointed_on": "2018-10-08",
+        "resigned_on": "2023-03-31",
+        "nationality": "British"
+      },
+      {
+        "name": "IRBY, Julian Matthew",
+        "role": "director",
+        "appointed_on": "2018-10-08",
+        "resigned_on": "2024-05-15",
+        "nationality": "British"
+      },
+      {
+        "name": "MULLIGAN, Thomas Kevin",
+        "role": "director",
+        "appointed_on": "2009-03-26",
+        "resigned_on": "2018-10-08",
+        "nationality": "British"
+      },
+      {
+        "name": "PADDA, Arvinder Ajay",
+        "role": "director",
+        "appointed_on": "2009-03-26",
+        "resigned_on": "2018-10-08",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "High officer turnover (6 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "16081370",
+    "company_name": "BT SHOREDITCH LIMITED",
+    "status": "active",
+    "incorporation_date": "2024-11-14",
+    "dissolution_date": null,
+    "registered_address": "110 Old Street, London, EC1V 9BD",
+    "sic_codes": [
+      "56101"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-08-14",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-11-27",
+    "filing_summary": {
+      "total_filings": 2,
+      "recent_filings": [
+        {
+          "date": "2025-12-23",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-11-14",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "MIAH, Md Halim",
+        "role": "director",
+        "appointed_on": "2024-11-14",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "Very few filings (2 total)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "16146694",
+    "company_name": "BUBBA OASIS, SHOREDITCH LIMITED",
+    "status": "active",
+    "incorporation_date": "2024-12-20",
+    "dissolution_date": null,
+    "registered_address": "57-58 Upper Street, London, N1 0NY",
+    "sic_codes": [
+      "56101"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-09-20",
+    "last_accounts_date": null,
+    "confirmation_overdue": true,
+    "confirmation_next_due": "2026-01-02",
+    "filing_summary": {
+      "total_filings": 2,
+      "recent_filings": [
+        {
+          "date": "2026-04-14",
+          "type": "GAZ1",
+          "description": "gazette-notice-compulsory",
+          "category": "gazette"
+        },
+        {
+          "date": "2024-12-20",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "HUYSINGA, Rob",
+        "role": "director",
+        "appointed_on": "2024-12-20",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "Confirmation statement overdue",
+      "Very few filings (2 total)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "03923441",
+    "company_name": "BUXTON HOMES (SHOREDITCH) LIMITED",
+    "status": "active",
+    "incorporation_date": "2000-02-10",
+    "dissolution_date": null,
+    "registered_address": "8 Gleneagles Court, Brighton Road, Crawley, West Sussex, RH10 6AD",
+    "sic_codes": [
+      "68209"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-04-30",
+    "last_accounts_date": "2024-07-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-02-14",
+    "filing_summary": {
+      "total_filings": 95,
+      "recent_filings": [
+        {
+          "date": "2026-02-24",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-03-17",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-03-06",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-03-13",
+          "type": "MR04",
+          "description": "mortgage-satisfy-charge-full",
+          "category": "mortgage"
+        },
+        {
+          "date": "2024-03-06",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-01-31",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-02-24",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-02-03",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2022-03-03",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-02-08",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "BUXTON, Steven Wavel",
+        "role": "director",
+        "appointed_on": "2003-06-25",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "MURPHY, Oliver Gary",
+        "role": "director",
+        "appointed_on": "2021-04-09",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "BLACKFORD, Graham John",
+        "role": "secretary",
+        "appointed_on": "2000-08-29",
+        "resigned_on": "2005-03-22",
+        "nationality": "British"
+      },
+      {
+        "name": "BUXTON, Steven Wavel",
+        "role": "secretary",
+        "appointed_on": "2005-03-22",
+        "resigned_on": "2006-07-31",
+        "nationality": "British"
+      },
+      {
+        "name": "CARR, Kevin Raymond",
+        "role": "secretary",
+        "appointed_on": "2000-05-04",
+        "resigned_on": "2000-08-29",
+        "nationality": "British"
+      },
+      {
+        "name": "FREELAND, Mark Alan",
+        "role": "secretary",
+        "appointed_on": "2006-07-31",
+        "resigned_on": "2014-10-24",
+        "nationality": "British"
+      },
+      {
+        "name": "CHETTLEBURGH INTERNATIONAL LIMITED",
+        "role": "corporate-nominee-secretary",
+        "appointed_on": "2000-02-10",
+        "resigned_on": "2000-05-04",
+        "nationality": null
+      },
+      {
+        "name": "BLACKFORD, Graham John",
+        "role": "director",
+        "appointed_on": "2000-08-29",
+        "resigned_on": "2003-06-25",
+        "nationality": "British"
+      },
+      {
+        "name": "BUXTON, David William",
+        "role": "director",
+        "appointed_on": "2003-06-25",
+        "resigned_on": "2017-04-19",
+        "nationality": "British"
+      },
+      {
+        "name": "CARR, Kevin Raymond",
+        "role": "director",
+        "appointed_on": "2000-05-04",
+        "resigned_on": "2000-08-29",
+        "nationality": "British"
+      },
+      {
+        "name": "DAVIES, Peter Anthony, Mr.",
+        "role": "director",
+        "appointed_on": "2000-05-04",
+        "resigned_on": "2003-06-25",
+        "nationality": "British"
+      },
+      {
+        "name": "CHETTLEBURGH'S LIMITED",
+        "role": "corporate-nominee-director",
+        "appointed_on": "2000-02-10",
+        "resigned_on": "2000-05-04",
+        "nationality": null
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "High officer turnover (10 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  },
+  {
+    "company_number": "12194617",
+    "company_name": "BUZZBAR SHOREDITCH LIMITED",
+    "status": "liquidation",
+    "incorporation_date": "2019-09-06",
+    "dissolution_date": null,
+    "registered_address": "3 Field Court, Gray's Inn,, London, WC1R 5EF",
+    "sic_codes": [
+      "74909"
+    ],
+    "type": "ltd",
+    "accounts_overdue": true,
+    "accounts_next_due": "2024-08-31",
+    "last_accounts_date": "2022-11-30",
+    "confirmation_overdue": true,
+    "confirmation_next_due": "2025-01-25",
+    "filing_summary": {
+      "total_filings": 22,
+      "recent_filings": [
+        {
+          "date": "2025-04-24",
+          "type": "LIQ03",
+          "description": "liquidation-voluntary-statement-of-receipts-and-payments-with-brought-down-date",
+          "category": "insolvency"
+        },
+        {
+          "date": "2024-02-07",
+          "type": "600",
+          "description": "liquidation-voluntary-appointment-of-liquidator",
+          "category": "insolvency"
+        },
+        {
+          "date": "2024-02-07",
+          "type": "LIQ02",
+          "description": "liquidation-voluntary-statement-of-affairs",
+          "category": "insolvency"
+        },
+        {
+          "date": "2024-02-06",
+          "type": "RESOLUTIONS",
+          "description": "resolution",
+          "category": "resolution"
+        },
+        {
+          "date": "2024-02-06",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2024-01-11",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-11-30",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-08-25",
+          "type": "AAMD",
+          "description": "accounts-amended-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-07-26",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2022-11-30",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "DOWNEY, Anna",
+        "role": "director",
+        "appointed_on": "2019-09-06",
+        "resigned_on": null,
+        "nationality": "New Zealander"
+      },
+      {
+        "name": "ENTREPRENOR LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2019-09-06",
+        "resigned_on": "2020-06-30",
+        "nationality": null
+      },
+      {
+        "name": "GONCALVES, Paulo",
+        "role": "director",
+        "appointed_on": "2019-09-06",
+        "resigned_on": "2021-06-30",
+        "nationality": "Portuguese"
+      }
+    ],
+    "neighbourhood": "Shoreditch",
+    "distress_signals": [
+      "Accounts overdue",
+      "Confirmation statement overdue",
+      "Company status: liquidation"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-10T22:41:21.882738+00:00",
+      "collector_version": "1.0",
+      "run_id": "17246852"
+    }
+  }
+]

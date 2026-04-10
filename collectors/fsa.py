@@ -28,7 +28,6 @@ class FSACollector(BaseCollector):
     RESTAURANT_TYPES = {
         "restaurant/cafe/canteen",
         "takeaway/sandwich shop",
-        "pub/bar/nightclub",
     }
 
     def __init__(self):
