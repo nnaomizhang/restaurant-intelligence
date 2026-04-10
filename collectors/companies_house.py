@@ -256,7 +256,7 @@ class CompaniesHouseCollector(BaseCollector):
         return {
             "company_number": data.get("company_number"),
             "company_name": data.get("company_name"),
-            "status": data.get("company_status"),
+            "status": data.get("company_status") or "unknown",
             "incorporation_date": data.get("date_of_creation"),
             "dissolution_date": data.get("date_of_cessation"),
             "registered_address": self._format_address(
