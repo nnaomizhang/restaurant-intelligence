@@ -4,20 +4,32 @@ sys.path.append('/Users/naomi/restaurant-intelligence')
 from dotenv import load_dotenv
 load_dotenv('/Users/naomi/restaurant-intelligence/.env')
 
-from ingestion.google_places import get_restaurants, run
+from ingestion.google_places import get_restaurants
 
-def test_get_restaurants():
+def test_returns_results():
     results = get_restaurants(51.5231, -0.0784, "Shoreditch")
-    assert len(results) > 0, "Should return at least 1 restaurant"
-    assert results[0]["name"] is not None, "Restaurant should have a name"
-    assert results[0]["lineage"] is not None, "Should have lineage metadata"
-    print(f"PASS — found {len(results)} restaurants")
-    print(f"First result: {results[0]['name']}")
+    assert len(results) > 0
 
-def test_all_neighbourhoods():
-    run()
-    print("PASS — all 3 neighbourhoods collected")
+def test_restaurant_has_name():
+    results = get_restaurants(51.5231, -0.0784, "Shoreditch")
+    assert results[0]["name"] is not None
 
-if __name__ == "__main__":
-    test_get_restaurants()
-    test_all_neighbourhoods()
+def test_restaurant_has_rating():
+    results = get_restaurants(51.5231, -0.0784, "Shoreditch")
+    assert results[0]["rating"] is not None
+
+def test_restaurant_has_address():
+    results = get_restaurants(51.5231, -0.0784, "Shoreditch")
+    assert results[0]["address"] is not None
+
+def test_lineage_exists():
+    results = get_restaurants(51.5231, -0.0784, "Shoreditch")
+    assert "lineage" in results[0]
+
+def test_lineage_has_source():
+    results = get_restaurants(51.5231, -0.0784, "Shoreditch")
+    assert results[0]["lineage"]["source_name"] == "google_places"
+
+def test_lineage_has_timestamp():
+    results = get_restaurants(51.5231, -0.0784, "Shoreditch")
+    assert results[0]["lineage"]["collection_timestamp"] is not None
