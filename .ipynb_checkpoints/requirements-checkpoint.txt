@@ -1,0 +1,44 @@
+# Core framework
+streamlit==1.41.1
+python-dotenv==1.0.1
+
+# API framework
+fastapi
+uvicorn
+pydantic
+
+# LLM and agent orchestration
+langchain==0.3.14
+langchain-openai==0.3.6
+langchain-community==0.3.14
+openai==1.82.0
+
+# MCP
+mcp
+
+# Vector store and embeddings
+chromadb==0.5.23
+sentence-transformers==3.3.1
+
+# Data collection
+requests==2.32.3
+beautifulsoup4==4.12.3
+selenium==4.27.1
+webdriver-manager==4.0.2
+pymongo
+
+# Data processing
+pandas==2.2.3
+geopy==2.4.1
+
+# Database
+sqlalchemy==2.0.36
+psycopg2-binary
+
+# Utilities
+tqdm==4.67.1
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.26.1
+
+# Testing
+pytest

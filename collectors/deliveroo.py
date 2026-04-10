@@ -1,27 +1,18 @@
 """
 Deliveroo Collector
 ===================
-Scrapes restaurant listings and full menus from Deliveroo.
-
-Approach (in priority order):
-  1. Selenium headless browser — renders the React SPA, parses the DOM
-  2. Manual JSON fallback — load pre-collected data from *_manual.json
-
-Deliveroo is a React SPA: plain requests/BeautifulSoup won't work because
-the content is rendered client-side. Selenium with headless Chrome is the
-most reliable automated approach.
-
-Rate limiting: 2-4 seconds between page loads
+Scrapes restaurant listings and menus from Deliveroo using Selenium.
+Falls back to manual JSON data if scraping fails.
+Cap: 15 restaurants per area.
 """
 
 import json
 import re
-from pathlib import Path
+import time
 
-from config import RAW_DIR
+from config import RAW_DIR, TARGET_AREAS
 from collectors.base import BaseCollector
 
-# Selenium imports — wrapped in try/except for environments without it
 try:
     from selenium import webdriver
     from selenium.webdriver.chrome.options import Options
@@ -29,11 +20,8 @@ try:
     from selenium.webdriver.common.by import By
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
-    from selenium.common.exceptions import (
-        TimeoutException,
-        NoSuchElementException,
-        WebDriverException,
-    )
+    from selenium.common.exceptions import TimeoutException, WebDriverException
+    from webdriver_manager.chrome import ChromeDriverManager
     SELENIUM_AVAILABLE = True
 except ImportError:
     SELENIUM_AVAILABLE = False
@@ -42,7 +30,38 @@ except ImportError:
 class DeliverooCollector(BaseCollector):
 
     BASE_URL = "https://deliveroo.co.uk"
-    VERSION = "1.0"
+    VERSION = "2.0"
+    MAX_RESTAURANTS_PER_AREA = 15
+
+    BANNED_RETAIL_KEYWORDS = [
+        "morrisons", "co-op", "coop", "sainsbury", "tesco",
+        "waitrose", "aldi", "lidl", "asda", "whole foods",
+        "iceland", "marks and spencer", "m&s", "planet organic",
+        "holland and barrett", "bp", "spar", "boots", "superdrug",
+        "gopuff", "getir", "gorillas", "one stop", "costcutter",
+        "premier", "budgens", "nisa", "off licence", "pharmacy",
+        "chemist", "foodhall",
+    ]
+
+    BANNED_URL_TERMS = [
+        "groceries", "grocery", "shopping",
+        "convenience", "pharmacy", "alcohol",
+    ]
+
+    PROMO_PHRASES = [
+        "delivered by", "minimum order", "delivery fee",
+        "allergens", "opening times", "add cutlery",
+        "restaurant info", "meal deal", "buy one get one",
+        "2 for 1", "% off", "entire menu", "free item",
+        "selected items", "offers", "promotion", "promo",
+        "20% off", "new customers", "off entire",
+    ]
+
+    NON_RESTAURANT_PAGE_SIGNALS = [
+        "grocery", "groceries", "supermarket", "pharmacy",
+        "chemist", "household essentials", "toiletries",
+        "cleaning products", "frozen food", "weekly shop",
+    ]
 
     def __init__(self):
         super().__init__(
@@ -52,51 +71,52 @@ class DeliverooCollector(BaseCollector):
         )
         self.driver = None
 
-    def collect(self, area: dict) -> list[dict]:
-        """
-        Collect restaurant and menu data for a target area.
-        Tries Selenium first, falls back to manual data.
-        """
-        slug = area.get("deliveroo_slug", "")
+    # ------------------------------------------------------------------
+    # Main collect method
+    # ------------------------------------------------------------------
 
-        # Try automated scraping first
+    def collect(self, area: dict) -> list[dict]:
+        slug = area.get("deliveroo_slug", "")
+        area_name = area["name"]
+        area_slug = area_name.lower().replace(" ", "_").replace("-", "_")
+
         if SELENIUM_AVAILABLE and slug:
             self.logger.info("Attempting Selenium scraping...")
             try:
-                restaurants = self._scrape_area(slug, area["name"])
-                if restaurants:
-                    self.save_raw(restaurants, area["name"])
-                    return restaurants
-                self.logger.warning("Scraping returned no results.")
+                restaurants = self._scrape_area(slug, area_name)
+                usable = [
+                    r for r in restaurants
+                    if r.get("name") and r.get("name") != "Unknown"
+                ]
+                if usable:
+                    self.save_raw(usable, area_name)
+                    return usable
+                self.logger.warning("Scraping returned no usable results.")
             except Exception as e:
                 self.logger.warning(f"Scraping failed: {e}")
             finally:
                 self._close_driver()
         elif not SELENIUM_AVAILABLE:
             self.logger.warning(
-                "Selenium not installed. pip install selenium. "
-                "Also need Chrome + chromedriver."
+                "Selenium not installed. Run: pip install selenium webdriver-manager"
             )
 
-        # Fallback to manual data
         self.logger.info("Falling back to manual data...")
-        manual = self.load_manual_data(area["name"])
+        manual = self.load_manual_data(area_name)
         if manual:
-            self.save_raw(manual, area["name"])
+            self.save_raw(manual, area_name)
         else:
             self.logger.warning(
                 f"No manual data found. Create: "
-                f"{self.raw_dir / (area['name'].lower() + '_manual.json')}"
+                f"{self.raw_dir / f'{area_slug}_manual.json'}"
             )
-            self._print_manual_template()
         return manual
 
     # ------------------------------------------------------------------
-    # Selenium scraping methods
+    # Driver setup
     # ------------------------------------------------------------------
 
     def _get_driver(self):
-        """Create a headless Chrome Selenium driver."""
         if self.driver:
             return self.driver
 
@@ -105,17 +125,28 @@ class DeliverooCollector(BaseCollector):
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_argument("--window-size=1440,2200")
         options.add_argument(
             "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
         )
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option("useAutomationExtension", False)
 
-        self.driver = webdriver.Chrome(options=options)
+        try:
+            service = Service(ChromeDriverManager().install())
+            self.driver = webdriver.Chrome(service=service, options=options)
+        except Exception:
+            self.driver = webdriver.Chrome(options=options)
+
         self.driver.set_page_load_timeout(30)
+        self.driver.execute_script(
+            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+        )
         return self.driver
 
     def _close_driver(self):
-        """Safely close the Selenium driver."""
         if self.driver:
             try:
                 self.driver.quit()
@@ -123,175 +154,235 @@ class DeliverooCollector(BaseCollector):
                 pass
             self.driver = None
 
+    # ------------------------------------------------------------------
+    # Area scraping
+    # ------------------------------------------------------------------
+
     def _scrape_area(self, slug: str, area_name: str) -> list[dict]:
-        """Scrape all restaurant listings for an area, then each menu."""
         driver = self._get_driver()
         url = f"{self.BASE_URL}/restaurants/{slug}"
         self.logger.info(f"Loading: {url}")
 
         driver.get(url)
-        self.rate_limit(3, 1)
+        self.rate_limit(4, 1)
 
-        # Handle cookie consent popup if present
         self._dismiss_cookies(driver)
+        self._scroll_page_slowly(driver, max_scrolls=15)
 
-        # Scroll down to load all restaurants (lazy loading)
-        self._scroll_to_bottom(driver)
-
-        # Extract restaurant cards from the listing page
         listings = self._extract_listings(driver)
-        self.logger.info(f"Found {len(listings)} restaurant listings")
+        self.logger.info(f"Found {len(listings)} listings before filtering")
 
-        # Fetch full menu for each restaurant
+        filtered = [l for l in listings if self._is_restaurant_listing(l)]
+        filtered = filtered[:self.MAX_RESTAURANTS_PER_AREA]
+        self.logger.info(f"Kept {len(filtered)} listings after filtering and cap")
+
         restaurants = []
-        for i, listing in enumerate(listings):
+        for i, listing in enumerate(filtered, start=1):
+            # Restart driver every 5 restaurants to prevent crashes
+            if i > 1 and (i - 1) % 5 == 0:
+                self.logger.info("Restarting driver to prevent memory issues...")
+                self._close_driver()
+                self.rate_limit(2, 1)
+                driver = self._get_driver()
+
             restaurant_url = listing.get("url", "")
             if not restaurant_url:
                 continue
 
+            menu_data = self._scrape_restaurant_page(driver, restaurant_url)
+
+            if menu_data.get("skip_page"):
+                self.logger.info(f"Skipped non-restaurant: {listing.get('name')}")
+                continue
+
+            if not listing.get("name") and menu_data.get("name"):
+                listing["name"] = menu_data["name"]
+
+            display_name = listing.get("name") or "Unknown"
             self.logger.info(
-                f"  [{i+1}/{len(listings)}] Scraping menu: {listing.get('name', '?')}"
+                f"[{i}/{len(filtered)}] Scraped: {display_name} "
+                f"— {len(menu_data.get('menu_items', []))} menu items"
             )
 
-            menu_data = self._scrape_restaurant_page(driver, restaurant_url)
             listing.update(menu_data)
             listing["neighbourhood"] = area_name
-            restaurants.append(listing)
 
-            self.rate_limit(2, 2)  # 2-4 second delay between pages
+            if self._is_restaurant_listing(listing):
+                restaurants.append(listing)
+
+            self.rate_limit(2, 1)
 
         return restaurants
 
-    def _dismiss_cookies(self, driver):
-        """Click cookie consent button if present."""
-        try:
-            cookie_btn = WebDriverWait(driver, 5).until(
-                EC.element_to_be_clickable(
-                    (By.XPATH, "//button[contains(text(), 'Accept')]")
-                )
-            )
-            cookie_btn.click()
-            self.rate_limit(1, 0.5)
-        except (TimeoutException, NoSuchElementException):
-            pass  # No cookie popup — continue
+    # ------------------------------------------------------------------
+    # Page interactions
+    # ------------------------------------------------------------------
 
-    def _scroll_to_bottom(self, driver, max_scrolls: int = 15):
-        """Scroll the page to trigger lazy-loading of all restaurant cards."""
-        last_height = driver.execute_script("return document.body.scrollHeight")
-        for scroll in range(max_scrolls):
-            driver.execute_script(
-                "window.scrollTo(0, document.body.scrollHeight);"
-            )
-            self.rate_limit(1.5, 0.5)
-            new_height = driver.execute_script("return document.body.scrollHeight")
-            if new_height == last_height:
-                self.logger.info(f"  Finished scrolling after {scroll+1} scrolls")
+    def _dismiss_cookies(self, driver):
+        xpaths = [
+            "//button[contains(text(), 'Accept')]",
+            "//button[contains(text(), 'Accept all')]",
+            "//button[contains(text(), 'Allow all')]",
+            "//button[contains(text(), 'I agree')]",
+        ]
+        for xpath in xpaths:
+            try:
+                btn = WebDriverWait(driver, 3).until(
+                    EC.element_to_be_clickable((By.XPATH, xpath))
+                )
+                btn.click()
+                self.rate_limit(1, 0.5)
+                return
+            except Exception:
+                continue
+
+    def _scroll_page_slowly(self, driver, max_scrolls: int = 15):
+        """Scroll slowly to trigger lazy loading."""
+        scroll_step = 400
+        current = 0
+        for _ in range(max_scrolls):
+            driver.execute_script(f"window.scrollTo(0, {current});")
+            self.rate_limit(0.8, 0.3)
+            current += scroll_step
+            total = driver.execute_script("return document.body.scrollHeight")
+            if current >= total:
                 break
-            last_height = new_height
+        driver.execute_script("window.scrollTo(0, 0);")
+        self.rate_limit(1, 0.3)
+
+    # ------------------------------------------------------------------
+    # Listing extraction
+    # ------------------------------------------------------------------
 
     def _extract_listings(self, driver) -> list[dict]:
-        """
-        Extract restaurant cards from the listings page.
-
-        Note: Deliveroo's HTML structure changes frequently.
-        These selectors may need updating. Check the actual DOM
-        using browser DevTools (Inspect Element) and update the
-        CSS selectors / XPaths accordingly.
-        """
         listings = []
-
-        # Try common patterns for restaurant cards
-        # Pattern 1: anchor tags with restaurant links
-        links = driver.find_elements(
-            By.CSS_SELECTOR, 'a[href*="/menu/"]'
-        )
-
         seen_urls = set()
+
+        links = driver.find_elements(By.CSS_SELECTOR, 'a[href*="/menu/"]')
+
         for link in links:
             try:
-                href = link.get_attribute("href") or ""
-                if "/menu/" not in href or href in seen_urls:
+                href = (link.get_attribute("href") or "").strip()
+                if not href or "/menu/" not in href:
+                    continue
+                href = href.split("?")[0].rstrip("/")
+                if href in seen_urls:
+                    continue
+                if not self._looks_like_valid_restaurant_url(href):
                     continue
                 seen_urls.add(href)
-
-                # Extract text content from the card
-                card_text = link.text.strip()
-                lines = [l.strip() for l in card_text.split("\n") if l.strip()]
-
-                name = lines[0] if lines else "Unknown"
-
-                # Try to extract rating and other info from card text
-                rating = None
-                cuisine_tags = []
-                for line in lines[1:]:
-                    # Look for rating pattern like "4.6"
-                    rating_match = re.search(r"(\d\.\d)", line)
-                    if rating_match and not rating:
-                        rating = float(rating_match.group(1))
-                    # Look for cuisine tags (usually comma-separated)
-                    elif "," in line and not any(c.isdigit() for c in line[:3]):
-                        cuisine_tags = [t.strip() for t in line.split(",")]
-
                 listings.append({
-                    "name": name,
+                    "name": None,
                     "url": href,
-                    "deliveroo_rating": rating,
-                    "cuisine_tags": cuisine_tags,
+                    "deliveroo_rating": None,
+                    "review_count": None,
+                    "cuisine_tags": [],
                 })
             except Exception:
                 continue
 
         return listings
 
+    # ------------------------------------------------------------------
+    # Restaurant page scraping
+    # ------------------------------------------------------------------
+
     def _scrape_restaurant_page(self, driver, url: str) -> dict:
-        """
-        Scrape a single restaurant page for menu items and details.
-        Returns dict with menu_items, operating_hours, address, etc.
-        """
         result = {
+            "name": None,
             "menu_items": [],
             "address": None,
             "postcode": None,
             "delivery_fee": None,
             "min_order": None,
             "estimated_delivery_mins": None,
-            "operating_hours": None,
+            "skip_page": False,
         }
 
         try:
             driver.get(url)
-            self.rate_limit(2, 1)
+            self.rate_limit(3, 1)
+
+            # Slow scroll to trigger lazy loading
+            self._scroll_page_slowly(driver, max_scrolls=12)
+            self.rate_limit(2, 0.5)
+
+            # Get page name
+            try:
+                h1 = driver.find_element(By.TAG_NAME, "h1")
+                result["name"] = h1.text.strip()
+            except Exception:
+                pass
+
+            # Check if grocery/retail
+            try:
+                body_text = driver.find_element(By.TAG_NAME, "body").text.lower()
+                if any(s in body_text for s in self.NON_RESTAURANT_PAGE_SIGNALS):
+                    result["skip_page"] = True
+                    return result
+            except Exception:
+                body_text = ""
 
             # Extract menu items
             result["menu_items"] = self._extract_menu_items(driver)
 
-            # Try to extract address from page
+            # Extract postcode
             try:
-                # Look for address in meta tags or structured data
-                page_source = driver.page_source
-                # Try to find postcode pattern in page source
                 postcode_match = re.search(
-                    r"([A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2})", page_source
-                )
+                r"\b([A-Z]{1,2}\d{1,2}\s?\d[A-Z]{2})\b",
+                driver.page_source,
+)
                 if postcode_match:
                     result["postcode"] = postcode_match.group(1)
             except Exception:
                 pass
 
-            # Try to extract delivery info
+            # Extract delivery info
             try:
                 page_text = driver.find_element(By.TAG_NAME, "body").text
-                fee_match = re.search(r"£(\d+\.?\d*)\s*delivery", page_text, re.I)
-                if fee_match:
-                    result["delivery_fee"] = float(fee_match.group(1))
-                min_match = re.search(r"Min\.?\s*order\s*£(\d+\.?\d*)", page_text, re.I)
-                if min_match:
-                    result["min_order"] = float(min_match.group(1))
-                time_match = re.search(r"(\d+)\s*[-–]\s*(\d+)\s*min", page_text)
-                if time_match:
-                    result["estimated_delivery_mins"] = (
-                        f"{time_match.group(1)}-{time_match.group(2)}"
-                    )
+
+                # Delivery fee — try multiple patterns
+                fee_patterns = [
+                    r"Delivery fee\s*£(\d+\.?\d*)",
+                    r"£(\d+\.?\d*)\s*delivery fee",
+                    r"delivery\s*£(\d+\.?\d*)",
+                    r"£(0\.\d{2})",
+                    r"Delivery\s*·\s*£(\d+\.?\d*)",
+                    r"delivery from\s*£(\d+\.?\d*)",
+                ]
+                for pattern in fee_patterns:
+                    fee = re.search(pattern, page_text, re.I)
+                    if fee:
+                        val = float(fee.group(1))
+                        if val <= 5.0:
+                            result["delivery_fee"] = val
+                            break
+
+                # Free delivery
+                if result["delivery_fee"] is None:
+                    if re.search(r"free delivery", page_text, re.I):
+                        result["delivery_fee"] = 0.0
+
+                # Min order
+                min_ord = re.search(
+                    r"Min\.?\s*order\s*£(\d+\.?\d*)", page_text, re.I
+                )
+                if min_ord:
+                    result["min_order"] = float(min_ord.group(1))
+
+                # Delivery time — try multiple patterns
+                time_patterns = [
+                    r"(\d+)\s*[-–]\s*(\d+)\s*min",
+                    r"(\d+)\s*to\s*(\d+)\s*min",
+                ]
+                for pattern in time_patterns:
+                    time_match = re.search(pattern, page_text)
+                    if time_match:
+                        result["estimated_delivery_mins"] = (
+                            f"{time_match.group(1)}-{time_match.group(2)}"
+                        )
+                        break
+
             except Exception:
                 pass
 
@@ -300,185 +391,215 @@ class DeliverooCollector(BaseCollector):
 
         return result
 
-    def _extract_menu_items(self, driver) -> list[dict]:
-        """
-        Extract menu items from a restaurant page.
+    # ------------------------------------------------------------------
+    # Menu extraction
+    # ------------------------------------------------------------------
 
-        Deliveroo structures menus in sections (Starters, Mains, etc.)
-        with items inside each. The DOM structure changes frequently —
-        update selectors as needed.
-        """
+    def _extract_menu_items(self, driver) -> list[dict]:
         items = []
 
-        try:
-            # Wait for menu content to load
-            WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.TAG_NAME, "main"))
-            )
+        # Try JSON-LD first — most reliable
+        json_ld_items = self._extract_menu_from_source(driver.page_source)
+        if json_ld_items:
+            self.logger.info(f"    JSON-LD extracted {len(json_ld_items)} items")
+            return json_ld_items
 
-            # Strategy: find all elements that look like menu item cards
-            # Look for price patterns to identify menu items
-            page_text = driver.page_source
+        # Try CSS selectors
+        selectors = [
+            '[data-testid="menu-item"]',
+            '[data-testid="MenuItem"]',
+            '[data-testid*="menuItem"]',
+            '[class*="menuItem"]',
+            '[class*="MenuItem"]',
+            '[class*="menu-item"]',
+            '[class*="ItemCard"]',
+            'li[class*="item"]',
+        ]
 
-            # Find menu sections and items using common structural patterns
-            # Deliveroo typically uses data-testid attributes
-            item_elements = driver.find_elements(
-                By.CSS_SELECTOR,
-                '[data-testid*="menu-item"], '
-                '[class*="MenuItem"], '
-                '[class*="menu-item"]'
-            )
+        item_elements = []
+        for selector in selectors:
+            elements = driver.find_elements(By.CSS_SELECTOR, selector)
+            if elements:
+                self.logger.info(
+                    f"    Selector '{selector}' matched {len(elements)} elements"
+                )
+                item_elements = elements
+                break
 
-            if not item_elements:
-                # Fallback: parse structured data from page source
-                items = self._extract_menu_from_source(page_text)
-                return items
+        if not item_elements:
+            self.logger.info("    No menu elements found with any selector")
+            return []
 
-            current_category = "Uncategorised"
-            for elem in item_elements:
-                try:
-                    text = elem.text.strip()
-                    lines = [l.strip() for l in text.split("\n") if l.strip()]
-                    if not lines:
-                        continue
+        current_category = "Uncategorised"
 
-                    # Extract price — look for £X.XX pattern
-                    price = None
-                    name = lines[0]
-                    description = ""
-                    for line in lines:
-                        price_match = re.search(r"£(\d+\.?\d*)", line)
-                        if price_match:
-                            price = float(price_match.group(1))
-                            break
-
-                    if len(lines) > 1:
-                        # Second line is usually description
-                        desc_line = lines[1]
-                        if not re.match(r"^£", desc_line):
-                            description = desc_line
-
-                    # Detect popularity badge
-                    is_popular = any(
-                        kw in text.lower()
-                        for kw in ["popular", "top rated", "bestseller"]
-                    )
-
-                    # Detect dietary tags
-                    dietary_tags = []
-                    text_lower = text.lower()
-                    if "vegan" in text_lower or "(vg)" in text_lower:
-                        dietary_tags.append("vegan")
-                    if "vegetarian" in text_lower or "(v)" in text_lower:
-                        dietary_tags.append("vegetarian")
-                    if "gluten" in text_lower or "(gf)" in text_lower:
-                        dietary_tags.append("gluten-free")
-                    if "halal" in text_lower:
-                        dietary_tags.append("halal")
-
-                    if price is not None:
-                        items.append({
-                            "name": name,
-                            "description": description,
-                            "price": price,
-                            "category": current_category,
-                            "is_popular": is_popular,
-                            "dietary_tags": dietary_tags,
-                        })
-                except Exception:
+        for elem in item_elements:
+            try:
+                text = (elem.text or "").strip()
+                if not text or "£" not in text:
                     continue
 
-        except TimeoutException:
-            self.logger.warning("Menu content didn't load in time")
+                lines = [l.strip() for l in text.split("\n") if l.strip()]
+                if not lines or len(lines) > 8:
+                    continue
 
-        self.logger.info(f"    Extracted {len(items)} menu items")
-        return items
+                text_lower = text.lower()
+
+                # Skip promos
+                if any(p in text_lower for p in self.PROMO_PHRASES):
+                    continue
+
+                name = lines[0].strip()
+                if not name or len(name) > 120:
+                    continue
+                if any(p in name.lower() for p in self.PROMO_PHRASES):
+                    continue
+                
+                # Skip calorie rows
+                if re.search(r"^\d+\s*kcal", name, re.I):
+                    continue
+
+                # Skip rows where name is just a price
+                if re.match(r"^£\d+", name):
+                    continue
+
+                # Skip rows where name is a discounted price like "£18.00£20.25"
+                if re.match(r"^£[\d.]+£[\d.]+", name):
+                    continue
+
+                # Extract price
+                price = None
+                for line in lines:
+                    m = re.search(r"£(\d+(?:\.\d{1,2})?)", line)
+                    if m:
+                        price = float(m.group(1))
+                        break
+
+                if price is None or price == 0:
+                    continue
+
+                # Extract description
+                description = ""
+                for line in lines[1:]:
+                    if "£" not in line and len(line) > 3:
+                        description = line
+                        break
+
+                # Dietary tags
+                dietary_tags = []
+                if "vegan" in text_lower or "(vg)" in text_lower:
+                    dietary_tags.append("vegan")
+                if "vegetarian" in text_lower or "(v)" in text_lower:
+                    dietary_tags.append("vegetarian")
+                if "gluten" in text_lower or "(gf)" in text_lower:
+                    dietary_tags.append("gluten-free")
+                if "halal" in text_lower:
+                    dietary_tags.append("halal")
+
+                items.append({
+                    "name": name,
+                    "description": description,
+                    "price": price,
+                    "category": current_category,
+                    "is_popular": any(
+                        kw in text_lower
+                        for kw in ["popular", "top rated", "bestseller"]
+                    ),
+                    "dietary_tags": dietary_tags,
+                })
+
+            except Exception:
+                continue
+
+        # Deduplicate
+        deduped = []
+        seen = set()
+        for item in items:
+            key = ((item.get("name") or "").lower(), item.get("price"))
+            if key in seen:
+                continue
+            seen.add(key)
+            deduped.append(item)
+        
+        # Cap at 50 items max per restaurant
+        deduped = deduped[:50]
+
+        self.logger.info(f"    CSS extracted {len(deduped)} menu items")
+        return deduped
 
     def _extract_menu_from_source(self, page_source: str) -> list[dict]:
-        """
-        Fallback: extract menu data from page source / JSON-LD.
-        Deliveroo sometimes embeds menu data in script tags.
-        """
         items = []
         try:
-            # Look for JSON-LD structured data
-            json_ld_match = re.search(
+            matches = re.findall(
                 r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
                 page_source,
                 re.DOTALL,
             )
-            if json_ld_match:
-                data = json.loads(json_ld_match.group(1))
+            for match in matches:
+                try:
+                    data = json.loads(match)
+                except json.JSONDecodeError:
+                    continue
+
                 if isinstance(data, dict) and "hasMenu" in data:
-                    menu = data["hasMenu"]
-                    for section in menu.get("hasMenuSection", []):
+                    for section in data["hasMenu"].get("hasMenuSection", []):
                         category = section.get("name", "Uncategorised")
                         for item in section.get("hasMenuItem", []):
                             offer = item.get("offers", {})
-                            price_str = offer.get("price", "0")
+                            try:
+                                price = float(offer.get("price", 0))
+                            except (TypeError, ValueError):
+                                continue
+                            if price == 0:
+                                continue
                             items.append({
                                 "name": item.get("name", ""),
                                 "description": item.get("description", ""),
-                                "price": float(price_str),
+                                "price": price,
                                 "category": category,
                                 "is_popular": False,
                                 "dietary_tags": [],
                             })
-        except (json.JSONDecodeError, ValueError, KeyError):
+        except Exception:
             pass
 
-        return items
+        # Deduplicate
+        deduped = []
+        seen = set()
+        for item in items:
+            key = ((item.get("name") or "").lower(), item.get("price"))
+            if key in seen:
+                continue
+            seen.add(key)
+            deduped.append(item)
+
+        return deduped
 
     # ------------------------------------------------------------------
-    # Manual data template
+    # Filters
     # ------------------------------------------------------------------
 
-    def _print_manual_template(self):
-        """Print a JSON template for manual data collection."""
-        template = [
-            {
-                "name": "Example Restaurant",
-                "cuisine_tags": ["Japanese", "Sushi", "Asian"],
-                "address": "123 High Street, London E1 6AB",
-                "postcode": "E1 6AB",
-                "deliveroo_rating": 4.6,
-                "review_count": 234,
-                "delivery_fee": 1.49,
-                "min_order": 10.00,
-                "estimated_delivery_mins": "25-35",
-                "operating_hours": "11:00-22:30",
-                "url": "https://deliveroo.co.uk/menu/london/shoreditch/example",
-                "menu_items": [
-                    {
-                        "name": "Chicken Katsu Curry",
-                        "description": "Crispy panko chicken with curry sauce and rice",
-                        "price": 12.50,
-                        "category": "Mains",
-                        "is_popular": True,
-                        "dietary_tags": [],
-                    },
-                    {
-                        "name": "Vegetable Gyoza (6 pcs)",
-                        "description": "Pan-fried dumplings with dipping sauce",
-                        "price": 6.50,
-                        "category": "Starters",
-                        "is_popular": False,
-                        "dietary_tags": ["vegan"],
-                    },
-                ],
-            }
-        ]
-        self.logger.info(
-            "Save your manual data in this format:\n"
-            + json.dumps(template, indent=2)
-        )
+    def _normalise_text(self, text: str) -> str:
+        text = (text or "").lower()
+        text = re.sub(r"[^a-z0-9\s/-]", " ", text)
+        return re.sub(r"\s+", " ", text).strip()
 
+    def _looks_like_valid_restaurant_url(self, url: str) -> bool:
+        url = self._normalise_text(url)
+        return not any(term in url for term in self.BANNED_URL_TERMS)
+
+    def _is_restaurant_listing(self, record: dict) -> bool:
+        name = self._normalise_text(record.get("name") or "")
+        url = self._normalise_text(record.get("url") or "")
+        text = f"{name} {url}"
+        return not any(kw in text for kw in self.BANNED_RETAIL_KEYWORDS)
+
+
+# ------------------------------------------------------------------
+# CLI entry point
+# ------------------------------------------------------------------
 
 if __name__ == "__main__":
-    from config import TARGET_AREAS
-
     collector = DeliverooCollector()
     results = collector.collect_all(TARGET_AREAS)
-
     total = sum(len(v) for v in results.values())
     print(f"\nDone. Collected {total} restaurants across {len(results)} areas.")
