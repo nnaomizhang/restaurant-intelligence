@@ -50,49 +50,68 @@ def model_catchment(engine, restaurant: dict) -> dict:
     lat = restaurant.get("latitude")
     lng = restaurant.get("longitude")
     name = restaurant.get("name", "Unknown")
+    business_type = restaurant.get("business_type", "")
 
     if not lat or not lng:
         return {}
 
-    catchment = {"name": name, "zones": {}}
+    catchment = {"name": name, "business_type": business_type, "zones": {}}
 
+    # Fetch all restaurants once outside the loop
     with engine.connect() as conn:
-        # Get all restaurants
-        all_restaurants = conn.execute(text("""
+        rows = conn.execute(text("""
             SELECT name, latitude, longitude, google_rating,
-                   neighbourhood, menu_item_count
+                   neighbourhood, menu_item_count, business_type,
+                   google_price_level
             FROM restaurants
             WHERE latitude IS NOT NULL AND longitude IS NOT NULL
         """)).fetchall()
 
-        for mode, config in TRAVEL_SPEEDS.items():
-            radius_km = get_radius_km(mode)
+    all_restaurants = [dict(r._mapping) for r in rows]
+    
+    print(f"    Loaded {len(all_restaurants)} restaurants for comparison")
 
-            # Find competitors within catchment
-            competitors = []
-            for r in all_restaurants:
-                r = dict(r._mapping)
-                if r["name"] == name:
-                    continue
-                dist = haversine_km(lat, lng, r["latitude"], r["longitude"])
-                if dist <= radius_km:
-                    competitors.append({
-                        "name": r["name"],
-                        "distance_km": round(dist, 3),
-                        "rating": r["google_rating"],
-                        "neighbourhood": r["neighbourhood"],
-                        "on_deliveroo": bool(r["menu_item_count"] and r["menu_item_count"] > 0),
-                    })
+    for mode in TRAVEL_SPEEDS:
+        radius_km = get_radius_km(mode)
+        competitors = []
 
-            catchment["zones"][mode] = {
-                "radius_km": round(radius_km, 2),
-                "competitor_count": len(competitors),
-                "top_competitors": sorted(competitors, key=lambda x: x["distance_km"])[:5],
-                "avg_competitor_rating": round(
-                    sum(c["rating"] for c in competitors if c["rating"]) /
-                    max(len([c for c in competitors if c["rating"]]), 1), 2
-                ),
-            }
+        for r in all_restaurants:
+            r_lat = r.get("latitude")
+            r_lng = r.get("longitude")
+            r_name = r.get("name", "")
+
+            if r_name == name:
+                continue
+            if r_lat is None or r_lng is None:
+                continue
+
+            dist = haversine_km(lat, lng, float(r_lat), float(r_lng))
+            if dist <= radius_km:
+                competitors.append({
+                    "name": r_name,
+                    "distance_km": round(dist, 3),
+                    "rating": r.get("google_rating"),
+                    "neighbourhood": r.get("neighbourhood"),
+                    "on_deliveroo": bool(r.get("menu_item_count") and r.get("menu_item_count") > 0),
+                    "business_type": r.get("business_type"),
+                    "price_level": r.get("google_price_level"),
+                })
+
+        same_type = [c for c in competitors if c["business_type"] == business_type]
+        high_rated = [c for c in competitors if c["rating"] and c["rating"] >= 4.5]
+
+        catchment["zones"][mode] = {
+            "radius_km": round(radius_km, 2),
+            "total_competitors": len(competitors),
+            "same_type_competitors": len(same_type),
+            "high_rated_competitors": len(high_rated),
+            "nearest_competitors": sorted(competitors, key=lambda x: x["distance_km"])[:3],
+            "avg_competitor_rating": round(
+                sum(c["rating"] for c in competitors if c["rating"]) /
+                max(len([c for c in competitors if c["rating"]]), 1), 2
+            ),
+            "competitive_intensity": "high" if len(competitors) > 100 else "medium" if len(competitors) > 30 else "low",
+        }
 
     return catchment
 
@@ -106,7 +125,6 @@ def run_catchment_modelling():
     engine = create_engine(DB_URI)
 
     with engine.connect() as conn:
-        # Get top 3 restaurants per neighbourhood
         rows = conn.execute(text("""
             SELECT name, neighbourhood, latitude, longitude,
                    google_rating, menu_item_count
@@ -118,6 +136,9 @@ def run_catchment_modelling():
         """)).fetchall()
 
     restaurants = [dict(r._mapping) for r in rows]
+    
+    print(f"  First restaurant keys: {list(restaurants[0].keys())}")
+    print(f"  First restaurant: {restaurants[0]}")
     results = {}
 
     print(f"\n  Modelling catchments for {len(restaurants)} restaurants...")
@@ -133,7 +154,7 @@ def run_catchment_modelling():
         # Print summary
         for mode in ["walk_5min", "walk_10min", "deliveroo_zone"]:
             zone = catchment.get("zones", {}).get(mode, {})
-            print(f"    {mode:<20} {zone.get('competitor_count', 0)} competitors "
+            print(f"    {mode:<20} {zone.get('total_competitors', 0)} competitors "
                   f"within {zone.get('radius_km', 0)}km")
 
     # Save results

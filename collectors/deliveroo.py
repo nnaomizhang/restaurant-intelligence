@@ -31,7 +31,7 @@ class DeliverooCollector(BaseCollector):
 
     BASE_URL = "https://deliveroo.co.uk"
     VERSION = "2.0"
-    MAX_RESTAURANTS_PER_AREA = 15
+    MAX_RESTAURANTS_PER_AREA = 50
 
     BANNED_RETAIL_KEYWORDS = [
         "morrisons", "co-op", "coop", "sainsbury", "tesco",
@@ -167,7 +167,7 @@ class DeliverooCollector(BaseCollector):
         self.rate_limit(4, 1)
 
         self._dismiss_cookies(driver)
-        self._scroll_page_slowly(driver, max_scrolls=15)
+        self._scroll_page_slowly(driver, max_scrolls=30)
 
         listings = self._extract_listings(driver)
         self.logger.info(f"Found {len(listings)} listings before filtering")

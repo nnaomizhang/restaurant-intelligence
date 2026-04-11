@@ -1,25 +1,27 @@
 """
 Data Cleaner
 ============
-Cleans and normalises raw collected data before loading into databases.
+Cleans and normalises raw data from all collectors.
 
-Steps:
-  1. Standardise field names across sources
-  2. Clean postcodes
-  3. Clean restaurant names
-  4. Remove Deliveroo duplicate price rows
-  5. Sanitise data before LLM calls
+Steps per source:
+  - Normalise names and postcodes
+  - Filter non-restaurants (hotels, supermarkets, florists)
+  - Sanitise personal data before LLM ingestion
+  - Clean Deliveroo menu items (remove price rows, dupes)
 """
 
 import re
 import json
-import os
 from pathlib import Path
 from datetime import datetime, timezone
 
 from config import RAW_DIR, PROCESSED_DIR
 from processing.lineage import log_transformation, generate_run_id
 
+
+# ==================================================================
+# Google Places — filter non-restaurants
+# ==================================================================
 
 NON_RESTAURANT_TYPES = {
     "lodging", "hotel", "pharmacy", "store", "supermarket",
@@ -31,11 +33,12 @@ NON_RESTAURANT_TYPES = {
     "movie_theater", "bowling_alley", "amusement_park",
 }
 
+
 def is_restaurant(record: dict) -> bool:
     """Return True only if record is primarily a restaurant/food business."""
     types = set(record.get("types") or [])
 
-    # Exclude anything with lodging — hotels with restaurants still aren't restaurants
+    # Exclude anything with lodging
     if "lodging" in types:
         return False
 
@@ -45,6 +48,25 @@ def is_restaurant(record: dict) -> bool:
         "meal_takeaway", "meal_delivery",
     }
     return bool(types & food_types)
+
+
+# ==================================================================
+# Deliveroo — filter non-food businesses
+# ==================================================================
+
+DELIVEROO_EXCLUDE_KEYWORDS = {
+    "whole foods", "tesco", "sainsbury", "waitrose", "marks & spencer",
+    "m&s food", "co-op", "lidl", "aldi", "morrisons", "asda", "boots",
+    "superdrug", "pharmacy", "chemist", "flowers", "florist",
+    "amazon", "deliveroo hop", "gorillas", "getir", "gopuff",
+}
+
+
+def is_restaurant_deliveroo(record: dict) -> bool:
+    """Filter out supermarkets and non-food businesses from Deliveroo."""
+    name = (record.get("name") or "").lower()
+    return not any(kw in name for kw in DELIVEROO_EXCLUDE_KEYWORDS)
+
 
 # ==================================================================
 # Postcode cleaning
@@ -71,8 +93,11 @@ def clean_name(name: str) -> str | None:
         return None
     name = name.strip()
     # Remove branch suffixes for matching
-    name = re.sub(r"\s*[-–]\s*(shoreditch|peckham|hackney|london|tower hill|spitalfields|bethnal green|brick lane|dalston|hoxton|old street).*$", "", name, flags=re.I)
-    # Normalise whitespace
+    name = re.sub(
+        r"\s*[-–]\s*(shoreditch|peckham|hackney|london|tower hill|"
+        r"spitalfields|bethnal green|brick lane|dalston|hoxton|old street).*$",
+        "", name, flags=re.I
+    )
     name = re.sub(r"\s+", " ", name)
     return name.strip()
 
@@ -102,28 +127,19 @@ def clean_menu_items(items: list[dict]) -> list[dict]:
     for item in items:
         name = (item.get("name") or "").strip()
 
-        # Skip empty names
         if not name:
             continue
-
-        # Skip price-only rows like "£17.99"
         if re.match(r"^£[\d.]+", name):
             continue
-
-        # Skip discounted price rows like "£18.00£20.25"
         if re.match(r"^£[\d.]+£[\d.]+", name):
             continue
-
-        # Skip calorie rows like "869 kcal"
         if re.match(r"^\d+\s*kcal", name, re.I):
             continue
 
-        # Skip promo items
         promo_phrases = ["% off", "new customers", "off entire", "free item", "meal deal"]
         if any(p in name.lower() for p in promo_phrases):
             continue
 
-        # Deduplicate by name + price
         key = (name.lower(), item.get("price"))
         if key in seen:
             continue
@@ -139,17 +155,11 @@ def clean_menu_items(items: list[dict]) -> list[dict]:
 # ==================================================================
 
 def sanitise_for_llm(text: str) -> str:
-    """
-    Strip personal data before sending to LLM.
-    Removes: phone numbers, emails, reviewer names.
-    """
+    """Strip personal data before sending to LLM."""
     if not text:
         return ""
-    # Remove phone numbers
     text = re.sub(r"\b(\+44|0)[\d\s\-]{9,13}\b", "[PHONE]", text)
-    # Remove email addresses
     text = re.sub(r"[\w.\-]+@[\w.\-]+\.\w+", "[EMAIL]", text)
-    # Remove UK postcodes from free text (keep in structured fields)
     text = re.sub(r"\b[A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2}\b", "[POSTCODE]", text)
     return text
 
@@ -172,10 +182,9 @@ def sanitise_reviews(reviews: list[dict]) -> list[dict]:
 # ==================================================================
 
 def clean_google_places(records: list[dict]) -> list[dict]:
-    """Clean Google Places records."""
+    """Clean Google Places records — filter hotels, normalise fields."""
     cleaned = []
     for r in records:
-        # Skip non-restaurants
         if not is_restaurant(r):
             continue
         cleaned.append({
@@ -184,9 +193,14 @@ def clean_google_places(records: list[dict]) -> list[dict]:
             "name_normalised": normalise_name(r.get("name", "")),
             "address": r.get("address"),
             "postcode": clean_postcode(
-                re.search(r"[A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2}", r.get("address", ""), re.I).group()
-                if re.search(r"[A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2}", r.get("address", ""), re.I)
-                else None
+                re.search(
+                    r"[A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2}",
+                    r.get("address", ""), re.I
+                ).group()
+                if re.search(
+                    r"[A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2}",
+                    r.get("address", ""), re.I
+                ) else None
             ),
             "latitude": r.get("latitude"),
             "longitude": r.get("longitude"),
@@ -203,7 +217,7 @@ def clean_google_places(records: list[dict]) -> list[dict]:
 
 
 def clean_fsa(records: list[dict]) -> list[dict]:
-    """Clean FSA records."""
+    """Clean FSA records — normalise ratings and postcodes."""
     cleaned = []
     for r in records:
         rating = r.get("rating_value")
@@ -243,9 +257,14 @@ def clean_companies_house(records: list[dict]) -> list[dict]:
             "name_normalised": normalise_name(r.get("company_name", "")),
             "registered_address": r.get("registered_address"),
             "postcode": clean_postcode(
-                re.search(r"[A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2}", r.get("registered_address", ""), re.I).group()
-                if re.search(r"[A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2}", r.get("registered_address", ""), re.I)
-                else None
+                re.search(
+                    r"[A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2}",
+                    r.get("registered_address", ""), re.I
+                ).group()
+                if re.search(
+                    r"[A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2}",
+                    r.get("registered_address", ""), re.I
+                ) else None
             ),
             "status": r.get("status"),
             "incorporation_date": r.get("incorporation_date"),
@@ -261,9 +280,13 @@ def clean_companies_house(records: list[dict]) -> list[dict]:
 
 
 def clean_deliveroo(records: list[dict]) -> list[dict]:
-    """Clean Deliveroo records."""
+    """Clean Deliveroo records — filter non-food businesses, clean menus."""
     cleaned = []
     for r in records:
+        # Skip non-food businesses
+        if not is_restaurant_deliveroo(r):
+            continue
+
         menu_items = clean_menu_items(r.get("menu_items", []))
         cleaned.append({
             "name": clean_name(r.get("name")),
@@ -283,12 +306,8 @@ def clean_deliveroo(records: list[dict]) -> list[dict]:
 
 
 def clean_ons_census(records: list[dict]) -> list[dict]:
-    """Clean ONS census records — mostly pass through."""
-    cleaned = []
-    for r in records:
-        record = {k: v for k, v in r.items()}
-        cleaned.append(record)
-    return cleaned
+    """Clean ONS census records — pass through with minor fixes."""
+    return [{k: v for k, v in r.items()} for r in records]
 
 
 # ==================================================================

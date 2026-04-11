@@ -8,6 +8,12 @@ API docs: https://developers.google.com/maps/documentation/places/web-service
 Endpoints used:
   - Nearby Search:  find restaurants within radius
   - Place Details:  full info + reviews per restaurant
+
+Uses multiple search terms per area to maximise coverage:
+  restaurant, cafe, takeaway, food, bistro, bar food
+
+Deduplicates on google_place_id to avoid double-counting.
+Filters out hotels (lodging type).
 """
 
 import requests
@@ -18,9 +24,33 @@ from collectors.base import BaseCollector
 class GooglePlacesCollector(BaseCollector):
 
     BASE_URL = "https://maps.googleapis.com/maps/api/place"
-    VERSION = "1.0"
+    VERSION = "1.1"
 
-    # Fields to request from Place Details (controls cost per call)
+    # Multiple search terms to maximise coverage
+    SEARCH_TERMS = [
+        "restaurant",
+        "cafe",
+        "takeaway",
+        "food",
+        "bistro",
+        "bar food",
+        "indian",
+        "chinese",
+        "italian",
+        "thai",
+        "japanese",
+        "african",
+        "caribbean",
+        "turkish",
+        "korean",
+        "vietnamese",
+        "mexican",
+        "pizza",
+        "sushi",
+        "burger",
+    ]
+
+    # Fields to request from Place Details
     DETAIL_FIELDS = [
         "place_id",
         "name",
@@ -51,25 +81,47 @@ class GooglePlacesCollector(BaseCollector):
             )
 
     def collect(self, area: dict) -> list[dict]:
-        """Collect restaurant data for one target area."""
-        self.logger.info(f"Searching restaurants near {area['name']} "
-                         f"({area['lat']}, {area['lng']}) r={area['radius_km']}km")
-
-        # Step 1: Discover restaurants via Nearby Search
-        raw_listings = self._nearby_search(
-            lat=area["lat"],
-            lng=area["lng"],
-            radius_km=area["radius_km"],
+        """
+        Collect restaurant data for one target area.
+        Uses multiple search terms and deduplicates on place_id.
+        """
+        self.logger.info(
+            f"Searching restaurants near {area['name']} "
+            f"({area['lat']}, {area['lng']}) r={area['radius_km']}km"
         )
-        self.logger.info(f"Nearby Search found {len(raw_listings)} restaurants")
 
-        # Step 2: Fetch full details + reviews for each
+        # Step 1 — Discover restaurants via multiple searches
+        seen_place_ids = set()
+        all_listings = []
+
+        for term in self.SEARCH_TERMS:
+            self.logger.info(f"  Searching: '{term}'")
+            listings = self._nearby_search(
+                lat=area["lat"],
+                lng=area["lng"],
+                radius_km=area["radius_km"],
+                keyword=term,
+            )
+            new = 0
+            for listing in listings:
+                pid = listing.get("place_id")
+                if pid and pid not in seen_place_ids:
+                    seen_place_ids.add(pid)
+                    all_listings.append(listing)
+                    new += 1
+
+            self.logger.info(f"    {new} new unique results")
+            self.rate_limit(0.5, 0.2)
+
+        self.logger.info(f"  Total unique listings: {len(all_listings)}")
+
+        # Step 2 — Fetch full details for each
         detailed_restaurants = []
-        for i, listing in enumerate(raw_listings):
+        for i, listing in enumerate(all_listings):
             place_id = listing.get("place_id")
             name = listing.get("name", "Unknown")
             self.logger.info(
-                f"  [{i+1}/{len(raw_listings)}] Fetching details: {name}"
+                f"  [{i+1}/{len(all_listings)}] Fetching details: {name}"
             )
 
             details = self._place_details(place_id)
@@ -77,15 +129,14 @@ class GooglePlacesCollector(BaseCollector):
                 details["neighbourhood"] = area["name"]
                 detailed_restaurants.append(details)
 
-            # Respect rate limits (0.5s base + jitter)
             self.rate_limit(0.3, 0.2)
 
         self.logger.info(
-            f"Successfully fetched details for "
-            f"{len(detailed_restaurants)}/{len(raw_listings)} restaurants"
+            f"  Fetched details for "
+            f"{len(detailed_restaurants)}/{len(all_listings)} restaurants"
         )
 
-        # Step 3: Save raw data with lineage
+        # Step 3 — Save raw data with lineage
         if detailed_restaurants:
             self.save_raw(detailed_restaurants, area["name"])
 
@@ -95,10 +146,16 @@ class GooglePlacesCollector(BaseCollector):
     # Private API methods
     # ------------------------------------------------------------------
 
-    def _nearby_search(self, lat: float, lng: float, radius_km: float) -> list[dict]:
+    def _nearby_search(
+        self,
+        lat: float,
+        lng: float,
+        radius_km: float,
+        keyword: str = "restaurant",
+    ) -> list[dict]:
         """
         Find restaurants near a location using Nearby Search.
-        Handles pagination (max 3 pages = 60 results).
+        Handles pagination (max 3 pages = 60 results per keyword).
         """
         restaurants = []
         radius_m = int(radius_km * 1000)
@@ -107,26 +164,30 @@ class GooglePlacesCollector(BaseCollector):
         params = {
             "location": f"{lat},{lng}",
             "radius": radius_m,
-            "type": "restaurant",
+            "type": "restaurant|cafe|food|bar",
+            "keyword": keyword,
             "key": self.api_key,
         }
 
         page = 1
         while True:
-            self.logger.info(f"  Nearby Search page {page}...")
-            response = requests.get(url, params=params, timeout=15)
-            response.raise_for_status()
-            data = response.json()
+            self.logger.info(f"    Page {page}...")
+            try:
+                response = requests.get(url, params=params, timeout=15)
+                response.raise_for_status()
+                data = response.json()
+            except requests.RequestException as e:
+                self.logger.error(f"Request failed: {e}")
+                break
 
             status = data.get("status")
             if status == "REQUEST_DENIED":
                 self.logger.error(
                     f"API request denied: {data.get('error_message', '')}. "
-                    f"Check your API key."
+                    "Check your API key."
                 )
                 break
             elif status == "ZERO_RESULTS":
-                self.logger.warning("No results found for this location/radius.")
                 break
             elif status != "OK":
                 self.logger.warning(f"Unexpected API status: {status}")
@@ -134,13 +195,12 @@ class GooglePlacesCollector(BaseCollector):
 
             results = data.get("results", [])
             restaurants.extend(results)
-            self.logger.info(f"  Page {page}: {len(results)} results")
+            self.logger.info(f"    Page {page}: {len(results)} results")
 
-            # Handle pagination — Google requires ~2s delay before next page
             next_token = data.get("next_page_token")
             if next_token and page < 3:
                 page += 1
-                self.rate_limit(2.0, 0.5)  # Google requires delay for page tokens
+                self.rate_limit(2.0, 0.5)
                 params = {"pagetoken": next_token, "key": self.api_key}
             else:
                 break
@@ -150,7 +210,7 @@ class GooglePlacesCollector(BaseCollector):
     def _place_details(self, place_id: str) -> dict | None:
         """
         Fetch full details and reviews for a single restaurant.
-        Returns structured dict matching our schema, or None on failure.
+        Returns structured dict or None on failure.
         """
         url = f"{self.BASE_URL}/details/json"
         params = {
@@ -183,7 +243,7 @@ class GooglePlacesCollector(BaseCollector):
                 "text": r.get("text", ""),
                 "rating": r.get("rating"),
                 "date": r.get("relative_time_description", ""),
-                "time": r.get("time"),  # Unix timestamp
+                "time": r.get("time"),
                 "author_name": r.get("author_name", "Anonymous"),
                 "language": r.get("language", "en"),
             })

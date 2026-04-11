@@ -286,3 +286,87 @@
 05:33:54 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 05:33:57 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 05:33:57 [agent] INFO: Query logged: Which restaurants in Peckham are on Deliveroo?... (3921ms)
+05:35:19 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+05:35:30 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+05:35:30 [agent] INFO: Query logged: Which neighbourhood should I open a new restaurant in and why? Use demand analys... (14991ms)
+05:39:31 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+05:39:38 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+05:39:38 [agent] INFO: Query logged: i'm a new restaurant owner planning to open in shoreditch, what cuisine do you r... (8649ms)
+20:17:54 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:17:55 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:17:55 [agent] INFO: Query logged: [Focus on Hackney] where is the best chinese restaurant]... (4351ms)
+20:18:10 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:18:12 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:18:12 [agent] INFO: Query logged: [Focus on Hackney] what is their best dish?... (4198ms)
+20:18:34 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:18:36 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:18:36 [agent] INFO: Query logged: where is the best chinese restaurant... (2822ms)
+20:18:47 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:18:47 [agent] INFO: Query logged: what is considered top-rated?... (2495ms)
+20:19:27 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:19:29 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:19:29 [agent] INFO: Query logged: what is the highest scoring chinese restaurant... (3021ms)
+20:20:36 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:37 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:38 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:40 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:41 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:43 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:44 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:45 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:46 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:47 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:49 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:50 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:51 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:52 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:53 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:55 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:56 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:20:58 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:21:02 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:21:05 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:21:07 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:21:13 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:21:15 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:21:15 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+20:21:15 [openai._base_client] INFO: Retrying request to /chat/completions in 0.292000 seconds
+20:21:15 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+20:21:15 [openai._base_client] INFO: Retrying request to /chat/completions in 1.878000 seconds
+20:21:19 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:21:19 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+20:21:19 [openai._base_client] INFO: Retrying request to /chat/completions in 4.522000 seconds
+20:21:23 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+20:21:23 [openai._base_client] INFO: Retrying request to /chat/completions in 1.978000 seconds
+20:21:26 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+20:21:26 [agent] INFO: Query logged: the score can be below 4.5, i just want the top scoring ... (52533ms)
+20:25:09 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:10 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:12 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:13 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:15 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:16 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:17 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:18 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:19 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:20 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:22 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:24 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:26 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:28 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:30 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:25:31 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:26:01 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:26:03 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:26:04 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:26:06 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:26:08 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:26:09 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:26:10 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:26:11 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+20:26:11 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+20:26:11 [openai._base_client] INFO: Retrying request to /chat/completions in 7.479000 seconds
+20:26:19 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+20:26:19 [openai._base_client] INFO: Retrying request to /chat/completions in 7.479000 seconds
+20:26:27 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+20:26:27 [agent] INFO: Query logged: what is the highest rated chinese restaurant from the records given... (80369ms)

@@ -128,13 +128,16 @@ def run_sentiment_analysis() -> dict:
     # Aggregate by cuisine
     cuisine_sentiment = defaultdict(lambda: {
         "positive": 0, "negative": 0, "neutral": 0,
-        "total": 0, "avg_score": 0.0, "scores": []
+        "total": 0, "avg_score": 0.0, "weighted_score": 0.0,
+        "scores": [], "reliable": True
     })
 
     neighbourhood_sentiment = defaultdict(lambda: {
         "positive": 0, "negative": 0, "neutral": 0,
         "total": 0, "avg_score": 0.0, "scores": []
     })
+
+    MIN_REVIEWS_FOR_RELIABILITY = 30
 
     for review in reviews:
         cuisine = review["cuisine"]
@@ -150,11 +153,33 @@ def run_sentiment_analysis() -> dict:
         neighbourhood_sentiment[neighbourhood]["total"] += 1
         neighbourhood_sentiment[neighbourhood]["scores"].append(score)
 
-    # Calculate averages
-    for data in list(cuisine_sentiment.values()) + list(neighbourhood_sentiment.values()):
+    # Calculate weighted averages
+    total_reviews = len(reviews)
+    for cuisine, data in cuisine_sentiment.items():
+        if data["scores"]:
+            raw_avg = sum(data["scores"]) / len(data["scores"])
+            # Weight by review count relative to total
+            weight = data["total"] / total_reviews
+            data["avg_score"] = round(raw_avg, 3)
+            data["weighted_score"] = round(raw_avg * weight * 10, 3)
+            data["reliable"] = data["total"] >= MIN_REVIEWS_FOR_RELIABILITY
+            data["sample_size"] = data["total"]
+        del data["scores"]
+
+    for data in neighbourhood_sentiment.values():
         if data["scores"]:
             data["avg_score"] = round(sum(data["scores"]) / len(data["scores"]), 3)
         del data["scores"]
+
+   # Save results
+    output_path = PROCESSED_DIR / "sentiment_results.json"
+    save_output = {
+        "by_cuisine": dict(cuisine_sentiment),
+        "by_neighbourhood": dict(neighbourhood_sentiment),
+        "total_reviews": len(reviews),
+    }
+    with open(output_path, "w") as f:
+        json.dump(save_output, f, indent=2)
 
     output = {
         "by_cuisine": dict(cuisine_sentiment),
@@ -162,16 +187,6 @@ def run_sentiment_analysis() -> dict:
         "total_reviews": len(reviews),
         "reviews": reviews,
     }
-
-    # Save results
-    output_path = PROCESSED_DIR / "sentiment_results.json"
-    save_output = {
-        "by_cuisine": output["by_cuisine"],
-        "by_neighbourhood": output["by_neighbourhood"],
-        "total_reviews": output["total_reviews"],
-    }
-    with open(output_path, "w") as f:
-        json.dump(save_output, f, indent=2)
 
     print(f"\n  Results by cuisine:")
     for cuisine, data in sorted(cuisine_sentiment.items(), key=lambda x: -x[1]["avg_score"]):

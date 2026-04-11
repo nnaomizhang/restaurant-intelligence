@@ -94,7 +94,7 @@ def calculate_demand_scores() -> dict:
         avg_price = safe(r.get("avg_price_level"), 2.0)
         avg_hygiene = safe(h.get("avg_hygiene"), 4.0)
 
-        # Demand indicators (higher = more demand)
+        # Demand indicators
         demand_components = {
             "population_score": min(population / 400000, 1.0),
             "density_score": min(density / 25000, 1.0),
@@ -104,14 +104,6 @@ def calculate_demand_scores() -> dict:
             "review_volume_score": min(total_reviews / 500000, 1.0),
             "delivery_demand_score": min(on_deliveroo / 20, 1.0),
             "sentiment_score": max(0, min(sentiment_score, 1.0)),
-        }
-
-        # Supply indicators (higher = more competition)
-        supply_components = {
-            "restaurant_density": min(total_restaurants / 3000, 1.0),
-            "avg_rating": avg_rating / 5.0,
-            "avg_hygiene": avg_hygiene / 5.0,
-            "avg_price_level": avg_price / 4.0,
         }
 
         # Weighted demand score
@@ -126,17 +118,46 @@ def calculate_demand_scores() -> dict:
             demand_components["sentiment_score"] * 0.10
         )
 
-        # Supply-demand gap (high demand + low supply = opportunity)
-        supply_score = supply_components["restaurant_density"]
-        opportunity_score = round((demand_score - supply_score * 0.5 + 0.5), 3)
-        opportunity_score = max(0, min(1, opportunity_score))
+        # Cuisine gap analysis — what cuisines are underrepresented?
+        sentiment_path = PROCESSED_DIR / "sentiment_results.json"
+        cuisine_gaps = {}
+        if sentiment_path.exists():
+            with open(sentiment_path) as f:
+                sent_data = json.load(f)
+            cuisine_data = sent_data.get("by_cuisine", {})
+            for cuisine, cdata in cuisine_data.items():
+                if cuisine == "Other":
+                    continue
+                positive_rate = cdata.get("positive", 0) / max(cdata.get("total", 1), 1)
+                # High positive sentiment + low review count = underserved demand
+                gap_score = round(positive_rate * (1 - min(cdata.get("total", 0) / 100, 1)), 3)
+                cuisine_gaps[cuisine] = {
+                    "positive_rate": round(positive_rate, 3),
+                    "review_count": cdata.get("total", 0),
+                    "gap_score": gap_score,
+                    "reliable": cdata.get("reliable", False),
+                }
+
+        # Market signals — meaningful indicators for investors
+        market_signals = []
+        if age_25_34 > 25:
+            market_signals.append(f"Strong 25-34 demographic ({round(age_25_34, 1)}%) — high dining out propensity")
+        if econ_active > 65:
+            market_signals.append(f"High economic activity ({round(econ_active, 1)}%) — discretionary spending capacity")
+        if single_hh > 35:
+            market_signals.append(f"High single household rate ({round(single_hh, 1)}%) — frequent restaurant users")
+        if sentiment_score > 0.7:
+            market_signals.append(f"Strong review sentiment ({round(sentiment_score, 3)}) — positive dining culture")
+        if on_deliveroo < 10:
+            market_signals.append(f"Low Deliveroo penetration ({int(on_deliveroo)} restaurants) — delivery market opportunity")
+        if avg_rating > 4.3:
+            market_signals.append(f"High average rating ({avg_rating}) — quality-conscious market")
 
         scores[area] = {
             "demand_score": round(demand_score, 3),
-            "supply_score": round(supply_score, 3),
-            "opportunity_score": opportunity_score,
+            "market_signals": market_signals,
+            "cuisine_gaps": cuisine_gaps,
             "demand_components": {k: round(v, 3) for k, v in demand_components.items()},
-            "supply_components": {k: round(v, 3) for k, v in supply_components.items()},
             "raw_metrics": {
                 "population": int(population),
                 "total_restaurants": int(total_restaurants),
@@ -145,6 +166,9 @@ def calculate_demand_scores() -> dict:
                 "on_deliveroo": int(on_deliveroo),
                 "avg_hygiene": round(avg_hygiene, 2),
                 "sentiment": round(sentiment_score, 3),
+                "age_25_34_pct": round(age_25_34, 1),
+                "econ_active_pct": round(econ_active, 1),
+                "single_household_pct": round(single_hh, 1),
             }
         }
 
@@ -153,20 +177,19 @@ def calculate_demand_scores() -> dict:
     with open(output_path, "w") as f:
         json.dump(scores, f, indent=2)
 
-    print("\n" + "="*60)
+    print(f"\n{'='*60}")
     print("  DEMAND MAPPER RESULTS")
     print("="*60)
     for area, data in scores.items():
         print(f"\n  {area}:")
         print(f"    Demand score:      {data['demand_score']:.3f}")
-        print(f"    Supply score:      {data['supply_score']:.3f}")
-        print(f"    Opportunity score: {data['opportunity_score']:.3f}")
-        print(f"    Population:        {data['raw_metrics']['population']:,}")
-        print(f"    Restaurants:       {data['raw_metrics']['total_restaurants']:,}")
-        print(f"    Avg rating:        {data['raw_metrics']['avg_rating']}")
-        print(f"    Sentiment:         {data['raw_metrics']['sentiment']}")
-    print("\n  Saved to", output_path)
-    print("="*60 + "\n")
+        print(f"    Market signals:    {len(data['market_signals'])}")
+        for signal in data['market_signals']:
+            print(f"      - {signal}")
+        print(f"    Cuisine gaps:")
+        gaps = sorted(data['cuisine_gaps'].items(), key=lambda x: -x[1]['gap_score'])
+        for cuisine, gap in gaps[:3]:
+            print(f"      {cuisine}: gap_score={gap['gap_score']}, reliable={gap['reliable']}")
 
     return scores
 

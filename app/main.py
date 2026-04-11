@@ -137,13 +137,14 @@ st.markdown("---")
 # Tabs
 # ------------------------------------------------------------------
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
     "💬 Strategic Chat",
     "🗺️ Restaurant Explorer",
     "🧹 Hygiene Intelligence",
     "👥 Demographics",
     "💭 Sentiment Analysis",
     "📊 Market Opportunity",
+    "📍 Location Analysis",
 ])
 
 
@@ -463,56 +464,19 @@ with tab5:
 
         st.metric("Reviews analysed", f"{sentiment_data.get('total_reviews', 0):,}")
 
-        st.subheader("Sentiment by neighbourhood")
-        neighbourhood_sentiment = sentiment_data.get("by_neighbourhood", {})
-        if neighbourhood_sentiment:
-            df_sent = pd.DataFrame([
-                {
-                    "Neighbourhood": k,
-                    "Avg sentiment score": round(v.get("avg_score", 0), 3),
-                    "Positive": v.get("positive", 0),
-                    "Negative": v.get("negative", 0),
-                    "Neutral": v.get("neutral", 0),
-                }
-                for k, v in neighbourhood_sentiment.items()
-            ])
-
-            col1, col2 = st.columns(2)
-            with col1:
-                fig = px.bar(
-                    df_sent,
-                    x="Neighbourhood",
-                    y="Avg sentiment score",
-                    title="Sentiment score by neighbourhood",
-                    color="Avg sentiment score",
-                    color_continuous_scale="RdYlGn",
-                )
-                st.plotly_chart(fig, use_container_width=True)
-            with col2:
-                fig = px.bar(
-                    df_sent,
-                    x="Neighbourhood",
-                    y=["Positive", "Negative", "Neutral"],
-                    title="Review breakdown",
-                    barmode="stack",
-                    color_discrete_map={
-                        "Positive": "#00CC96",
-                        "Negative": "#FF4B4B",
-                        "Neutral": "#636EFA",
-                    }
-                )
-                st.plotly_chart(fig, use_container_width=True)
-
         st.subheader("Sentiment by cuisine")
+        st.caption("Weighted by review volume — low sample cuisines flagged as unreliable")
         cuisine_sentiment = sentiment_data.get("by_cuisine", {})
         if cuisine_sentiment:
             df_cuisine = pd.DataFrame([
                 {
                     "Cuisine": k,
                     "Avg sentiment": round(v.get("avg_score", 0), 3),
+                    "Weighted score": round(v.get("weighted_score", 0), 3),
                     "Positive": v.get("positive", 0),
                     "Negative": v.get("negative", 0),
                     "Total reviews": v.get("total", 0),
+                    "Reliable": "✅" if v.get("reliable", False) else "⚠️ Low sample",
                 }
                 for k, v in cuisine_sentiment.items()
             ]).sort_values("Avg sentiment", ascending=False)
@@ -521,9 +485,9 @@ with tab5:
                 df_cuisine,
                 x="Cuisine",
                 y="Avg sentiment",
-                title="Sentiment by cuisine type",
-                color="Avg sentiment",
-                color_continuous_scale="RdYlGn",
+                title="Sentiment by cuisine (⚠️ = fewer than 30 reviews)",
+                color="Reliable",
+                color_discrete_map={"✅": "#00CC96", "⚠️ Low sample": "#FFA15A"},
             )
             st.plotly_chart(fig, use_container_width=True)
             st.dataframe(df_cuisine, use_container_width=True, hide_index=True)
@@ -535,7 +499,7 @@ with tab5:
 
 with tab6:
     st.header("Market Opportunity Analysis")
-    st.caption("Supply/demand scoring using population, demographics, sentiment, transport and restaurant density")
+    st.caption("Strategic market intelligence for restaurant investors")
 
     demand_path = PROCESSED_DIR / "demand_scores.json"
     catchment_path = PROCESSED_DIR / "catchment_results.json"
@@ -546,80 +510,71 @@ with tab6:
         with open(demand_path) as f:
             demand_data = json.load(f)
 
-        st.subheader("Opportunity scores by neighbourhood")
-        st.caption("Higher score = stronger market opportunity for new restaurant entrants")
+        st.subheader("Market signals by neighbourhood")
+        st.caption("Key indicators for restaurant investment decisions")
 
-        df_demand = pd.DataFrame([
-            {
-                "Neighbourhood": k,
-                "Demand score": v["demand_score"],
-                "Supply score": v["supply_score"],
-                "Opportunity score": v["opportunity_score"],
-                "Population": f"{v['raw_metrics']['population']:,}",
-                "Restaurants": v["raw_metrics"]["total_restaurants"],
-                "Avg rating": v["raw_metrics"]["avg_rating"],
-                "Sentiment": v["raw_metrics"]["sentiment"],
-            }
-            for k, v in demand_data.items()
-        ])
+        # Market signals
+        cols = st.columns(3)
+        for i, (area, data) in enumerate(demand_data.items()):
+            with cols[i]:
+                st.markdown(f"**{area}**")
+                st.caption(f"Demand score: {data['demand_score']:.3f}")
+                signals = data.get("market_signals", [])
+                for signal in signals:
+                    st.markdown(f"✅ {signal}")
 
-        col1, col2, col3 = st.columns(3)
-        for i, (_, row) in enumerate(df_demand.iterrows()):
-            col = [col1, col2, col3][i]
-            with col:
-                st.metric(
-                    row["Neighbourhood"],
-                    f"{row['Opportunity score']:.3f}",
-                    help="0 = no opportunity, 1 = maximum opportunity"
-                )
-                st.caption(
-                    f"Demand: {row['Demand score']:.3f} | "
-                    f"Supply: {row['Supply score']:.3f}"
-                )
+        st.markdown("---")
 
-        fig = px.bar(
-            df_demand,
-            x="Neighbourhood",
-            y=["Demand score", "Supply score", "Opportunity score"],
-            title="Market demand vs supply analysis",
-            barmode="group",
-        )
-        st.plotly_chart(fig, use_container_width=True)
-
-        st.subheader("Demand component breakdown")
+        # Demand components
+        st.subheader("Demand driver comparison")
+        all_components = []
         for area, data in demand_data.items():
-            with st.expander(f"📊 {area} — full breakdown"):
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.markdown("**Raw metrics:**")
-                    metrics = data["raw_metrics"]
-                    st.write(f"Population: {metrics['population']:,}")
-                    st.write(f"Restaurants: {metrics['total_restaurants']}")
-                    st.write(f"Avg rating: {metrics['avg_rating']}")
-                    st.write(f"Total reviews: {metrics['total_reviews']:,}")
-                    st.write(f"On Deliveroo: {metrics['on_deliveroo']}")
-                    st.write(f"Avg hygiene: {metrics['avg_hygiene']}")
-                    st.write(f"Sentiment: {metrics['sentiment']}")
-                with col2:
-                    components = data.get("demand_components", {})
-                    df_comp = pd.DataFrame([
-                        {
-                            "Component": k.replace("_score", "").replace("_", " ").title(),
-                            "Score": round(v, 3)
-                        }
-                        for k, v in components.items()
-                    ])
-                    fig = px.bar(
-                        df_comp, x="Component", y="Score",
-                        title=f"{area} demand drivers",
-                        color="Score",
-                        color_continuous_scale="Blues",
-                    )
-                    st.plotly_chart(fig, use_container_width=True)
+            for component, score in data.get("demand_components", {}).items():
+                all_components.append({
+                    "Neighbourhood": area,
+                    "Driver": component.replace("_score", "").replace("_", " ").title(),
+                    "Score": score,
+                })
+        if all_components:
+            df_comp = pd.DataFrame(all_components)
+            fig = px.bar(
+                df_comp,
+                x="Driver",
+                y="Score",
+                color="Neighbourhood",
+                barmode="group",
+                title="Demand drivers by neighbourhood",
+            )
+            st.plotly_chart(fig, use_container_width=True)
 
+        st.markdown("---")
+
+        # Cuisine gap analysis
+        st.subheader("Cuisine gap analysis")
+        st.caption("High positive sentiment + low review count = underserved demand")
+
+        for area, data in demand_data.items():
+            with st.expander(f"📊 {area} — cuisine gaps"):
+                gaps = data.get("cuisine_gaps", {})
+                if gaps:
+                    df_gaps = pd.DataFrame([
+                        {
+                            "Cuisine": k,
+                            "Positive rate": v["positive_rate"],
+                            "Review count": v["review_count"],
+                            "Gap score": v["gap_score"],
+                            "Reliable": "✅" if v["reliable"] else "⚠️ Low sample",
+                        }
+                        for k, v in sorted(gaps.items(), key=lambda x: -x[1]["gap_score"])
+                    ])
+                    st.dataframe(df_gaps, use_container_width=True, hide_index=True)
+
+        st.markdown("---")
+
+        # Catchment analysis
         if catchment_path.exists():
-            st.subheader("Catchment zone analysis")
-            st.caption("Competitor density within walking, cycling and delivery zones")
+            st.subheader("Competitive positioning analysis")
+            st.caption("Competitor density within walking and delivery zones")
             with open(catchment_path) as f:
                 catchment_data = json.load(f)
 
@@ -630,25 +585,206 @@ with tab6:
                         {
                             "Zone": zone.replace("_", " ").title(),
                             "Radius (km)": info.get("radius_km", 0),
-                            "Competitors": info.get("competitor_count", 0),
+                            "Total competitors": info.get("total_competitors", 0),
+                            "Same type": info.get("same_type_competitors", 0),
+                            "High rated (4.5+)": info.get("high_rated_competitors", 0),
                             "Avg competitor rating": info.get("avg_competitor_rating", 0),
+                            "Intensity": info.get("competitive_intensity", ""),
                         }
                         for zone, info in zones.items()
                     ])
                     st.dataframe(df_zones, use_container_width=True, hide_index=True)
 
+        # Map
         geojson_path = PROCESSED_DIR / "restaurants.geojson"
         if geojson_path.exists():
             st.subheader("Restaurant density map")
             with open(geojson_path) as f:
                 geojson_data = json.load(f)
             coords = [
-                {
-                    "lat": f["geometry"]["coordinates"][1],
-                    "lon": f["geometry"]["coordinates"][0],
-                }
+                {"lat": f["geometry"]["coordinates"][1],
+                 "lon": f["geometry"]["coordinates"][0]}
                 for f in geojson_data["features"]
                 if f["geometry"]["type"] == "Point"
             ]
             if coords:
                 st.map(pd.DataFrame(coords))
+                
+# ------------------------------------------------------------------
+# Tab 7 — Location Analysis
+# ------------------------------------------------------------------
+
+with tab7:
+    st.header("📍 Location Analysis")
+    st.caption("Enter a postcode to find nearby restaurants, competitors and transport links")
+
+    col1, col2 = st.columns([2, 1])
+    with col1:
+        postcode_input = st.text_input(
+            "Enter a London postcode",
+            placeholder="e.g. E2 7JE, SE15 4DH, E8 4QJ",
+            help="Enter any postcode in Shoreditch, Peckham or Hackney"
+        )
+    with col2:
+        radius_choice = st.selectbox(
+            "Search radius",
+            ["5 min walk (0.4km)", "10 min walk (0.8km)", "Deliveroo zone (3km)"],
+        )
+
+    radius_map = {
+        "5 min walk (0.4km)": 0.4,
+        "10 min walk (0.8km)": 0.8,
+        "Deliveroo zone (3km)": 3.0,
+    }
+    radius_km = radius_map[radius_choice]
+
+    if postcode_input:
+        # Geocode postcode using postcodes.io
+        import requests as req
+        postcode_clean = postcode_input.strip().upper().replace(" ", "")
+        geo_url = f"https://api.postcodes.io/postcodes/{postcode_clean}"
+
+        try:
+            geo_resp = req.get(geo_url, timeout=10)
+            if geo_resp.status_code == 200:
+                geo_data = geo_resp.json()["result"]
+                user_lat = geo_data["latitude"]
+                user_lng = geo_data["longitude"]
+                area = geo_data.get("admin_ward", "Unknown area")
+
+                st.success(f"✅ Found: {postcode_input.upper()} — {area} ({user_lat:.4f}, {user_lng:.4f})")
+
+                # Find nearby restaurants
+                from sqlalchemy import create_engine, text
+                import os
+                engine = create_engine(os.getenv("DATABASE_URL", "postgresql://user:password@localhost:5432/restaurants"))
+
+                with engine.connect() as conn:
+                    rows = conn.execute(text("""
+                        SELECT name, neighbourhood, address, postcode,
+                               latitude, longitude, google_rating,
+                               google_review_count, business_type,
+                               nearest_station, nearest_station_distance_km,
+                               transport_score, menu_item_count,
+                               nearest_station_lines
+                        FROM restaurants
+                        WHERE latitude IS NOT NULL AND longitude IS NOT NULL
+                    """)).fetchall()
+
+                all_restaurants = [dict(r._mapping) for r in rows]
+
+                # Calculate distances
+                from processing.catchment_modeller import haversine_km
+                nearby = []
+                for r in all_restaurants:
+                    dist = haversine_km(user_lat, user_lng, r["latitude"], r["longitude"])
+                    if dist <= radius_km:
+                        r["distance_km"] = round(dist, 3)
+                        nearby.append(r)
+
+                nearby = sorted(nearby, key=lambda x: x["distance_km"])
+
+                st.markdown("---")
+
+                # Metrics
+                col1, col2, col3, col4 = st.columns(4)
+                with col1:
+                    st.metric("Nearby restaurants", len(nearby))
+                with col2:
+                    rated = [r for r in nearby if r.get("google_rating")]
+                    avg_r = round(sum(r["google_rating"] for r in rated) / len(rated), 2) if rated else 0
+                    st.metric("Avg rating", avg_r)
+                with col3:
+                    on_del = sum(1 for r in nearby if r.get("menu_item_count", 0) > 0)
+                    st.metric("On Deliveroo", on_del)
+                with col4:
+                    high_rated = sum(1 for r in nearby if r.get("google_rating", 0) >= 4.5)
+                    st.metric("Highly rated (4.5+)", high_rated)
+
+                st.markdown("---")
+
+                # Map
+                st.subheader("Nearby restaurants map")
+                map_data = pd.DataFrame([
+                    {"lat": r["latitude"], "lon": r["longitude"]}
+                    for r in nearby
+                ] + [{"lat": user_lat, "lon": user_lng}])
+                st.map(map_data)
+
+                # Nearby restaurants table
+                st.subheader(f"Restaurants within {radius_choice}")
+                if nearby:
+                    df_nearby = pd.DataFrame(nearby)
+                    display_cols = ["name", "distance_km", "neighbourhood",
+                                   "google_rating", "business_type",
+                                   "nearest_station", "nearest_station_distance_km",
+                                   "transport_score", "menu_item_count"]
+                    available = [c for c in display_cols if c in df_nearby.columns]
+                    st.dataframe(
+                        df_nearby[available],
+                        use_container_width=True,
+                        hide_index=True,
+                    )
+
+                # Nearest TfL stations
+                st.subheader("Nearest TfL stations")
+                tfl_cache = PROCESSED_DIR / "tfl_stations.json"
+                if tfl_cache.exists():
+                    with open(tfl_cache) as f:
+                        stations = json.load(f)
+
+                    station_distances = []
+                    for s in stations:
+                        dist = haversine_km(user_lat, user_lng, s["lat"], s["lng"])
+                        station_distances.append({
+                            "Station": s["name"],
+                            "Distance (km)": round(dist, 3),
+                            "Lines": ", ".join(s.get("lines", [])[:3]),
+                            "Mode": s.get("mode", ""),
+                        })
+
+                    station_distances = sorted(station_distances, key=lambda x: x["Distance (km)"])[:10]
+                    st.dataframe(
+                        pd.DataFrame(station_distances),
+                        use_container_width=True,
+                        hide_index=True,
+                    )
+
+                # Market gap analysis
+                st.subheader("Cuisine analysis for this location")
+                if nearby:
+                    business_types = [r.get("business_type", "Unknown") for r in nearby if r.get("business_type")]
+                    if business_types:
+                        type_counts = pd.Series(business_types).value_counts().reset_index()
+                        type_counts.columns = ["Business Type", "Count"]
+                        fig = px.bar(
+                            type_counts,
+                            x="Business Type",
+                            y="Count",
+                            title=f"Restaurant types within {radius_choice}",
+                            color_discrete_sequence=["#FF4B4B"],
+                        )
+                        st.plotly_chart(fig, use_container_width=True)
+
+            else:
+                st.error(f"Postcode '{postcode_input}' not found. Please enter a valid London postcode.")
+
+        except Exception as e:
+            st.error(f"Error looking up postcode: {str(e)}")
+
+    else:
+        st.info("Enter a postcode above to analyse the location's restaurant market.")
+        st.markdown("**Example postcodes to try:**")
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.markdown("**Shoreditch**")
+            st.code("E2 7JE")
+            st.code("EC2A 3JX")
+        with col2:
+            st.markdown("**Peckham**")
+            st.code("SE15 4DH")
+            st.code("SE15 5RS")
+        with col3:
+            st.markdown("**Hackney**")
+            st.code("E8 4QJ")
+            st.code("E8 2AH")

@@ -1,0 +1,3179 @@
+[
+  {
+    "company_number": "15628005",
+    "company_name": "CORNERSTONE HACKNEY RESTAURANT LIMITED",
+    "status": "dissolved",
+    "incorporation_date": "2024-04-08",
+    "dissolution_date": "2026-02-03",
+    "registered_address": "3 Prince Edward Road, London, E9 5LX",
+    "sic_codes": [
+      "56101"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": null,
+    "filing_summary": {
+      "total_filings": 3,
+      "recent_filings": [
+        {
+          "date": "2026-02-03",
+          "type": "GAZ2",
+          "description": "gazette-dissolved-compulsory",
+          "category": "gazette"
+        },
+        {
+          "date": "2025-11-18",
+          "type": "GAZ1",
+          "description": "gazette-notice-compulsory",
+          "category": "gazette"
+        },
+        {
+          "date": "2024-04-08",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "OLASUPO, Fiyinfoluwa Sefinat",
+        "role": "director",
+        "appointed_on": "2024-04-08",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "Company status: dissolved"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "SC531976",
+    "company_name": "ABC HACKNEY TAXIS LIMITED",
+    "status": "active",
+    "incorporation_date": "2016-04-07",
+    "dissolution_date": null,
+    "registered_address": "13 Reform Street, Tayport, DD6 9HX",
+    "sic_codes": [
+      "49320"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2027-01-31",
+    "last_accounts_date": "2025-04-30",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-01-28",
+    "filing_summary": {
+      "total_filings": 42,
+      "recent_filings": [
+        {
+          "date": "2026-01-20",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2026-01-20",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2026-01-14",
+          "type": "PSC07",
+          "description": "cessation-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2026-01-14",
+          "type": "PSC01",
+          "description": "notification-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2026-01-14",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2026-01-14",
+          "type": "RP01AP01",
+          "description": "replacement-filing-of-director-appointment-with-name",
+          "category": "officers"
+        },
+        {
+          "date": "2026-01-14",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2026-01-14",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2025-06-16",
+          "type": "PSC01",
+          "description": "notification-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2025-06-16",
+          "type": "PSC07",
+          "description": "cessation-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "BASHIR, Shehnaz",
+        "role": "director",
+        "appointed_on": "2026-01-01",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "CHIVERS, Alexander",
+        "role": "director",
+        "appointed_on": "2016-04-07",
+        "resigned_on": "2017-02-26",
+        "nationality": "British"
+      },
+      {
+        "name": "NASSIR, Lazgin Rashid",
+        "role": "director",
+        "appointed_on": "2025-06-16",
+        "resigned_on": "2026-01-19",
+        "nationality": "British"
+      },
+      {
+        "name": "SHARIF, Nazia",
+        "role": "director",
+        "appointed_on": "2017-02-26",
+        "resigned_on": "2025-06-16",
+        "nationality": "British"
+      },
+      {
+        "name": "SHARIF, Sajid",
+        "role": "director",
+        "appointed_on": "2017-02-26",
+        "resigned_on": "2025-06-16",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "High officer turnover (4 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "17004191",
+    "company_name": "ACCOUNT HACKNEY LIMITED",
+    "status": "active",
+    "incorporation_date": "2026-01-30",
+    "dissolution_date": null,
+    "registered_address": "Unit E106 Echo Building Hackney Bridge, East Bay Lane, London, E15 2SJ",
+    "sic_codes": [
+      "85590"
+    ],
+    "type": "private-limited-guarant-nsc",
+    "accounts_overdue": false,
+    "accounts_next_due": "2027-10-30",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-02-12",
+    "filing_summary": {
+      "total_filings": 1,
+      "recent_filings": [
+        {
+          "date": "2026-01-30",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "ADEOSHUN, Ayodeji Olajuwon",
+        "role": "director",
+        "appointed_on": "2026-01-30",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "HEAD, Timothy Charles Hanbury",
+        "role": "director",
+        "appointed_on": "2026-01-30",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "LEAR, Yolanda Leola Deborah",
+        "role": "director",
+        "appointed_on": "2026-01-30",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "Very few filings (1 total)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "14461968",
+    "company_name": "ADELPHI COURT (HACKNEY) FREEHOLD LIMITED",
+    "status": "active",
+    "incorporation_date": "2022-11-04",
+    "dissolution_date": null,
+    "registered_address": "Flat 1 53 Celandine Drive, London, E8 3XF",
+    "sic_codes": [
+      "98000"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-08-31",
+    "last_accounts_date": "2024-11-30",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-11-17",
+    "filing_summary": {
+      "total_filings": 9,
+      "recent_filings": [
+        {
+          "date": "2026-01-04",
+          "type": "CH01",
+          "description": "change-person-director-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-11-11",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-08-20",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-06-25",
+          "type": "CH01",
+          "description": "change-person-director-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-11-03",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-09-17",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-09-14",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2024-01-18",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-11-04",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "AWAN, Manzoor Ali",
+        "role": "director",
+        "appointed_on": "2022-11-04",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "BUKIA, Lalia",
+        "role": "director",
+        "appointed_on": "2022-11-04",
+        "resigned_on": null,
+        "nationality": "Georgian"
+      },
+      {
+        "name": "FRANCO, Marco Antonio Leal",
+        "role": "director",
+        "appointed_on": "2022-11-04",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "HOGEGARD, Eva Maria Christina",
+        "role": "director",
+        "appointed_on": "2022-11-04",
+        "resigned_on": null,
+        "nationality": "Swedish"
+      },
+      {
+        "name": "ROSON, Jonathan",
+        "role": "director",
+        "appointed_on": "2022-11-04",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "08220267",
+    "company_name": "ALBION HOMES HACKNEY LIMITED",
+    "status": "active",
+    "incorporation_date": "2012-09-19",
+    "dissolution_date": null,
+    "registered_address": "Upshire Hall, Honey Lane, Waltham Abbey, EN9 3QS",
+    "sic_codes": [
+      "41100"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-05-26",
+    "last_accounts_date": "2024-08-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-07-14",
+    "filing_summary": {
+      "total_filings": 45,
+      "recent_filings": [
+        {
+          "date": "2025-08-26",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-07-16",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-08-05",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-05-25",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-08-26",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-07-14",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-05-26",
+          "type": "AA01",
+          "description": "change-account-reference-date-company-previous-shortened",
+          "category": "accounts"
+        },
+        {
+          "date": "2022-07-22",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-05-27",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2021-08-09",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "BARTER, Alan Jack",
+        "role": "director",
+        "appointed_on": "2014-07-01",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "BARTER, Alan",
+        "role": "director",
+        "appointed_on": "2012-09-19",
+        "resigned_on": "2012-12-01",
+        "nationality": "British"
+      },
+      {
+        "name": "BARTER, Daniel Alan",
+        "role": "director",
+        "appointed_on": "2012-12-01",
+        "resigned_on": "2018-04-05",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "06652443",
+    "company_name": "ALLEN ROAD HACKNEY LIMITED",
+    "status": "active",
+    "incorporation_date": "2008-07-22",
+    "dissolution_date": null,
+    "registered_address": "38 Northwold Road, London, E5 8RN",
+    "sic_codes": [
+      "68209"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2027-12-31",
+    "last_accounts_date": "2026-03-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-03-19",
+    "filing_summary": {
+      "total_filings": 45,
+      "recent_filings": [
+        {
+          "date": "2026-03-31",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2026-03-31",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-03-31",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-03-05",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-11-25",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-03-07",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-11-16",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2023-05-09",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-03-08",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-03-08",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "CLARE, Kamaljit",
+        "role": "secretary",
+        "appointed_on": "2008-07-22",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "CLARE, Kamal",
+        "role": "director",
+        "appointed_on": "2008-07-22",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "CLARE, Kamaljit Singh",
+        "role": "director",
+        "appointed_on": "2008-07-22",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "07101771",
+    "company_name": "ALLIED HACKNEYS OF WALLASEY LIMITED",
+    "status": "active",
+    "incorporation_date": "2009-12-11",
+    "dissolution_date": null,
+    "registered_address": "1 Melling Road, Wallasey, Merseyside, CH45 1NQ",
+    "sic_codes": [
+      "49320"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-09-30",
+    "last_accounts_date": "2024-12-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-12-25",
+    "filing_summary": {
+      "total_filings": 41,
+      "recent_filings": [
+        {
+          "date": "2026-01-12",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-06-03",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-12-11",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-03-19",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-01-01",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-04-18",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2022-12-12",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-04-26",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2021-12-23",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2021-04-15",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "RICE, Michael Robert",
+        "role": "director",
+        "appointed_on": "2012-03-01",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "APPLETON, David Joseph",
+        "role": "director",
+        "appointed_on": "2012-01-26",
+        "resigned_on": "2013-05-24",
+        "nationality": "British"
+      },
+      {
+        "name": "BUNTING, Ian Michael",
+        "role": "director",
+        "appointed_on": "2009-12-11",
+        "resigned_on": "2010-09-18",
+        "nationality": "British"
+      },
+      {
+        "name": "MORRIN, Alec Douglas",
+        "role": "director",
+        "appointed_on": "2010-09-18",
+        "resigned_on": "2012-03-02",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "High officer turnover (3 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "05603769",
+    "company_name": "ALTIUS ONE (HACKNEY) MANAGEMENT COMPANY LIMITED",
+    "status": "active",
+    "incorporation_date": "2005-10-26",
+    "dissolution_date": null,
+    "registered_address": "Vestra Property Management, 3, Swan Road, Seaton, EX12 2US",
+    "sic_codes": [
+      "98000"
+    ],
+    "type": "private-limited-guarant-nsc",
+    "accounts_overdue": false,
+    "accounts_next_due": "2027-09-30",
+    "last_accounts_date": "2025-12-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-01-16",
+    "filing_summary": {
+      "total_filings": 102,
+      "recent_filings": [
+        {
+          "date": "2026-02-20",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2026-01-13",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2026-01-13",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2026-01-05",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2026-01-05",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2026-01-05",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-09-10",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-01-30",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-01-06",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-09-26",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "VESTRA PROPERTY MANAGEMENT LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2019-01-01",
+        "resigned_on": null,
+        "nationality": null
+      },
+      {
+        "name": "AINSWORTH, Richard Philip Charles",
+        "role": "director",
+        "appointed_on": "2026-01-05",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "DADSWELL, Ben",
+        "role": "director",
+        "appointed_on": "2026-01-05",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "WILSON, Jonathan David",
+        "role": "director",
+        "appointed_on": "2026-01-05",
+        "resigned_on": null,
+        "nationality": "South African"
+      },
+      {
+        "name": "HERTFORD COMPANY SECRETARIES LIMITED",
+        "role": "corporate-nominee-secretary",
+        "appointed_on": "2005-10-26",
+        "resigned_on": "2014-02-07",
+        "nationality": null
+      },
+      {
+        "name": "URBAN OWNERS LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2014-02-07",
+        "resigned_on": "2018-03-02",
+        "nationality": null
+      },
+      {
+        "name": "WARWICK ESTATES PROPERTY MANAGEMENT LTD",
+        "role": "corporate-secretary",
+        "appointed_on": "2018-03-02",
+        "resigned_on": "2019-01-01",
+        "nationality": null
+      },
+      {
+        "name": "CHIZA, Lillian",
+        "role": "director",
+        "appointed_on": "2013-06-20",
+        "resigned_on": "2017-08-15",
+        "nationality": "British"
+      },
+      {
+        "name": "FABIOS, Solène",
+        "role": "director",
+        "appointed_on": "2022-08-15",
+        "resigned_on": "2024-09-26",
+        "nationality": "French"
+      },
+      {
+        "name": "HELFER, Iris",
+        "role": "director",
+        "appointed_on": "2017-06-27",
+        "resigned_on": "2021-09-22",
+        "nationality": "Israeli"
+      },
+      {
+        "name": "KORB, Michael",
+        "role": "director",
+        "appointed_on": "2017-09-02",
+        "resigned_on": "2018-11-27",
+        "nationality": "British"
+      },
+      {
+        "name": "LORD, Steven",
+        "role": "director",
+        "appointed_on": "2011-05-18",
+        "resigned_on": "2013-06-20",
+        "nationality": "British"
+      },
+      {
+        "name": "MCKEE, Thomas George",
+        "role": "director",
+        "appointed_on": "2018-07-30",
+        "resigned_on": "2020-08-20",
+        "nationality": "British"
+      },
+      {
+        "name": "MIZRAHI, Muriel Vicky",
+        "role": "director",
+        "appointed_on": "2013-06-20",
+        "resigned_on": "2014-01-14",
+        "nationality": "British"
+      },
+      {
+        "name": "PANDYA, Daksha Mayank",
+        "role": "director",
+        "appointed_on": "2013-06-20",
+        "resigned_on": "2014-02-04",
+        "nationality": "British"
+      },
+      {
+        "name": "PULLIN, Charles Joseph",
+        "role": "director",
+        "appointed_on": "2015-12-21",
+        "resigned_on": "2018-03-12",
+        "nationality": "British"
+      },
+      {
+        "name": "PULLIN, Charles Joseph",
+        "role": "director",
+        "appointed_on": "2013-06-20",
+        "resigned_on": "2014-01-14",
+        "nationality": "British"
+      },
+      {
+        "name": "SESTILI, Jessica",
+        "role": "director",
+        "appointed_on": "2023-12-04",
+        "resigned_on": "2026-01-05",
+        "nationality": "English"
+      },
+      {
+        "name": "TOUNKARA, Siraba",
+        "role": "director",
+        "appointed_on": "2013-11-05",
+        "resigned_on": "2015-12-21",
+        "nationality": "British"
+      },
+      {
+        "name": "WALKER, Edward John",
+        "role": "director",
+        "appointed_on": "2021-08-05",
+        "resigned_on": "2025-01-30",
+        "nationality": "British"
+      },
+      {
+        "name": "CPM ASSET MANAGEMENT LIMITED",
+        "role": "corporate-director",
+        "appointed_on": "2005-10-26",
+        "resigned_on": "2011-05-18",
+        "nationality": null
+      },
+      {
+        "name": "HERTFORD COMPANY SECRETARIES LIMITED",
+        "role": "corporate-nominee-director",
+        "appointed_on": "2005-10-26",
+        "resigned_on": "2013-06-20",
+        "nationality": null
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "High officer turnover (18 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "09617616",
+    "company_name": "AMHURST PROJECT HACKNEY LIMITED",
+    "status": "active",
+    "incorporation_date": "2015-06-01",
+    "dissolution_date": null,
+    "registered_address": "171b Amhurst Road, London, E8 2AW",
+    "sic_codes": [
+      "68100"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2027-03-31",
+    "last_accounts_date": "2025-06-30",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-04-12",
+    "filing_summary": {
+      "total_filings": 36,
+      "recent_filings": [
+        {
+          "date": "2026-03-30",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-03-29",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-03-29",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-06-12",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-04-16",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-08-09",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2023-08-09",
+          "type": "PSC01",
+          "description": "notification-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2023-08-09",
+          "type": "PSC07",
+          "description": "cessation-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2023-08-09",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2023-06-04",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "HANNON, Emma",
+        "role": "director",
+        "appointed_on": "2023-08-09",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "TAYLOR, James",
+        "role": "director",
+        "appointed_on": "2023-05-04",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "CASCAVILLA, Roberto",
+        "role": "director",
+        "appointed_on": "2022-08-20",
+        "resigned_on": "2023-02-21",
+        "nationality": "Italian"
+      },
+      {
+        "name": "CASCAVILLA, Roberto",
+        "role": "director",
+        "appointed_on": "2015-06-01",
+        "resigned_on": "2015-07-31",
+        "nationality": "Italian"
+      },
+      {
+        "name": "DRAPER, Thomas Anthony",
+        "role": "director",
+        "appointed_on": "2015-06-01",
+        "resigned_on": "2023-08-09",
+        "nationality": "British"
+      },
+      {
+        "name": "PAGLIOCHINI, Valentina",
+        "role": "director",
+        "appointed_on": "2015-10-27",
+        "resigned_on": "2016-11-21",
+        "nationality": "Italian"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "High officer turnover (4 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "15655503",
+    "company_name": "ART-K HACKNEY LTD",
+    "status": "active",
+    "incorporation_date": "2024-04-17",
+    "dissolution_date": null,
+    "registered_address": "Conifers, The Warren, Ashtead, KT21 2RX",
+    "sic_codes": [
+      "85590",
+      "90030",
+      "90040",
+      "94990"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-04-17",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-04-30",
+    "filing_summary": {
+      "total_filings": 3,
+      "recent_filings": [
+        {
+          "date": "2025-04-16",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-03-06",
+          "type": "AA01",
+          "description": "change-account-reference-date-company-current-extended",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-04-17",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "HARPER, David James",
+        "role": "director",
+        "appointed_on": "2024-04-17",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "HARPER, Emily Rose",
+        "role": "director",
+        "appointed_on": "2024-04-17",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "HARPER, Kathryn Margaret",
+        "role": "director",
+        "appointed_on": "2024-04-17",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "15297948",
+    "company_name": "AS HACKNEY LIMITED",
+    "status": "active",
+    "incorporation_date": "2023-11-21",
+    "dissolution_date": null,
+    "registered_address": "20a Ironmonger Lane, London, EC2V 8EP",
+    "sic_codes": [
+      "68209"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-12-31",
+    "last_accounts_date": "2025-03-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-12-04",
+    "filing_summary": {
+      "total_filings": 17,
+      "recent_filings": [
+        {
+          "date": "2026-01-08",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-12-24",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-04-28",
+          "type": "MR04",
+          "description": "mortgage-satisfy-charge-full",
+          "category": "mortgage"
+        },
+        {
+          "date": "2025-04-28",
+          "type": "MR04",
+          "description": "mortgage-satisfy-charge-full",
+          "category": "mortgage"
+        },
+        {
+          "date": "2025-04-28",
+          "type": "MR01",
+          "description": "mortgage-create-with-deed-with-charge-number-charge-creation-date",
+          "category": "mortgage"
+        },
+        {
+          "date": "2025-04-28",
+          "type": "MR01",
+          "description": "mortgage-create-with-deed-with-charge-number-charge-creation-date",
+          "category": "mortgage"
+        },
+        {
+          "date": "2024-12-30",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-12-16",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-11-14",
+          "type": "CH01",
+          "description": "change-person-director-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-01-05",
+          "type": "MR01",
+          "description": "mortgage-create-with-deed-with-charge-number-charge-creation-date",
+          "category": "mortgage"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "GARNIER, George Edward",
+        "role": "director",
+        "appointed_on": "2023-11-21",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "LOWE, Joseph Jeff",
+        "role": "director",
+        "appointed_on": "2023-11-21",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "SC807931",
+    "company_name": "ASSOCIATION OF HACKNEY CARRIAGE DRIVERS OF THE CITY OF EDINBURGH CIC",
+    "status": "active",
+    "incorporation_date": "2024-04-22",
+    "dissolution_date": null,
+    "registered_address": "17 Swanston Gardens, Edinburgh, EH10 7DJ",
+    "sic_codes": [
+      "49320",
+      "96090"
+    ],
+    "type": "private-limited-guarant-nsc",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-04-22",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-04-23",
+    "filing_summary": {
+      "total_filings": 7,
+      "recent_filings": [
+        {
+          "date": "2025-04-09",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-05-21",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-05-17",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-05-17",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-05-17",
+          "type": "PSC07",
+          "description": "cessation-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2024-05-08",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-04-22",
+          "type": "CICINC",
+          "description": "incorporation-community-interest-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "MCCULLOCH, Robert William Graves",
+        "role": "secretary",
+        "appointed_on": "2024-04-22",
+        "resigned_on": null,
+        "nationality": null
+      },
+      {
+        "name": "HORSBURGH, David",
+        "role": "director",
+        "appointed_on": "2024-05-07",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "MCCULLOCH, Robert William Graves",
+        "role": "director",
+        "appointed_on": "2024-04-22",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "STALKER, Jamie, Jmr",
+        "role": "director",
+        "appointed_on": "2024-05-07",
+        "resigned_on": null,
+        "nationality": "Zimbabwean"
+      },
+      {
+        "name": "TOD, Richard Steven",
+        "role": "director",
+        "appointed_on": "2024-04-22",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "WEBSTER, Steven Alexander",
+        "role": "director",
+        "appointed_on": "2024-05-07",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "ROBERTSON, Kevin William",
+        "role": "director",
+        "appointed_on": "2024-04-22",
+        "resigned_on": "2024-04-25",
+        "nationality": "Scottish"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "13499186",
+    "company_name": "ATLANTIS RECORDS HACKNEY LIMITED",
+    "status": "active",
+    "incorporation_date": "2021-07-07",
+    "dissolution_date": null,
+    "registered_address": "8 Clarence Road, London, E5 8HB",
+    "sic_codes": [
+      "47630"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-04-30",
+    "last_accounts_date": "2024-07-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-07-20",
+    "filing_summary": {
+      "total_filings": 10,
+      "recent_filings": [
+        {
+          "date": "2025-07-30",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-07-07",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-08-12",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-07-30",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-08-07",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-07-07",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2022-07-19",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-06-28",
+          "type": "PSC07",
+          "description": "cessation-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2022-06-28",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2021-07-07",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "CASEY, Liam",
+        "role": "director",
+        "appointed_on": "2021-07-07",
+        "resigned_on": null,
+        "nationality": "Irish"
+      },
+      {
+        "name": "COXON, John Richard Timothy",
+        "role": "director",
+        "appointed_on": "2021-07-07",
+        "resigned_on": "2022-06-28",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "17037635",
+    "company_name": "AURA STUDIOS HACKNEY LTD",
+    "status": "active",
+    "incorporation_date": "2026-02-17",
+    "dissolution_date": null,
+    "registered_address": "Studio 03 Fold, Gillian House, Stephenson St, London, E16 4SA",
+    "sic_codes": [
+      "68209",
+      "90040"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2027-11-17",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-03-02",
+    "filing_summary": {
+      "total_filings": 1,
+      "recent_filings": [
+        {
+          "date": "2026-02-17",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "ELSON, Michael Patrick",
+        "role": "director",
+        "appointed_on": "2026-02-17",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "HERNANDEZ CHINCHILLA, Michael Dayanne",
+        "role": "director",
+        "appointed_on": "2026-02-17",
+        "resigned_on": null,
+        "nationality": "Italian"
+      },
+      {
+        "name": "ORTOLI, Caroline Ann",
+        "role": "director",
+        "appointed_on": "2026-02-17",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "Very few filings (1 total)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "16807686",
+    "company_name": "BAC HACKNEY LTD",
+    "status": "active",
+    "incorporation_date": "2025-10-24",
+    "dissolution_date": null,
+    "registered_address": "193 Well Street, London, E9 6QU",
+    "sic_codes": [
+      "56210"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2027-07-24",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-11-06",
+    "filing_summary": {
+      "total_filings": 1,
+      "recent_filings": [
+        {
+          "date": "2025-10-24",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "AHMAD, Kamal",
+        "role": "director",
+        "appointed_on": "2025-10-24",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "Very few filings (1 total)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "17075146",
+    "company_name": "B&K HACKNEY LTD",
+    "status": "active",
+    "incorporation_date": "2026-03-06",
+    "dissolution_date": null,
+    "registered_address": "4 Green Lanes, London, N16 9NB",
+    "sic_codes": [
+      "56301"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2027-12-06",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-03-19",
+    "filing_summary": {
+      "total_filings": 1,
+      "recent_filings": [
+        {
+          "date": "2026-03-06",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "REDMAN, Brett Andrew",
+        "role": "director",
+        "appointed_on": "2026-03-06",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "Very few filings (1 total)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "16780372",
+    "company_name": "B&S HACKNEY LIMITED",
+    "status": "active",
+    "incorporation_date": "2025-10-13",
+    "dissolution_date": null,
+    "registered_address": "Unit 45 Bow Triangle Business Centre, London, E3 4UR",
+    "sic_codes": [
+      "56102"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2027-07-13",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-10-26",
+    "filing_summary": {
+      "total_filings": 1,
+      "recent_filings": [
+        {
+          "date": "2025-10-13",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "BEGUM, Husnara",
+        "role": "director",
+        "appointed_on": "2025-10-13",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "Very few filings (1 total)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "15727787",
+    "company_name": "BEN HACKNEY LTD",
+    "status": "active",
+    "incorporation_date": "2024-05-18",
+    "dissolution_date": null,
+    "registered_address": "20 Rathbone Place, London, W1T 1HY",
+    "sic_codes": [
+      "47910"
+    ],
+    "type": "ltd",
+    "accounts_overdue": true,
+    "accounts_next_due": "2026-02-18",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-11-12",
+    "filing_summary": {
+      "total_filings": 15,
+      "recent_filings": [
+        {
+          "date": "2025-10-29",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2025-10-29",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-07-09",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-06-21",
+          "type": "DISS40",
+          "description": "gazette-filings-brought-up-to-date",
+          "category": "gazette"
+        },
+        {
+          "date": "2025-06-18",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2025-04-15",
+          "type": "GAZ1",
+          "description": "gazette-notice-compulsory",
+          "category": "gazette"
+        },
+        {
+          "date": "2025-02-24",
+          "type": "RP10",
+          "description": "default-companies-house-service-address-applied-psc",
+          "category": "address"
+        },
+        {
+          "date": "2025-02-24",
+          "type": "RP09",
+          "description": "default-companies-house-service-address-applied-officer",
+          "category": "address"
+        },
+        {
+          "date": "2025-02-24",
+          "type": "RP05",
+          "description": "default-companies-house-registered-office-address-applied",
+          "category": "address"
+        },
+        {
+          "date": "2024-10-18",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "QIAN, Vanessa",
+        "role": "director",
+        "appointed_on": "2024-10-18",
+        "resigned_on": null,
+        "nationality": "English"
+      },
+      {
+        "name": "YUAN, Wenbin",
+        "role": "director",
+        "appointed_on": "2024-05-18",
+        "resigned_on": "2024-10-18",
+        "nationality": "Chinese"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "Accounts overdue"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "16059576",
+    "company_name": "BIG JUICY BURGERS (HACKNEY) LTD",
+    "status": "dissolved",
+    "incorporation_date": "2024-11-04",
+    "dissolution_date": "2026-04-07",
+    "registered_address": "Unit 5 329 London Road, Hemel Hempstead, HP3 9AL",
+    "sic_codes": [
+      "56103"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": null,
+    "filing_summary": {
+      "total_filings": 3,
+      "recent_filings": [
+        {
+          "date": "2026-04-07",
+          "type": "GAZ2",
+          "description": "gazette-dissolved-compulsory",
+          "category": "gazette"
+        },
+        {
+          "date": "2026-01-20",
+          "type": "GAZ1",
+          "description": "gazette-notice-compulsory",
+          "category": "gazette"
+        },
+        {
+          "date": "2024-11-04",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "NIZAM, Ishfaq Ali",
+        "role": "director",
+        "appointed_on": "2024-11-04",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "Company status: dissolved"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "15991705",
+    "company_name": "BLACK CARDAMOM HACKNEY LIMITED",
+    "status": "active",
+    "incorporation_date": "2024-10-01",
+    "dissolution_date": null,
+    "registered_address": "269 Well Street, London, E9 6RG",
+    "sic_codes": [
+      "56103"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-07-01",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-10-14",
+    "filing_summary": {
+      "total_filings": 6,
+      "recent_filings": [
+        {
+          "date": "2025-10-07",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-08-18",
+          "type": "PSC01",
+          "description": "notification-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2025-08-18",
+          "type": "PSC07",
+          "description": "cessation-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2025-08-18",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-08-18",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-10-01",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "HUSSAIN, Abul",
+        "role": "director",
+        "appointed_on": "2025-08-18",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "BEGUM, Lena",
+        "role": "director",
+        "appointed_on": "2024-10-01",
+        "resigned_on": "2025-08-18",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "15703508",
+    "company_name": "BLACK CAT CAFE (HACKNEY) LTD",
+    "status": "active",
+    "incorporation_date": "2024-05-04",
+    "dissolution_date": null,
+    "registered_address": "76a Clarence Road, London, E5 8HB",
+    "sic_codes": [
+      "56102"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-05-04",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-08-12",
+    "filing_summary": {
+      "total_filings": 20,
+      "recent_filings": [
+        {
+          "date": "2025-07-29",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-07-29",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-07-26",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-07-25",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-07-25",
+          "type": "SH01",
+          "description": "capital-allotment-shares",
+          "category": "capital"
+        },
+        {
+          "date": "2024-07-25",
+          "type": "CH01",
+          "description": "change-person-director-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-07-25",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-07-25",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-07-25",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-07-25",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "CAMPBELL-SMITH, Holly",
+        "role": "director",
+        "appointed_on": "2024-07-25",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "HART, Charlie",
+        "role": "director",
+        "appointed_on": "2024-07-19",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "HART, Oliver",
+        "role": "director",
+        "appointed_on": "2024-07-25",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "RHYS, Marged",
+        "role": "director",
+        "appointed_on": "2024-07-25",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "GOMEZ, Ignacio",
+        "role": "director",
+        "appointed_on": "2024-05-15",
+        "resigned_on": "2024-07-25",
+        "nationality": "Spanish"
+      },
+      {
+        "name": "MILLINGTON, Brian John",
+        "role": "director",
+        "appointed_on": "2024-05-04",
+        "resigned_on": "2024-07-25",
+        "nationality": "British"
+      },
+      {
+        "name": "NUNES, Carla",
+        "role": "director",
+        "appointed_on": "2024-05-15",
+        "resigned_on": "2024-07-25",
+        "nationality": "Portuguese"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "High officer turnover (3 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "13870727",
+    "company_name": "BLACK DAHLIA HACKNEY LTD",
+    "status": "active",
+    "incorporation_date": "2022-01-25",
+    "dissolution_date": null,
+    "registered_address": "Unit 11 Echo Building, East Bay Lane, London, E15 2SJ",
+    "sic_codes": [
+      "96090"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-10-31",
+    "last_accounts_date": "2025-01-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-02-01",
+    "filing_summary": {
+      "total_filings": 12,
+      "recent_filings": [
+        {
+          "date": "2026-01-20",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-06-12",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-01-22",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-10-07",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-01-30",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-10-11",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-01-18",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-06-22",
+          "type": "CH01",
+          "description": "change-person-director-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2022-06-22",
+          "type": "PSC04",
+          "description": "change-to-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2022-03-07",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "MENDEZ BENITEZ, Aitor",
+        "role": "director",
+        "appointed_on": "2022-01-25",
+        "resigned_on": null,
+        "nationality": "Spanish"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "09637221",
+    "company_name": "BOROUGH JUNCTION (HACKNEY) LIMITED",
+    "status": "active",
+    "incorporation_date": "2015-06-12",
+    "dissolution_date": null,
+    "registered_address": "52a York Way, London, N1 9AB",
+    "sic_codes": [
+      "68100"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-05-21",
+    "last_accounts_date": "2024-05-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-06-26",
+    "filing_summary": {
+      "total_filings": 49,
+      "recent_filings": [
+        {
+          "date": "2026-02-21",
+          "type": "AA01",
+          "description": "change-account-reference-date-company-previous-shortened",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-12-23",
+          "type": "PSC04",
+          "description": "change-to-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2025-12-03",
+          "type": "CH01",
+          "description": "change-person-director-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-12-03",
+          "type": "CH01",
+          "description": "change-person-director-company-with-change-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-12-03",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2025-07-27",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-05-30",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-05-23",
+          "type": "AA01",
+          "description": "change-account-reference-date-company-previous-shortened",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-02-25",
+          "type": "AA01",
+          "description": "change-account-reference-date-company-previous-shortened",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-06-29",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "KUMAR, Rajan",
+        "role": "director",
+        "appointed_on": "2015-06-12",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "PFEIFFER, Heidi Candace",
+        "role": "director",
+        "appointed_on": "2015-06-12",
+        "resigned_on": null,
+        "nationality": "South African"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "05195911",
+    "company_name": "THE BRIDGE ACADEMY, HACKNEY",
+    "status": "active",
+    "incorporation_date": "2004-08-03",
+    "dissolution_date": null,
+    "registered_address": "Laburnum Street, London, E2 8BA",
+    "sic_codes": [
+      "85310"
+    ],
+    "type": "private-limited-guarant-nsc-limited-exemption",
+    "accounts_overdue": false,
+    "accounts_next_due": "2027-05-31",
+    "last_accounts_date": "2025-08-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-08-17",
+    "filing_summary": {
+      "total_filings": 204,
+      "recent_filings": [
+        {
+          "date": "2026-03-17",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2026-01-06",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-10-14",
+          "type": "RESOLUTIONS",
+          "description": "resolution",
+          "category": "resolution"
+        },
+        {
+          "date": "2025-08-15",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-08-15",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-08-15",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-04-16",
+          "type": "RESOLUTIONS",
+          "description": "resolution",
+          "category": "resolution"
+        },
+        {
+          "date": "2025-04-16",
+          "type": "MA",
+          "description": "memorandum-articles",
+          "category": "incorporation"
+        },
+        {
+          "date": "2025-01-24",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2025-01-24",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "BROWN, Chris James",
+        "role": "director",
+        "appointed_on": "2015-09-01",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "EVANS, Zoe Teresa",
+        "role": "director",
+        "appointed_on": "2020-10-01",
+        "resigned_on": null,
+        "nationality": "Irish"
+      },
+      {
+        "name": "JONES, Philip Ross",
+        "role": "director",
+        "appointed_on": "2023-09-28",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "KHINDA, Navdip Singh",
+        "role": "director",
+        "appointed_on": "2020-03-19",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "LAWSON-TURNBULL, Wayne",
+        "role": "director",
+        "appointed_on": "2022-06-23",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "PAULO, Sozinha Francisco",
+        "role": "director",
+        "appointed_on": "2023-11-23",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "RAYNE, Benita Margaret, Dame",
+        "role": "director",
+        "appointed_on": "2014-10-07",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "ROBARTS, John Andrew",
+        "role": "director",
+        "appointed_on": "2024-09-01",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "ROBERTS, Susan Catherine",
+        "role": "director",
+        "appointed_on": "2020-09-01",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "SALES, Michael James",
+        "role": "director",
+        "appointed_on": "2022-03-17",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "SCHOOLING, Eleanor Barbara",
+        "role": "director",
+        "appointed_on": "2025-01-20",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "SUER, Egbertus Johannes",
+        "role": "director",
+        "appointed_on": "2012-10-11",
+        "resigned_on": null,
+        "nationality": "Dutch"
+      },
+      {
+        "name": "JAMES, Sally Ann",
+        "role": "secretary",
+        "appointed_on": "2006-03-02",
+        "resigned_on": "2008-01-10",
+        "nationality": "British"
+      },
+      {
+        "name": "MURRAY, Dennis Charles",
+        "role": "secretary",
+        "appointed_on": "2008-01-10",
+        "resigned_on": "2024-08-31",
+        "nationality": "British"
+      },
+      {
+        "name": "PRICE, Philip Ian",
+        "role": "secretary",
+        "appointed_on": "2005-08-23",
+        "resigned_on": "2006-03-02",
+        "nationality": "British"
+      },
+      {
+        "name": "MASONS SECRETARIAL SERVICES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2004-08-03",
+        "resigned_on": "2005-08-23",
+        "nationality": null
+      },
+      {
+        "name": "ADESANU, Olu",
+        "role": "director",
+        "appointed_on": "2014-07-10",
+        "resigned_on": "2017-08-31",
+        "nationality": "British"
+      },
+      {
+        "name": "AJEGBO, Keith Onyema, Sir",
+        "role": "director",
+        "appointed_on": "2007-12-05",
+        "resigned_on": "2016-08-31",
+        "nationality": "British"
+      },
+      {
+        "name": "ALLAWAY, James Darren",
+        "role": "director",
+        "appointed_on": "2016-07-07",
+        "resigned_on": "2020-03-19",
+        "nationality": "British"
+      },
+      {
+        "name": "ARMSTRONG, James",
+        "role": "director",
+        "appointed_on": "2007-04-24",
+        "resigned_on": "2015-05-18",
+        "nationality": "British"
+      },
+      {
+        "name": "BAINS, Sunita",
+        "role": "director",
+        "appointed_on": "2006-12-05",
+        "resigned_on": "2009-03-17",
+        "nationality": "British"
+      },
+      {
+        "name": "BARNES, Francesca",
+        "role": "director",
+        "appointed_on": "2009-05-19",
+        "resigned_on": "2016-08-31",
+        "nationality": "British"
+      },
+      {
+        "name": "BARTON, Anne Rosemary",
+        "role": "director",
+        "appointed_on": "2016-06-19",
+        "resigned_on": "2022-08-31",
+        "nationality": "British"
+      },
+      {
+        "name": "BIRCH, Helen Margaret",
+        "role": "director",
+        "appointed_on": "2012-10-11",
+        "resigned_on": "2016-10-11",
+        "nationality": "British"
+      },
+      {
+        "name": "CASSELLE, Richard Anthony",
+        "role": "director",
+        "appointed_on": "2005-06-29",
+        "resigned_on": "2010-03-24",
+        "nationality": "British"
+      },
+      {
+        "name": "COLEMAN, Anne Margaret",
+        "role": "director",
+        "appointed_on": "2018-05-10",
+        "resigned_on": "2021-08-31",
+        "nationality": "British"
+      },
+      {
+        "name": "CRANER, Sarah",
+        "role": "director",
+        "appointed_on": "2017-01-26",
+        "resigned_on": "2023-01-20",
+        "nationality": "British"
+      },
+      {
+        "name": "FOSTER, Stephen William",
+        "role": "director",
+        "appointed_on": "2012-05-24",
+        "resigned_on": "2015-09-01",
+        "nationality": "British"
+      },
+      {
+        "name": "GEORGIOU, Katerina",
+        "role": "director",
+        "appointed_on": "2017-03-23",
+        "resigned_on": "2019-10-03",
+        "nationality": "British"
+      },
+      {
+        "name": "GOULD, Jennifer",
+        "role": "director",
+        "appointed_on": "2012-09-01",
+        "resigned_on": "2020-08-31",
+        "nationality": "British"
+      },
+      {
+        "name": "GRAHAM, Desmond Wayne",
+        "role": "director",
+        "appointed_on": "2009-11-10",
+        "resigned_on": "2012-02-29",
+        "nationality": "British"
+      },
+      {
+        "name": "GRAHAM, Paul William",
+        "role": "director",
+        "appointed_on": "2019-03-22",
+        "resigned_on": "2021-09-29",
+        "nationality": "British"
+      },
+      {
+        "name": "HARDIE, Richard William John",
+        "role": "director",
+        "appointed_on": "2005-06-29",
+        "resigned_on": "2025-07-10",
+        "nationality": "British"
+      },
+      {
+        "name": "HATTER, Paul Antony",
+        "role": "director",
+        "appointed_on": "2008-09-24",
+        "resigned_on": "2017-01-26",
+        "nationality": "British"
+      },
+      {
+        "name": "IFI, Elizabeth Nwagbo",
+        "role": "director",
+        "appointed_on": "2022-03-17",
+        "resigned_on": "2026-03-16",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "High officer turnover (23 resignations)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "13611539",
+    "company_name": "BRIGHT KIDS HACKNEY LTD",
+    "status": "active",
+    "incorporation_date": "2021-09-09",
+    "dissolution_date": null,
+    "registered_address": "14/16 Kenworthy Road, London, E9 5TD",
+    "sic_codes": [
+      "85100"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2027-06-30",
+    "last_accounts_date": "2025-09-30",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-09-11",
+    "filing_summary": {
+      "total_filings": 15,
+      "recent_filings": [
+        {
+          "date": "2026-03-17",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-08-28",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-06-26",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-09-23",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-06-19",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-06-10",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2024-05-24",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        },
+        {
+          "date": "2023-09-13",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-09-01",
+          "type": "TM01",
+          "description": "termination-director-company-with-name-termination-date",
+          "category": "officers"
+        },
+        {
+          "date": "2023-08-10",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "MOHAMMAD, Arshad",
+        "role": "director",
+        "appointed_on": "2024-05-11",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "OOMERJEE, Belquis",
+        "role": "director",
+        "appointed_on": "2021-09-09",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "WAFA, Zeba",
+        "role": "director",
+        "appointed_on": "2024-06-10",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "ARSHAD, Mohammad",
+        "role": "director",
+        "appointed_on": "2021-09-09",
+        "resigned_on": "2023-09-01",
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "OE006025",
+    "company_name": "BROADWAY INVESTMENTS HACKNEY LIMITED",
+    "status": "registered",
+    "incorporation_date": "2022-12-01",
+    "dissolution_date": null,
+    "registered_address": "1st Floor, Building A, Caves Corporate Center Blake Road And West Bay Street, PO BOX N-3944, Nassau",
+    "sic_codes": [],
+    "type": "registered-overseas-entity",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-12-14",
+    "filing_summary": {
+      "total_filings": 4,
+      "recent_filings": [
+        {
+          "date": "2025-12-23",
+          "type": "OE02",
+          "description": "annual-update",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-12-12",
+          "type": "OE02",
+          "description": "annual-update",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-12-01",
+          "type": "OE02",
+          "description": "annual-update",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-12-01",
+          "type": "OE01",
+          "description": "registration-overseas-entity",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "11917238",
+    "company_name": "BRONX HACKNEY LTD",
+    "status": "active",
+    "incorporation_date": "2019-04-01",
+    "dissolution_date": null,
+    "registered_address": "322 Mare Street, Hackney, London, E8 1HA",
+    "sic_codes": [
+      "47710"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-12-31",
+    "last_accounts_date": "2025-03-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-04-14",
+    "filing_summary": {
+      "total_filings": 14,
+      "recent_filings": [
+        {
+          "date": "2025-12-15",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-04-15",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-12-09",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-04-22",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-11-14",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2023-04-12",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-11-08",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2022-04-01",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2021-10-06",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-dormant",
+          "category": "accounts"
+        },
+        {
+          "date": "2021-09-17",
+          "type": "AA01",
+          "description": "change-account-reference-date-company-previous-shortened",
+          "category": "accounts"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "HAJB, Abderrazak",
+        "role": "director",
+        "appointed_on": "2019-04-01",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "16994998",
+    "company_name": "BTB HACKNEY LTD",
+    "status": "active",
+    "incorporation_date": "2026-01-28",
+    "dissolution_date": null,
+    "registered_address": "283a Kingsland Road, London, E2 8AS",
+    "sic_codes": [
+      "56102"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2027-10-28",
+    "last_accounts_date": null,
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2027-02-10",
+    "filing_summary": {
+      "total_filings": 1,
+      "recent_filings": [
+        {
+          "date": "2026-01-28",
+          "type": "NEWINC",
+          "description": "incorporation-company",
+          "category": "incorporation"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "SEZGIN, Hande",
+        "role": "director",
+        "appointed_on": "2026-01-28",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "Very few filings (1 total)"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "15240508",
+    "company_name": "BUN & SUM HACKNEY LTD",
+    "status": "dissolved",
+    "incorporation_date": "2023-10-27",
+    "dissolution_date": "2026-02-24",
+    "registered_address": "224 Graham Road, London, E8 1BP",
+    "sic_codes": [
+      "56102"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": null,
+    "last_accounts_date": "2024-10-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": null,
+    "filing_summary": {
+      "total_filings": 11,
+      "recent_filings": [
+        {
+          "date": "2026-02-24",
+          "type": "GAZ2(A)",
+          "description": "gazette-dissolved-voluntary",
+          "category": "gazette"
+        },
+        {
+          "date": "2026-01-14",
+          "type": "SOAS(A)",
+          "description": "dissolution-voluntary-strike-off-suspended",
+          "category": "dissolution"
+        },
+        {
+          "date": "2025-12-09",
+          "type": "GAZ1(A)",
+          "description": "gazette-notice-voluntary",
+          "category": "gazette"
+        },
+        {
+          "date": "2025-11-30",
+          "type": "DS01",
+          "description": "dissolution-application-strike-off-company",
+          "category": "dissolution"
+        },
+        {
+          "date": "2025-11-10",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-11-01",
+          "type": "DISS40",
+          "description": "gazette-filings-brought-up-to-date",
+          "category": "gazette"
+        },
+        {
+          "date": "2025-10-29",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2025-10-14",
+          "type": "DISS16(SOAS)",
+          "description": "dissolved-compulsory-strike-off-suspended",
+          "category": "dissolution"
+        },
+        {
+          "date": "2025-09-23",
+          "type": "GAZ1",
+          "description": "gazette-notice-compulsory",
+          "category": "gazette"
+        },
+        {
+          "date": "2024-10-30",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "UDDIN, Farbez",
+        "role": "director",
+        "appointed_on": "2023-10-27",
+        "resigned_on": null,
+        "nationality": "British"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [
+      "Company status: dissolved"
+    ],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  },
+  {
+    "company_number": "12962281",
+    "company_name": "CAKE BOX HACKNEY LTD",
+    "status": "active",
+    "incorporation_date": "2020-10-20",
+    "dissolution_date": null,
+    "registered_address": "51 Heather Road, Binley Woods, Coventry, CV3 2DE",
+    "sic_codes": [
+      "47240"
+    ],
+    "type": "ltd",
+    "accounts_overdue": false,
+    "accounts_next_due": "2026-07-31",
+    "last_accounts_date": "2024-10-31",
+    "confirmation_overdue": false,
+    "confirmation_next_due": "2026-10-13",
+    "filing_summary": {
+      "total_filings": 17,
+      "recent_filings": [
+        {
+          "date": "2025-10-22",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2025-07-28",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-total-exemption-full",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-11-11",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2024-07-30",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-micro-entity",
+          "category": "accounts"
+        },
+        {
+          "date": "2024-07-30",
+          "type": "AD01",
+          "description": "change-registered-office-address-company-with-date-old-address-new-address",
+          "category": "address"
+        },
+        {
+          "date": "2023-10-13",
+          "type": "CS01",
+          "description": "confirmation-statement-with-no-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2023-04-18",
+          "type": "AA",
+          "description": "accounts-with-accounts-type-unaudited-abridged",
+          "category": "accounts"
+        },
+        {
+          "date": "2022-09-29",
+          "type": "CS01",
+          "description": "confirmation-statement-with-updates",
+          "category": "confirmation-statement"
+        },
+        {
+          "date": "2022-09-29",
+          "type": "PSC01",
+          "description": "notification-of-a-person-with-significant-control",
+          "category": "persons-with-significant-control"
+        },
+        {
+          "date": "2022-09-29",
+          "type": "AP01",
+          "description": "appoint-person-director-company-with-name-date",
+          "category": "officers"
+        }
+      ]
+    },
+    "officers": [
+      {
+        "name": "SANGWAN, Vikas",
+        "role": "director",
+        "appointed_on": "2022-09-27",
+        "resigned_on": null,
+        "nationality": "British"
+      },
+      {
+        "name": "KUMAR, Deepak",
+        "role": "director",
+        "appointed_on": "2020-10-20",
+        "resigned_on": "2022-09-27",
+        "nationality": "Indian"
+      }
+    ],
+    "neighbourhood": "Hackney",
+    "distress_signals": [],
+    "_lineage": {
+      "source": "companies_house",
+      "collected_at": "2026-04-11T18:25:37.861695+00:00",
+      "collector_version": "1.0",
+      "run_id": "da74dee5"
+    }
+  }
+]

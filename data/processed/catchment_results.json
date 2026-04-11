@@ -1,1936 +1,1720 @@
 {
-  "story deli": {
-    "name": "story deli",
+  "Lokanta 82 - D\u00f6ner & Mangal": {
+    "name": "Lokanta 82 - D\u00f6ner & Mangal",
+    "business_type": "",
     "zones": {
       "walk_5min": {
         "radius_km": 0.42,
-        "competitor_count": 78,
-        "top_competitors": [
+        "total_competitors": 285,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 72,
+        "nearest_competitors": [
           {
-            "name": "OMBRA",
-            "distance_km": 0.074,
-            "rating": 4.2,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Miga",
-            "distance_km": 0.092,
+            "name": "Chaiiwala Brick Lane",
+            "distance_km": 0.006,
             "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
           },
           {
-            "name": "Miga",
-            "distance_km": 0.092,
+            "name": "Somali Taste",
+            "distance_km": 0.019,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "Pepe's Piri Piri",
+            "distance_km": 0.019,
             "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.53,
+        "competitive_intensity": "high"
+      },
+      "walk_10min": {
+        "radius_km": 0.83,
+        "total_competitors": 551,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 147,
+        "nearest_competitors": [
           {
-            "name": "Miga",
-            "distance_km": 0.092,
+            "name": "Chaiiwala Brick Lane",
+            "distance_km": 0.006,
             "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
           },
           {
-            "name": "Papillon Pizza",
+            "name": "Somali Taste",
+            "distance_km": 0.019,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "Pepe's Piri Piri",
+            "distance_km": 0.019,
+            "rating": null,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.45,
+        "competitive_intensity": "high"
+      },
+      "cycle_10min": {
+        "radius_km": 2.5,
+        "total_competitors": 1173,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 347,
+        "nearest_competitors": [
+          {
+            "name": "Chaiiwala Brick Lane",
+            "distance_km": 0.006,
+            "rating": null,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Somali Taste",
+            "distance_km": 0.019,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "Pepe's Piri Piri",
+            "distance_km": 0.019,
+            "rating": null,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.45,
+        "competitive_intensity": "high"
+      },
+      "drive_10min": {
+        "radius_km": 5.0,
+        "total_competitors": 2037,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 516,
+        "nearest_competitors": [
+          {
+            "name": "Chaiiwala Brick Lane",
+            "distance_km": 0.006,
+            "rating": null,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Somali Taste",
+            "distance_km": 0.019,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "Pepe's Piri Piri",
+            "distance_km": 0.019,
+            "rating": null,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.42,
+        "competitive_intensity": "high"
+      },
+      "deliveroo_zone": {
+        "radius_km": 3.0,
+        "total_competitors": 1308,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 391,
+        "nearest_competitors": [
+          {
+            "name": "Chaiiwala Brick Lane",
+            "distance_km": 0.006,
+            "rating": null,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Somali Taste",
+            "distance_km": 0.019,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "Pepe's Piri Piri",
+            "distance_km": 0.019,
+            "rating": null,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.45,
+        "competitive_intensity": "high"
+      }
+    }
+  },
+  "Banh Mi Aha! City": {
+    "name": "Banh Mi Aha! City",
+    "business_type": "",
+    "zones": {
+      "walk_5min": {
+        "radius_km": 0.42,
+        "total_competitors": 37,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 18,
+        "nearest_competitors": [
+          {
+            "name": "Osteria Del Mercato",
+            "distance_km": 0.035,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "New Moon",
             "distance_km": 0.107,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "OIE Truly Thai",
+            "distance_km": 0.115,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           }
         ],
-        "avg_competitor_rating": 4.27
+        "avg_competitor_rating": 4.45,
+        "competitive_intensity": "medium"
       },
       "walk_10min": {
         "radius_km": 0.83,
-        "competitor_count": 216,
-        "top_competitors": [
+        "total_competitors": 228,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 81,
+        "nearest_competitors": [
           {
-            "name": "OMBRA",
-            "distance_km": 0.074,
-            "rating": 4.2,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Osteria Del Mercato",
+            "distance_km": 0.035,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Miga",
-            "distance_km": 0.092,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Miga",
-            "distance_km": 0.092,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Miga",
-            "distance_km": 0.092,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Papillon Pizza",
+            "name": "New Moon",
             "distance_km": 0.107,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "OIE Truly Thai",
+            "distance_km": 0.115,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           }
         ],
-        "avg_competitor_rating": 4.27
+        "avg_competitor_rating": 4.45,
+        "competitive_intensity": "high"
       },
       "cycle_10min": {
         "radius_km": 2.5,
-        "competitor_count": 2639,
-        "top_competitors": [
+        "total_competitors": 969,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 296,
+        "nearest_competitors": [
           {
-            "name": "OMBRA",
-            "distance_km": 0.074,
-            "rating": 4.2,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Osteria Del Mercato",
+            "distance_km": 0.035,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Miga",
-            "distance_km": 0.092,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Miga",
-            "distance_km": 0.092,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Miga",
-            "distance_km": 0.092,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Papillon Pizza",
+            "name": "New Moon",
             "distance_km": 0.107,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "OIE Truly Thai",
+            "distance_km": 0.115,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           }
         ],
-        "avg_competitor_rating": 4.28
+        "avg_competitor_rating": 4.44,
+        "competitive_intensity": "high"
       },
       "drive_10min": {
         "radius_km": 5.0,
-        "competitor_count": 3905,
-        "top_competitors": [
+        "total_competitors": 2121,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 562,
+        "nearest_competitors": [
           {
-            "name": "OMBRA",
-            "distance_km": 0.074,
-            "rating": 4.2,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Osteria Del Mercato",
+            "distance_km": 0.035,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Miga",
-            "distance_km": 0.092,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Miga",
-            "distance_km": 0.092,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Miga",
-            "distance_km": 0.092,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Papillon Pizza",
+            "name": "New Moon",
             "distance_km": 0.107,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "OIE Truly Thai",
+            "distance_km": 0.115,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           }
         ],
-        "avg_competitor_rating": 4.3
+        "avg_competitor_rating": 4.42,
+        "competitive_intensity": "high"
       },
       "deliveroo_zone": {
         "radius_km": 3.0,
-        "competitor_count": 2810,
-        "top_competitors": [
+        "total_competitors": 1107,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 330,
+        "nearest_competitors": [
           {
-            "name": "OMBRA",
-            "distance_km": 0.074,
-            "rating": 4.2,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Osteria Del Mercato",
+            "distance_km": 0.035,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Miga",
-            "distance_km": 0.092,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Miga",
-            "distance_km": 0.092,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Miga",
-            "distance_km": 0.092,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Papillon Pizza",
+            "name": "New Moon",
             "distance_km": 0.107,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "OIE Truly Thai",
+            "distance_km": 0.115,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           }
         ],
-        "avg_competitor_rating": 4.29
+        "avg_competitor_rating": 4.44,
+        "competitive_intensity": "high"
       }
     }
   },
-  "De'Osa Catering and Events": {
-    "name": "De'Osa Catering and Events",
+  "De Vine": {
+    "name": "De Vine",
+    "business_type": "",
     "zones": {
       "walk_5min": {
         "radius_km": 0.42,
-        "competitor_count": 5,
-        "top_competitors": [
+        "total_competitors": 27,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 12,
+        "nearest_competitors": [
           {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Valentino's Pizza & Kebab Co.",
-            "distance_km": 0.242,
-            "rating": 3.8,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Peckham Pelican",
-            "distance_km": 0.339,
-            "rating": 4.4,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.1
-      },
-      "walk_10min": {
-        "radius_km": 0.83,
-        "competitor_count": 75,
-        "top_competitors": [
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Valentino's Pizza & Kebab Co.",
-            "distance_km": 0.242,
-            "rating": 3.8,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Peckham Pelican",
-            "distance_km": 0.339,
-            "rating": 4.4,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 3.93
-      },
-      "cycle_10min": {
-        "radius_km": 2.5,
-        "competitor_count": 635,
-        "top_competitors": [
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Valentino's Pizza & Kebab Co.",
-            "distance_km": 0.242,
-            "rating": 3.8,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Peckham Pelican",
-            "distance_km": 0.339,
-            "rating": 4.4,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.11
-      },
-      "drive_10min": {
-        "radius_km": 5.0,
-        "competitor_count": 2321,
-        "top_competitors": [
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Valentino's Pizza & Kebab Co.",
-            "distance_km": 0.242,
-            "rating": 3.8,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Peckham Pelican",
-            "distance_km": 0.339,
-            "rating": 4.4,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.2
-      },
-      "deliveroo_zone": {
-        "radius_km": 3.0,
-        "competitor_count": 644,
-        "top_competitors": [
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "St luke's community cafe",
-            "distance_km": 0.226,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Valentino's Pizza & Kebab Co.",
-            "distance_km": 0.242,
-            "rating": 3.8,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Peckham Pelican",
-            "distance_km": 0.339,
-            "rating": 4.4,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.11
-      }
-    }
-  },
-  "Steamer": {
-    "name": "Steamer",
-    "zones": {
-      "walk_5min": {
-        "radius_km": 0.42,
-        "competitor_count": 274,
-        "top_competitors": [
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Hausu",
-            "distance_km": 0.031,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Hausu",
-            "distance_km": 0.031,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.16
-      },
-      "walk_10min": {
-        "radius_km": 0.83,
-        "competitor_count": 415,
-        "top_competitors": [
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Hausu",
-            "distance_km": 0.031,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Hausu",
-            "distance_km": 0.031,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.1
-      },
-      "cycle_10min": {
-        "radius_km": 2.5,
-        "competitor_count": 644,
-        "top_competitors": [
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Hausu",
-            "distance_km": 0.031,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Hausu",
-            "distance_km": 0.031,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.11
-      },
-      "drive_10min": {
-        "radius_km": 5.0,
-        "competitor_count": 1359,
-        "top_competitors": [
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Hausu",
-            "distance_km": 0.031,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Hausu",
-            "distance_km": 0.031,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.14
-      },
-      "deliveroo_zone": {
-        "radius_km": 3.0,
-        "competitor_count": 644,
-        "top_competitors": [
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Fat boys on tour",
-            "distance_km": 0.03,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Hausu",
-            "distance_km": 0.031,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Hausu",
-            "distance_km": 0.031,
-            "rating": null,
-            "neighbourhood": "Peckham",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.11
-      }
-    }
-  },
-  "Aladin Brick Lane": {
-    "name": "Aladin Brick Lane",
-    "zones": {
-      "walk_5min": {
-        "radius_km": 0.42,
-        "competitor_count": 609,
-        "top_competitors": [
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Sheba Restaurant - Awarded Best Curry House In UK",
-            "distance_km": 0.013,
-            "rating": 4.7,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.013,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.28
-      },
-      "walk_10min": {
-        "radius_km": 0.83,
-        "competitor_count": 1215,
-        "top_competitors": [
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Sheba Restaurant - Awarded Best Curry House In UK",
-            "distance_km": 0.013,
-            "rating": 4.7,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.013,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.26
-      },
-      "cycle_10min": {
-        "radius_km": 2.5,
-        "competitor_count": 2284,
-        "top_competitors": [
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Sheba Restaurant - Awarded Best Curry House In UK",
-            "distance_km": 0.013,
-            "rating": 4.7,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.013,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.3
-      },
-      "drive_10min": {
-        "radius_km": 5.0,
-        "competitor_count": 4087,
-        "top_competitors": [
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Sheba Restaurant - Awarded Best Curry House In UK",
-            "distance_km": 0.013,
-            "rating": 4.7,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.013,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.24
-      },
-      "deliveroo_zone": {
-        "radius_km": 3.0,
-        "competitor_count": 2556,
-        "top_competitors": [
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.005,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Sheba Restaurant - Awarded Best Curry House In UK",
-            "distance_km": 0.013,
-            "rating": 4.7,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.013,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.3
-      }
-    }
-  },
-  "AYA & SUKI": {
-    "name": "AYA & SUKI",
-    "zones": {
-      "walk_5min": {
-        "radius_km": 0.42,
-        "competitor_count": 175,
-        "top_competitors": [
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.016,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.016,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.46
-      },
-      "walk_10min": {
-        "radius_km": 0.83,
-        "competitor_count": 262,
-        "top_competitors": [
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.016,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.016,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.28
-      },
-      "cycle_10min": {
-        "radius_km": 2.5,
-        "competitor_count": 2306,
-        "top_competitors": [
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.016,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.016,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.28
-      },
-      "drive_10min": {
-        "radius_km": 5.0,
-        "competitor_count": 3704,
-        "top_competitors": [
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.016,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.016,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.3
-      },
-      "deliveroo_zone": {
-        "radius_km": 3.0,
-        "competitor_count": 2731,
-        "top_competitors": [
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Saray Cafe",
-            "distance_km": 0.009,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.016,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.016,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.29
-      }
-    }
-  },
-  "Dishoom Shoreditch": {
-    "name": "Dishoom Shoreditch",
-    "zones": {
-      "walk_5min": {
-        "radius_km": 0.42,
-        "competitor_count": 118,
-        "top_competitors": [
-          {
-            "name": "Owl & Pussycat",
-            "distance_km": 0.08,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Pizza East",
-            "distance_km": 0.08,
-            "rating": 4.4,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.23
-      },
-      "walk_10min": {
-        "radius_km": 0.83,
-        "competitor_count": 723,
-        "top_competitors": [
-          {
-            "name": "Owl & Pussycat",
-            "distance_km": 0.08,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Pizza East",
-            "distance_km": 0.08,
-            "rating": 4.4,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.27
-      },
-      "cycle_10min": {
-        "radius_km": 2.5,
-        "competitor_count": 2369,
-        "top_competitors": [
-          {
-            "name": "Owl & Pussycat",
-            "distance_km": 0.08,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Pizza East",
-            "distance_km": 0.08,
-            "rating": 4.4,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.3
-      },
-      "drive_10min": {
-        "radius_km": 5.0,
-        "competitor_count": 3859,
-        "top_competitors": [
-          {
-            "name": "Owl & Pussycat",
-            "distance_km": 0.08,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Pizza East",
-            "distance_km": 0.08,
-            "rating": 4.4,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.28
-      },
-      "deliveroo_zone": {
-        "radius_km": 3.0,
-        "competitor_count": 2802,
-        "top_competitors": [
-          {
-            "name": "Owl & Pussycat",
-            "distance_km": 0.08,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Pizza East",
-            "distance_km": 0.08,
-            "rating": 4.4,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Psycle London",
-            "distance_km": 0.12,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.29
-      }
-    }
-  },
-  "Sheba Restaurant - Awarded Best Curry House In UK": {
-    "name": "Sheba Restaurant - Awarded Best Curry House In UK",
-    "zones": {
-      "walk_5min": {
-        "radius_km": 0.42,
-        "competitor_count": 624,
-        "top_competitors": [
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Aladin Brick Lane",
-            "distance_km": 0.013,
-            "rating": 4.8,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.017,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.3
-      },
-      "walk_10min": {
-        "radius_km": 0.83,
-        "competitor_count": 1207,
-        "top_competitors": [
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Aladin Brick Lane",
-            "distance_km": 0.013,
-            "rating": 4.8,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.017,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.26
-      },
-      "cycle_10min": {
-        "radius_km": 2.5,
-        "competitor_count": 2290,
-        "top_competitors": [
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Aladin Brick Lane",
-            "distance_km": 0.013,
-            "rating": 4.8,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.017,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.3
-      },
-      "drive_10min": {
-        "radius_km": 5.0,
-        "competitor_count": 4087,
-        "top_competitors": [
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Aladin Brick Lane",
-            "distance_km": 0.013,
-            "rating": 4.8,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.017,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.24
-      },
-      "deliveroo_zone": {
-        "radius_km": 3.0,
-        "competitor_count": 2562,
-        "top_competitors": [
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "City Spice",
-            "distance_km": 0.001,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Aladin Brick Lane",
-            "distance_km": 0.013,
-            "rating": 4.8,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "The Nazrul",
-            "distance_km": 0.017,
-            "rating": null,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          }
-        ],
-        "avg_competitor_rating": 4.3
-      }
-    }
-  },
-  "Bike Shed Moto Co.": {
-    "name": "Bike Shed Moto Co.",
-    "zones": {
-      "walk_5min": {
-        "radius_km": 0.42,
-        "competitor_count": 12,
-        "top_competitors": [
-          {
-            "name": "Red Dog Saloon Hoxton Square",
-            "distance_km": 0.129,
-            "rating": 3.9,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "The Breakfast Club Hoxton",
-            "distance_km": 0.156,
-            "rating": 4.4,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Strongroom Venue",
-            "distance_km": 0.156,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Cay Tre Hoxton Shoreditch",
-            "distance_km": 0.202,
-            "rating": 4.2,
+            "name": "Cento Alla Torre \ud83c\uddee\ud83c\uddf9",
+            "distance_km": 0.072,
+            "rating": 4.6,
             "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Viet Grill",
-            "distance_km": 0.234,
+            "name": "Corvo Bar & Cafe",
+            "distance_km": 0.092,
             "rating": 4.1,
             "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Keepers Kitchen & Bar",
+            "distance_km": 0.115,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
           }
         ],
-        "avg_competitor_rating": 4.23
+        "avg_competitor_rating": 4.47,
+        "competitive_intensity": "low"
       },
       "walk_10min": {
         "radius_km": 0.83,
-        "competitor_count": 182,
-        "top_competitors": [
+        "total_competitors": 269,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 80,
+        "nearest_competitors": [
           {
-            "name": "Red Dog Saloon Hoxton Square",
-            "distance_km": 0.129,
-            "rating": 3.9,
+            "name": "Cento Alla Torre \ud83c\uddee\ud83c\uddf9",
+            "distance_km": 0.072,
+            "rating": 4.6,
             "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "The Breakfast Club Hoxton",
-            "distance_km": 0.156,
-            "rating": 4.4,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Strongroom Venue",
-            "distance_km": 0.156,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Cay Tre Hoxton Shoreditch",
-            "distance_km": 0.202,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "Viet Grill",
-            "distance_km": 0.234,
+            "name": "Corvo Bar & Cafe",
+            "distance_km": 0.092,
             "rating": 4.1,
             "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Keepers Kitchen & Bar",
+            "distance_km": 0.115,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
           }
         ],
-        "avg_competitor_rating": 4.25
+        "avg_competitor_rating": 4.45,
+        "competitive_intensity": "high"
       },
       "cycle_10min": {
         "radius_km": 2.5,
-        "competitor_count": 2457,
-        "top_competitors": [
+        "total_competitors": 1018,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 294,
+        "nearest_competitors": [
           {
-            "name": "Red Dog Saloon Hoxton Square",
-            "distance_km": 0.129,
-            "rating": 3.9,
+            "name": "Cento Alla Torre \ud83c\uddee\ud83c\uddf9",
+            "distance_km": 0.072,
+            "rating": 4.6,
             "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "The Breakfast Club Hoxton",
-            "distance_km": 0.156,
-            "rating": 4.4,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Strongroom Venue",
-            "distance_km": 0.156,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Cay Tre Hoxton Shoreditch",
-            "distance_km": 0.202,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "Viet Grill",
-            "distance_km": 0.234,
+            "name": "Corvo Bar & Cafe",
+            "distance_km": 0.092,
             "rating": 4.1,
             "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Keepers Kitchen & Bar",
+            "distance_km": 0.115,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
           }
         ],
-        "avg_competitor_rating": 4.3
+        "avg_competitor_rating": 4.44,
+        "competitive_intensity": "high"
       },
       "drive_10min": {
         "radius_km": 5.0,
-        "competitor_count": 3554,
-        "top_competitors": [
+        "total_competitors": 2213,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 579,
+        "nearest_competitors": [
           {
-            "name": "Red Dog Saloon Hoxton Square",
-            "distance_km": 0.129,
-            "rating": 3.9,
+            "name": "Cento Alla Torre \ud83c\uddee\ud83c\uddf9",
+            "distance_km": 0.072,
+            "rating": 4.6,
             "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "The Breakfast Club Hoxton",
-            "distance_km": 0.156,
-            "rating": 4.4,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Strongroom Venue",
-            "distance_km": 0.156,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Cay Tre Hoxton Shoreditch",
-            "distance_km": 0.202,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "Viet Grill",
-            "distance_km": 0.234,
+            "name": "Corvo Bar & Cafe",
+            "distance_km": 0.092,
             "rating": 4.1,
             "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Keepers Kitchen & Bar",
+            "distance_km": 0.115,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
           }
         ],
-        "avg_competitor_rating": 4.28
+        "avg_competitor_rating": 4.42,
+        "competitive_intensity": "high"
       },
       "deliveroo_zone": {
         "radius_km": 3.0,
-        "competitor_count": 2833,
-        "top_competitors": [
+        "total_competitors": 1128,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 329,
+        "nearest_competitors": [
           {
-            "name": "Red Dog Saloon Hoxton Square",
-            "distance_km": 0.129,
-            "rating": 3.9,
+            "name": "Cento Alla Torre \ud83c\uddee\ud83c\uddf9",
+            "distance_km": 0.072,
+            "rating": 4.6,
             "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "The Breakfast Club Hoxton",
-            "distance_km": 0.156,
-            "rating": 4.4,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Strongroom Venue",
-            "distance_km": 0.156,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Cay Tre Hoxton Shoreditch",
-            "distance_km": 0.202,
-            "rating": 4.2,
-            "neighbourhood": "Shoreditch",
-            "on_deliveroo": true
-          },
-          {
-            "name": "Viet Grill",
-            "distance_km": 0.234,
+            "name": "Corvo Bar & Cafe",
+            "distance_km": 0.092,
             "rating": 4.1,
             "neighbourhood": "Shoreditch",
-            "on_deliveroo": false
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Keepers Kitchen & Bar",
+            "distance_km": 0.115,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
           }
         ],
-        "avg_competitor_rating": 4.3
+        "avg_competitor_rating": 4.43,
+        "competitive_intensity": "high"
       }
     }
   },
-  "Fin and Flounder": {
-    "name": "Fin and Flounder",
+  "Corimint": {
+    "name": "Corimint",
+    "business_type": "",
     "zones": {
       "walk_5min": {
         "radius_km": 0.42,
-        "competitor_count": 182,
-        "top_competitors": [
+        "total_competitors": 11,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 8,
+        "nearest_competitors": [
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Desi Lounge - Indian Restaurant Tower Hamlets - Events space hire East London",
+            "distance_km": 0.146,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "RASTRO CAF\u00c9",
+            "distance_km": 0.154,
+            "rating": 4.8,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.027,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.027,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Arches Cafe",
+            "distance_km": 0.224,
+            "rating": 4.9,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 1
           }
         ],
-        "avg_competitor_rating": 4.19
+        "avg_competitor_rating": 4.65,
+        "competitive_intensity": "low"
       },
       "walk_10min": {
         "radius_km": 0.83,
-        "competitor_count": 263,
-        "top_competitors": [
+        "total_competitors": 101,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 22,
+        "nearest_competitors": [
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Desi Lounge - Indian Restaurant Tower Hamlets - Events space hire East London",
+            "distance_km": 0.146,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "RASTRO CAF\u00c9",
+            "distance_km": 0.154,
+            "rating": 4.8,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.027,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.027,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Arches Cafe",
+            "distance_km": 0.224,
+            "rating": 4.9,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 1
           }
         ],
-        "avg_competitor_rating": 4.29
+        "avg_competitor_rating": 4.39,
+        "competitive_intensity": "high"
       },
       "cycle_10min": {
         "radius_km": 2.5,
-        "competitor_count": 2206,
-        "top_competitors": [
+        "total_competitors": 1260,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 357,
+        "nearest_competitors": [
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Desi Lounge - Indian Restaurant Tower Hamlets - Events space hire East London",
+            "distance_km": 0.146,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "RASTRO CAF\u00c9",
+            "distance_km": 0.154,
+            "rating": 4.8,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.027,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.027,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Arches Cafe",
+            "distance_km": 0.224,
+            "rating": 4.9,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 1
           }
         ],
-        "avg_competitor_rating": 4.29
+        "avg_competitor_rating": 4.45,
+        "competitive_intensity": "high"
       },
       "drive_10min": {
         "radius_km": 5.0,
-        "competitor_count": 3692,
-        "top_competitors": [
+        "total_competitors": 1998,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 507,
+        "nearest_competitors": [
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Desi Lounge - Indian Restaurant Tower Hamlets - Events space hire East London",
+            "distance_km": 0.146,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "RASTRO CAF\u00c9",
+            "distance_km": 0.154,
+            "rating": 4.8,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.027,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.027,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Arches Cafe",
+            "distance_km": 0.224,
+            "rating": 4.9,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 1
           }
         ],
-        "avg_competitor_rating": 4.3
+        "avg_competitor_rating": 4.43,
+        "competitive_intensity": "high"
       },
       "deliveroo_zone": {
         "radius_km": 3.0,
-        "competitor_count": 2689,
-        "top_competitors": [
+        "total_competitors": 1497,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 428,
+        "nearest_competitors": [
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Desi Lounge - Indian Restaurant Tower Hamlets - Events space hire East London",
+            "distance_km": 0.146,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "RASTRO CAF\u00c9",
+            "distance_km": 0.154,
+            "rating": 4.8,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
           },
           {
-            "name": "Climpson & Sons",
-            "distance_km": 0.012,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.027,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
-          },
-          {
-            "name": "Route Broadway Ltd",
-            "distance_km": 0.027,
-            "rating": null,
-            "neighbourhood": "Hackney",
-            "on_deliveroo": false
+            "name": "Arches Cafe",
+            "distance_km": 0.224,
+            "rating": 4.9,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 1
           }
         ],
-        "avg_competitor_rating": 4.29
+        "avg_competitor_rating": 4.43,
+        "competitive_intensity": "high"
+      }
+    }
+  },
+  "Le Bab St. Paul's": {
+    "name": "Le Bab St. Paul's",
+    "business_type": "",
+    "zones": {
+      "walk_5min": {
+        "radius_km": 0.42,
+        "total_competitors": 23,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 10,
+        "nearest_competitors": [
+          {
+            "name": "HAZ St Paul's",
+            "distance_km": 0.099,
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "Rucoletta",
+            "distance_km": 0.108,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "Gordon Ramsay Street Pizza - St Paul's",
+            "distance_km": 0.118,
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 3
+          }
+        ],
+        "avg_competitor_rating": 4.4,
+        "competitive_intensity": "low"
+      },
+      "walk_10min": {
+        "radius_km": 0.83,
+        "total_competitors": 56,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 25,
+        "nearest_competitors": [
+          {
+            "name": "HAZ St Paul's",
+            "distance_km": 0.099,
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "Rucoletta",
+            "distance_km": 0.108,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "Gordon Ramsay Street Pizza - St Paul's",
+            "distance_km": 0.118,
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 3
+          }
+        ],
+        "avg_competitor_rating": 4.42,
+        "competitive_intensity": "medium"
+      },
+      "cycle_10min": {
+        "radius_km": 2.5,
+        "total_competitors": 841,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 278,
+        "nearest_competitors": [
+          {
+            "name": "HAZ St Paul's",
+            "distance_km": 0.099,
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "Rucoletta",
+            "distance_km": 0.108,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "Gordon Ramsay Street Pizza - St Paul's",
+            "distance_km": 0.118,
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 3
+          }
+        ],
+        "avg_competitor_rating": 4.44,
+        "competitive_intensity": "high"
+      },
+      "drive_10min": {
+        "radius_km": 5.0,
+        "total_competitors": 1749,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 517,
+        "nearest_competitors": [
+          {
+            "name": "HAZ St Paul's",
+            "distance_km": 0.099,
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "Rucoletta",
+            "distance_km": 0.108,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "Gordon Ramsay Street Pizza - St Paul's",
+            "distance_km": 0.118,
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 3
+          }
+        ],
+        "avg_competitor_rating": 4.42,
+        "competitive_intensity": "high"
+      },
+      "deliveroo_zone": {
+        "radius_km": 3.0,
+        "total_competitors": 970,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 313,
+        "nearest_competitors": [
+          {
+            "name": "HAZ St Paul's",
+            "distance_km": 0.099,
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "Rucoletta",
+            "distance_km": 0.108,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 2
+          },
+          {
+            "name": "Gordon Ramsay Street Pizza - St Paul's",
+            "distance_km": 0.118,
+            "rating": 4.3,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": 3
+          }
+        ],
+        "avg_competitor_rating": 4.44,
+        "competitive_intensity": "high"
+      }
+    }
+  },
+  "Okawari Dalston": {
+    "name": "Okawari Dalston",
+    "business_type": "",
+    "zones": {
+      "walk_5min": {
+        "radius_km": 0.42,
+        "total_competitors": 72,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 20,
+        "nearest_competitors": [
+          {
+            "name": "House of Momo",
+            "distance_km": 0.016,
+            "rating": null,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Oriental",
+            "distance_km": 0.017,
+            "rating": 4.2,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": 1
+          },
+          {
+            "name": "Smash Bites",
+            "distance_km": 0.022,
+            "rating": 4.7,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.56,
+        "competitive_intensity": "medium"
+      },
+      "walk_10min": {
+        "radius_km": 0.83,
+        "total_competitors": 166,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 40,
+        "nearest_competitors": [
+          {
+            "name": "House of Momo",
+            "distance_km": 0.016,
+            "rating": null,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Oriental",
+            "distance_km": 0.017,
+            "rating": 4.2,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": 1
+          },
+          {
+            "name": "Smash Bites",
+            "distance_km": 0.022,
+            "rating": 4.7,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.5,
+        "competitive_intensity": "high"
+      },
+      "cycle_10min": {
+        "radius_km": 2.5,
+        "total_competitors": 804,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 304,
+        "nearest_competitors": [
+          {
+            "name": "House of Momo",
+            "distance_km": 0.016,
+            "rating": null,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Oriental",
+            "distance_km": 0.017,
+            "rating": 4.2,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": 1
+          },
+          {
+            "name": "Smash Bites",
+            "distance_km": 0.022,
+            "rating": 4.7,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.45,
+        "competitive_intensity": "high"
+      },
+      "drive_10min": {
+        "radius_km": 5.0,
+        "total_competitors": 1616,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 492,
+        "nearest_competitors": [
+          {
+            "name": "House of Momo",
+            "distance_km": 0.016,
+            "rating": null,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Oriental",
+            "distance_km": 0.017,
+            "rating": 4.2,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": 1
+          },
+          {
+            "name": "Smash Bites",
+            "distance_km": 0.022,
+            "rating": 4.7,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.44,
+        "competitive_intensity": "high"
+      },
+      "deliveroo_zone": {
+        "radius_km": 3.0,
+        "total_competitors": 1226,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 406,
+        "nearest_competitors": [
+          {
+            "name": "House of Momo",
+            "distance_km": 0.016,
+            "rating": null,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Oriental",
+            "distance_km": 0.017,
+            "rating": 4.2,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": 1
+          },
+          {
+            "name": "Smash Bites",
+            "distance_km": 0.022,
+            "rating": 4.7,
+            "neighbourhood": "Hackney",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.44,
+        "competitive_intensity": "high"
+      }
+    }
+  },
+  "Rose's Kitchen": {
+    "name": "Rose's Kitchen",
+    "business_type": "",
+    "zones": {
+      "walk_5min": {
+        "radius_km": 0.42,
+        "total_competitors": 169,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 49,
+        "nearest_competitors": [
+          {
+            "name": "Hohaki",
+            "distance_km": 0.074,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": 1
+          },
+          {
+            "name": "Ji The Chicken Shop",
+            "distance_km": 0.078,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "3 Mien",
+            "distance_km": 0.081,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.46,
+        "competitive_intensity": "high"
+      },
+      "walk_10min": {
+        "radius_km": 0.83,
+        "total_competitors": 481,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 145,
+        "nearest_competitors": [
+          {
+            "name": "Hohaki",
+            "distance_km": 0.074,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": 1
+          },
+          {
+            "name": "Ji The Chicken Shop",
+            "distance_km": 0.078,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "3 Mien",
+            "distance_km": 0.081,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.47,
+        "competitive_intensity": "high"
+      },
+      "cycle_10min": {
+        "radius_km": 2.5,
+        "total_competitors": 1082,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 324,
+        "nearest_competitors": [
+          {
+            "name": "Hohaki",
+            "distance_km": 0.074,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": 1
+          },
+          {
+            "name": "Ji The Chicken Shop",
+            "distance_km": 0.078,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "3 Mien",
+            "distance_km": 0.081,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.44,
+        "competitive_intensity": "high"
+      },
+      "drive_10min": {
+        "radius_km": 5.0,
+        "total_competitors": 2119,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 556,
+        "nearest_competitors": [
+          {
+            "name": "Hohaki",
+            "distance_km": 0.074,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": 1
+          },
+          {
+            "name": "Ji The Chicken Shop",
+            "distance_km": 0.078,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "3 Mien",
+            "distance_km": 0.081,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.42,
+        "competitive_intensity": "high"
+      },
+      "deliveroo_zone": {
+        "radius_km": 3.0,
+        "total_competitors": 1207,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 360,
+        "nearest_competitors": [
+          {
+            "name": "Hohaki",
+            "distance_km": 0.074,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": 1
+          },
+          {
+            "name": "Ji The Chicken Shop",
+            "distance_km": 0.078,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "3 Mien",
+            "distance_km": 0.081,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.44,
+        "competitive_intensity": "high"
+      }
+    }
+  },
+  "Urban Jollof Kitchen": {
+    "name": "Urban Jollof Kitchen",
+    "business_type": "",
+    "zones": {
+      "walk_5min": {
+        "radius_km": 0.42,
+        "total_competitors": 74,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 25,
+        "nearest_competitors": [
+          {
+            "name": "Cloud Land \u9047\u89c1\u4e91\u5357",
+            "distance_km": 0.055,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Suya Jerks Aldgate",
+            "distance_km": 0.062,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Kagura sushi",
+            "distance_km": 0.065,
+            "rating": 4.5,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.52,
+        "competitive_intensity": "medium"
+      },
+      "walk_10min": {
+        "radius_km": 0.83,
+        "total_competitors": 420,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 119,
+        "nearest_competitors": [
+          {
+            "name": "Cloud Land \u9047\u89c1\u4e91\u5357",
+            "distance_km": 0.055,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Suya Jerks Aldgate",
+            "distance_km": 0.062,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Kagura sushi",
+            "distance_km": 0.065,
+            "rating": 4.5,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.48,
+        "competitive_intensity": "high"
+      },
+      "cycle_10min": {
+        "radius_km": 2.5,
+        "total_competitors": 1028,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 304,
+        "nearest_competitors": [
+          {
+            "name": "Cloud Land \u9047\u89c1\u4e91\u5357",
+            "distance_km": 0.055,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Suya Jerks Aldgate",
+            "distance_km": 0.062,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Kagura sushi",
+            "distance_km": 0.065,
+            "rating": 4.5,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.44,
+        "competitive_intensity": "high"
+      },
+      "drive_10min": {
+        "radius_km": 5.0,
+        "total_competitors": 2189,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 576,
+        "nearest_competitors": [
+          {
+            "name": "Cloud Land \u9047\u89c1\u4e91\u5357",
+            "distance_km": 0.055,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Suya Jerks Aldgate",
+            "distance_km": 0.062,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Kagura sushi",
+            "distance_km": 0.065,
+            "rating": 4.5,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.42,
+        "competitive_intensity": "high"
+      },
+      "deliveroo_zone": {
+        "radius_km": 3.0,
+        "total_competitors": 1159,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 342,
+        "nearest_competitors": [
+          {
+            "name": "Cloud Land \u9047\u89c1\u4e91\u5357",
+            "distance_km": 0.055,
+            "rating": 4.6,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Suya Jerks Aldgate",
+            "distance_km": 0.062,
+            "rating": 4.7,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          },
+          {
+            "name": "Kagura sushi",
+            "distance_km": 0.065,
+            "rating": 4.5,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": false,
+            "business_type": null,
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.44,
+        "competitive_intensity": "high"
+      }
+    }
+  },
+  "Los Gordos x BoxPark": {
+    "name": "Los Gordos x BoxPark",
+    "business_type": "",
+    "zones": {
+      "walk_5min": {
+        "radius_km": 0.42,
+        "total_competitors": 122,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 48,
+        "nearest_competitors": [
+          {
+            "name": "Dub Pan (Boxpark Shoreditch)",
+            "distance_km": 0.0,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Pizza Social Club",
+            "distance_km": 0.0,
+            "rating": 4.8,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "YOKI Korean Soul food @boxpark shoreditch",
+            "distance_km": 0.028,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.51,
+        "competitive_intensity": "high"
+      },
+      "walk_10min": {
+        "radius_km": 0.83,
+        "total_competitors": 452,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 152,
+        "nearest_competitors": [
+          {
+            "name": "Dub Pan (Boxpark Shoreditch)",
+            "distance_km": 0.0,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Pizza Social Club",
+            "distance_km": 0.0,
+            "rating": 4.8,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "YOKI Korean Soul food @boxpark shoreditch",
+            "distance_km": 0.028,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.47,
+        "competitive_intensity": "high"
+      },
+      "cycle_10min": {
+        "radius_km": 2.5,
+        "total_competitors": 1232,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 382,
+        "nearest_competitors": [
+          {
+            "name": "Dub Pan (Boxpark Shoreditch)",
+            "distance_km": 0.0,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Pizza Social Club",
+            "distance_km": 0.0,
+            "rating": 4.8,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "YOKI Korean Soul food @boxpark shoreditch",
+            "distance_km": 0.028,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.45,
+        "competitive_intensity": "high"
+      },
+      "drive_10min": {
+        "radius_km": 5.0,
+        "total_competitors": 1959,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 511,
+        "nearest_competitors": [
+          {
+            "name": "Dub Pan (Boxpark Shoreditch)",
+            "distance_km": 0.0,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Pizza Social Club",
+            "distance_km": 0.0,
+            "rating": 4.8,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "YOKI Korean Soul food @boxpark shoreditch",
+            "distance_km": 0.028,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.43,
+        "competitive_intensity": "high"
+      },
+      "deliveroo_zone": {
+        "radius_km": 3.0,
+        "total_competitors": 1424,
+        "same_type_competitors": 0,
+        "high_rated_competitors": 415,
+        "nearest_competitors": [
+          {
+            "name": "Dub Pan (Boxpark Shoreditch)",
+            "distance_km": 0.0,
+            "rating": 4.0,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Restaurant/Cafe/Canteen",
+            "price_level": null
+          },
+          {
+            "name": "Pizza Social Club",
+            "distance_km": 0.0,
+            "rating": 4.8,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          },
+          {
+            "name": "YOKI Korean Soul food @boxpark shoreditch",
+            "distance_km": 0.028,
+            "rating": 4.4,
+            "neighbourhood": "Shoreditch",
+            "on_deliveroo": true,
+            "business_type": "Takeaway/sandwich shop",
+            "price_level": null
+          }
+        ],
+        "avg_competitor_rating": 4.44,
+        "competitive_intensity": "high"
       }
     }
   }

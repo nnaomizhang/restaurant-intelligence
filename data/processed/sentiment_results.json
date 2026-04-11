@@ -1,91 +1,138 @@
 {
   "by_cuisine": {
     "Other": {
-      "positive": 1797,
-      "negative": 345,
-      "neutral": 66,
-      "total": 2208,
-      "avg_score": 0.646
-    },
-    "Japanese": {
-      "positive": 45,
-      "negative": 0,
-      "neutral": 0,
-      "total": 45,
-      "avg_score": 0.937
-    },
-    "Italian": {
-      "positive": 39,
-      "negative": 33,
-      "neutral": 3,
-      "total": 75,
-      "avg_score": 0.124
-    },
-    "Indian": {
-      "positive": 54,
-      "negative": 21,
-      "neutral": 0,
-      "total": 75,
-      "avg_score": 0.444
-    },
-    "British": {
-      "positive": 15,
-      "negative": 0,
-      "neutral": 0,
-      "total": 15,
-      "avg_score": 0.955
-    },
-    "Thai": {
-      "positive": 27,
-      "negative": 3,
-      "neutral": 0,
-      "total": 30,
-      "avg_score": 0.778
+      "positive": 9355,
+      "negative": 1455,
+      "neutral": 276,
+      "total": 11086,
+      "avg_score": 0.697,
+      "weighted_score": 5.283,
+      "reliable": true,
+      "sample_size": 11086
     },
     "American": {
-      "positive": 27,
-      "negative": 15,
-      "neutral": 3,
-      "total": 45,
-      "avg_score": 0.237
+      "positive": 397,
+      "negative": 83,
+      "neutral": 21,
+      "total": 501,
+      "avg_score": 0.606,
+      "weighted_score": 0.208,
+      "reliable": true,
+      "sample_size": 501
     },
     "Chinese": {
-      "positive": 21,
-      "negative": 6,
-      "neutral": 3,
-      "total": 30,
-      "avg_score": 0.463
+      "positive": 271,
+      "negative": 80,
+      "neutral": 19,
+      "total": 370,
+      "avg_score": 0.503,
+      "weighted_score": 0.127,
+      "reliable": true,
+      "sample_size": 370
     },
     "African": {
-      "positive": 24,
-      "negative": 6,
+      "positive": 124,
+      "negative": 42,
       "neutral": 0,
-      "total": 30,
-      "avg_score": 0.581
+      "total": 166,
+      "avg_score": 0.499,
+      "weighted_score": 0.057,
+      "reliable": true,
+      "sample_size": 166
+    },
+    "Italian": {
+      "positive": 767,
+      "negative": 141,
+      "neutral": 25,
+      "total": 933,
+      "avg_score": 0.669,
+      "weighted_score": 0.427,
+      "reliable": true,
+      "sample_size": 933
+    },
+    "Thai": {
+      "positive": 237,
+      "negative": 37,
+      "neutral": 6,
+      "total": 280,
+      "avg_score": 0.693,
+      "weighted_score": 0.133,
+      "reliable": true,
+      "sample_size": 280
+    },
+    "Indian": {
+      "positive": 510,
+      "negative": 99,
+      "neutral": 6,
+      "total": 615,
+      "avg_score": 0.66,
+      "weighted_score": 0.277,
+      "reliable": true,
+      "sample_size": 615
+    },
+    "Japanese": {
+      "positive": 359,
+      "negative": 60,
+      "neutral": 12,
+      "total": 431,
+      "avg_score": 0.671,
+      "weighted_score": 0.198,
+      "reliable": true,
+      "sample_size": 431
+    },
+    "Mexican": {
+      "positive": 138,
+      "negative": 16,
+      "neutral": 4,
+      "total": 158,
+      "avg_score": 0.763,
+      "weighted_score": 0.082,
+      "reliable": true,
+      "sample_size": 158
+    },
+    "Mediterranean": {
+      "positive": 40,
+      "negative": 0,
+      "neutral": 0,
+      "total": 40,
+      "avg_score": 0.968,
+      "weighted_score": 0.026,
+      "reliable": true,
+      "sample_size": 40
+    },
+    "British": {
+      "positive": 39,
+      "negative": 4,
+      "neutral": 2,
+      "total": 45,
+      "avg_score": 0.713,
+      "weighted_score": 0.022,
+      "reliable": true,
+      "sample_size": 45
     }
   },
   "by_neighbourhood": {
-    "Shoreditch": {
-      "positive": 717,
-      "negative": 78,
-      "neutral": 30,
-      "total": 825,
-      "avg_score": 0.747
+    "Peckham": {
+      "positive": 2602,
+      "negative": 711,
+      "neutral": 84,
+      "total": 3397,
+      "avg_score": 0.553
     },
     "Hackney": {
-      "positive": 732,
-      "negative": 114,
-      "neutral": 21,
-      "total": 867,
-      "avg_score": 0.702
+      "positive": 3700,
+      "negative": 612,
+      "neutral": 91,
+      "total": 4403,
+      "avg_score": 0.69
     },
-    "Peckham": {
-      "positive": 600,
-      "negative": 237,
-      "neutral": 24,
-      "total": 861,
-      "avg_score": 0.423
+    "Shoreditch": {
+      "positive": 5935,
+      "negative": 694,
+      "neutral": 196,
+      "total": 6825,
+      "avg_score": 0.745
     }
   },
-  "total_reviews": 2553
+  "total_reviews": 14625
 }
