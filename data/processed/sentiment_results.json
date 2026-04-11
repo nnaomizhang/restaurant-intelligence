@@ -1,0 +1,91 @@
+{
+  "by_cuisine": {
+    "Other": {
+      "positive": 1797,
+      "negative": 345,
+      "neutral": 66,
+      "total": 2208,
+      "avg_score": 0.646
+    },
+    "Japanese": {
+      "positive": 45,
+      "negative": 0,
+      "neutral": 0,
+      "total": 45,
+      "avg_score": 0.937
+    },
+    "Italian": {
+      "positive": 39,
+      "negative": 33,
+      "neutral": 3,
+      "total": 75,
+      "avg_score": 0.124
+    },
+    "Indian": {
+      "positive": 54,
+      "negative": 21,
+      "neutral": 0,
+      "total": 75,
+      "avg_score": 0.444
+    },
+    "British": {
+      "positive": 15,
+      "negative": 0,
+      "neutral": 0,
+      "total": 15,
+      "avg_score": 0.955
+    },
+    "Thai": {
+      "positive": 27,
+      "negative": 3,
+      "neutral": 0,
+      "total": 30,
+      "avg_score": 0.778
+    },
+    "American": {
+      "positive": 27,
+      "negative": 15,
+      "neutral": 3,
+      "total": 45,
+      "avg_score": 0.237
+    },
+    "Chinese": {
+      "positive": 21,
+      "negative": 6,
+      "neutral": 3,
+      "total": 30,
+      "avg_score": 0.463
+    },
+    "African": {
+      "positive": 24,
+      "negative": 6,
+      "neutral": 0,
+      "total": 30,
+      "avg_score": 0.581
+    }
+  },
+  "by_neighbourhood": {
+    "Shoreditch": {
+      "positive": 717,
+      "negative": 78,
+      "neutral": 30,
+      "total": 825,
+      "avg_score": 0.747
+    },
+    "Hackney": {
+      "positive": 732,
+      "negative": 114,
+      "neutral": 21,
+      "total": 867,
+      "avg_score": 0.702
+    },
+    "Peckham": {
+      "positive": 600,
+      "negative": 237,
+      "neutral": 24,
+      "total": 861,
+      "avg_score": 0.423
+    }
+  },
+  "total_reviews": 2553
+}

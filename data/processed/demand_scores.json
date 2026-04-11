@@ -1,0 +1,92 @@
+{
+  "Shoreditch": {
+    "demand_score": 0.721,
+    "supply_score": 0.018,
+    "opportunity_score": 1,
+    "demand_components": {
+      "population_score": 0.776,
+      "density_score": 0.853,
+      "young_professional_score": 0.8,
+      "economic_activity_score": 0.799,
+      "single_household_score": 0.63,
+      "review_volume_score": 0.415,
+      "delivery_demand_score": 0.35,
+      "sentiment_score": 0.747
+    },
+    "supply_components": {
+      "restaurant_density": 0.018,
+      "avg_rating": 0.863,
+      "avg_hygiene": 0.894,
+      "avg_price_level": 0.562
+    },
+    "raw_metrics": {
+      "population": 310303,
+      "total_restaurants": 55,
+      "avg_rating": 4.31,
+      "total_reviews": 207530,
+      "on_deliveroo": 7,
+      "avg_hygiene": 4.47,
+      "sentiment": 0.747
+    }
+  },
+  "Peckham": {
+    "demand_score": 0.61,
+    "supply_score": 0.02,
+    "opportunity_score": 1,
+    "demand_components": {
+      "population_score": 0.769,
+      "density_score": 0.578,
+      "young_professional_score": 0.684,
+      "economic_activity_score": 0.84,
+      "single_household_score": 0.657,
+      "review_volume_score": 0.073,
+      "delivery_demand_score": 0.6,
+      "sentiment_score": 0.423
+    },
+    "supply_components": {
+      "restaurant_density": 0.02,
+      "avg_rating": 0.825,
+      "avg_hygiene": 0.883,
+      "avg_price_level": 0.394
+    },
+    "raw_metrics": {
+      "population": 307609,
+      "total_restaurants": 59,
+      "avg_rating": 4.12,
+      "total_reviews": 36417,
+      "on_deliveroo": 12,
+      "avg_hygiene": 4.41,
+      "sentiment": 0.423
+    }
+  },
+  "Hackney": {
+    "demand_score": 0.611,
+    "supply_score": 0.019,
+    "opportunity_score": 1,
+    "demand_components": {
+      "population_score": 0.648,
+      "density_score": 0.662,
+      "young_professional_score": 0.693,
+      "economic_activity_score": 0.834,
+      "single_household_score": 0.65,
+      "review_volume_score": 0.08,
+      "delivery_demand_score": 0.15,
+      "sentiment_score": 0.702
+    },
+    "supply_components": {
+      "restaurant_density": 0.019,
+      "avg_rating": 0.86,
+      "avg_hygiene": 0.883,
+      "avg_price_level": 0.462
+    },
+    "raw_metrics": {
+      "population": 259151,
+      "total_restaurants": 58,
+      "avg_rating": 4.3,
+      "total_reviews": 40059,
+      "on_deliveroo": 3,
+      "avg_hygiene": 4.42,
+      "sentiment": 0.702
+    }
+  }
+}

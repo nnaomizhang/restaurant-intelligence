@@ -206,3 +206,15 @@
 03:15:47 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 03:15:50 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 03:15:50 [agent] INFO: Query logged: What is the most popular cuisine in Peckham?... (4391ms)
+03:20:41 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:20:53 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:20:53 [agent] INFO: Query logged: best restaurant ... (15561ms)
+03:43:46 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:43:54 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:43:54 [agent] INFO: Query logged: Which neighbourhood should I open a new restaurant in and why?... (11285ms)
+03:44:50 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:44:56 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:44:56 [agent] INFO: Query logged: How does Dishoom Shoreditch compare to its competitors?... (7801ms)
+03:53:39 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:53:42 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:53:42 [agent] INFO: Query logged: What is the market opportunity in Peckham?... (4404ms)

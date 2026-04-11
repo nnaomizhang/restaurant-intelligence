@@ -346,8 +346,109 @@ def get_top_restaurants(neighbourhood: str = "", category: str = "", limit: int 
     results = [dict(row._mapping) for row in rows]
     return json.dumps(results, default=str)
 
+# ==================================================================
+# Tool 9 — Sentiment analysis
+# ==================================================================
 
-# All tools list
+@tool
+def get_sentiment_analysis(neighbourhood: str = "", cuisine: str = "") -> str:
+    """
+    Get sentiment analysis results for restaurants by neighbourhood or cuisine.
+    Returns positive/negative/neutral review counts and average sentiment score.
+    Use this when asked about customer satisfaction or review sentiment.
+    """
+    import json
+    from config import PROCESSED_DIR
+
+    sentiment_path = PROCESSED_DIR / "sentiment_results.json"
+    if not sentiment_path.exists():
+        return json.dumps({"error": "Sentiment analysis not yet run"})
+
+    with open(sentiment_path) as f:
+        data = json.load(f)
+
+    result = {}
+
+    if neighbourhood:
+        area_data = data.get("by_neighbourhood", {})
+        matching = {k: v for k, v in area_data.items()
+                   if neighbourhood.lower() in k.lower()}
+        result["by_neighbourhood"] = matching
+
+    if cuisine:
+        cuisine_data = data.get("by_cuisine", {})
+        matching = {k: v for k, v in cuisine_data.items()
+                   if cuisine.lower() in k.lower()}
+        result["by_cuisine"] = matching
+
+    if not neighbourhood and not cuisine:
+        result = {
+            "by_neighbourhood": data.get("by_neighbourhood", {}),
+            "by_cuisine": data.get("by_cuisine", {}),
+            "total_reviews": data.get("total_reviews", 0),
+        }
+
+    return json.dumps(result)
+
+
+# ==================================================================
+# Tool 10 — Demand analysis
+# ==================================================================
+
+@tool
+def get_demand_analysis(neighbourhood: str = "") -> str:
+    """
+    Get market demand scores for neighbourhoods.
+    Returns demand score, supply score, opportunity score and key metrics.
+    Use this for market analysis or investment opportunity questions.
+    """
+    import json
+    from config import PROCESSED_DIR
+
+    demand_path = PROCESSED_DIR / "demand_scores.json"
+    if not demand_path.exists():
+        return json.dumps({"error": "Demand analysis not yet run"})
+
+    with open(demand_path) as f:
+        data = json.load(f)
+
+    if neighbourhood:
+        matching = {k: v for k, v in data.items()
+                   if neighbourhood.lower() in k.lower()}
+        return json.dumps(matching)
+
+    return json.dumps(data)
+
+
+# ==================================================================
+# Tool 11 — Catchment analysis
+# ==================================================================
+
+@tool
+def get_catchment_analysis(restaurant_name: str) -> str:
+    """
+    Get catchment zone analysis for a specific restaurant.
+    Returns competitor counts within walking, cycling and delivery zones.
+    Use this for competitive positioning questions.
+    """
+    import json
+    from config import PROCESSED_DIR
+
+    catchment_path = PROCESSED_DIR / "catchment_results.json"
+    if not catchment_path.exists():
+        return json.dumps({"error": "Catchment analysis not yet run"})
+
+    with open(catchment_path) as f:
+        data = json.load(f)
+
+    matching = {k: v for k, v in data.items()
+               if restaurant_name.lower() in k.lower()}
+
+    if not matching:
+        return json.dumps({"error": f"No catchment data found for {restaurant_name}"})
+
+    return json.dumps(matching)
+
 ALL_TOOLS = [
     search_restaurants,
     get_hygiene_rating,
@@ -357,4 +458,8 @@ ALL_TOOLS = [
     get_company_info,
     compare_neighbourhoods,
     get_top_restaurants,
+    get_sentiment_analysis,
+    get_demand_analysis,
+    get_catchment_analysis,
 ]
+
