@@ -493,3 +493,13 @@
 23:22:36 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 23:22:38 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 23:22:38 [agent] INFO: Query logged: Which neighbourhood has the highest concentration of restaurants?... (1763ms)
+23:25:32 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:25:35 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:25:39 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:25:39 [agent] INFO: Query logged: best chinese restaurant... (8521ms)
+23:26:18 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:26:22 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:26:23 [agent] INFO: Query logged: which neighbourhood is best to open a chinese restaurant?... (6140ms)
+23:31:43 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:31:50 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:31:50 [agent] INFO: Query logged: What types of restaurants are best for working professionals in Shoreditch?... (7946ms)

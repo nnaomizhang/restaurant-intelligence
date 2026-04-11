@@ -65,7 +65,9 @@ def get_restaurants(
                sources_matched, created_at,
                nearest_station, nearest_station_distance_km,
                nearest_station_lines, transport_score,
-               spatial_cluster, distance_to_centre_km
+               spatial_cluster, distance_to_centre_km,
+               trading_pattern, customer_segments, days_open,
+               avg_open_time, avg_close_time, open_weekends, open_weekdays
         FROM restaurants
         WHERE {where}
         ORDER BY google_rating DESC NULLS LAST

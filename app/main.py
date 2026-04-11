@@ -329,6 +329,7 @@ with tab2:
         display_cols = [
             "name", "neighbourhood", "google_rating", "google_review_count",
             "google_price_level", "business_type", "company_status",
+            "trading_pattern", "avg_open_time", "avg_close_time", "days_open",
             "nearest_station", "nearest_station_distance_km", "transport_score",
             "menu_item_count", "sources_matched"
         ]
@@ -339,7 +340,34 @@ with tab2:
             hide_index=True,
         )
 
-
+# Trading patterns
+        if "trading_pattern" in df.columns:
+            st.subheader("Trading patterns")
+            st.caption("Based on opening hours — indicates target customer demographic")
+            col1, col2 = st.columns(2)
+            with col1:
+                pattern_counts = df["trading_pattern"].value_counts().reset_index()
+                pattern_counts.columns = ["Pattern", "Count"]
+                fig = px.bar(
+                    pattern_counts,
+                    x="Pattern",
+                    y="Count",
+                    title="Restaurant trading patterns",
+                    color_discrete_sequence=["#636EFA"],
+                )
+                st.plotly_chart(fig, use_container_width=True)
+            with col2:
+                if "neighbourhood" in df.columns:
+                    pattern_by_area = df.groupby(["neighbourhood", "trading_pattern"]).size().reset_index(name="count")
+                    fig = px.bar(
+                        pattern_by_area,
+                        x="neighbourhood",
+                        y="count",
+                        color="trading_pattern",
+                        title="Trading patterns by neighbourhood",
+                        barmode="stack",
+                    )
+                    st.plotly_chart(fig, use_container_width=True)
 # ------------------------------------------------------------------
 # Tab 3 — Hygiene Intelligence
 # ------------------------------------------------------------------

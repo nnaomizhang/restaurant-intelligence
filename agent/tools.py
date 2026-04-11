@@ -489,6 +489,69 @@ def get_transport_accessibility(neighbourhood: str = "", min_score: float = 0.0)
     results = [dict(row._mapping) for row in rows]
     return json.dumps(results, default=str)
 
+# ==================================================================
+# Tool 13 — Opening hours and trading pattern analysis
+# ==================================================================
+
+@tool
+def get_trading_patterns(neighbourhood: str = "", pattern: str = "") -> str:
+    """
+    Get restaurant trading patterns and opening hours analysis.
+    Patterns: standard, family_restaurant, breakfast_cafe, all_day_dining,
+    late_night, business_dining, dinner_restaurant.
+    Use this when asked about opening times, target demographics,
+    working professionals, families, or late night dining.
+    """
+    engine = get_pg()
+    conditions = ["trading_pattern IS NOT NULL"]
+    params = {"limit": 20}
+
+    if neighbourhood:
+        conditions.append("neighbourhood ILIKE :neighbourhood")
+        params["neighbourhood"] = f"%{neighbourhood}%"
+
+    if pattern:
+        conditions.append("trading_pattern ILIKE :pattern")
+        params["pattern"] = f"%{pattern}%"
+
+    sql = f"""
+        SELECT name, neighbourhood, trading_pattern, customer_segments,
+               days_open, avg_open_time, avg_close_time,
+               open_weekends, open_weekdays, google_rating
+        FROM restaurants
+        WHERE {" AND ".join(conditions)}
+        ORDER BY google_rating DESC NULLS LAST
+        LIMIT :limit
+    """
+
+    with engine.connect() as conn:
+        rows = conn.execute(text(sql), params).fetchall()
+
+    results = [dict(row._mapping) for row in rows]
+
+    # Also get pattern summary
+    summary_sql = """
+        SELECT trading_pattern, COUNT(*) as count,
+               AVG(google_rating) as avg_rating
+        FROM restaurants
+        WHERE trading_pattern IS NOT NULL
+    """
+    summary_params = {}
+    if neighbourhood:
+        summary_sql += " AND neighbourhood ILIKE :neighbourhood"
+        summary_params["neighbourhood"] = f"%{neighbourhood}%"
+    summary_sql += " GROUP BY trading_pattern ORDER BY count DESC"
+
+    with engine.connect() as conn:
+        summary_rows = conn.execute(text(summary_sql), summary_params).fetchall()
+
+    summary = [dict(row._mapping) for row in summary_rows]
+
+    return json.dumps({
+        "summary": summary,
+        "restaurants": results,
+    }, default=str)
+
 ALL_TOOLS = [
     search_restaurants,
     get_hygiene_rating,
@@ -502,5 +565,6 @@ ALL_TOOLS = [
     get_demand_analysis,
     get_catchment_analysis,
     get_transport_accessibility,
+    get_trading_patterns,
 ]
 

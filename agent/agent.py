@@ -36,6 +36,8 @@ When answering questions:
 7. If you cannot find specific data, say so clearly rather than making up examples
 8. For cuisine-specific queries (Chinese, sushi, Indian etc.) use search_reviews tool with the cuisine as the query — NOT get_top_restaurants which filters by business_type not cuisine
 9. When asked about "best X restaurant" always use search_reviews first to find cuisine matches, then get_hygiene_rating to enrich results
+10. For questions about opening times, working professionals, families or late night dining use get_trading_patterns
+11. Trading patterns: breakfast_cafe (opens before 9am), family_restaurant (closes before 9pm, open weekends), late_night (closes after 11pm), business_dining (weekday focused), all_day_dining (open 12+ hours)
 
 Target neighbourhoods: Shoreditch, Peckham, Hackney
 """
