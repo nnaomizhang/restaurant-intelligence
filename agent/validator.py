@@ -32,7 +32,7 @@ IGNORE_PHRASES = {
     " rd", " ln", " st", " ave", " grove", " gardens", " lane",
     " street", " road", " avenue", " place", " square", "deliveroo", "companies house", "mentmore terrace",
     "lower clapton", "uk", "these restaurants", "unfortunately",
-    "google", "google rating", "tripadvisor",
+    "google", "google rating", "tripadvisor", "menu item count", "menu item", "item count",
 }
 
 def get_all_restaurant_names() -> set[str]:
