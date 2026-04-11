@@ -21,6 +21,31 @@ from config import RAW_DIR, PROCESSED_DIR
 from processing.lineage import log_transformation, generate_run_id
 
 
+NON_RESTAURANT_TYPES = {
+    "lodging", "hotel", "pharmacy", "store", "supermarket",
+    "grocery_or_supermarket", "convenience_store", "clothing_store",
+    "home_goods_store", "furniture_store", "electronics_store",
+    "car_dealer", "car_rental", "gas_station", "bank", "atm",
+    "gym", "spa", "beauty_salon", "hair_care", "hospital",
+    "doctor", "dentist", "school", "university", "library",
+    "movie_theater", "bowling_alley", "amusement_park",
+}
+
+def is_restaurant(record: dict) -> bool:
+    """Return True only if record is primarily a restaurant/food business."""
+    types = set(record.get("types") or [])
+
+    # Exclude anything with lodging — hotels with restaurants still aren't restaurants
+    if "lodging" in types:
+        return False
+
+    # Must have at least one food-related type
+    food_types = {
+        "restaurant", "food", "cafe", "bakery", "bar",
+        "meal_takeaway", "meal_delivery",
+    }
+    return bool(types & food_types)
+
 # ==================================================================
 # Postcode cleaning
 # ==================================================================
@@ -150,6 +175,9 @@ def clean_google_places(records: list[dict]) -> list[dict]:
     """Clean Google Places records."""
     cleaned = []
     for r in records:
+        # Skip non-restaurants
+        if not is_restaurant(r):
+            continue
         cleaned.append({
             "google_place_id": r.get("google_place_id"),
             "name": clean_name(r.get("name")),

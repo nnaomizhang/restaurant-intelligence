@@ -1,0 +1,1546 @@
+[
+  {
+    "name": "Wingstop - Canning Town",
+    "name_normalised": "wingstop canning town",
+    "postcode": "E16 4TG",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "3 Pieces Tenders",
+        "description": "",
+        "price": 6.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "\"The Flavour Fix\" Boneless (For 1)",
+        "description": "",
+        "price": 17.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "8 Pieces Boneless",
+        "description": "",
+        "price": 9.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "5 Pieces Tenders",
+        "description": "",
+        "price": 8.75,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Big Flavour Burger",
+        "description": "",
+        "price": 7.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "12 Pieces Boneless",
+        "description": "",
+        "price": 12.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "\"The Flavour Craver\" (For 2)",
+        "description": "",
+        "price": 29.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "\"The Flavour Fix\" Wings (For 1)",
+        "description": "8 wings, 3 tenders and regular seasoned fries. 1467 kcal.",
+        "price": 17.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "\"The Crowd Pleaser\" (For 5 or more)",
+        "description": "50 wings, 50 boneless, 3 large seasoned fries and 6 dips.",
+        "price": 100.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "10 Pieces Boneless",
+        "description": "No bones about it. 100% all-white breast meat. 0% bones & 110% flavour. 526 kcal.",
+        "price": 11.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 10,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  },
+  {
+    "name": "Asia Villa - Canary Wharf",
+    "name_normalised": "asia villa canary wharf",
+    "postcode": "E14 0EG",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Signature Chow Mein (Mild)",
+        "description": "",
+        "price": 8.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Thai Massaman Curry 🌶️🌶️",
+        "description": "",
+        "price": 7.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Asia Villa Special Fried Rice",
+        "description": "",
+        "price": 8.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Thai Red Curry 🌶️🌶️🌶️",
+        "description": "",
+        "price": 7.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Pad Thai (Mild)",
+        "description": "",
+        "price": 8.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Pad Krapao 🌶️🌶️🌶️",
+        "description": "",
+        "price": 8.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chilli Yaki Udon 🌶️🌶️🌶️",
+        "description": "",
+        "price": 8.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Salt & Pepper Chicken 🌶️",
+        "description": "Crispy chicken, tossed with chilli and spring onion, tasty, and gone before you know it. Served with sweet chilli sauce.🌶️",
+        "price": 5.95,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Bangkok Coconut Curry (Mild)",
+        "description": "Creamy Bangkok-style coconut curry with potatoes, onion and fresh greens. Mild, comforting and full of flavour.",
+        "price": 8.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Kids Egg Fried Rice",
+        "description": "Wok-tossed rice with egg and a touch of soy. Simple, tasty, and always a favourite. Served with your choice of protein.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Kids Yakisoba Noodles",
+        "description": "Wok-tossed rice with egg and a touch of soy. Simple, tasty, and always a favourite. Served with your choice of protein.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Kids Katsu Curry",
+        "description": "Crispy katsu curry sauce served with fluffy jasmine rice. Mild, smooth, and comforting. Choose your protein to complete the plate — the Asia Villa way.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Kids Coconut Curry",
+        "description": "Creamy coconut curry, mild and full of flavour, served with steamed jasmine rice. Choose your protein and enjoy a perfectly balanced little bowl.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 13,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  },
+  {
+    "name": "Tasty Malatang 舌尖麻辣烫 - Shadwell",
+    "name_normalised": "tasty malatang shadwell",
+    "postcode": "E1 2PH",
+    "deliveroo_rating": null,
+    "delivery_fee": 0.0,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "素三鲜饺子 Deep Fried Vegetable Dumplings",
+        "description": "Crispy fried vegetarian dumplings, golden on the outside and flavourful on the inside. Filled with a delicious mix of vegetables, offering a light yet satisfying taste. Crunchy, juicy, and perfectly balanced—a great meat-free treat!油炸素三鲜饺子，外皮金黄酥脆，内馅鲜香丰富，融合多种蔬菜的清爽口感。外酥内嫩，层次分明，清新不腻，是解馋又满足的素食之选。",
+        "price": 6.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Free with £35 spend",
+        "description": "",
+        "price": 35.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meal 1 🥩 Beef Boost 牛肉能量锅",
+        "description": "",
+        "price": 18.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "皮蛋瘦肉粥 Century Egg & Minced Pork Congee",
+        "description": "",
+        "price": 8.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "🥘 麻辣香锅 | Spicy and Fragrant Sichuan Stir-fry Pot",
+        "description": "",
+        "price": 18.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "🍗 Taiwanese Popcorn Chicken 台湾盐酥鸡 🌿✨",
+        "description": "",
+        "price": 7.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meal 5 🎁 All-Star Bowl ⭐ 全明星豪华锅",
+        "description": "",
+        "price": 25.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "🔥 武汉热干面 Wuhan Style Hot and Dry Noodles with Sesame Paste",
+        "description": "",
+        "price": 11.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "❤️‍🔥🐌广西螺蛳粉 Luosifen · Guangxi River Snail Rice Noodles",
+        "description": "",
+        "price": 12.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "➕ Extra Cutlery 额外餐具",
+        "description": "",
+        "price": 0.15,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meal 4 Wellness Veggie Pot 🥬 养生蔬菜锅",
+        "description": "A warming vegetable pot inspired by comforting, nourishing flavours.Featuring white radish, tofu products, paired with our Signature Veggie Combo （Chinese leaf · Enoki · Potato · Lotus Root · Kelp ）灵感来自滋养系蔬菜锅，以白萝卜、豆腐等清润食材为主，口味温和顺口。搭配招牌蔬菜组合（大白菜 · 金针菇 · 土豆 · 藕片 · 海带），清爽却有饱足感。‼️If some vegetables run out, we’ll add extra portions of the other vegetables instead.如果部分蔬菜售罄，我们将以其他蔬菜加量替代。",
+        "price": 15.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meal 2 🐔 Chicken 鸡肉锅",
+        "description": "A special house-style chicken breast, paired with our Signature Veggie Combo （Chinese leaf · Enoki · Black Fungus · Shiitake Mushroom · Potato · Lotus Root · Kelp ）Light yet flavourful. 招牌鸡胸肉，搭配招牌蔬菜组合（大白菜 · 金针菇 · 黑木耳 · 香菇 · 土豆 · 藕片 · 海带），清爽却不寡淡，让人安心的好选择。‼️If some vegetables run out, we’ll add extra portions of the other vegetables instead.如果部分蔬菜售罄，我们将以其他蔬菜加量替代。",
+        "price": 16.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 12,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  },
+  {
+    "name": "Poke Bird 🦜",
+    "name_normalised": "poke bird hackney",
+    "postcode": "E8 1HR",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Chicken Eho!",
+        "description": "Thick sushi roll containing chicken katsu, avocado cucumber. Choose your filler sauce below. Perfect companion for your poke.",
+        "price": 7.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Free with £20 spend",
+        "description": "",
+        "price": 20.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Prawn Eho!",
+        "description": "Thick sushi roll containing prawn katsu, avocado, cucumber. Choose your filler sauce below. Perfect companion for your poke.",
+        "price": 8.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Salmon Eho!",
+        "description": "Salmon, avocado, cucumber rolled with sushi rice and nori to perfection. Choose your filler sauce below. Perfect companion for your poke.",
+        "price": 7.95,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tofu Eho!",
+        "description": "Thick sushi roll containing tofu, cucumber. Choose your filler sauce below. Perfect companion for your poke.",
+        "price": 7.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Hawaiian Bowl",
+        "description": "",
+        "price": 11.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Cali Poke",
+        "description": "",
+        "price": 11.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Jason Momoa",
+        "description": "",
+        "price": 11.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Katsu Poke",
+        "description": "",
+        "price": 11.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "House Bowl",
+        "description": "",
+        "price": 12.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Hawaiian Seaweed",
+        "description": "",
+        "price": 6.85,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Miso Poke",
+        "description": "",
+        "price": 11.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Prawn Paradise",
+        "description": "A delicious combination of succulent king prawns, sweet mango, and creamy avocado atop a bed of rice, paired with edamame beans. Topped with crunchy onions, spring onions, and sesame seeds for added texture. Customise your bowl with a sauce of your choice. Pictured with Teriyaki sauce. You are the only version of you to ever exist in the universe. You are great, you are powerful, you are special.",
+        "price": 12.95,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Vegan Poke",
+        "description": "A delicious blend of vegan salmon and vegan tuna with crunchy cabbage, creamy avocado, crisp carrot, sweet corn, fresh cucumber, and radish on a bed of rice. Topped with spring onions and sesame seeds for added flavor and texture. Customise your bowl with a sauce of your choice. Pictured with sesame sauce. In a world where you can be anything, be yourself. Because you are amazing.",
+        "price": 11.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegan"
+        ]
+      },
+      {
+        "name": "Naked Poke",
+        "description": "Tuna and salmon with avocado and mango, accompanied by wakame, ginger, and wasabi, garnished with sesame seeds. Choose your sauce below. Photo shown in sesame sauce. You are enough, you have always been enough. You will always be enough.",
+        "price": 13.45,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 15,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  },
+  {
+    "name": "Hawkins Diner from Stranger Things - Bow",
+    "name_normalised": "hawkins diner from stranger things bow",
+    "postcode": "E3 4UR",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "The Solo Mission",
+        "description": "",
+        "price": 15.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "The Big League",
+        "description": "",
+        "price": 19.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chief's Chicken Sandwich",
+        "description": "",
+        "price": 9.49,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Mac Bites",
+        "description": "",
+        "price": 7.49,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "The Hometown Classic",
+        "description": "",
+        "price": 10.49,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Classic Tenders",
+        "description": "",
+        "price": 5.29,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Onion Rings",
+        "description": "",
+        "price": 6.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Two Player Special",
+        "description": "Any burger with grass-fed beef or double fried chicken, two house fries, two dips. Double the comfort.",
+        "price": 29.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "PB&J Burger",
+        "description": "Double fried chicken breast, peanut butter, chilli jam, mayo, melted cheese, lettuce, waffle skewer. A mysterious combo that just works.",
+        "price": 10.49,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Mac Stack",
+        "description": "Double grass-fed beef patties, jalapeños, ranch, American cheese, lettuce, crispy mac bites. Comfort food fights back.",
+        "price": 11.49,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Hellfire Tots 🔥",
+        "description": "Crispy tots piled high with spicy mayo, fireball ketchup, jalapeños, crispy onions, chives. A fiery welcome.",
+        "price": 5.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "The Smokehouse Double",
+        "description": "Double grass-fed beef patties stacked with American cheese, BBQ sauce, garlic mayo, crispy onions, tangy pickles. All the smoky fixings.",
+        "price": 10.99,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "The Hellfire Special 🔥",
+        "description": "Double grass-fed beef patties, hot ketchup, jalapeños, lettuce, spicy mayo. For those who like it hotter.",
+        "price": 10.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 13,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  },
+  {
+    "name": "海底捞火锅·Haidilao Hot Pot - Piccadilly Circus",
+    "name_normalised": "haidilao hot pot piccadilly circus",
+    "postcode": null,
+    "deliveroo_rating": null,
+    "delivery_fee": 0.0,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Premium Beef Brisket 精品肥牛",
+        "description": "",
+        "price": 13.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Haidilao Prawn Paste 捞派虾滑",
+        "description": "",
+        "price": 12.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Haidilao-Style Beef 捞派滑牛肉",
+        "description": "",
+        "price": 8.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Haidilao Beef Tripe 捞派毛肚",
+        "description": "",
+        "price": 10.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Premium Lamb Shoulder 特选羊肩肉",
+        "description": "",
+        "price": 12.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Goose Intestines 鹅肠",
+        "description": "",
+        "price": 7.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Iberico Pork 伊比利黑毛猪肉",
+        "description": "",
+        "price": 14.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tomato Soup Base番茄火锅",
+        "description": "Need to prepare your own heating pot. Allergen: This product contains soy.一定要喝汤的番茄火锅。 需自备电热锅。过敏原：本产品含有大豆",
+        "price": 13.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tom Yum soup base 冬阴功汤锅底",
+        "description": "The broth blends sour, spicy, sweet, and salty flavors, creating a rich and complex taste experience for the hot pot ingredients.Allergen Information: This product contains shrimp, soy, dairy products, and crustaceans, and includes coconut powder.Need to prepare your own heating pot. 一汤融进酸辣甜咸，涮料口感丰富过敏原信息：本产品含有虾、大豆、奶类、甲壳类动物，包含：椰子粉需自备电热锅。",
+        "price": 15.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 9,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  },
+  {
+    "name": "MEATliquor at BLOODsports - Covent Garden",
+    "name_normalised": "meatliquor at bloodsports covent garden",
+    "postcode": null,
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Dead Hippie ⚰️☮️🍔🐄🧀",
+        "description": "",
+        "price": 15.35,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Monkey Fingers™️🙉🤘🐔🔥",
+        "description": "",
+        "price": 12.05,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Buffalo Wings🍗🔥",
+        "description": "",
+        "price": 10.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Cheeseburger 🍔🐄🧀",
+        "description": "",
+        "price": 14.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chili Cheese Fries🐮🧀🍟",
+        "description": "",
+        "price": 10.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Dirty Chicken 🍔🐔",
+        "description": "",
+        "price": 14.05,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Plain Jane 🍔🐄🧀",
+        "description": "Single beef patty & American cheese.",
+        "price": 8.75,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tempeh Tantrum 🍔🌿",
+        "description": "Double Tempeh & Mushroom Patty, \"Cheese\", Burger Sauce, Pickles, Lettuce & Diced White Onion",
+        "price": 14.85,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Buffalo Chicken Burger 🍔🐔🧀🔥",
+        "description": "Dredged & Fried Chicken Breast, Covered in Our Buffalo Sauce, with Blue Cheese Sauce, Lettuce & Diced White Onion",
+        "price": 14.85,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Half Coq'ed 🐥🧀",
+        "description": "Half Chicken Breast, Mayo, Pickles, Lettuce.",
+        "price": 9.3,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "halal"
+        ]
+      },
+      {
+        "name": "Mac 'n' Cheese 🧥+🧀",
+        "description": "Deep fried Mac 'n' 5 cheeses with a choice of dip.",
+        "price": 8.55,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Onion Blings🧅💍",
+        "description": "Big & Fluffy Rings",
+        "price": 7.65,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegan"
+        ]
+      }
+    ],
+    "menu_item_count": 12,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  },
+  {
+    "name": "VQ - Bloomsbury - Open Late",
+    "name_normalised": "vq bloomsbury open late",
+    "postcode": null,
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Regular Omelette",
+        "description": "",
+        "price": 8.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Buttermilk Pancakes",
+        "description": "",
+        "price": 13.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "S Burger 2",
+        "description": "",
+        "price": 10.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Sml Eng.Breakfast",
+        "description": "",
+        "price": 13.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "French Toast",
+        "description": "",
+        "price": 13.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Burger",
+        "description": "",
+        "price": 11.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Club Sandwich",
+        "description": "",
+        "price": 16.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Breakfast Burger",
+        "description": "Highly rated",
+        "price": 12.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Salmon & Scrambled Eggs",
+        "description": "Scrambled eggs, smoked salmon, sourdough toast.",
+        "price": 15.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Sml Ben Bacon",
+        "description": "Poached egg, crispy bacon, toasted english muffin, hollandaise.",
+        "price": 9.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Breakfast Wrap",
+        "description": "Scrambled eggs, chorizo, hash browns, roasted peppers, fried onions, guacomole.",
+        "price": 12.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Poach Eggs Avo Chilli Jam",
+        "description": "Poached eggs, avocado, chilli jam, toasted sourdough.",
+        "price": 13.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Smoothie Bowl",
+        "description": "gGanola, berries, banana, yoghurt, chia seeds.",
+        "price": 10.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegan"
+        ]
+      },
+      {
+        "name": "Sml Veg Bfast",
+        "description": "Fried egg, toasted English muffin, hash brown, sausage, grilled tomato, mushroom, avocado, baked beans.",
+        "price": 13.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Fruit Salad",
+        "description": "Soya or greek yoghurt.",
+        "price": 9.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Sml Ben Ham",
+        "description": "Poached egg, ham, toasted english muffin, hollandaise.",
+        "price": 9.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "White Omelette",
+        "description": "Add a choice of cheddar, gruyere, tomatoes, mushroom, red peppers, spinach, bacon, ham, onions.",
+        "price": 11.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Crispy Calamari",
+        "description": "Served with a Chipotle mayo sauce.",
+        "price": 10.95,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Halloumi Fries",
+        "description": "Homemade Halloumi Fries served with Tzatziki dipping sauce.",
+        "price": 10.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 19,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  },
+  {
+    "name": "Soul Lebanese - Bermondsey",
+    "name_normalised": "soul lebanese bermondsey",
+    "postcode": "SE1 3AA",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Set menu for 2-3",
+        "description": "Includes: Hommos, moutabal, tabbouleh, falafel, batata harra, jawaneh followed by one mixed grill and Lebanese sweets.",
+        "price": 47.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Shish Taouk",
+        "description": "",
+        "price": 7.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Mixed Grills (G)",
+        "description": "",
+        "price": 15.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Shawarma (SE)",
+        "description": "",
+        "price": 7.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Half Baby Chicken (SE)",
+        "description": "",
+        "price": 8.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Sambousek Cheese (V) (G)",
+        "description": "",
+        "price": 6.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Kafta Meshwi",
+        "description": "",
+        "price": 13.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Kafta Meshwi (SE)",
+        "description": "",
+        "price": 7.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Moutabal Baba Ghanouj (V) (SE)",
+        "description": "Grilled aubergine purée mixed with sesame paste (tahine),and lemon juice.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Hommos (V) (SE)",
+        "description": "Chickpea purée with sesame paste (tahine) and lemon juice.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Tabbouleh (V) (G)",
+        "description": "Parsley salad with tomato, fresh mint, onion, crackedwheat, lemon juice and an olive oil dressing.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Hommos Beiruty (V) (SE) (Spicy)",
+        "description": "Chickpea purée with hot pepper, parsley, sesame paste(tahine), and lemon juice.",
+        "price": 5.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Wark Inab B’zeit (V)",
+        "description": "Vine leaves filled with rice, tomato, parsley, mint and onion cooked in lemon juice and olive oil.",
+        "price": 5.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Labneh (V) (M)",
+        "description": "Strained yoghurt served with olive oil and dried thyme.",
+        "price": 5.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Kabis (V)",
+        "description": "Mixed Mediterranean pickles.",
+        "price": 4.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Moussaka (V)",
+        "description": "Fried aubergines baked with tomato, onion, chickpeas and sweet peppers.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Jawaneh",
+        "description": "Charcoal-grilled marinated chicken wings served with garlic sauce.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Batata Harra (V) (Spicy)",
+        "description": "Cubes of potatoes sauteed with garlic, coriander, sweet pepper and a touch of chilli.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      }
+    ],
+    "menu_item_count": 18,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  },
+  {
+    "name": "Liban Bites - Lebanese Grill",
+    "name_normalised": "liban bites lebanese grill hoxton",
+    "postcode": null,
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Chicken Shish Tawouq Plate",
+        "description": "Highly rated",
+        "price": 15.2,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "halal"
+        ]
+      },
+      {
+        "name": "Lahem Meshwi Plate",
+        "description": "Charcoal Grilled Tender Lamb Cubes (650 kcal | 60g protein)",
+        "price": 17.6,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "halal"
+        ]
+      },
+      {
+        "name": "Lamb Kofta Plate",
+        "description": "Charcoal Grilled Skewers of Seasoned Minced Lamb, with Onion and Parsley. (600 kcal | 60g protein)",
+        "price": 13.6,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Mini Mixed Grill",
+        "description": "Charcoal Grilled Skewers of Chicken ShishTawooq and Lamb Kofta. (500 kcal | 67g protein)",
+        "price": 15.2,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Plate Deal for One!",
+        "description": "1 Charcoal Grilled Plate & 1 Side!",
+        "price": 22.5,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Plates Deal for Two!",
+        "description": "2 Charcoal Grilled Plates & 1 Side!",
+        "price": 39.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Wrap Deal for One!",
+        "description": "12\" Tortilla Wrap with Fries & A Drink!",
+        "price": 14.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Wrap Deal for Two!",
+        "description": "2 x 12\" Tortilla Wraps with 2 Fries & 2 Drinks!",
+        "price": 28.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Shish Tawouq Wrap",
+        "description": "",
+        "price": 11.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Shish Tawouq Skewer",
+        "description": "200 kcal",
+        "price": 8.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Hummus",
+        "description": "",
+        "price": 7.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Fattoush",
+        "description": "",
+        "price": 8.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Falafel",
+        "description": "",
+        "price": 7.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tabbouleh",
+        "description": "",
+        "price": 8.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Halloumi Cheese",
+        "description": "",
+        "price": 7.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Spicy Rice *NEW*",
+        "description": "Fragrant spiced basmati rice, topped with fresh herbs and chillies.",
+        "price": 5.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegan"
+        ]
+      },
+      {
+        "name": "Cold Starter Platter",
+        "description": "A mixture of 4 of our famous cold mezzes including hummus, baba ghanoush, tabbouleh, and vine leaves. Served with Fresh Pitta Bread.",
+        "price": 16.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegan"
+        ]
+      }
+    ],
+    "menu_item_count": 17,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  },
+  {
+    "name": "Harvest N1 - N1",
+    "name_normalised": "harvest n1 n1",
+    "postcode": "N1 8LU",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [],
+    "menu_item_count": 0,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  },
+  {
+    "name": "Harvest E1",
+    "name_normalised": "harvest e1 brick lane",
+    "postcode": "E1 6SE",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [],
+    "menu_item_count": 0,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  },
+  {
+    "name": "McDonald's",
+    "name_normalised": "mcdonalds hackney",
+    "postcode": "E8 1HY",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Big Mac®",
+        "description": "Two 100% beef patties, a slice of cheese, lettuce, onion and pickles. And the sauce. That unbeatable, tasty Big Mac® sauce. You know you want to. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 6.49,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Free with £20 spend",
+        "description": "",
+        "price": 20.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "20 Chicken McNuggets® Sharebox®",
+        "description": "869 kcal",
+        "price": 8.29,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "The Double Burger Deal (for Two)",
+        "description": "1922 kcal",
+        "price": 12.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Large Big Mac® Meal",
+        "description": "1153 kcal",
+        "price": 8.79,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "9 Chicken McNuggets®",
+        "description": "391 kcal",
+        "price": 6.69,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Medium Big Mac® Meal",
+        "description": "999 kcal",
+        "price": 8.09,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Large Double Quarter Pounder™ with cheese Meal",
+        "description": "1387 kcal",
+        "price": 10.29,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Large Big Arch® Meal",
+        "description": "1701 kcal",
+        "price": 12.69,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Double Big Mac®",
+        "description": "Four 100% beef patties, a slice of cheese, lettuce, onion and pickles. And the sauce. That unbeatable, tasty Big Mac® sauce. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 8.19,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Large CARDS Double Big Mac® Meal",
+        "description": "Four 100% beef patties, a slice of cheese, lettuce, onion and pickles with Big Mac® sauce. Meal includes a choice of side and drink, plus a pack of McDonald's CARDS. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 10.49,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Medium CARDS Double Big Mac® Meal",
+        "description": "Four 100% beef patties, a slice of cheese, lettuce, onion and pickles with Big Mac® sauce. Meal includes a choice of side and drink, plus a pack of McDonald's CARDS. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 9.79,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Large Double Big Mac® Meal",
+        "description": "Four 100% beef patties, a slice of cheese, lettuce, onion and pickles. And the sauce. That unbeatable, tasty Big Mac® sauce. Meal includes a choice of side and drink. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 10.49,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Medium Double Big Mac® Meal",
+        "description": "Four 100% beef patties, a slice of cheese, lettuce, onion and pickles. And the sauce. That unbeatable, tasty Big Mac® sauce. Meal includes a choice of side and drink. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 9.79,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Double Big Mac® with Bacon",
+        "description": "Four 100% beef patties, bacon, a slice of cheese, lettuce, onion and pickles. And the sauce. That unbeatable, tasty Big Mac® sauce. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 9.09,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Large CARDS Double Big Mac® with Bacon Meal",
+        "description": "Four 100% beef patties, bacon, a slice of cheese, lettuce, onion and pickles with Big Mac® sauce. Meal includes a choice of side and drink, plus a pack of McDonald's CARDS. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 11.39,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Medium CARDS Double Big Mac® with Bacon Meal",
+        "description": "Four 100% beef patties, bacon, a slice of cheese, lettuce, onion and pickles with Big Mac® sauce. Meal includes a choice of side and drink, plus a pack of McDonald's CARDS. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 10.69,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 17,
+    "neighbourhood": "Hackney",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-11T00:01:11.414971+00:00",
+      "collector_version": "2.0",
+      "run_id": "afe2e156"
+    }
+  }
+]
