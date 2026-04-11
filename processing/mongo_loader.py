@@ -47,7 +47,6 @@ def upsert_records(collection, records: list[dict], key_field: str) -> dict:
     updated = 0
 
     for record in records:
-        # Remove MongoDB _id if present to avoid conflicts
         record.pop("_id", None)
         key_value = record.get(key_field)
 
@@ -70,6 +69,29 @@ def upsert_records(collection, records: list[dict], key_field: str) -> dict:
     return {"inserted": inserted, "updated": updated}
 
 
+def create_indexes(collection, key_field: str, extra_fields: list = None):
+    """Create indexes without unique constraint conflicts."""
+    try:
+        if key_field:
+            collection.create_index(
+                [(key_field, ASCENDING)],
+                sparse=True,
+                background=True
+            )
+    except Exception:
+        pass
+
+    for field in (extra_fields or []):
+        try:
+            collection.create_index(
+                [(field, ASCENDING)],
+                sparse=True,
+                background=True
+            )
+        except Exception:
+            pass
+
+
 def run_mongo_loading(uri: str = "mongodb://localhost:27017"):
     from config import TARGET_AREAS
 
@@ -86,19 +108,29 @@ def run_mongo_loading(uri: str = "mongodb://localhost:27017"):
         print(f"  Make sure Docker is running: docker-compose up -d mongodb")
         return
 
+    # Drop all existing indexes to avoid conflicts
+    for coll_name in ["google_places", "fsa", "companies_house", "deliveroo", "ons_census", "restaurants"]:
+        try:
+            db[coll_name].drop_indexes()
+        except Exception:
+            pass
+
     sources = [
-        ("google_places", "google_place_id"),
-        ("fsa", "fsa_id"),
-        ("companies_house", "company_number"),
-        ("deliveroo", "name_normalised"),
-        ("ons_census", "neighbourhood"),
+        ("google_places", "google_place_id", ["neighbourhood"]),
+        ("fsa", "fsa_id", ["neighbourhood", "postcode"]),
+        ("companies_house", "company_number", ["neighbourhood"]),
+        ("deliveroo", "name_normalised", ["neighbourhood"]),
+        ("ons_census", "lsoa_code", ["neighbourhood"]),
     ]
 
     total_inserted = 0
     total_updated = 0
 
-    for source, key_field in sources:
+    for source, key_field, extra_fields in sources:
         print(f"--- {source} ---")
+        collection = db[source]
+        create_indexes(collection, key_field, extra_fields)
+
         for area in TARGET_AREAS:
             run_id = generate_run_id()
             records = load_processed(source, area["name"])
@@ -106,22 +138,6 @@ def run_mongo_loading(uri: str = "mongodb://localhost:27017"):
             if not records:
                 print(f"  {area['name']}: no data found")
                 continue
-
-            collection = db[source]
-
-            # Create indexes
-            if key_field:
-                collection.create_index(
-                    [(key_field, ASCENDING)],
-                    unique=True,
-                    sparse=True,
-                    background=True
-                )
-            collection.create_index(
-                [("neighbourhood", ASCENDING)],
-                sparse=True,
-                background=True
-            )
 
             result = upsert_records(collection, records, key_field)
             inserted = result["inserted"]
@@ -142,6 +158,9 @@ def run_mongo_loading(uri: str = "mongodb://localhost:27017"):
 
     # Load master records
     print(f"\n--- master (restaurants collection) ---")
+    collection = db["restaurants"]
+    create_indexes(collection, "google_place_id", ["neighbourhood", "postcode"])
+
     for area in TARGET_AREAS:
         run_id = generate_run_id()
         records = load_processed("master", area["name"])
@@ -149,11 +168,6 @@ def run_mongo_loading(uri: str = "mongodb://localhost:27017"):
         if not records:
             print(f"  {area['name']}: no master data found")
             continue
-
-        collection = db["restaurants"]
-        collection.create_index([("google_place_id", ASCENDING)], sparse=True, background=True)
-        collection.create_index([("neighbourhood", ASCENDING)], background=True)
-        collection.create_index([("postcode", ASCENDING)], sparse=True, background=True)
 
         result = upsert_records(collection, records, "google_place_id")
         inserted = result["inserted"]
@@ -176,7 +190,6 @@ def run_mongo_loading(uri: str = "mongodb://localhost:27017"):
     print(f"  DONE: {total_inserted} inserted, {total_updated} updated")
     print(f"{'='*60}\n")
 
-    # Collection stats
     print("  Collection counts:")
     for coll_name in sorted(db.list_collection_names()):
         count = db[coll_name].count_documents({})
