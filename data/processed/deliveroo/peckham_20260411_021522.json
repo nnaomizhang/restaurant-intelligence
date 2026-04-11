@@ -1,0 +1,2258 @@
+[
+  {
+    "name": "Wingstop",
+    "name_normalised": "wingstop",
+    "postcode": "SE15 1TF",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "3 Pieces Tenders",
+        "description": "",
+        "price": 6.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "\"The Flavour Fix\" Boneless (For 1)",
+        "description": "",
+        "price": 17.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "8 Pieces Boneless",
+        "description": "",
+        "price": 9.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "5 Pieces Tenders",
+        "description": "",
+        "price": 8.75,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Big Flavour Burger",
+        "description": "",
+        "price": 7.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "12 Pieces Boneless",
+        "description": "",
+        "price": 12.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "\"The Flavour Craver\" (For 2)",
+        "description": "",
+        "price": 29.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "\"The Flavour Fix\" Wings (For 1)",
+        "description": "8 wings, 3 tenders and regular seasoned fries. 1467 kcal.",
+        "price": 17.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "\"The Crowd Pleaser\" (For 5 or more)",
+        "description": "50 wings, 50 boneless, 3 large seasoned fries and 6 dips.",
+        "price": 100.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "10 Pieces Boneless",
+        "description": "No bones about it. 100% all-white breast meat. 0% bones & 110% flavour. 526 kcal.",
+        "price": 11.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 10,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "Maki & Ramen - Soho",
+    "name_normalised": "maki ramen soho",
+    "postcode": null,
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Steak Tataki Ramen🌶️",
+        "description": "",
+        "price": 17.89,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Ramen",
+        "description": "",
+        "price": 15.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Black Garlic Tonkotsu Ramen",
+        "description": "",
+        "price": 15.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Halal Steak Tataki Ramen🌶️",
+        "description": "",
+        "price": 17.89,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "halal"
+        ]
+      },
+      {
+        "name": "Hell Ramen🌶️🌶️",
+        "description": "",
+        "price": 15.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tonkotsu Ramen",
+        "description": "",
+        "price": 15.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Yakisoba",
+        "description": "",
+        "price": 15.4,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meal for 1",
+        "description": "A perfectly balanced meal for one including a main, a side and a drink, everything you need in one order!",
+        "price": 25.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meal for 2",
+        "description": "A perfectly balanced meal for two including two mains, two sides and two drinks, everything you need to enjoy together!",
+        "price": 48.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meal for 4",
+        "description": "A perfectly balanced meal for four including four mains, four sides and four drinks, everything you need to enjoy together!",
+        "price": 98.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tantan Ramen🌶️",
+        "description": "Sesame tonkotsu broth served with minced pork, spring onions, bamboo shoots, cucumber, pak choi & half a soft boiled egg marinated in soy sauce.",
+        "price": 15.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Seafood Hell Ramen🌶️🌶️",
+        "description": "Our signature hell broth topped with grilled salmon, prawns and squid!",
+        "price": 17.89,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 12,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "Nando's",
+    "name_normalised": "nandos peckham",
+    "postcode": "SE15 5EN",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "1/2 Chicken Meal",
+        "description": "A chicken breast and a leg, served on the bone with crispy skin, includes 2 Regular sides. Flame-grilled in your favourite spice.",
+        "price": 18.0,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Grilled Chicken Wrap Meal",
+        "description": "Chicken breast grilled in your favourite spice, includes 2 Regular Sides. Served in a wrap with lettuce, lightly spiced yoghurt mayo and chilli jam.",
+        "price": 16.75,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Grilled Chicken Burger Meal",
+        "description": "Chicken breast grilled in your favourite spice, includes 2 Regular sides. Served in our rustic Portuguese roll with PERi-tomato relish, Lemon & Herb mayo, lettuce and tomato.",
+        "price": 16.75,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Grilled Chicken Pitta Meal",
+        "description": "A chicken breast, grilled in your favourite spice, includes 2 Regular sides. Served in a toasted pitta with Lemon & Herb mayo and crunchy, tangy slaw.",
+        "price": 16.75,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "4 Boneless Chicken Thighs",
+        "description": "706 kcal",
+        "price": 11.75,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "1/2 Chicken",
+        "description": "579 kcal",
+        "price": 10.75,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Grilled Chicken Wrap",
+        "description": "556 kcal",
+        "price": 9.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "5 Chicken Wings",
+        "description": "392 kcal",
+        "price": 9.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Sunset Burger",
+        "description": "733 kcal",
+        "price": 12.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Fino Pitta",
+        "description": "817 kcal",
+        "price": 12.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Full Platter",
+        "description": "1157 kcal",
+        "price": 33.75,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Houmous with PERi-PERi Drizzle",
+        "description": "Served with warm pitta triangles.",
+        "price": 5.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegan"
+        ]
+      },
+      {
+        "name": "PERi-Honey",
+        "description": "Once you’ve tried it, you’ll want it on everything. It’s the bee’s knees.",
+        "price": 1.75,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Dare to share",
+        "description": "Choose any three starters.",
+        "price": 14.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Halloumi Sticks & Chilli Jam",
+        "description": "Five chunky sticks of grilled halloumi with our chilli jam for dipping.",
+        "price": 5.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Halloumi Sticks & PERi-Honey",
+        "description": "Five chunky sticks of grilled halloumi with PERi-Honey for dipping.",
+        "price": 5.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Sweet Potato Wedges",
+        "description": "Served with our Garlic PERinaise. 10p from every plate goes towards fighting malaria in our homeland Southern Africa.",
+        "price": 5.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegan"
+        ]
+      },
+      {
+        "name": "Cheesy Garlic Pitta",
+        "description": "A toasted sourdough pitta oozing with melty cheddar cheese, garlic, spring onions and a hint of PERi-PERi. Served with our red pepper chutney on the side.",
+        "price": 5.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      }
+    ],
+    "menu_item_count": 18,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "MEATliquor - East Dulwich",
+    "name_normalised": "meatliquor east dulwich",
+    "postcode": "SE22 8EW",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Dead Hippie ⚰️☮️🍔🐄🧀",
+        "description": "",
+        "price": 15.35,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Cheeseburger 🍔🐄🧀",
+        "description": "",
+        "price": 14.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Monkey Fingers™️🙉🤘🐔🔥",
+        "description": "",
+        "price": 11.6,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Buffalo Wings🍗🔥",
+        "description": "",
+        "price": 11.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chili Cheese Fries🐮🧀🍟",
+        "description": "",
+        "price": 10.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Garlicky Fries 🧄🍟",
+        "description": "",
+        "price": 9.85,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Dead Chippies⚰️☮️🐮🧀🍟",
+        "description": "",
+        "price": 10.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Burger Meal Bundle",
+        "description": "Popular",
+        "price": 19.5,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Dog Meal Bundle",
+        "description": "",
+        "price": 17.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Wing Meal Bundle",
+        "description": "",
+        "price": 18.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Plain Jane 🍔🐄🧀",
+        "description": "Single beef patty & American cheese.",
+        "price": 8.75,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Dirty Chicken 🍔🐔",
+        "description": "Currently sold out",
+        "price": 14.05,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tower Block 🍔🐔🧀🌶️",
+        "description": "Currently sold out",
+        "price": 15.15,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tempeh Tantrum 🍔🌿",
+        "description": "Double Tempeh & Mushroom Patty, \"Cheese\", Burger Sauce, Pickles, Lettuce & Diced White Onion",
+        "price": 14.85,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Buffalo Chicken Burger 🍔🐔🧀🔥",
+        "description": "Currently sold out",
+        "price": 14.85,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Parma 🍔🐔🧀🍅🌿",
+        "description": "Currently sold out",
+        "price": 15.15,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 16,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "Wuli Wuli Chinese",
+    "name_normalised": "wuli wuli chinese peckham",
+    "postcode": "SE5 8TR",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Sweet and Sour Chicken咕噜鸡",
+        "description": "",
+        "price": 9.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Crispy Shredded Beef in Chili Sauce 干牛丝",
+        "description": "",
+        "price": 10.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Special Fried Rice羊州炒饭",
+        "description": "",
+        "price": 9.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Crispy Aromatic Duck香酥鸭",
+        "description": "",
+        "price": 14.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Singapore Fried Vermicelli (Spicy) 星洲炒米",
+        "description": "",
+        "price": 10.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Kung Po Chicken (Sweet&Spicy)宫保鸡",
+        "description": "",
+        "price": 9.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Beef in Black Bean Sauce士汁牛",
+        "description": "",
+        "price": 9.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Sesame Prawn on Toast (6pcs)芝麻虾多士",
+        "description": "Sliced bread topped with savoury prawn mixture and sesame seeds, deep fried until golden",
+        "price": 7.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Salt and Pepper Ribs椒盐排骨",
+        "description": "",
+        "price": 9.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "vegetable spring roll(8)斋春卷",
+        "description": "Popular",
+        "price": 6.9,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Prawn Crackers虾片",
+        "description": "",
+        "price": 3.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Satay Chicken on Skewers (4pcs)鸡沙爹",
+        "description": "Tender chicken pieces served in a rich peanut dipping sauce",
+        "price": 8.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "King Prawn with Salt and Pepper椒盐虾",
+        "description": "Deep-fried in a crispy batter, then stir-fried with our salt and chilli seasoning",
+        "price": 9.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "BBQ Spare Ribs烧汁骨",
+        "description": "",
+        "price": 9.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Salt and Pepper Squid椒盐鱿鱼",
+        "description": "Deep-fried in a crispy batter, then stir-fried with our salt and chilli seasoning",
+        "price": 9.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Salt and Pepper Chicken Wings椒盐鸡",
+        "description": "Deep-fried in a crispy batter, then stir-fried with our salt and chilli seasoning",
+        "price": 8.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Mixed Hors D'oeuvres (For Two)前菜拼盘",
+        "description": "Sesame prawn toast, spareribs, vegetable spring roll and crispy wonton.",
+        "price": 14.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Shredded Duck Spring Roll (6pcs)鸭肉春卷",
+        "description": "",
+        "price": 7.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Capital Spare Ribs京都骨",
+        "description": "Spare ribs doused in a piquant barbecue sauce",
+        "price": 9.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "BBQ Chicken Wings烧汁鸡翅",
+        "description": "",
+        "price": 8.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Grilled pork and chive Dumplings(6)猪肉锅贴",
+        "description": "",
+        "price": 7.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Prawn Dumplings (4pcs)虾饺",
+        "description": "",
+        "price": 7.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 22,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "Rajah Rowing Indian Kitchen",
+    "name_normalised": "rajah rowing indian kitchen",
+    "postcode": "SE22 8LZ",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Aloo Ghost",
+        "description": "Highly rated",
+        "price": 13.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Aloo Gobi",
+        "description": "Cauliflower and sliced potatoes cooked with spices",
+        "price": 9.1,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Aloo Gobi with Baby Peas",
+        "description": "Combination of fresh cauliflower potatoes and peas with our home made spices with ginger",
+        "price": 12.7,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegan"
+        ]
+      },
+      {
+        "name": "Bombay Aloo",
+        "description": "Baby potatoes gently cooked with spices.",
+        "price": 9.1,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Butter Chicken (Contains Nuts) (D) (N)",
+        "description": "",
+        "price": 13.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Tikka Masala (Contains Nuts) (D) (N)",
+        "description": "",
+        "price": 13.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Korma (Contains Nuts) (D) (N)",
+        "description": "",
+        "price": 13.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Bhuna (Spiced)",
+        "description": "",
+        "price": 13.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Jalferzi (spicy and hot)",
+        "description": "",
+        "price": 13.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Karahi Gosht (Spiced) (D)",
+        "description": "",
+        "price": 13.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Lamb Biryani (D)",
+        "description": "",
+        "price": 15.15,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meal for 1 👱🏼‍♂️",
+        "description": "Select a curry and choose between rice and naan.",
+        "price": 17.2,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meal for 2👨🏻‍🦱👩🏾‍🦱",
+        "description": "Select 2 curries, both choose between rice and naan and add a side on us!",
+        "price": 39.95,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Vegetable Pakora (V)",
+        "description": "Fresh vegetables, coriander & spices, deep fried in special batter, served with a yogurt dips.",
+        "price": 7.75,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Everest Samosa Chat [2 pcs]",
+        "description": "Lighly spiced and deep fried pastry toped with chilly sauce and jeera sweet yogurt and tamarind sauce",
+        "price": 9.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Prawn Puri (C,G)",
+        "description": "Deliciously flavoured king prawns, served on a bed of savoury bread.",
+        "price": 10.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 16,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "Dishoom",
+    "name_normalised": "dishoom",
+    "postcode": "SE15 1TF",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "House Black Daal",
+        "description": "Highly rated",
+        "price": 10.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Free with £25 spend",
+        "description": "",
+        "price": 25.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Ruby",
+        "description": "984 kcal",
+        "price": 18.1,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Berry Britannia",
+        "description": "912 kcal",
+        "price": 18.7,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Mattar Paneer",
+        "description": "1075 kcal",
+        "price": 17.1,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Feast pleasingly – for 1",
+        "description": "",
+        "price": 24.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Share merrily – for 2",
+        "description": "",
+        "price": 40.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Lamb Chettinad",
+        "description": "790 kcal",
+        "price": 19.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Prawn Moilee",
+        "description": "895 kcal",
+        "price": 19.3,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Vaisakhi Special Sarson ka Saag",
+        "description": "Bountiful mustard leaves and spinach are slow-cooked, stirred frequently, tempered with spices and served with laccha paratha, sweet jaggery and tamarind-onion chutney. A true labour of love.",
+        "price": 15.2,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Eat greedily – for 4",
+        "description": "A proper at-home feast, featuring two Small Plates, two Ruby Murrays, House Black Daal, Chilli Broccoli Salad, fragrant Basmati rice and Chote Papad with Mango Chutney to start.",
+        "price": 69.7,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 11,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "Viet Flavours - East Dulwich",
+    "name_normalised": "viet flavours east dulwich",
+    "postcode": "SE22 8EW",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Phở Truyền Thống | Pho Traditional",
+        "description": "",
+        "price": 18.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Bún Huế | Spicy Noodles Soup",
+        "description": "",
+        "price": 17.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Phở Gà Nước | PHO Chicken",
+        "description": "",
+        "price": 17.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Bún chả Hà Nội | Chargrilled Lemongrass Pork Vermicelli",
+        "description": "",
+        "price": 18.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Bò Sốt Tiêu Đen | Signature Black Pepper Beef",
+        "description": "",
+        "price": 20.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Bún Sả | Lemongrass & Chilli Marinated",
+        "description": "",
+        "price": 18.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Cơm Vịt Quay | Roasted Duck",
+        "description": "",
+        "price": 19.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Gà Nướng Mật Ong| Honey-Glazed Grilled Chicken",
+        "description": "Currently sold out",
+        "price": 17.3,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tôm Sốt Bơ Tỏi Bánh Mì | Garlic Butter King Prawn with Bread",
+        "description": "Juicy shrimp in rich garlic butter sauce, served Vietnamese baguette.A favorite among seafood lovers, this dish pairs perfectly with our exclusive Green Chili Salt and Red Chili Salt sauces.",
+        "price": 18.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Cơm Tôm Sốt Bơ Tỏi | Garlic Butter King Prawn with Rice",
+        "description": "Juicy shrimp in rich garlic butter sauce, served with rice. A favorite among seafood lovers, this dish pairs perfectly with our exclusive Green Chili Salt and Red Chili Salt sauces.",
+        "price": 18.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chả Giò | Crispy Spring Rolls (4pcs)",
+        "description": "Pork, prawn, vegetables, kohlrabi, glass noodles with homemade sauce",
+        "price": 10.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Gỏi Cuốn | Summer Rolls (4pcs)",
+        "description": "Soft rice paper rolls with fresh mint, salad, hoisin dipping sauce with choice of",
+        "price": 9.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Bánh Xèo | Saigon Pancake",
+        "description": "Crispy coconut rice pancake filled with beansprouts, spring onion, served with cucumber, lettuce, pickle, fresh herbs, shredded mango, homemade sauce",
+        "price": 16.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Nem Cua Hanoi | Crispy Crab Rolls",
+        "description": "Crab meat, pork, asian mushrooms, prawns, kohlrabi, glass noodles, and homemade dipping sauce",
+        "price": 11.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Bò Cuốn Lá Lốt | Betel Leaf Wrap Beef",
+        "description": "Marinated beef and pork mince, infused oil, and rice noodles",
+        "price": 14.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Nem Nướng Nha Trang | Grilled Pork Sticks",
+        "description": "Pork skewers served with vermicelli, crispy pancake, fresh herbs, homemade dipping sauce",
+        "price": 17.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Món Rang Muối | Crispy Salt & Pepper",
+        "description": "Crispy choice of protein with salt & pepper",
+        "price": 13.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Gà Chiên Giòn | Crispy Fried Boneless Chicken (8pcs)",
+        "description": "With 1 choice of sauces",
+        "price": 12.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "🌶️ Cánh Gà Chiên Nước Mắm | Anchovy Chicken Wing (3pcs)",
+        "description": "Coated with caramelised fish sauce, and sesame seeds",
+        "price": 12.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tôm Nướng Muối Ớt | Grilled Shrimp with Chili Salt (5pcs)",
+        "description": "🌶️ Fresh shrimp marinated in a spicy chili salt mix and grilled. Make it have signature smokey and flavorful.",
+        "price": 15.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 20,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "Mr Bao",
+    "name_normalised": "mr bao",
+    "postcode": "SE14 5RS",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "\"All In\" Meal for 2",
+        "description": "Build a bao meal for two with your favourites from our menu: pick 4x bao, 2x snacks, 2x sharers, 2x drinks and 1x dessert.",
+        "price": 49.6,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Bao Diddley - Chicken Bao",
+        "description": "",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Beef Brisket Bao",
+        "description": "",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Prawn Bao",
+        "description": "",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Mr Bao - Pork Belly Bao (N)",
+        "description": "",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Shiitake Mushroom Bao (V)",
+        "description": "",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Taiwanese Fried Chicken",
+        "description": "",
+        "price": 8.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Prawn Dumplings",
+        "description": "",
+        "price": 9.6,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tofu Bao (V)",
+        "description": "Ginger braised tofu, house kimchi, crispy onions and wasabi mayo.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Vegan Tofu Bao (VG)",
+        "description": "Ginger braised tofu, house kimchi, crispy onions and vegan mayo.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegan"
+        ]
+      },
+      {
+        "name": "Vegan Shiitake Mushroom Bao (VG)",
+        "description": "Teriyaki shiitake mushrooms with pickled onions and miso mayo.",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegan"
+        ]
+      },
+      {
+        "name": "Plain Bao",
+        "description": "",
+        "price": 2.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 12,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "BONA Sourdough Pizza - Forest Hill",
+    "name_normalised": "bona sourdough pizza forest hill",
+    "postcode": "SE23 3HN",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Tiramisu",
+        "description": "Traditional Italian homemade tiramisu!",
+        "price": 6.5,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Pepperoni ndjua",
+        "description": "",
+        "price": 16.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chorizo & Pepperoni",
+        "description": "",
+        "price": 17.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Capricciosa",
+        "description": "",
+        "price": 17.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "“Cobble Lane” Pepperoni & Pesto",
+        "description": "",
+        "price": 17.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Courgette & Pesto (V)",
+        "description": "",
+        "price": 16.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Parmigiana (V)",
+        "description": "",
+        "price": 15.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Artichokes & Gorgonzola (V)",
+        "description": "",
+        "price": 16.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "- Meaty special",
+        "description": "tomato, mozzarella, parma ham, mushrooms, cherry tomatoes, shaved parmesan, truffle paste.",
+        "price": 17.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "- Veggie Special",
+        "description": "tomato, mozzarella, mushrooms, cherry tomatoes, shaved parmesan, truffle sauce",
+        "price": 17.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Margherita (V)",
+        "description": "Tomato, Mozzarella, Fresh Basil, EVO Oil.",
+        "price": 10.5,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      }
+    ],
+    "menu_item_count": 11,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "Bone Daddies Ramen - Bermondsey",
+    "name_normalised": "bone daddies ramen bermondsey",
+    "postcode": "SE16 4AW",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Tonkotsu [The OG] Ramen",
+        "description": "",
+        "price": 15.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "T22",
+        "description": "",
+        "price": 16.6,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tantanmen 2",
+        "description": "",
+        "price": 16.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Yuzu Tonkotsu",
+        "description": "",
+        "price": 16.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Fried Chicken",
+        "description": "",
+        "price": 7.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Pork Pork Chilli",
+        "description": "",
+        "price": 16.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chashu Pork",
+        "description": "",
+        "price": 7.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Curry Tonkotsu",
+        "description": "Bone Daddies homemade pork broth, curry seasoning, fried katsu chashu pork, pickled daikon, sweet cabbage and noodles.",
+        "price": 16.7,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Ramen date for one",
+        "description": "Grab a ramen, snack and a soft drink - or grab a beer 🔥",
+        "price": 20.0,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Date night and chill",
+        "description": "Get frisky with a little Bone Daddies and chill for a hot date night at home. Two ramen, one side and two soft drinks.",
+        "price": 35.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Hangover Saviour",
+        "description": "Pork Pork Chilli ramen, fried chicken and a soft drink. Feeling worse for wear and only have yourself to blame? Hit that hangover alarm and the ramen gods will come to the rescue. The ultimate combo: Pork Pork Chilli ramen, fried chicken and a soft drink.",
+        "price": 20.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "2 buns for 14",
+        "description": "Mix it up with our epic buns 🙌",
+        "price": 14.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "3 buns for 18.4",
+        "description": "Grab three epic buns 🤘",
+        "price": 18.4,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Miso Fried Aubergine",
+        "description": "Miso, carrot pickle & mayo",
+        "price": 7.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Crispy Duck Bun",
+        "description": "Hoisin sauce, carrot pickle, spring onion + mayo",
+        "price": 7.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 15,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "Kricket",
+    "name_normalised": "kricket",
+    "postcode": "SE15 1TF",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": "1-2",
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Dum Aloo",
+        "description": "Crispy potatoes served with a North Indian tomato and onion masala.",
+        "price": 6.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Free with £35 spend",
+        "description": "",
+        "price": 35.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Kachumber Salad",
+        "description": "Cucumber, tomato, red onion salad served with a lemon and chaat masala dressing. Fresh and crunchy, pairs perfectly with our curries.",
+        "price": 5.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegan"
+        ]
+      },
+      {
+        "name": "Malabar Paratha x 2 (Finish at Home)",
+        "description": "Grab a frying pan and dry fry these flakey breads for 1-2 minutes on each side and enjoy alongside your curry.",
+        "price": 3.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegan"
+        ]
+      },
+      {
+        "name": "Papads",
+        "description": "Crispy and crunchy!",
+        "price": 3.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Keralan Fried Chicken",
+        "description": "",
+        "price": 12.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Feast For 1",
+        "description": "",
+        "price": 20.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Old Delhi Chicken",
+        "description": "",
+        "price": 16.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Feast for 2",
+        "description": "",
+        "price": 38.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Vegetable Samosa Chaat",
+        "description": "",
+        "price": 9.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Gobi 65",
+        "description": "",
+        "price": 9.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Matar Paneer",
+        "description": "",
+        "price": 14.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Feast For 4",
+        "description": "In a group and can’t choose - let us help! Choose 2 of our starters and 2 curries, these will be served alongside 2 tarka dal, 2 rice, 2 portions of papads, lots of lovely mango chuntey and sweet raita.",
+        "price": 65.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Veggie Feast For 2",
+        "description": "Perfect for two veggies to indulge! Pick 1 of our veggie starters, 1 veggie curry, and this will be served with tarka dal, a portion of rice, papads, mango chutney and sweet raita.",
+        "price": 34.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Bhel Puri",
+        "description": "A classic Indian street food dish, crunchy and fresh - puffed rice, raw mango, red onion, tangy tamarind, coriander chutney, yoghurt and sev.",
+        "price": 8.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "Crispy Fried Chickpea Salad",
+        "description": "A mix of fresh and fried chickpeas served in a mango and mint dressing with moong sprouts, yoghurt and coriander. Great as a starter or served alongside one of our curries.",
+        "price": 8.0,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      }
+    ],
+    "menu_item_count": 16,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "Dulwich Tandoori Restaurant - Dulwich",
+    "name_normalised": "dulwich tandoori restaurant dulwich",
+    "postcode": "SE22 8HJ",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "Chicken Shashlik",
+        "description": "",
+        "price": 12.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tandoori King Prawns",
+        "description": "",
+        "price": 16.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Mogul Lamb Shank",
+        "description": "",
+        "price": 19.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meat Thali",
+        "description": "",
+        "price": 25.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Tandoori Salmon",
+        "description": "",
+        "price": 15.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Massala",
+        "description": "",
+        "price": 13.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Tikka",
+        "description": "",
+        "price": 12.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meal 1",
+        "description": "Chicken tikka masala + bombay alo + pilao rice",
+        "price": 17.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meal 2",
+        "description": "Tandoori mix grill (with nan) + tarka dall",
+        "price": 19.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meal 3",
+        "description": "Lahori lamb chop curry + pilao rice + nan",
+        "price": 19.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Onion Bhaji",
+        "description": "Strips of onions mixed with spices and gram flour and made into balls before being deep fried.",
+        "price": 5.25,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Lahori Lamb Chops",
+        "description": "Pakistani recipe, fiery blend of spices to create a unique taste.",
+        "price": 9.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Tikka",
+        "description": "Boneless chicken marinated in tandoori spices and grilled in the clay oven.",
+        "price": 7.5,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chilli Paneer",
+        "description": "Chunks of Paneer pan fried and tossed with onions, chillies an spices.",
+        "price": 7.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Vegetable Samosa",
+        "description": "Triangular shaped pastry filled with spicy vegetables or minced lamb.",
+        "price": 5.25,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "King Prawn Puree",
+        "description": "Jambo sized Prawns, spiced and served with Indian fried bread",
+        "price": 10.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Meat Samosa",
+        "description": "Triangular shaped pastry filled with spicy vegetables or minced lamb.",
+        "price": 5.25,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Chicken Pakora",
+        "description": "Boneless chicken pieces dipped in spicy batter and deep fried.",
+        "price": 6.95,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Sheek Kebab",
+        "description": "Minced lamb mixed with ginger, garlic, and spices, skewered and grilled over charcoal.",
+        "price": 7.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Green Chicken Tikka",
+        "description": "Boneless chicken marinated in green herbs and yogurt, then grilled over charcoal.",
+        "price": 7.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Prawn Puree",
+        "description": "Spiced prawns served on fried Indian Bread.",
+        "price": 9.75,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 21,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "McDonald's",
+    "name_normalised": "mcdonalds peckham",
+    "postcode": "SE15 5DQ",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "20 Chicken McNuggets® Sharebox®",
+        "description": "869 kcal",
+        "price": 8.19,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "The Double Burger Deal (for Two)",
+        "description": "1922 kcal",
+        "price": 12.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Large Big Mac® Meal",
+        "description": "1153 kcal",
+        "price": 8.69,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "9 Chicken McNuggets®",
+        "description": "391 kcal",
+        "price": 6.69,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Medium Quarter Pounder™ with Cheese Meal",
+        "description": "1001 kcal",
+        "price": 7.69,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Medium Big Mac® Meal",
+        "description": "999 kcal",
+        "price": 7.69,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Medium 6 Chicken McNuggets® Meal",
+        "description": "751 kcal",
+        "price": 7.19,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Double Big Mac®",
+        "description": "Four 100% beef patties, a slice of cheese, lettuce, onion and pickles. And the sauce. That unbeatable, tasty Big Mac® sauce. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 7.79,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Large Double Big Mac® Meal",
+        "description": "Four 100% beef patties, a slice of cheese, lettuce, onion and pickles. And the sauce. That unbeatable, tasty Big Mac® sauce. Meal includes a choice of side and drink. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 10.39,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Medium Double Big Mac® Meal",
+        "description": "Four 100% beef patties, a slice of cheese, lettuce, onion and pickles. And the sauce. That unbeatable, tasty Big Mac® sauce. Meal includes a choice of side and drink. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 9.39,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Double Big Mac® with Bacon",
+        "description": "Four 100% beef patties, bacon, a slice of cheese, lettuce, onion and pickles. And the sauce. That unbeatable, tasty Big Mac® sauce. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 8.69,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Large Double Big Mac® with Bacon Meal",
+        "description": "Four 100% beef patties, bacon, a slice of cheese, lettuce, onion and pickles. And the sauce. That unbeatable, tasty Big Mac® sauce. Meal includes a choice of side and drink. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 11.29,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Medium Double Big Mac® with Bacon Meal",
+        "description": "Four 100% beef patties, bacon, a slice of cheese, lettuce, onion and pickles. And the sauce. That unbeatable, tasty Big Mac® sauce. Meal includes a choice of side and drink. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 10.29,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "9 Spicy Chicken McNuggets®",
+        "description": "9 spicy Chicken McNuggets® made with 100% chicken breast meat in a mouth-wateringly spicy coating, using Jalapeno chillies. Served with a Spicy Chili dip. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 7.29,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Large 9 Spicy Chicken McNuggets® Meal",
+        "description": "9 spicy Chicken McNuggets® made with 100% chicken breast meat in a mouth-wateringly spicy coating, using Jalapeno chillies. Served with a Spicy Chili dip. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 9.99,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Medium 9 Spicy Chicken McNuggets® Meal",
+        "description": "9 spicy Chicken McNuggets® made with 100% chicken breast meat in a mouth-wateringly spicy coating, using Jalapeno chillies. Served with a Spicy Chili dip. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 8.89,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Big Mac®",
+        "description": "Two 100% beef patties, a slice of cheese, lettuce, onion and pickles. And the sauce. That unbeatable, tasty Big Mac® sauce. You know you want to. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 6.09,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "Large 9 Chicken McNuggets® Meal",
+        "description": "McDonald’s 9 piece Chicken McNuggets® are made with 100% chicken breast meat in a crispy coating. A firm favourite with everyone. Meal includes a choice of side and drink. Allergen information available at www.mcdonalds.co.uk/nutrition",
+        "price": 9.39,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 18,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  },
+  {
+    "name": "Chi Chinese Restaurant - Dulwich",
+    "name_normalised": "chi chinese restaurant dulwich",
+    "postcode": "SE22 8EP",
+    "deliveroo_rating": null,
+    "delivery_fee": null,
+    "min_order": null,
+    "estimated_delivery_mins": null,
+    "cuisine_tags": [],
+    "menu_items": [
+      {
+        "name": "43. Sweet and Sour Chicken Hong Kong Style",
+        "description": "",
+        "price": 8.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "1A. Homemade Crispy Aromatic Duck (Quarter)",
+        "description": "",
+        "price": 13.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "9. Salt and Pepper Squids",
+        "description": "",
+        "price": 8.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "56. Kung Pao King Prawn",
+        "description": "",
+        "price": 10.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "48. Chicken Curry",
+        "description": "",
+        "price": 8.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "1B. Homemade Crispy Aromatic Duck (Half)",
+        "description": "",
+        "price": 26.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "16. King Prawn Tempura",
+        "description": "",
+        "price": 8.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "4. Sesame King Prawn Toast",
+        "description": "prawns on toast coated in sesame seeds",
+        "price": 6.9,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": []
+      },
+      {
+        "name": "6. Homemade Crispy Vegetarian Spring Rolls",
+        "description": "Homemade vegetarian rolls, wrapped to perfection. 4 pieces.",
+        "price": 5.9,
+        "category": "Uncategorised",
+        "is_popular": true,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "22. Mixed Starter Platter for 2 Person",
+        "description": "Highly rated",
+        "price": 16.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "12. Salt and Pepper Chicken",
+        "description": "coated pieces of chicken tossed salt and chilli",
+        "price": 7.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "8. Salt and Pepper King Prawns",
+        "description": "Coated prawns tossed with salt and chilli",
+        "price": 8.5,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "19. Crispy Seaweed",
+        "description": "Crispy 'Seaweeds'",
+        "price": 5.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "2. Grilled Chicken Dumplings",
+        "description": "5 pieces.",
+        "price": 6.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "13. Salt and Pepper Spare Ribs",
+        "description": "spare ribs tossed in salt and chilli",
+        "price": 7.8,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "7. Crispy Mini Vegetarian Spring Rolls",
+        "description": "8 pieces.",
+        "price": 5.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": [
+          "vegetarian"
+        ]
+      },
+      {
+        "name": "18. Satay Chicken on Skewers",
+        "description": "Chicken pieces, skewered, and served with a peanut sauce.",
+        "price": 7.2,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "20A Salt and Pepper Chips 椒鹽 薯條",
+        "description": "20A Salt and Pepper Chips 椒鹽 薯條",
+        "price": 4.2,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "5. Homemade Crispy Spring Rolls",
+        "description": "4 pieces. With chicken, pork, and shrimp.",
+        "price": 5.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      },
+      {
+        "name": "21. Prawn Crackers",
+        "description": "Crispy Prawn Crackers",
+        "price": 2.9,
+        "category": "Uncategorised",
+        "is_popular": false,
+        "dietary_tags": []
+      }
+    ],
+    "menu_item_count": 20,
+    "neighbourhood": "Peckham",
+    "_lineage": {
+      "source": "deliveroo",
+      "collected_at": "2026-04-10T21:36:04.404992+00:00",
+      "collector_version": "2.0",
+      "run_id": "245a376e"
+    }
+  }
+]

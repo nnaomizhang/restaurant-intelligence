@@ -207,93 +207,29 @@ class ONSCensusCollector(BaseCollector):
     # ------------------------------------------------------------------
 
     def _process_age_data(self, path: Path) -> pd.DataFrame:
-        """
-        Process Nomis age table TS007A (five-year age bands) into age
-        bracket percentages.
-
-        Expected examples:
-          - geography code
-          - geography
-          - age: total
-          - aged 15 to 19 years
-          - aged 20 to 24 years
-          - aged 25 to 29 years
-          - aged 85 years and over
-        """
         df = pd.read_csv(path)
-        df.columns = [self._normalise_column_name(c) for c in df.columns]
-
-        code_col = self._find_column(
-            df, ["geography_code", "lsoa_code", "area_code"]
-        )
-        name_col = self._find_column(
-            df, ["geography", "lsoa_name", "area_name"]
-        )
-
-        if not code_col:
-            self.logger.warning("Cannot find LSOA code column in age data")
-            return pd.DataFrame()
 
         result = pd.DataFrame()
-        result["lsoa_code"] = df[code_col]
+        result["lsoa_code"] = df["geography_code"]
+        result["lsoa_name"] = df["geography"]
+        result["total_population"] = pd.to_numeric(df["age_total"], errors="coerce")
 
-        if name_col:
-            result["lsoa_name"] = df[name_col]
-
-        total_col = self._find_column(
-            df, ["age_total", "total", "all_ages", "total_population"]
-        )
-        if total_col:
-            result["total_population"] = pd.to_numeric(
-                df[total_col], errors="coerce"
-            )
-        else:
-            self.logger.warning("Cannot find total population column in age data")
-            result["total_population"] = pd.NA
-
-        total = pd.to_numeric(result["total_population"], errors="coerce")
+        total = result["total_population"]
 
         age_brackets = {
-            "age_18_24_pct": [
-                ["aged_15_to_19", "aged_15_to_19_years"],
-                ["aged_20_to_24", "aged_20_to_24_years"],
-            ],
-            "age_25_34_pct": [
-                ["aged_25_to_29", "aged_25_to_29_years"],
-                ["aged_30_to_34", "aged_30_to_34_years"],
-            ],
-            "age_35_49_pct": [
-                ["aged_35_to_39", "aged_35_to_39_years"],
-                ["aged_40_to_44", "aged_40_to_44_years"],
-                ["aged_45_to_49", "aged_45_to_49_years"],
-            ],
-            "age_50_64_pct": [
-                ["aged_50_to_54", "aged_50_to_54_years"],
-                ["aged_55_to_59", "aged_55_to_59_years"],
-                ["aged_60_to_64", "aged_60_to_64_years"],
-            ],
-            "age_65_plus_pct": [
-                ["aged_65_to_69", "aged_65_to_69_years"],
-                ["aged_70_to_74", "aged_70_to_74_years"],
-                ["aged_75_to_79", "aged_75_to_79_years"],
-                ["aged_80_to_84", "aged_80_to_84_years"],
-                ["aged_85_and_over", "aged_85_years_and_over"],
-            ],
+            "age_18_24_pct": ["age_aged_15_to_19_years", "age_aged_20_to_24_years"],
+            "age_25_34_pct": ["age_aged_25_to_29_years", "age_aged_30_to_34_years"],
+            "age_35_49_pct": ["age_aged_35_to_39_years", "age_aged_40_to_44_years", "age_aged_45_to_49_years"],
+            "age_50_64_pct": ["age_aged_50_to_54_years", "age_aged_55_to_59_years", "age_aged_60_to_64_years"],
+            "age_65_plus_pct": ["age_aged_65_to_69_years", "age_aged_70_to_74_years", "age_aged_75_to_79_years", "age_aged_80_to_84_years", "age_aged_85_years_and_over"],
         }
 
-        for bracket_name, candidate_groups in age_brackets.items():
-            bracket_sum = pd.Series(0.0, index=df.index)
-
-            for candidates in candidate_groups:
-                age_col = self._find_column(df, candidates)
-                if age_col:
-                    bracket_sum += pd.to_numeric(
-                        df[age_col], errors="coerce"
-                    ).fillna(0)
-
-            result[bracket_name] = (
-                bracket_sum.div(total.where(total != 0), fill_value=pd.NA) * 100
-            ).round(1)
+        for bracket_name, cols in age_brackets.items():
+            bracket_sum = sum(
+                pd.to_numeric(df[c], errors="coerce").fillna(0)
+                for c in cols if c in df.columns
+            )
+            result[bracket_name] = (bracket_sum / total.where(total != 0) * 100).round(1)
 
         return result
 
@@ -343,90 +279,41 @@ class ONSCensusCollector(BaseCollector):
         return result
 
     def _process_economic_data(self, path: Path) -> pd.DataFrame:
-        """Process Nomis economic activity table TS066."""
         df = pd.read_csv(path)
-        df.columns = [self._normalise_column_name(c) for c in df.columns]
-
-        code_col = self._find_column(
-            df, ["geography_code", "lsoa_code", "area_code"]
-        )
-        name_col = self._find_column(
-            df, ["geography", "lsoa_name", "area_name"]
-        )
-
-        if not code_col:
-            self.logger.warning("Cannot find LSOA code column in economic data")
-            return pd.DataFrame()
 
         result = pd.DataFrame()
-        result["lsoa_code"] = df[code_col]
+        result["lsoa_code"] = df["geography_code"]
 
-        if name_col:
-            result["lsoa_name"] = df[name_col]
+        total_col = "economic_activity_status_total_all_usual_residents_aged_16_years_and_over"
+        active_col = "economic_activity_status_economically_active_excluding_full_time_students"
 
-        total_col = self._find_column(df, ["total", "all_persons"])
-        total = (
-            pd.to_numeric(df[total_col], errors="coerce")
-            if total_col
-            else pd.Series(1, index=df.index)
-        )
-
-        active_col = self._find_column_containing(df, ["economically_active"])
-        if active_col:
-            vals = pd.to_numeric(df[active_col], errors="coerce").fillna(0)
-            result["economically_active_pct"] = (
-                vals / total.where(total != 0) * 100
-            ).round(1)
+        if total_col in df.columns and active_col in df.columns:
+            total = pd.to_numeric(df[total_col], errors="coerce")
+            active = pd.to_numeric(df[active_col], errors="coerce").fillna(0)
+            result["economically_active_pct"] = (active / total.where(total != 0) * 100).round(1)
 
         return result
 
     def _process_household_data(self, path: Path) -> pd.DataFrame:
-        """Process Nomis household composition table TS003."""
         df = pd.read_csv(path)
-        df.columns = [self._normalise_column_name(c) for c in df.columns]
-
-        code_col = self._find_column(
-            df, ["geography_code", "lsoa_code", "area_code"]
-        )
-        name_col = self._find_column(
-            df, ["geography", "lsoa_name", "area_name"]
-        )
-
-        if not code_col:
-            self.logger.warning("Cannot find LSOA code column in household data")
-            return pd.DataFrame()
 
         result = pd.DataFrame()
-        result["lsoa_code"] = df[code_col]
+        result["lsoa_code"] = df["geography_code"]
 
-        if name_col:
-            result["lsoa_name"] = df[name_col]
+        total_col = "household_composition_total;_measures_value"
+        single_col = "household_composition_one_person_household;_measures_value"
+        family_col = "household_composition_single_family_household;_measures_value"
 
-        total_col = self._find_column(df, ["total", "all_households"])
-        total = (
-            pd.to_numeric(df[total_col], errors="coerce")
-            if total_col
-            else pd.Series(1, index=df.index)
-        )
+        if total_col in df.columns:
+            total = pd.to_numeric(df[total_col], errors="coerce")
 
-        single_col = self._find_column_containing(
-            df, ["one_person_household", "one_person", "single"]
-        )
-        family_col = self._find_column_containing(
-            df, ["family", "couple_family", "one_family"]
-        )
+            if single_col in df.columns:
+                single = pd.to_numeric(df[single_col], errors="coerce").fillna(0)
+                result["household_single_pct"] = (single / total.where(total != 0) * 100).round(1)
 
-        if single_col:
-            vals = pd.to_numeric(df[single_col], errors="coerce").fillna(0)
-            result["household_single_pct"] = (
-                vals / total.where(total != 0) * 100
-            ).round(1)
-
-        if family_col:
-            vals = pd.to_numeric(df[family_col], errors="coerce").fillna(0)
-            result["household_family_pct"] = (
-                vals / total.where(total != 0) * 100
-            ).round(1)
+            if family_col in df.columns:
+                family = pd.to_numeric(df[family_col], errors="coerce").fillna(0)
+                result["household_family_pct"] = (family / total.where(total != 0) * 100).round(1)
 
         return result
 
