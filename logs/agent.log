@@ -370,3 +370,126 @@
 20:26:19 [openai._base_client] INFO: Retrying request to /chat/completions in 7.479000 seconds
 20:26:27 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
 20:26:27 [agent] INFO: Query logged: what is the highest rated chinese restaurant from the records given... (80369ms)
+23:08:30 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:08:35 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:08:35 [agent] INFO: Query logged: best neighbourhood to open chinese restaurant... (7653ms)
+23:09:14 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:09:16 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:09:17 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:09:20 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:09:20 [agent] INFO: Query logged: the top rated chinese restaurant... (7627ms)
+23:15:25 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:30 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:30 [agent] INFO: Query logged: What are the best restaurants in Shoreditch?... (5837ms)
+23:15:31 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:38 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:38 [agent] INFO: Query logged: Which restaurants in Peckham have a hygiene rating of 5?... (7741ms)
+23:15:39 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:43 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:43 [agent] INFO: Query logged: Compare the restaurant scenes in Shoreditch and Hackney... (5079ms)
+23:15:44 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:45 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:45 [agent] INFO: Query logged: What Indian restaurants are in Shoreditch?... (2113ms)
+23:15:46 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:47 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:47 [agent] INFO: Query logged: What is the average age demographic in Hackney?... (2532ms)
+23:15:48 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:54 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:54 [agent] INFO: Query logged: Which restaurants in Peckham are on Deliveroo?... (7033ms)
+23:15:55 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:57 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:59 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:15:59 [agent] INFO: Query logged: What are the cheapest menu items in Hackney restaurants?... (4262ms)
+23:16:00 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:04 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:06 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:06 [agent] INFO: Query logged: Are there any restaurants with distress signals in Shoreditch?... (7080ms)
+23:16:07 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:08 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:13 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:13 [agent] INFO: Query logged: What is the most popular cuisine in Peckham?... (6999ms)
+23:16:14 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:15 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:15 [agent] INFO: Query logged: Which neighbourhood has the highest concentration of restaurants?... (1766ms)
+23:16:44 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:45 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:45 [agent] INFO: Query logged: Which is the top rated Chinese restaurant in Shoreditch?... (2520ms)
+23:16:46 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:47 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:47 [agent] INFO: Query logged: What is the best sushi restaurant in Hackney?... (1936ms)
+23:16:48 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:51 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:51 [agent] INFO: Query logged: Which restaurants in Peckham have outdoor seating?... (4384ms)
+23:16:53 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:53 [agent] INFO: Query logged: What is the average delivery time on Deliveroo in Shoreditch?... (1428ms)
+23:16:54 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:55 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:16:55 [agent] INFO: Query logged: Which restaurant has the most reviews in Hackney?... (2265ms)
+23:19:49 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:19:52 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:19:52 [agent] INFO: Query logged: What are the best restaurants in Shoreditch?... (4543ms)
+23:19:53 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:19:57 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:03 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:03 [agent] INFO: Query logged: Which restaurants in Peckham have a hygiene rating of 5?... (11018ms)
+23:20:05 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:09 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:09 [agent] INFO: Query logged: Compare the restaurant scenes in Shoreditch and Hackney... (6413ms)
+23:20:11 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:15 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:15 [agent] INFO: Query logged: What Indian restaurants are in Shoreditch?... (5182ms)
+23:20:16 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:18 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:18 [agent] INFO: Query logged: What is the average age demographic in Hackney?... (3345ms)
+23:20:19 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:26 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:26 [agent] INFO: Query logged: Which restaurants in Peckham are on Deliveroo?... (7640ms)
+23:20:27 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:30 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:33 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:33 [agent] INFO: Query logged: What are the cheapest menu items in Hackney restaurants?... (7438ms)
+23:20:34 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:39 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:40 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:40 [agent] INFO: Query logged: Are there any restaurants with distress signals in Shoreditch?... (6824ms)
+23:20:41 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:42 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:44 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:44 [agent] INFO: Query logged: What is the most popular cuisine in Peckham?... (4371ms)
+23:20:45 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:47 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:20:47 [agent] INFO: Query logged: Which neighbourhood has the highest concentration of restaurants?... (2538ms)
+23:21:31 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:21:37 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:21:37 [agent] INFO: Query logged: What are the best restaurants in Shoreditch?... (6886ms)
+23:21:38 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:21:43 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:21:52 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:21:52 [agent] INFO: Query logged: Which restaurants in Peckham have a hygiene rating of 5?... (15727ms)
+23:21:54 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:21:58 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:21:59 [agent] INFO: Query logged: Compare the restaurant scenes in Shoreditch and Hackney... (6129ms)
+23:22:00 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:04 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:04 [agent] INFO: Query logged: What Indian restaurants are in Shoreditch?... (4962ms)
+23:22:05 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:06 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:07 [agent] INFO: Query logged: What is the average age demographic in Hackney?... (2937ms)
+23:22:08 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:21 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:21 [agent] INFO: Query logged: Which restaurants in Peckham are on Deliveroo?... (14076ms)
+23:22:22 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:24 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:26 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:26 [agent] INFO: Query logged: What are the cheapest menu items in Hackney restaurants?... (5206ms)
+23:22:27 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:31 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:32 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:32 [agent] INFO: Query logged: Are there any restaurants with distress signals in Shoreditch?... (6213ms)
+23:22:33 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:34 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:36 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:36 [agent] INFO: Query logged: What is the most popular cuisine in Peckham?... (3606ms)
+23:22:36 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:38 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:22:38 [agent] INFO: Query logged: Which neighbourhood has the highest concentration of restaurants?... (1763ms)

@@ -34,6 +34,8 @@ When answering questions:
 5. For semantic searches use the search_reviews tool
 6. Never mention restaurant names that you haven't retrieved from the tools
 7. If you cannot find specific data, say so clearly rather than making up examples
+8. For cuisine-specific queries (Chinese, sushi, Indian etc.) use search_reviews tool with the cuisine as the query — NOT get_top_restaurants which filters by business_type not cuisine
+9. When asked about "best X restaurant" always use search_reviews first to find cuisine matches, then get_hygiene_rating to enrich results
 
 Target neighbourhoods: Shoreditch, Peckham, Hackney
 """

@@ -56,32 +56,44 @@ def get_all_restaurant_names() -> set[str]:
 
 
 def extract_restaurant_mentions(text: str) -> list[str]:
+    """
+    Extract potential restaurant name mentions from text.
+    Only extracts bold markdown names — these are the most reliable
+    indicator that the agent is citing a specific restaurant.
+    Avoids extracting addresses, building names and common phrases.
+    """
     mentions = set()
-    street_suffixes = (
-        " rd", " ln", " st", " ave", " grove", " gardens",
-        " lane", " street", " road", " avenue", " place", " square"
-    )
 
+    # Only extract bold markdown names e.g. **Dishoom Shoreditch**
+    # This is far more reliable than regex on plain text
     bold_pattern = r'\*\*([^*]+)\*\*'
     for m in re.finditer(bold_pattern, text):
         name = m.group(1).strip()
-        if (
-            len(name) > 4
-            and name.lower() not in IGNORE_PHRASES
-            and not any(name.lower().endswith(s) for s in street_suffixes)
-        ):
-            mentions.add(name)
 
-    cap_pattern = r'(?<!\w)([A-Z][a-zA-Z\'&]+(?:\s+[A-Z][a-zA-Z\'&]+)+)(?!\w)'
-    for m in re.finditer(cap_pattern, text):
-        name = m.group(1).strip()
-        if (
-            len(name) > 4
-            and name.lower() not in IGNORE_PHRASES
-            and not any(name.lower().endswith(s) for s in street_suffixes)
-            and not any(ignore in name.lower() for ignore in IGNORE_PHRASES)
-        ):
-            mentions.add(name)
+        # Skip if too short
+        if len(name) < 4:
+            continue
+
+        # Skip if it looks like a label/field name
+        if any(ignore in name.lower() for ignore in IGNORE_PHRASES):
+            continue
+
+        # Skip if it ends with a street suffix — it's an address not a name
+        street_suffixes = (
+            " rd", " ln", " st", " ave", " pl", " grove", " gardens",
+            " lane", " street", " road", " avenue", " place", " square",
+            " centre", " center", " house", " court", " close",
+        )
+        if any(name.lower().endswith(s) for s in street_suffixes):
+            continue
+
+        # Skip if it's all numbers or contains a postcode
+        if re.match(r'^[\d\s]+$', name):
+            continue
+        if re.search(r'[A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2}', name):
+            continue
+
+        mentions.add(name)
 
     return list(mentions)
 
