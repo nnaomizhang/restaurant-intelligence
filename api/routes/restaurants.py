@@ -1,4 +1,3 @@
-from config import DATABASE_URL, MONGO_URL
 """
 Restaurant endpoints.
 """
@@ -9,7 +8,8 @@ from typing import Optional
 
 router = APIRouter()
 
-DB_URI = DATABASE_URL
+import os
+DB_URI = os.getenv("DATABASE_URL", "postgresql://user:password@localhost:5432/restaurants")
 
 def serialise(row: dict) -> dict:
     """Convert non-JSON-serialisable types to strings."""
