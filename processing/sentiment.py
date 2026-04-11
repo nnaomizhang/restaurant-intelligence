@@ -16,9 +16,9 @@ from collections import defaultdict
 from transformers import pipeline
 from sqlalchemy import create_engine, text
 
-from config import PROCESSED_DIR, LOGS_DIR
+from config import DATABASE_URL, MONGO_URL, PROCESSED_DIR, LOGS_DIR
 
-DB_URI = "postgresql://user:password@localhost:5432/restaurants"
+DB_URI = DATABASE_URL
 
 # Cuisine keywords for classification
 CUISINE_KEYWORDS = {

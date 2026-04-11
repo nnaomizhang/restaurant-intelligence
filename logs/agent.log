@@ -218,3 +218,32 @@
 03:53:39 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 03:53:42 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 03:53:42 [agent] INFO: Query logged: What is the market opportunity in Peckham?... (4404ms)
+03:33:19 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:33:19 [agent] INFO: Query logged: Are there any restaurants with financial distress signals in Shoreditch? What cu... (1643ms)
+03:34:03 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:34:03 [agent] INFO: Query logged: Which neighbourhood should I open a new restaurant in and why? Use demand analys... (3058ms)
+03:36:18 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:36:18 [agent] INFO: Query logged: Are there any restaurants with financial distress signals in Shoreditch? What cu... (1711ms)
+03:36:23 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:36:23 [agent] INFO: Query logged: Analyse the Indian restaurant market in Shoreditch — ratings, hygiene, sentiment... (2073ms)
+03:54:46 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:54:46 [agent] INFO: Query logged: Are there any restaurants with financial distress signals in Shoreditch? What cu... (2451ms)
+03:54:53 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+03:54:53 [agent] INFO: Query logged: Which areas have the highest concentration of low hygiene ratings and what does ... (2552ms)
+04:10:21 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+04:10:27 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+04:10:30 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+04:10:30 [agent] INFO: Query logged: Are there any restaurants with financial distress signals in Shoreditch? What cu... (10925ms)
+04:10:44 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+04:10:44 [agent] INFO: Query logged: proceed... (1245ms)
+05:18:12 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+05:18:13 [agent] INFO: Query logged: Are there any restaurants with financial distress signals in Shoreditch? What cu... (1556ms)
+05:19:56 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+05:19:56 [agent] INFO: Query logged: Which neighbourhood should I open a new restaurant in and why? Use demand analys... (3448ms)
+05:24:45 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+05:24:51 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+05:24:53 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+05:24:53 [agent] INFO: Query logged: Are there any restaurants with financial distress signals in Shoreditch? What cu... (10718ms)
+05:25:23 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+05:25:30 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+05:25:30 [agent] INFO: Query logged: yes do that... (8529ms)

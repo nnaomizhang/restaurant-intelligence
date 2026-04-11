@@ -16,7 +16,7 @@ from datetime import datetime
 from sqlalchemy import create_engine, text
 from sqlalchemy.exc import IntegrityError
 
-from config import PROCESSED_DIR
+from config import DATABASE_URL, MONGO_URL, PROCESSED_DIR
 from processing.lineage import log_transformation, generate_run_id
 
 
@@ -24,7 +24,7 @@ from processing.lineage import log_transformation, generate_run_id
 # Connection
 # ==================================================================
 
-def get_engine(uri: str = "postgresql://user:password@localhost:5432/restaurants"):
+def get_engine(uri: str = DATABASE_URL):
     return create_engine(uri)
 
 
@@ -313,8 +313,8 @@ def load_menu_items(engine, area_name: str) -> int:
 # Main runner
 # ==================================================================
 
-def run_postgres_loading(uri: str = "postgresql://user:password@localhost:5432/restaurants"):
-    from config import TARGET_AREAS
+def run_postgres_loading(uri: str = DATABASE_URL):
+    from config import DATABASE_URL, MONGO_URL, TARGET_AREAS
 
     print(f"\n{'='*60}")
     print(f"  PHASE 4 — STEP 4: POSTGRESQL LOADING")

@@ -14,9 +14,9 @@ calculations in pure Python/SQL.
 import json
 import math
 from sqlalchemy import create_engine, text
-from config import PROCESSED_DIR
+from config import DATABASE_URL, MONGO_URL, PROCESSED_DIR
 
-DB_URI = "postgresql://user:password@localhost:5432/restaurants"
+DB_URI = DATABASE_URL
 
 # Average speeds for travel modes
 TRAVEL_SPEEDS = {

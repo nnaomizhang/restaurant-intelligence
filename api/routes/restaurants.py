@@ -1,3 +1,4 @@
+from config import DATABASE_URL, MONGO_URL
 """
 Restaurant endpoints.
 """
@@ -8,7 +9,7 @@ from typing import Optional
 
 router = APIRouter()
 
-DB_URI = "postgresql://user:password@localhost:5432/restaurants"
+DB_URI = DATABASE_URL
 
 def serialise(row: dict) -> dict:
     """Convert non-JSON-serialisable types to strings."""
@@ -61,7 +62,10 @@ def get_restaurants(
                google_review_count, google_price_level,
                business_type, company_number, company_status,
                deliveroo_rating, delivery_fee, menu_item_count,
-               sources_matched, created_at
+               sources_matched, created_at,
+               nearest_station, nearest_station_distance_km,
+               nearest_station_lines, transport_score,
+               spatial_cluster, distance_to_centre_km
         FROM restaurants
         WHERE {where}
         ORDER BY google_rating DESC NULLS LAST

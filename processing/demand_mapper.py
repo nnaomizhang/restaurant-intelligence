@@ -14,9 +14,9 @@ Scores restaurant market demand per neighbourhood using:
 import json
 from sqlalchemy import create_engine, text
 from pathlib import Path
-from config import PROCESSED_DIR
+from config import DATABASE_URL, MONGO_URL, PROCESSED_DIR
 
-DB_URI = "postgresql://user:password@localhost:5432/restaurants"
+DB_URI = DATABASE_URL
 
 
 def get_engine():

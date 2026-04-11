@@ -1,17 +1,4 @@
 services:
-  app:
-    build: .
-    command: streamlit run app/main.py --server.port 8501 --server.address 0.0.0.0
-    ports:
-      - "8501:8501"
-    volumes:
-      - .:/app
-    env_file:
-      - .env
-    depends_on:
-      - postgres
-      - mongodb
-
   api:
     build: .
     command: uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
@@ -21,7 +8,28 @@ services:
       - .:/app
     env_file:
       - .env
+    environment:
+      - DATABASE_URL=postgresql://user:password@postgres:5432/restaurants
+      - MONGO_URL=mongodb://mongodb:27017
     depends_on:
+      - postgres
+      - mongodb
+
+  app:
+    build: .
+    command: streamlit run app/main.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    environment:
+      - API_BASE=http://api:8000/api
+      - DATABASE_URL=postgresql://user:password@postgres:5432/restaurants
+      - MONGO_URL=mongodb://mongodb:27017
+    depends_on:
+      - api
       - postgres
       - mongodb
 

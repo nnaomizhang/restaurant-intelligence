@@ -1,3 +1,4 @@
+from config import DATABASE_URL, MONGO_URL
 """
 Demographics endpoint — ONS census data.
 """
@@ -8,7 +9,7 @@ from typing import Optional
 
 router = APIRouter()
 
-DB_URI = "postgresql://user:password@localhost:5432/restaurants"
+DB_URI = DATABASE_URL
 
 
 def get_engine():

@@ -56,8 +56,11 @@ def get_agent():
     return agent
 
 
-def run_query(question: str, neighbourhood: str = None) -> dict:
-    """Run a query through the agent."""
+def run_query(question: str, neighbourhood: str = None, history: list = None) -> dict:
+    """
+    Run a query through the agent with conversation history.
+    Returns answer, tools used, and validation result.
+    """
     import time
     start = time.time()
 
@@ -66,8 +69,17 @@ def run_query(question: str, neighbourhood: str = None) -> dict:
 
     agent = get_agent()
 
+    # Build messages with history
+    messages = []
+    for msg in (history or []):
+        if msg["role"] == "user":
+            messages.append(("human", msg["content"]))
+        elif msg["role"] == "assistant":
+            messages.append(("ai", msg["content"]))
+    messages.append(("human", question))
+
     try:
-        result = agent.invoke({"messages": [("human", question)]})
+        result = agent.invoke({"messages": messages})
         answer = result["messages"][-1].content
     except Exception as e:
         answer = f"Error: {str(e)}"

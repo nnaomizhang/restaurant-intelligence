@@ -12,15 +12,12 @@ router = APIRouter()
 
 @router.post("/query")
 async def query_agent(body: QueryRequest):
-    """
-    Send a natural language question to the agent.
-    Returns answer with validation result.
-    """
     try:
         from agent.agent import run_query
         result = run_query(
             question=body.question,
             neighbourhood=body.neighbourhood,
+            history=body.history or [],
         )
         return {
             "answer": result["answer"],

@@ -17,11 +17,11 @@ from pathlib import Path
 from datetime import datetime
 from pymongo import MongoClient, ASCENDING
 
-from config import PROCESSED_DIR
+from config import DATABASE_URL, MONGO_URL, PROCESSED_DIR
 from processing.lineage import log_transformation, generate_run_id
 
 
-def get_db(uri: str = "mongodb://localhost:27017", db_name: str = "restaurant_intelligence"):
+def get_db(uri: str = MONGO_URL, db_name: str = "restaurant_intelligence"):
     client = MongoClient(uri)
     return client[db_name]
 
@@ -92,8 +92,8 @@ def create_indexes(collection, key_field: str, extra_fields: list = None):
             pass
 
 
-def run_mongo_loading(uri: str = "mongodb://localhost:27017"):
-    from config import TARGET_AREAS
+def run_mongo_loading(uri: str = MONGO_URL):
+    from config import DATABASE_URL, MONGO_URL, TARGET_AREAS
 
     print(f"\n{'='*60}")
     print(f"  PHASE 4 — STEP 3: MONGODB LOADING")

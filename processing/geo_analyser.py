@@ -14,9 +14,9 @@ import json
 import math
 from pathlib import Path
 from sqlalchemy import create_engine, text
-from config import PROCESSED_DIR
+from config import DATABASE_URL, MONGO_URL, PROCESSED_DIR
 
-DB_URI = "postgresql://user:password@localhost:5432/restaurants"
+DB_URI = DATABASE_URL
 
 # Neighbourhood centre points
 NEIGHBOURHOOD_CENTRES = {

@@ -11,10 +11,10 @@ from pymongo import MongoClient
 import chromadb
 import json
 
-from config import PROCESSED_DIR, CHROMA_DB_DIR, CHROMA_COLLECTION_NAME
+from config import DATABASE_URL, MONGO_URL, PROCESSED_DIR, CHROMA_DB_DIR, CHROMA_COLLECTION_NAME
 
-DB_URI = "postgresql://user:password@localhost:5432/restaurants"
-MONGO_URI = "mongodb://localhost:27017"
+DB_URI = DATABASE_URL
+MONGO_URI = MONGO_URL
 
 
 def get_pg():
@@ -358,7 +358,7 @@ def get_sentiment_analysis(neighbourhood: str = "", cuisine: str = "") -> str:
     Use this when asked about customer satisfaction or review sentiment.
     """
     import json
-    from config import PROCESSED_DIR
+    from config import DATABASE_URL, MONGO_URL, PROCESSED_DIR
 
     sentiment_path = PROCESSED_DIR / "sentiment_results.json"
     if not sentiment_path.exists():
@@ -403,7 +403,7 @@ def get_demand_analysis(neighbourhood: str = "") -> str:
     Use this for market analysis or investment opportunity questions.
     """
     import json
-    from config import PROCESSED_DIR
+    from config import DATABASE_URL, MONGO_URL, PROCESSED_DIR
 
     demand_path = PROCESSED_DIR / "demand_scores.json"
     if not demand_path.exists():
@@ -432,7 +432,7 @@ def get_catchment_analysis(restaurant_name: str) -> str:
     Use this for competitive positioning questions.
     """
     import json
-    from config import PROCESSED_DIR
+    from config import DATABASE_URL, MONGO_URL, PROCESSED_DIR
 
     catchment_path = PROCESSED_DIR / "catchment_results.json"
     if not catchment_path.exists():
@@ -449,6 +449,46 @@ def get_catchment_analysis(restaurant_name: str) -> str:
 
     return json.dumps(matching)
 
+# ==================================================================
+# Tool 12 — Transport accessibility
+# ==================================================================
+
+@tool
+def get_transport_accessibility(neighbourhood: str = "", min_score: float = 0.0) -> str:
+    """
+    Get transport accessibility scores for restaurants.
+    Returns nearest TfL station, distance and transport score.
+    Use this when asked about accessibility, footfall potential,
+    or transport links for restaurants.
+    """
+    engine = get_pg()
+    conditions = ["nearest_station IS NOT NULL"]
+    params = {"limit": 20}
+
+    if neighbourhood:
+        conditions.append("neighbourhood ILIKE :neighbourhood")
+        params["neighbourhood"] = f"%{neighbourhood}%"
+
+    if min_score > 0:
+        conditions.append("transport_score >= :min_score")
+        params["min_score"] = min_score
+
+    sql = f"""
+        SELECT name, neighbourhood, nearest_station,
+               nearest_station_distance_km, nearest_station_lines,
+               transport_score, google_rating
+        FROM restaurants
+        WHERE {" AND ".join(conditions)}
+        ORDER BY transport_score DESC
+        LIMIT :limit
+    """
+
+    with engine.connect() as conn:
+        rows = conn.execute(text(sql), params).fetchall()
+
+    results = [dict(row._mapping) for row in rows]
+    return json.dumps(results, default=str)
+
 ALL_TOOLS = [
     search_restaurants,
     get_hygiene_rating,
@@ -461,5 +501,6 @@ ALL_TOOLS = [
     get_sentiment_analysis,
     get_demand_analysis,
     get_catchment_analysis,
+    get_transport_accessibility,
 ]
 

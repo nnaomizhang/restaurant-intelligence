@@ -72,3 +72,5 @@ EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 CHROMA_COLLECTION_NAME = "restaurant_reviews"
 CHROMA_DB_DIR = str(ROOT_DIR / "chroma_db")
 LLM_MODEL = "gpt-4o"
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost:5432/restaurants")
+MONGO_URL = os.getenv("MONGO_URL", "mongodb://localhost:27017")

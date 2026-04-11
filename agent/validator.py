@@ -1,3 +1,4 @@
+from config import DATABASE_URL, MONGO_URL
 """
 Hallucination Validator
 ========================
@@ -8,7 +9,7 @@ Checks restaurant names and ratings mentioned in responses.
 import re
 from sqlalchemy import create_engine, text
 
-DB_URI = "postgresql://user:password@localhost:5432/restaurants"
+DB_URI = DATABASE_URL
 
 # Phrases to ignore when checking for restaurant mentions
 IGNORE_PHRASES = {

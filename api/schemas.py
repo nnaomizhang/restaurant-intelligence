@@ -28,6 +28,7 @@ class RestaurantResponse(BaseModel):
 class QueryRequest(BaseModel):
     question: str
     neighbourhood: Optional[str] = None
+    history: Optional[list] = []
 
 
 class QueryResponse(BaseModel):
