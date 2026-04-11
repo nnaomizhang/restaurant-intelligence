@@ -71,4 +71,4 @@ TARGET_AREAS = [
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 CHROMA_COLLECTION_NAME = "restaurant_reviews"
 CHROMA_DB_DIR = str(ROOT_DIR / "chroma_db")
-LLM_MODEL = "gpt-4o-mini"
+LLM_MODEL = "gpt-4o"

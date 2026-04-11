@@ -14,14 +14,22 @@ router = APIRouter()
 async def query_agent(body: QueryRequest):
     """
     Send a natural language question to the agent.
-    Returns a JSON response with the answer.
-    Agent will be wired in Phase 6.
+    Returns answer with validation result.
     """
-    # Placeholder until agent is built in Phase 6
-    return QueryResponse(
-        answer=f"Agent not yet configured. Question received: {body.question}",
-        sources=[]
-    )
+    try:
+        from agent.agent import run_query
+        result = run_query(
+            question=body.question,
+            neighbourhood=body.neighbourhood,
+        )
+        return {
+            "answer": result["answer"],
+            "latency_ms": result["latency_ms"],
+            "validation": result["validation"],
+            "sources": result["validation"].get("verified_restaurants", []),
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @router.post("/query/stream")
@@ -30,10 +38,18 @@ async def stream_query(body: QueryRequest):
     Stream agent response token by token using SSE.
     """
     async def generate():
-        # Placeholder until agent is built in Phase 6
-        response = f"Streaming agent not yet configured. Question: {body.question}"
-        for word in response.split():
-            yield f"data: {word} \n\n"
+        try:
+            from agent.agent import run_query
+            result = run_query(
+                question=body.question,
+                neighbourhood=body.neighbourhood,
+            )
+            words = result["answer"].split()
+            for word in words:
+                yield f"data: {word} \n\n"
+            yield f"data: [DONE]\n\n"
+        except Exception as e:
+            yield f"data: Error: {str(e)}\n\n"
 
     return StreamingResponse(
         generate(),
