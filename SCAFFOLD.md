@@ -16,6 +16,7 @@ restaurant-intelligence/
 ├── README.md
 ├── SCAFFOLD.md                   # This file
 ├── start.sh                      # Full system startup helper
+├── split_ons_lsoa_files.py       # Splitter to extract Shoreditch, Peckham and Hackney
 │
 ├── collectors/                   # Data collection layer
 │   ├── base.py                   # BaseCollector with lineage, rate limiting
@@ -77,7 +78,8 @@ restaurant-intelligence/
 │   │   ├── fsa/
 │   │   ├── companies_house/
 │   │   ├── deliveroo/
-│   │   └── ons_census/           # + CSV files from Nomis
+│   │   └── ons_downloads/        # Original CSV files from Nomis
+│   │   └── ons_census/           # New CSV files created from split_ons_lsoa_files.py
 │   │
 │   └── processed/                # Cleaned and processed data
 │       ├── google_places/
@@ -104,5 +106,6 @@ restaurant-intelligence/
 │   └── security.md               # API key management, PII sanitisation policy
 │
 └── chroma_db/                    # ChromaDB persistent storage
-    └── restaurant_reviews/       # 1,216 review embeddings
+    ├── chroma.sqlite3            # Collection metadata
+    └── {uuid}/                   # restaurant_reviews collection (UUID-named)
 ```
