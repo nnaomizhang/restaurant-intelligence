@@ -43,11 +43,11 @@ cd restaurant-intelligence
 
 **2. Create `.env` in the project root**
 
-GOOGLE_PLACES_API_KEY=your_key
-COMPANIES_HOUSE_API_KEY=your_key
-OPENAI_API_KEY=your_key
-DATABASE_URL=postgresql://user:password@localhost:5432/restaurants
-MONGO_URL=mongodb://localhost:27017
+- GOOGLE_PLACES_API_KEY=your_key
+- COMPANIES_HOUSE_API_KEY=your_key
+- OPENAI_API_KEY=your_key
+- DATABASE_URL=postgresql://user:password@localhost:5432/restaurants
+- MONGO_URL=mongodb://localhost:27017
 
 ---
 
