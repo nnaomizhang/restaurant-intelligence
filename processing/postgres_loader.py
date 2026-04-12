@@ -102,6 +102,54 @@ CREATE TABLE IF NOT EXISTS menu_items (
     dietary_tags        TEXT[],
     created_at          TIMESTAMP DEFAULT NOW()
 );
+
+CREATE TABLE IF NOT EXISTS reviews (
+    id                  SERIAL PRIMARY KEY,
+    google_place_id     TEXT,
+    restaurant_name     TEXT,
+    neighbourhood       TEXT,
+    review_text         TEXT,
+    review_rating       INTEGER,
+    review_date         TEXT,
+    review_language     TEXT DEFAULT 'en',
+    created_at          TIMESTAMP DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS companies (
+    id                  SERIAL PRIMARY KEY,
+    company_number      TEXT UNIQUE,
+    name                TEXT,
+    name_normalised     TEXT,
+    status              TEXT,
+    incorporation_date  TEXT,
+    registered_address  TEXT,
+    postcode            TEXT,
+    sic_codes           TEXT[],
+    accounts_overdue    BOOLEAN,
+    distress_signals    TEXT[],
+    officer_count       INTEGER,
+    neighbourhood       TEXT,
+    created_at          TIMESTAMP DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS data_lineage (
+    id                  SERIAL PRIMARY KEY,
+    event_type          TEXT,
+    run_id              TEXT,
+    timestamp           TIMESTAMP,
+    agent               TEXT,
+    agent_version       TEXT,
+    source_system       TEXT,
+    collection_method   TEXT,
+    area                TEXT,
+    records_collected   INTEGER,
+    records_out         INTEGER,
+    output_file         TEXT,
+    source_file         TEXT,
+    destination_table   TEXT,
+    transformations     TEXT[],
+    notes               TEXT
+);
 """
 
 
@@ -312,6 +360,158 @@ def load_menu_items(engine, area_name: str) -> int:
 # ==================================================================
 # Main runner
 # ==================================================================
+def load_reviews(engine, area_name: str) -> int:
+    """Load Google Places reviews into reviews table."""
+    records = load_processed("google_places", area_name)
+    if not records:
+        return 0
+
+    inserted = 0
+    with engine.connect() as conn:
+        for r in records:
+            place_id = r.get("google_place_id")
+            name = r.get("name")
+            neighbourhood = r.get("neighbourhood")
+
+            for review in r.get("reviews", []):
+                review_text = review.get("text", "").strip()
+                if not review_text:
+                    continue
+                try:
+                    conn.execute(text("""
+                        INSERT INTO reviews (
+                            google_place_id, restaurant_name, neighbourhood,
+                            review_text, review_rating, review_date, review_language
+                        ) VALUES (
+                            :place_id, :name, :neighbourhood,
+                            :review_text, :rating, :date, :language
+                        )
+                    """), {
+                        "place_id": place_id,
+                        "name": name,
+                        "neighbourhood": neighbourhood,
+                        "review_text": review_text[:2000],
+                        "rating": review.get("rating"),
+                        "date": review.get("date"),
+                        "language": review.get("language", "en"),
+                    })
+                    inserted += 1
+                except Exception:
+                    continue
+        conn.commit()
+    return inserted
+
+
+def load_companies(engine, area_name: str) -> int:
+    """Load Companies House data into companies table."""
+    records = load_processed("companies_house", area_name)
+    if not records:
+        return 0
+
+    inserted = 0
+    with engine.connect() as conn:
+        for r in records:
+            try:
+                distress = r.get("distress_signals", [])
+                officers = r.get("officers", [])
+                conn.execute(text("""
+                    INSERT INTO companies (
+                        company_number, name, name_normalised, status,
+                        incorporation_date, registered_address, postcode,
+                        sic_codes, accounts_overdue, distress_signals,
+                        officer_count, neighbourhood
+                    ) VALUES (
+                        :company_number, :name, :name_normalised, :status,
+                        :incorporation_date, :registered_address, :postcode,
+                        :sic_codes, :accounts_overdue, :distress_signals,
+                        :officer_count, :neighbourhood
+                    )
+                    ON CONFLICT (company_number) DO UPDATE SET
+                        status = EXCLUDED.status,
+                        accounts_overdue = EXCLUDED.accounts_overdue,
+                        distress_signals = EXCLUDED.distress_signals
+                """), {
+                    "company_number": r.get("company_number"),
+                    "name": r.get("name"),
+                    "name_normalised": r.get("name_normalised"),
+                    "status": r.get("status"),
+                    "incorporation_date": r.get("incorporation_date"),
+                    "registered_address": r.get("registered_address"),
+                    "postcode": r.get("postcode"),
+                    "sic_codes": r.get("sic_codes", []),
+                    "accounts_overdue": r.get("accounts_overdue", False),
+                    "distress_signals": [str(d) for d in distress] if distress else [],
+                    "officer_count": len(officers),
+                    "neighbourhood": r.get("neighbourhood"),
+                })
+                inserted += 1
+            except Exception:
+                continue
+        conn.commit()
+    return inserted
+
+
+def load_data_lineage(engine) -> int:
+    """Load lineage events from JSONL into data_lineage table."""
+    from config import LOGS_DIR
+    import json
+    from datetime import datetime
+
+    log_path = LOGS_DIR / "data_lineage.jsonl"
+    if not log_path.exists():
+        return 0
+
+    inserted = 0
+    with open(log_path, encoding="utf-8") as f:
+        lines = f.readlines()
+
+    with engine.connect() as conn:
+        # Clear existing to avoid duplicates
+        conn.execute(text("TRUNCATE TABLE data_lineage"))
+
+        for line in lines:
+            try:
+                event = json.loads(line.strip())
+                ts = event.get("timestamp")
+                try:
+                    parsed_ts = datetime.fromisoformat(ts) if ts else None
+                except:
+                    parsed_ts = None
+
+                conn.execute(text("""
+                    INSERT INTO data_lineage (
+                        event_type, run_id, timestamp, agent, agent_version,
+                        source_system, collection_method, area,
+                        records_collected, records_out, output_file,
+                        source_file, destination_table, transformations, notes
+                    ) VALUES (
+                        :event_type, :run_id, :timestamp, :agent, :agent_version,
+                        :source_system, :collection_method, :area,
+                        :records_collected, :records_out, :output_file,
+                        :source_file, :destination_table, :transformations, :notes
+                    )
+                """), {
+                    "event_type": event.get("event_type"),
+                    "run_id": event.get("run_id"),
+                    "timestamp": parsed_ts,
+                    "agent": event.get("agent"),
+                    "agent_version": str(event.get("agent_version", "")),
+                    "source_system": event.get("source_system"),
+                    "collection_method": event.get("collection_method"),
+                    "area": event.get("area"),
+                    "records_collected": event.get("records_collected"),
+                    "records_out": event.get("records_out"),
+                    "output_file": event.get("output_file"),
+                    "source_file": event.get("source_file"),
+                    "destination_table": event.get("destination_table"),
+                    "transformations": event.get("transformations", []),
+                    "notes": event.get("notes", ""),
+                })
+                inserted += 1
+            except Exception:
+                continue
+        conn.commit()
+    return inserted
 
 def run_postgres_loading(uri: str = DATABASE_URL):
     from config import DATABASE_URL, MONGO_URL, TARGET_AREAS
@@ -332,12 +532,21 @@ def run_postgres_loading(uri: str = DATABASE_URL):
 
     create_schema(engine)
 
+    total = 0
     loaders = [
         ("restaurants", load_restaurants),
         ("hygiene_ratings", load_hygiene),
         ("demographics", load_demographics),
         ("menu_items", load_menu_items),
+        ("reviews", load_reviews),
+        ("companies", load_companies),
     ]
+    
+    # Load data lineage
+    print(f"\n--- data_lineage ---")
+    lineage_count = load_data_lineage(engine)
+    print(f"  Loaded {lineage_count} lineage events")
+    total += lineage_count
 
     total = 0
     for table, loader in loaders:
