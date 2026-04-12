@@ -39,7 +39,7 @@ def get_restaurants(
     cuisine: Optional[str] = Query(None),
     trading_pattern: Optional[str] = Query(None),
     on_deliveroo: Optional[bool] = Query(None),
-    limit: int = Query(50, le=200),
+    limit: int = Query(200, le=500),
 ):
     """Get filtered list of restaurants."""
     try:
@@ -231,7 +231,7 @@ def get_companies(
 def get_lineage(
     event_type: Optional[str] = Query(None),
     source_system: Optional[str] = Query(None),
-    limit: int = Query(50, le=200),
+    limit: int = Query(500, le=2500),
 ):
     """Get data lineage events."""
     try:

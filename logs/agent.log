@@ -1006,3 +1006,41 @@
 02:36:35 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 02:36:36 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 02:36:36 [agent] INFO: Query logged: Should I open a breakfast cafe in Hackney or Shoreditch based on the data?... (8438ms)
+02:25:24 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:25:34 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:25:36 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:25:36 [agent] INFO: Query logged: Which neighbourhood should I open a new restaurant in and why? Use demand analys... (14162ms)
+02:26:48 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:26:55 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:27:00 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:27:01 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:27:01 [agent] INFO: Query logged: Are there any restaurants with financial distress signals in Shoreditch? What cu... (17265ms)
+02:27:36 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:27:42 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:27:43 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:27:43 [agent] INFO: Query logged: What is the market opportunity in Peckham? Chain your analysis across demand, de... (8988ms)
+02:27:53 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:28:00 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:28:00 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:28:00 [agent] INFO: Query logged: Compare the restaurant market across Shoreditch, Peckham and Hackney including t... (8700ms)
+02:28:18 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:28:19 [httpx] INFO: HTTP Request: GET https://chroma-onnx-models.s3.amazonaws.com/all-MiniLM-L6-v2/onnx.tar.gz "HTTP/1.1 200 OK"
+02:28:34 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:28:35 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:28:35 [agent] INFO: Query logged: Analyse the Indian restaurant market in Shoreditch — ratings, hygiene, sentiment... (18409ms)
+02:29:11 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:29:18 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:29:19 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:29:19 [agent] INFO: Query logged: Which cuisines dominate the Deliveroo market in Hackney and what gaps exist?... (10041ms)
+02:29:36 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:29:46 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:29:47 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:29:47 [agent] INFO: Query logged: Which restaurants in Shoreditch have the best transport accessibility?... (10380ms)
+02:29:58 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:30:06 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:30:07 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:30:07 [agent] INFO: Query logged: What price point gaps exist in Peckham's restaurant market based on menu pricing... (11820ms)
+02:30:17 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:30:23 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:30:24 [httpx] INFO: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+02:30:24 [agent] INFO: Query logged: Which areas have the highest concentration of low hygiene ratings and what does ... (7752ms)

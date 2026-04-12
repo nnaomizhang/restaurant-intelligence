@@ -17,10 +17,11 @@ import plotly.express as px
 from config import PROCESSED_DIR
 import os
 API_BASE = os.getenv("API_BASE", "http://localhost:8000/api")
+import plotly.graph_objects as go
 
 st.set_page_config(
     page_title="Restaurant Intelligence Platform",
-    page_icon="🍽️",
+    page_icon="👨🏻‍🍳",
     layout="wide",
 )
 
@@ -29,7 +30,7 @@ st.set_page_config(
 # ------------------------------------------------------------------
 
 with st.sidebar:
-    st.title("🍽️ Restaurant Intelligence")
+    st.title("Restaurant Intelligence")
     st.caption("Strategic market intelligence for London's food scene")
     st.markdown("---")
 
@@ -42,24 +43,24 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown("**Data sources**")
-    st.markdown("🟢 Google Places — ratings & reviews")
-    st.markdown("🟢 FSA — hygiene ratings")
-    st.markdown("🟢 Companies House — financials")
-    st.markdown("🟢 Deliveroo — menus & pricing")
-    st.markdown("🟢 ONS Census — demographics")
-    st.markdown("🟢 TfL — transport accessibility")
+    st.markdown("Google Places — ratings & reviews")
+    st.markdown("FSA — hygiene ratings")
+    st.markdown("Companies House — financials")
+    st.markdown("Deliveroo — menus & pricing")
+    st.markdown("ONS Census — demographics")
+    st.markdown("TfL — transport accessibility")
     st.markdown("---")
     st.markdown("**Coverage**")
     st.markdown("📍 Shoreditch · Peckham · Hackney")
-    st.markdown("📊 2,528 raw records")
-    st.markdown("🧠 12 agent tools")
+    st.markdown("2,528 raw records")
+    st.markdown("12 agent tools")
 
 
 # ------------------------------------------------------------------
 # Helper functions
 # ------------------------------------------------------------------
 
-def get_restaurants(neighbourhood=None, min_rating=0.0, limit=200):
+def get_restaurants(neighbourhood=None, min_rating=0.0, limit=500):
     params = {"limit": limit}
     if neighbourhood and neighbourhood != "All":
         params["neighbourhood"] = neighbourhood
@@ -109,7 +110,7 @@ def query_agent(question, neighbourhood=None, history=None):
 # Hero section
 # ------------------------------------------------------------------
 
-st.title("🍽️ Restaurant Intelligence Platform")
+st.title("Restaurant Intelligence Platform 👨🏻‍🍳")
 st.markdown(
     "**Strategic market intelligence** for London's restaurant scene. "
     "Ask natural language questions across restaurant ratings, hygiene data, "
@@ -138,13 +139,13 @@ st.markdown("---")
 # ------------------------------------------------------------------
 
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
-    "💬 Strategic Chat",
-    "🗺️ Restaurant Explorer",
-    "🧹 Hygiene Intelligence",
-    "👥 Demographics",
-    "💭 Sentiment Analysis",
-    "📊 Market Opportunity",
-    "📍 Location Analysis",
+    "Strategic Chat",
+    "Restaurant Explorer",
+    "Hygiene Intelligence",
+    "Demographics",
+    "Sentiment Analysis",
+    "Market Opportunity",
+    "Location Analysis",
 ])
 
 
@@ -159,25 +160,25 @@ with tab1:
     st.markdown("**Try these strategic queries:**")
     col1, col2, col3 = st.columns(3)
     with col1:
-        if st.button("🏆 Best neighbourhood to open?"):
+        if st.button("Best neighbourhood to open?"):
             st.session_state["prefill"] = "Which neighbourhood should I open a new restaurant in and why? Use demand analysis, demographics and sentiment."
-        if st.button("📊 Compare all three areas"):
+        if st.button("Compare all three areas"):
             st.session_state["prefill"] = "Compare the restaurant market across Shoreditch, Peckham and Hackney including transport accessibility"
-        if st.button("🚇 Best transport links"):
+        if st.button("Best transport links"):
             st.session_state["prefill"] = "Which restaurants in Shoreditch have the best transport accessibility?"
     with col2:
-        if st.button("⚠️ Financial distress signals"):
+        if st.button("Financial distress signals"):
             st.session_state["prefill"] = "Are there any restaurants with financial distress signals in Shoreditch? What cuisine gaps does this create?"
-        if st.button("🍛 Indian restaurant analysis"):
+        if st.button("Indian restaurant analysis"):
             st.session_state["prefill"] = "Analyse the Indian restaurant market in Shoreditch — ratings, hygiene, sentiment and competition"
-        if st.button("💰 Price point gaps"):
+        if st.button("Price point gaps"):
             st.session_state["prefill"] = "What price point gaps exist in Peckham's restaurant market based on menu pricing and demographics?"
     with col3:
-        if st.button("📈 Market opportunity Peckham"):
+        if st.button("Market opportunity Peckham"):
             st.session_state["prefill"] = "What is the market opportunity in Peckham? Chain your analysis across demand, demographics, sentiment and catchment."
-        if st.button("🚴 Deliveroo market analysis"):
+        if st.button("Deliveroo market analysis"):
             st.session_state["prefill"] = "Which cuisines dominate the Deliveroo market in Hackney and what gaps exist?"
-        if st.button("🏥 Hygiene risk analysis"):
+        if st.button("Hygiene risk analysis"):
             st.session_state["prefill"] = "Which areas have the highest concentration of low hygiene ratings and what does this signal?"
 
     st.markdown("---")
@@ -245,7 +246,7 @@ with tab2:
     )
 
     if not restaurants:
-        st.info("No restaurants found. Adjust filters in the sidebar.")
+        st.info("No restaurants found.")
     else:
         df = pd.DataFrame(restaurants)
 
@@ -270,15 +271,45 @@ with tab2:
         st.markdown("---")
 
         col1, col2 = st.columns(2)
+                
         with col1:
             if "google_rating" in df.columns:
-                fig = px.histogram(
-                    df.dropna(subset=["google_rating"]),
-                    x="google_rating",
-                    nbins=20,
-                    title="Rating distribution",
-                    color_discrete_sequence=["#FF4B4B"],
+                df_r = df.dropna(subset=["google_rating"]).copy()
+
+                def rating_band(r):
+                    if r < 4.0:
+                        return "<4.0"
+                    elif r < 4.5:
+                        return "4.0–4.4"
+                    elif r < 4.8:
+                        return "4.5–4.7"
+                    else:
+                        return "4.8+"
+
+                df_r["rating_band"] = df_r["google_rating"].apply(rating_band)
+
+                band_counts = (
+                    df_r["rating_band"]
+                    .value_counts()
+                    .reindex(["<4.0", "4.0–4.4", "4.5–4.7", "4.8+"], fill_value=0)
+                    .reset_index()
                 )
+                band_counts.columns = ["Rating band", "Count"]
+                band_counts["Percentage"] = (
+                    band_counts["Count"] / band_counts["Count"].sum() * 100
+                ).round(1)
+
+                fig = px.bar(
+                    band_counts,
+                    x="Rating band",
+                    y="Count",
+                    title="Restaurant Quality Distribution",
+                    color="Rating band",
+                    color_discrete_sequence=["#EF553B", "#FFA15A", "#00CC96", "#19D3F3"],
+                    text=band_counts["Percentage"].astype(str) + "%",
+                )
+                fig.update_traces(textposition="outside")
+                fig.update_layout(showlegend=False)
                 st.plotly_chart(fig, use_container_width=True)
 
         with col2:
@@ -287,45 +318,104 @@ with tab2:
                     df.dropna(subset=["google_rating"]),
                     x="neighbourhood",
                     y="google_rating",
-                    title="Rating by neighbourhood",
+                    title="Rating by Neighbourhood",
                     color="neighbourhood",
                 )
                 st.plotly_chart(fig, use_container_width=True)
 
         # Transport accessibility charts
         if "transport_score" in df.columns:
-            st.subheader("Transport accessibility")
+            st.subheader("Transport Accessibility")
             col1, col2 = st.columns(2)
             with col1:
                 fig = px.histogram(
                     df.dropna(subset=["transport_score"]),
                     x="transport_score",
                     nbins=20,
-                    title="Transport score distribution",
+                    title="Transport Score Distribution",
                     color_discrete_sequence=["#AB63FA"],
                 )
                 st.plotly_chart(fig, use_container_width=True)
+                    
             with col2:
-                if "nearest_station" in df.columns:
-                    top_stations = df["nearest_station"].value_counts().head(10).reset_index()
-                    top_stations.columns = ["Station", "Count"]
+                if "nearest_station" in df.columns and "google_rating" in df.columns:
+                    station_summary = (
+                        df.dropna(subset=["nearest_station"])
+                        .groupby("nearest_station")
+                        .agg(
+                            restaurant_count=("name", "count"),
+                            avg_rating=("google_rating", "mean"),
+                            avg_reviews=("google_review_count", "mean"),
+                        )
+                        .reset_index()
+                    )
+                    station_summary = station_summary.sort_values(
+                        ["restaurant_count", "avg_rating"],
+                        ascending=[False, False]
+                    ).head(10)
+                    station_summary["label"] = (
+                        station_summary["nearest_station"]
+                        + " (" + station_summary["restaurant_count"].astype(str) + ")"
+                    )
+
                     fig = px.bar(
-                        top_stations,
-                        x="Count",
-                        y="Station",
+                        station_summary.sort_values("restaurant_count"),
+                        x="restaurant_count",
+                        y="nearest_station",
                         orientation="h",
-                        title="Most common nearest stations",
-                        color_discrete_sequence=["#AB63FA"],
+                        color="avg_rating",
+                        title="Top Transport Hubs by Nearby Restaurant Count",
+                        hover_data=["avg_rating", "avg_reviews"],
+                    )
+                    fig.update_layout(
+                        xaxis_title="Nearby Restaurant count",
+                        yaxis_title="Station",
+                        coloraxis_colorbar_title="Avg rating",
                     )
                     st.plotly_chart(fig, use_container_width=True)
 
-        if "latitude" in df.columns:
-            map_df = df.dropna(subset=["latitude", "longitude"])
+        if "latitude" in df.columns and "longitude" in df.columns:
+            map_df = df.dropna(subset=["latitude", "longitude"]).copy()
             if not map_df.empty:
-                st.subheader("Restaurant locations")
-                st.map(map_df[["latitude", "longitude"]])
+                st.subheader("Restaurant Locations")
 
-        st.subheader("Restaurant data")
+                map_df["google_rating"] = map_df["google_rating"].round(2)
+                map_df["google_review_count"] = map_df["google_review_count"].fillna(0).astype(int)
+
+                fig = px.scatter_mapbox(
+                    map_df,
+                    lat="latitude",
+                    lon="longitude",
+                    zoom=12.5,
+                    height=550,
+                )
+
+                fig.update_traces(
+                    marker=dict(size=8, color="#FF4B4B", opacity=0.85),
+                    hovertemplate="""
+                    <b>%{customdata[0]}</b><br>
+                    Rating: %{customdata[1]}<br>
+                    Reviews: %{customdata[2]}<br>
+                    Type: %{customdata[3]}<br>
+                    <extra></extra>
+                    """,
+                    customdata=map_df[[
+                        "name",
+                        "google_rating",
+                        "google_review_count",
+                        "business_type"
+                    ]].fillna("")
+                )
+
+                fig.update_layout(
+                    mapbox_style="carto-positron",
+                    margin={"r": 0, "t": 40, "l": 0, "b": 0},
+                    showlegend=False
+                )
+
+                st.plotly_chart(fig, use_container_width=True)
+
+        st.subheader("Restaurant Data")
         display_cols = [
             "name", "neighbourhood", "google_rating", "google_review_count",
             "google_price_level", "business_type", "company_status",
@@ -342,7 +432,7 @@ with tab2:
 
 # Trading patterns
         if "trading_pattern" in df.columns:
-            st.subheader("Trading patterns")
+            st.subheader("Trading Patterns")
             st.caption("Based on opening hours — indicates target customer demographic")
             col1, col2 = st.columns(2)
             with col1:
@@ -582,7 +672,7 @@ with tab6:
         st.caption("High positive sentiment + low review count = underserved demand")
 
         for area, data in demand_data.items():
-            with st.expander(f"📊 {area} — cuisine gaps"):
+            with st.expander(f" {area} — cuisine gaps"):
                 gaps = data.get("cuisine_gaps", {})
                 if gaps:
                     df_gaps = pd.DataFrame([
@@ -607,7 +697,7 @@ with tab6:
                 catchment_data = json.load(f)
 
             for restaurant, data in catchment_data.items():
-                with st.expander(f"📍 {restaurant}"):
+                with st.expander(f" {restaurant}"):
                     zones = data.get("zones", {})
                     df_zones = pd.DataFrame([
                         {
@@ -643,7 +733,7 @@ with tab6:
 # ------------------------------------------------------------------
 
 with tab7:
-    st.header("📍 Location Analysis")
+    st.header("Location Analysis")
     st.caption("Enter a postcode to find nearby restaurants, competitors and transport links")
 
     col1, col2 = st.columns([2, 1])
@@ -726,7 +816,7 @@ with tab7:
                     on_del = sum(1 for r in nearby if r.get("menu_item_count", 0) > 0)
                     st.metric("On Deliveroo", on_del)
                 with col4:
-                    high_rated = sum(1 for r in nearby if r.get("google_rating", 0) >= 4.5)
+                    high_rated = sum(1 for r in nearby if (r.get("google_rating") or 0) >= 4.5)
                     st.metric("Highly rated (4.5+)", high_rated)
 
                 st.markdown("---")
