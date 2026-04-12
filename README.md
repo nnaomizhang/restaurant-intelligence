@@ -39,6 +39,10 @@ All processed data and embeddings are included in the repository — no data col
 ```bash
 git clone https://github.com/nnaomizhang/restaurant-intelligence.git
 cd restaurant-intelligence
+python3 -m venv venv
+source venv/bin/activate        # Mac/Linux
+venv\Scripts\activate           # Windows
+pip install -r requirements.txt
 ```
 
 **2. Create `.env` in the project root**
