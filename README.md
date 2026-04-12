@@ -1,4 +1,4 @@
-# Restaurant Intelligence Platform
+# Restaurant Intelligence Platform 👨🏻‍🍳
 
 Strategic market intelligence for London's restaurant scene — Shoreditch, Peckham and Hackney. Ask natural language questions across restaurant ratings, hygiene, company financials, delivery menus, transport accessibility and neighbourhood demographics.
 
