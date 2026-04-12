@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-12T01:36:22.128375",
+  "generated_at": "2026-04-12T02:33:59.972022",
   "standard_queries": [
     {
       "query_id": 1,
       "question": "What are the best restaurants in Shoreditch?",
-      "answer": "Here are some of the best restaurants in Shoreditch based on Google ratings:\n\n1. **De Vine**\n   - **Rating:** 5.0\n   - **Reviews:** 5,305\n   - **Address:** 19 Vine St next, under railway bridge, to, 2 America Square, London EC3N 2PX, UK\n   - **Price Level:** \u00a3\n\n2. **Ladybugs Cafe**\n   - **Rating:** 5.0\n   - **Reviews:** 314\n   - **Address:** 192 Hoxton St, London N1 5LH, UK\n\n3. **Rose's Kitchen**\n   - **Rating:** 5.0\n   - **Reviews:** 299\n   - **Address:** 11 Harrow Pl, London E1 7DB, UK\n   - **Business Type:** Restaurant/Cafe/Canteen\n   - **Menu Items:** 9\n\n4. **KUUKI SUSHI 9**\n   - **Rating:** 5.0\n   - **Reviews:** 265\n   - **Address:** 59 Fashion St, London E1 6PX, UK\n   - **Business Type:** Takeaway/sandwich shop\n   - **Menu Items:** 18\n\n5. **Breeze Bistro & Lounge**\n   - **Rating:** 5.0\n   - **Reviews:** 156\n   - **Address:** 189 Hoxton St, London N1 6RA, UK\n\nAll of these restaurants have received excellent ratings, making them top choices in Shoreditch!",
+      "answer": "Here are some of the best restaurants in Shoreditch based on Google ratings:\n\n1. **De Vine**\n   - **Rating:** 5.0\n   - **Reviews:** 5,305\n   - **Address:** 19 Vine St next, under railway bridge, to, 2 America Square, London EC3N 2PX, UK\n   - **Price Level:** \u00a3\n\n2. **Ladybugs Cafe**\n   - **Rating:** 5.0\n   - **Reviews:** 314\n   - **Address:** 192 Hoxton St, London N1 5LH, UK\n\n3. **Rose's Kitchen**\n   - **Rating:** 5.0\n   - **Reviews:** 299\n   - **Address:** 11 Harrow Pl, London E1 7DB, UK\n   - **Menu Items:** 9\n\n4. **KUUKI SUSHI 9**\n   - **Rating:** 5.0\n   - **Reviews:** 265\n   - **Address:** 59 Fashion St, London E1 6PX, UK\n   - **Menu Items:** 18\n\n5. **Breeze Bistro & Lounge**\n   - **Rating:** 5.0\n   - **Reviews:** 156\n   - **Address:** 189 Hoxton St, London N1 6RA, UK\n\nAll these restaurants have received excellent ratings, making them top choices in Shoreditch!",
       "valid": true,
-      "latency_ms": 7889,
+      "latency_ms": 8220,
       "verified_restaurants": [
         "De Vine",
         "Ladybugs Cafe",
@@ -18,27 +18,28 @@
     {
       "query_id": 2,
       "question": "Which restaurants in Peckham have a hygiene rating of 5?",
-      "answer": "Here are the restaurants in Peckham that have a hygiene rating of 5:\n\n1. **ANTHONY\u2019S GRILL LTD**\n   - Address: Unit 9-10, 149 New Cross Rd, London SE14 5DJ, UK\n   - Google Rating: 5.0 (48 reviews)\n\n2. **Zuzu's Pitsa Bermondsey**\n   - Address: Karma Kitchen, Unit 5, Allard House, 18 Verney Rd, London SE16 3DH, UK\n   - Google Rating: 5.0 (10 reviews)\n\n3. **Patty Bro\u2019s**\n   - Address: Market Place Peckham, Unit 10, The Aylesham Centre, Rye Ln, London SE15 5EW, UK\n   - Google Rating: 5.0 (36 reviews)\n\n4. **King Samgyeop**\n   - Address: Unit 21, 18 Verney Rd, London SE16 3DH, UK\n   - Google Rating: 5.0 (2 reviews)\n\n5. **chickntaco**\n   - Address: Unit 10, Aylesham Centre, unit 10 Rye Ln, The Alys, London SE15 5EW, UK\n   - Google Rating: 5.0 (6 reviews)\n\n6. **Queen's Lebanese Grill & Pizza**\n   - Address: 157 Queen's Rd, London SE15 2ND, UK\n   - Google Rating: 5.0 (16 reviews)\n\n7. **Veggie Crust**\n   - Address: 356 Old Kent Rd, London SE1 5AA, UK\n   - Google Rating: 5.0 (38 reviews)\n\n8. **Urban City 39**\n   - Address: Verney Rd, London SE16 3DY, UK\n   - Google Rating: 5.0 (5 reviews)\n\nThe only restaurant with a confirmed hygiene rating of 5 from the FSA is **Proper Slices**:\n- Address: 157-159 Rye Lane, London SE15 4TL, UK\n- Hygiene Rating: 5 (as of October 25, 2025)\n\nPlease let me know if you need more information!",
+      "answer": "Here are the restaurants in Peckham that have a hygiene rating of 5:\n\n1. **Made's Kitchen | African | Nigerian Restaurant**\n   - Address: 115 New Cross Rd, London SE14 5DJ, UK\n   - Google Rating: 5.0 (2 reviews)\n\n2. **Urban City 39**\n   - Address: Verney Rd, London SE16 3DY, UK\n   - Google Rating: 5.0 (5 reviews)\n\n3. **ANTHONY\u2019S GRILL LTD**\n   - Address: Unit 9-10, 149 New Cross Rd, London SE14 5DJ, UK\n   - Google Rating: 5.0 (48 reviews)\n\n4. **Zuzu's Pitsa Bermondsey**\n   - Address: Karma Kitchen, Unit 5, Allard House, 18 Verney Rd, London SE16 3DH, UK\n   - Google Rating: 5.0 (10 reviews)\n\n5. **Patty Bro\u2019s**\n   - Address: Market Place Peckham, Unit 10, The Aylesham Centre, Rye Ln, London SE15 5EW, UK\n   - Google Rating: 5.0 (36 reviews)\n\n6. **R\u00fastic Food & Good**\n   - Address: 48 Rye Ln, London SE15 5BY, UK\n   - Google Rating: 5.0 (174 reviews)\n\n7. **King Samgyeop**\n   - Address: Unit 21, 18 Verney Rd, London SE16 3DH, UK\n   - Google Rating: 5.0 (2 reviews)\n\n8. **chickntaco**\n   - Address: Unit 10, Aylesham Centre, unit 10 Rye Ln, The Alys, London SE15 5EW, UK\n   - Google Rating: 5.0 (6 reviews)\n\n9. **Queen's Lebanese Grill & Pizza**\n   - Address: 157 Queen's Rd, London SE15 2ND, UK\n   - Google Rating: 5.0 (16 reviews)\n\n10. **Proper Slices**\n    - Address: 157-159 Rye Ln, London SE15 4TL, UK\n    - Google Rating: 5.0 (15 reviews)\n\nThese restaurants not only have excellent hygiene ratings but also positive reviews from customers.",
       "valid": true,
-      "latency_ms": 11873,
+      "latency_ms": 9623,
       "verified_restaurants": [
+        "Made's Kitchen",
+        "Urban City 39",
         "ANTHONY\u2019S GRILL LTD",
         "Zuzu's Pitsa Bermondsey",
         "Patty Bro\u2019s",
+        "R\u00fastic Food & Good",
         "King Samgyeop",
         "chickntaco",
         "Queen's Lebanese Grill & Pizza",
-        "Veggie Crust",
-        "Urban City 39",
         "Proper Slices"
       ]
     },
     {
       "query_id": 3,
       "question": "Compare the restaurant scenes in Shoreditch and Hackney",
-      "answer": "Here's a comparison of the restaurant scenes in Shoreditch and Hackney:\n\n### Restaurant Count and Ratings\n- **Shoreditch**:\n  - Total Restaurants: 2,425\n  - Average Rating: 4.45\n  - Average Price Level: \u00a31.90\n  - Restaurants on Deliveroo: 154\n\n- **Hackney**:\n  - Total Restaurants: 779\n  - Average Rating: 4.43\n  - Average Price Level: \u00a31.67\n  - Restaurants on Deliveroo: 75\n\n### Hygiene Ratings\n- **Shoreditch**:\n  - Total Hygiene Ratings: 1,106\n  - Average Hygiene Rating: 4.47\n  - Five-Star Ratings: 738\n  - Low Ratings (below 3): 72\n\n- **Hackney**:\n  - Total Hygiene Ratings: 371\n  - Average Hygiene Rating: 4.42\n  - Five-Star Ratings: 204\n  - Low Ratings (below 3): 18\n\n### Summary\nShoreditch has a significantly larger number of restaurants compared to Hackney, with a slightly higher average rating and hygiene score. Both neighborhoods maintain a good standard of hygiene, with Shoreditch having a higher count of five-star rated establishments. Hackney, while having fewer restaurants, still offers a strong dining scene with a good average rating and hygiene performance.",
+      "answer": "Here's a comparison of the restaurant scenes in Shoreditch and Hackney:\n\n### Restaurant Count and Ratings\n- **Shoreditch**:\n  - Total Restaurants: 2,425\n  - Average Rating: 4.45\n  - Average Price Level: \u00a31.90\n  - Restaurants on Deliveroo: 154\n\n- **Hackney**:\n  - Total Restaurants: 779\n  - Average Rating: 4.43\n  - Average Price Level: \u00a31.67\n  - Restaurants on Deliveroo: 75\n\n### Hygiene Ratings\n- **Shoreditch**:\n  - Total Hygiene Ratings: 1,106\n  - Average Hygiene Rating: 4.47\n  - Five-Star Ratings: 738\n  - Low Ratings (below 3): 72\n\n- **Hackney**:\n  - Total Hygiene Ratings: 371\n  - Average Hygiene Rating: 4.42\n  - Five-Star Ratings: 204\n  - Low Ratings (below 3): 18\n\n### Summary\nShoreditch has a significantly larger number of restaurants compared to Hackney, with a slightly higher average rating and hygiene rating. Both neighborhoods maintain a good standard of hygiene, but Shoreditch has a higher count of five-star rated establishments. Hackney, while having fewer restaurants, still offers a strong dining scene with a good average rating and hygiene standards.",
       "valid": true,
-      "latency_ms": 5366,
+      "latency_ms": 6857,
       "verified_restaurants": []
     },
     {
@@ -46,7 +47,7 @@
       "question": "What Indian restaurants are in Shoreditch?",
       "answer": "Here are some Indian restaurants in Shoreditch:\n\n1. **The India - Monument**\n   - Google Rating: 4.8\n   - Hygiene Rating: None\n   - Postcode: EC3R 8EE\n\n2. **The India - City Road**\n   - Google Rating: 4.7\n   - Hygiene Rating: None\n   - Postcode: EC1Y 2AJ\n\n3. **INDIAN MASALA**\n   - Google Rating: 4.4\n   - Hygiene Rating: None\n   - Postcode: E2 0AG\n\n4. **Bombay Corner - Indian Street Food**\n   - Google Rating: 4.6\n   - Hygiene Rating: None\n   - Postcode: N1 7RD\n\n5. **Delhi & Co.**\n   - Google Rating: 4.7\n   - Hygiene Rating: None\n   - Postcode: E2 6DG\n\nPlease note that the hygiene ratings for these restaurants are not available.",
       "valid": true,
-      "latency_ms": 4612,
+      "latency_ms": 4809,
       "verified_restaurants": [
         "The India - Monument",
         "The India - City Road",
@@ -58,31 +59,36 @@
     {
       "query_id": 5,
       "question": "What is the average age demographic in Hackney?",
-      "answer": "In Hackney, the average age demographic shows that approximately 24.3% of the population falls within the 25-34 age range, while about 22.3% are in the 35-49 age range. The total population of Hackney is approximately 518,302. Additionally, around 66.7% of the population is economically active, and 32.5% of households are single-person households.",
+      "answer": "In Hackney, the average age demographic shows that approximately 24.3% of the population falls within the 25-34 age range, while about 22.3% are in the 35-49 age range. The total population of Hackney is approximately 518,302. Additionally, around 32.5% of households are single-person households.",
       "valid": true,
-      "latency_ms": 2348,
+      "latency_ms": 2658,
       "verified_restaurants": []
     },
     {
       "query_id": 6,
       "question": "Which restaurants in Peckham are on Deliveroo?",
-      "answer": "Here are some restaurants in Peckham that are available on Deliveroo:\n\n1. **Queen's Lebanese Grill & Pizza**\n   - Address: 157 Queen's Rd, London SE15 2ND, UK\n   - Google Rating: 5.0 (16 reviews)\n\n2. **R\u00fcstic Food & Good**\n   - Address: 48 Rye Ln, London SE15 5BY, UK\n   - Google Rating: 5.0 (174 reviews)\n\n3. **Patty Bro\u2019s**\n   - Address: Market Place Peckham, Unit 10, The Aylesham Centre, Rye Ln, London SE15 5EW, UK\n   - Google Rating: 5.0 (36 reviews)\n\n4. **chickntaco**\n   - Address: Unit 10, Aylesham Centre, unit 10 Rye Ln, The Alys, London SE15 5EW, UK\n   - Google Rating: 5.0 (6 reviews)\n\n5. **Proper Slices**\n   - Address: 157-159 Rye Ln, London SE15 4TL, UK\n   - Google Rating: 5.0 (15 reviews)\n\nThese restaurants have high ratings and are popular choices in the Peckham area.",
+      "answer": "Here are some restaurants in Peckham that are available on Deliveroo:\n\n1. **King Samgyeop**\n   - Address: Unit 21, 18 Verney Rd, London SE16 3DH, UK\n   - Google Rating: 5.0 (2 reviews)\n\n2. **Queen's Lebanese Grill & Pizza**\n   - Address: 157 Queen's Rd, London SE15 2ND, UK\n   - Google Rating: 5.0 (16 reviews)\n\n3. **Zuzu's Pitsa Bermondsey**\n   - Address: Karma Kitchen, Unit 5, Allard House, 18 Verney Rd, London SE16 3DH, UK\n   - Google Rating: 5.0 (10 reviews)\n\n4. **R\u00fastic Food & Good**\n   - Address: 48 Rye Ln, London SE15 5BY, UK\n   - Google Rating: 5.0 (174 reviews)\n\n5. **chickntaco**\n   - Address: Unit 10, Aylesham Centre, unit 10 Rye Ln, The Alys, London SE15 5EW, UK\n   - Google Rating: 5.0 (6 reviews)\n\n6. **Made's Kitchen | African | Nigerian Restaurant**\n   - Address: 115 New Cross Rd, London SE14 5DJ, UK\n   - Google Rating: 5.0 (2 reviews)\n\n7. **Urban City 39**\n   - Address: Verney Rd, London SE16 3DY, UK\n   - Google Rating: 5.0 (5 reviews)\n\n8. **ANTHONY\u2019S GRILL LTD**\n   - Address: Unit 9-10, 149 New Cross Rd, London SE14 5DJ, UK\n   - Google Rating: 5.0 (48 reviews)\n\n9. **Patty Bro\u2019s**\n   - Address: Market Place Peckham, Unit 10, The Aylesham Centre, Rye Ln, London SE15 5EW, UK\n   - Google Rating: 5.0 (36 reviews)\n\n10. **Proper Slices**\n    - Address: 157-159 Rye Ln, London SE15 4TL, UK\n    - Google Rating: 5.0 (15 reviews)\n\nAll these restaurants have high ratings and are popular choices in the Peckham area.",
       "valid": true,
-      "latency_ms": 4913,
+      "latency_ms": 7167,
       "verified_restaurants": [
+        "King Samgyeop",
         "Queen's Lebanese Grill & Pizza",
-        "R\u00fcstic Food & Good",
-        "Patty Bro\u2019s",
+        "Zuzu's Pitsa Bermondsey",
+        "R\u00fastic Food & Good",
         "chickntaco",
+        "Made's Kitchen",
+        "Urban City 39",
+        "ANTHONY\u2019S GRILL LTD",
+        "Patty Bro\u2019s",
         "Proper Slices"
       ]
     },
     {
       "query_id": 7,
       "question": "What are the cheapest menu items in Hackney restaurants?",
-      "answer": "It seems that I couldn't retrieve specific menu items from the restaurants in Hackney. However, I can provide you with the names and ratings of some restaurants that may have affordable options:\n\n1. **Casa Fof\u00f3**\n   - Google Rating: 4.7\n   - Hygiene Rating: 4\n   - Postcode: E8 2HS\n\n2. **Octaves**\n   - Google Rating: 3.5\n   - Hygiene Rating: None\n   - Postcode: N16 7NY\n\n3. **M&S Foodhall**\n   - Google Rating: 4.1\n   - Hygiene Rating: 4\n   - Postcode: E8 1JB\n\n4. **Restaurant Elis**\n   - Google Rating: 4.7\n   - Hygiene Rating: 5\n   - Postcode: E2 9NF\n\n5. **LARDO**\n   - Google Rating: 4.3\n   - Hygiene Rating: 5\n   - Postcode: E8 3NJ\n\nIf you have a specific restaurant in mind or need further assistance, please let me know!",
+      "answer": "I wasn't able to retrieve specific menu items from Hackney restaurants. However, I found some restaurants that might have cheaper options:\n\n1. **Casa Fof\u00f3**\n   - Google Rating: 4.7\n   - Hygiene Rating: 4\n   - Postcode: E8 2HS\n\n2. **Octaves**\n   - Google Rating: 3.5\n   - Hygiene Rating: None\n   - Postcode: N16 7NY\n\n3. **M&S Foodhall**\n   - Google Rating: 4.1\n   - Hygiene Rating: 4\n   - Postcode: E8 1JB\n\n4. **Restaurant Elis**\n   - Google Rating: 4.7\n   - Hygiene Rating: 5\n   - Postcode: E2 9NF\n\n5. **LARDO**\n   - Google Rating: 4.3\n   - Hygiene Rating: 5\n   - Postcode: E8 3NJ\n\nIf you have a specific restaurant in mind or need further assistance, please let me know!",
       "valid": true,
-      "latency_ms": 8022,
+      "latency_ms": 7267,
       "verified_restaurants": [
         "Casa Fof\u00f3",
         "Octaves",
@@ -96,15 +102,15 @@
       "question": "Are there any restaurants with distress signals in Shoreditch?",
       "answer": "There are currently no restaurants in Shoreditch that have distress signals according to the Companies House data. All the restaurants I checked do not show any signs of distress. If you have any other questions or need information about specific restaurants, feel free to ask!",
       "valid": true,
-      "latency_ms": 6129,
+      "latency_ms": 5735,
       "verified_restaurants": []
     },
     {
       "query_id": 9,
       "question": "What is the most popular cuisine in Peckham?",
-      "answer": "The most popular cuisine in Peckham appears to be African cuisine, as indicated by several highly-rated restaurants in the area. Notable mentions include:\n\n1. **Lit African Cuisine by Zee** - Google Rating: 4.1\n2. **Exclusive African Restaurant** - Google Rating: 3.8, Hygiene Rating: 4\n3. **Kingdom of Flavours (KOF)** - Google Rating: 4.3\n\nThese establishments reflect a strong presence of African culinary offerings, which are well-received by the local community. Overall, Peckham has a positive sentiment score of 0.553, indicating a favorable reception of its dining options.",
+      "answer": "The most popular cuisine in Peckham appears to be African cuisine, as indicated by several well-rated restaurants in the area. Notable mentions include:\n\n1. **Lit African Cuisine by Zee** - Google Rating: 4.1\n2. **Exclusive African Restaurant** - Google Rating: 3.8, Hygiene Rating: 4\n3. **Kingdom of Flavours (KOF)** - Google Rating: 4.3\n\nThese establishments reflect a strong presence of African culinary offerings, which are well-received by the local community. The overall sentiment in Peckham is positive, with 2,602 positive reviews compared to 711 negative ones, indicating a favorable dining experience in the area.",
       "valid": true,
-      "latency_ms": 4916,
+      "latency_ms": 4526,
       "verified_restaurants": [
         "Lit African Cuisine by Zee",
         "Exclusive African Restaurant",
@@ -114,9 +120,9 @@
     {
       "query_id": 10,
       "question": "Which neighbourhood has the highest concentration of restaurants?",
-      "answer": "Shoreditch has the highest concentration of restaurants, with a total of 2,425 establishments. In comparison, Peckham has 537 restaurants, and Hackney has 779. Shoreditch also boasts an average rating of 4.45, making it a popular choice among diners.",
+      "answer": "Shoreditch has the highest concentration of restaurants, with a total of 2,425 restaurants. In comparison, Peckham has 537 restaurants, and Hackney has 779 restaurants.",
       "valid": true,
-      "latency_ms": 2293,
+      "latency_ms": 2135,
       "verified_restaurants": []
     }
   ],
@@ -126,23 +132,23 @@
       "question": "Which neighbourhood has the best market opportunity for a new restaurant?",
       "answer": "Based on the market opportunity analysis for new restaurants, here are the findings for Shoreditch, Peckham, and Hackney:\n\n### Shoreditch\n- **Demand Score**: 0.812 (highest among the three)\n- **Population**: 310,303\n- **Total Restaurants**: 603\n- **Average Rating**: 4.45\n- **Economic Activity**: 63.9%\n- **Young Professionals (25-34 years)**: 28.0%\n- **Sentiment Score**: 0.745 (positive dining culture)\n- **Cuisine Gaps**: Notable gaps in American, Chinese, and Mediterranean cuisines.\n\n### Peckham\n- **Demand Score**: 0.652\n- **Population**: 307,609\n- **Total Restaurants**: 258\n- **Average Rating**: 4.39\n- **Economic Activity**: 67.2%\n- **Young Professionals (25-34 years)**: 23.9%\n- **Sentiment Score**: 0.527\n- **Cuisine Gaps**: Similar gaps as Shoreditch, with potential in American and Mediterranean cuisines.\n\n### Hackney\n- **Demand Score**: 0.671\n- **Population**: 259,151\n- **Total Restaurants**: 285\n- **Average Rating**: 4.43\n- **Economic Activity**: 66.7%\n- **Young Professionals (25-34 years)**: 24.3%\n- **Sentiment Score**: 0.692\n- **Cuisine Gaps**: Similar gaps as Shoreditch and Peckham.\n\n### Conclusion\n**Shoreditch** presents the best market opportunity for a new restaurant, with the highest demand score, a strong young professional demographic, and a positive dining culture. The area also has notable cuisine gaps that could be capitalized on.",
       "valid": true,
-      "latency_ms": 8092,
+      "latency_ms": 7808,
       "verified_restaurants": []
     },
     {
       "query_id": 2,
       "question": "What cuisine types are underserved in Peckham based on demand and sentiment?",
-      "answer": "In Peckham, the following cuisine types are identified as underserved based on demand and sentiment analysis:\n\n1. **Mexican Cuisine**\n   - **Demand Gap Score**: 0.183 (indicating a notable gap)\n   - **Positive Review Rate**: 87.3% (indicating good sentiment)\n   - **Review Count**: 79\n\n2. **Mediterranean Cuisine**\n   - **Demand Gap Score**: 0.8 (indicating a significant gap)\n   - **Positive Review Rate**: 100% (but with a low review count of 20, making it less reliable)\n\n3. **British Cuisine**\n   - **Demand Gap Score**: 0.63\n   - **Positive Review Rate**: 90%\n   - **Review Count**: 30\n\nWhile other cuisines like American, Chinese, African, Italian, Thai, Indian, and Japanese have positive sentiment and no significant demand gaps, they are not as underserved as the ones listed above.\n\nOverall, Peckham has a demand score of 0.652, indicating a relatively healthy market, but there are specific gaps in the Mexican and Mediterranean cuisines that could be explored further. The average sentiment score for restaurants in Peckham is 0.553, with a total of 3,397 reviews analyzed.",
+      "answer": "In Peckham, the following cuisine types are identified as underserved based on demand and sentiment analysis:\n\n1. **Mexican Cuisine**\n   - **Demand Gap Score**: 0.183\n   - **Positive Review Rate**: 87.3% (79 reviews)\n\n2. **Mediterranean Cuisine**\n   - **Demand Gap Score**: 0.8 (not very reliable due to low review count)\n   - **Positive Review Rate**: 100% (20 reviews)\n\n3. **British Cuisine**\n   - **Demand Gap Score**: 0.63\n   - **Positive Review Rate**: 90% (30 reviews)\n\nWhile other cuisines like American, Chinese, African, Italian, Thai, Indian, and Japanese have high positive rates and no significant demand gaps, the above cuisines show potential for growth in the Peckham area. \n\nOverall, Peckham has a demand score of 0.652, indicating a relatively healthy market, but with specific gaps in the mentioned cuisines. The average sentiment score for restaurants in Peckham is 0.553, with 2,602 positive reviews and 711 negative reviews, suggesting a generally favorable perception among customers. \n\nThis data indicates opportunities for new restaurant ventures focusing on these underserved cuisines.",
       "valid": true,
-      "latency_ms": 5593,
+      "latency_ms": 9608,
       "verified_restaurants": []
     },
     {
       "query_id": 3,
       "question": "Which areas have the highest concentration of financially distressed restaurants?",
-      "answer": "Based on the analysis of financially distressed restaurants in Shoreditch, Peckham, and Hackney, here are the findings:\n\n### Shoreditch\n1. **ARCH SHOREDITCH LTD**\n   - Status: Liquidation\n   - Distress Signals: Accounts overdue, confirmation statement overdue.\n   - Incorporation Date: 2018-08-13\n\n2. **AD LONDON SHOREDITCH OPERATIONS B.V.**\n   - Status: Open\n   - Distress Signals: Very few filings (0 total).\n   - Incorporation Date: 2016-09-01\n\n3. **AITCH SHOREDITCH LIMITED**\n   - Status: Active\n   - Distress Signals: High officer turnover (3 resignations).\n   - Incorporation Date: 2015-03-20\n\n### Peckham\n1. **THE EAST PECKHAM TANDOORI RESTAURANT LIMITED**\n   - Status: Dissolved\n   - Distress Signals: Company status: dissolved.\n   - Incorporation Date: 2010-01-22\n\n2. **A.J. WOOLDRIDGE (WEST PECKHAM) LIMITED**\n   - Status: Active\n   - Distress Signals: High officer turnover (3 resignations).\n   - Incorporation Date: 1963-06-05\n\n3. **AFG PECKHAM BAKERY LIMITED**\n   - Status: Active\n   - Distress Signals: Very few filings (1 total).\n   - Incorporation Date: 2026-03-09\n\n### Hackney\n1. **CORNERSTONE HACKNEY RESTAURANT LIMITED**\n   - Status: Dissolved\n   - Distress Signals: Company status: dissolved.\n   - Incorporation Date: 2024-04-08\n\n2. **ABC HACKNEY TAXIS LIMITED**\n   - Status: Active\n   - Distress Signals: High officer turnover (4 resignations).\n   - Incorporation Date: 2016-04-07\n\n3. **ACCOUNT HACKNEY LIMITED**\n   - Status: Active\n   - Distress Signals: Very few filings (1 total).\n   - Incorporation Date: 2026-01-30\n\n### Summary\n- **Shoreditch** has a notable case of a restaurant in liquidation (ARCH SHOREDITCH LTD) and several with high officer turnover.\n- **Peckham** has a dissolved restaurant (THE EAST PECKHAM TANDOORI RESTAURANT LIMITED) and another with high officer turnover.\n- **Hackney** also has a dissolved restaurant (CORNERSTONE HACKNEY RESTAURANT LIMITED) and active restaurants with distress signals.\n\nOverall, **Shoreditch** and **Hackney** show signs of financial distress with active businesses facing challenges, while **Peckham** has a mix of dissolved and active businesses with distress signals.",
+      "answer": "Based on the analysis of financially distressed restaurants in Shoreditch, Peckham, and Hackney, here are the findings:\n\n### Shoreditch\n1. **ARCH SHOREDITCH LTD**\n   - Status: Liquidation\n   - Distress Signals: Accounts overdue, confirmation statement overdue.\n   \n2. **AD LONDON SHOREDITCH OPERATIONS B.V.**\n   - Status: Open\n   - Distress Signals: Very few filings (0 total).\n\n3. **AITCH SHOREDITCH LIMITED**\n   - Status: Active\n   - Distress Signals: High officer turnover (3 resignations).\n\n### Peckham\n1. **THE EAST PECKHAM TANDOORI RESTAURANT LIMITED**\n   - Status: Dissolved\n   - Distress Signals: Company status dissolved.\n\n2. **A.J. WOOLDRIDGE (WEST PECKHAM) LIMITED**\n   - Status: Active\n   - Distress Signals: High officer turnover (3 resignations).\n\n3. **AFG PECKHAM BAKERY LIMITED**\n   - Status: Active\n   - Distress Signals: Very few filings (1 total).\n\n### Hackney\n1. **CORNERSTONE HACKNEY RESTAURANT LIMITED**\n   - Status: Dissolved\n   - Distress Signals: Company status dissolved.\n\n2. **ABC HACKNEY TAXIS LIMITED**\n   - Status: Active\n   - Distress Signals: High officer turnover (4 resignations).\n\n3. **ACCOUNT HACKNEY LIMITED**\n   - Status: Active\n   - Distress Signals: Very few filings (1 total).\n\n### Summary\n- **Shoreditch** has a restaurant currently in liquidation and another with high officer turnover.\n- **Peckham** has a dissolved restaurant and one with high officer turnover.\n- **Hackney** has a dissolved restaurant and one with high officer turnover.\n\nOverall, **Shoreditch** and **Hackney** show signs of distress with multiple signals, while **Peckham** has a mix of dissolved and active restaurants with some distress signals.",
       "valid": true,
-      "latency_ms": 10038,
+      "latency_ms": 18793,
       "verified_restaurants": [
         "ARCH SHOREDITCH LTD",
         "AD LONDON SHOREDITCH OPERATIONS B.V.",
@@ -156,25 +162,25 @@
     {
       "query_id": 4,
       "question": "What is the competitive landscape for a new Italian restaurant in Shoreditch?",
-      "answer": "The competitive landscape for a new Italian restaurant in Shoreditch can be summarized as follows:\n\n### Market Demand and Demographics\n- **Demand Score**: Shoreditch has a demand score of **0.812**, indicating a strong market for dining.\n- **Population**: The area has a population of approximately **310,303**.\n- **Age Demographics**: There is a strong demographic of young professionals, particularly those aged **25-34**, who make up **28.0%** of the population. This group typically has a high propensity to dine out.\n- **Economic Activity**: The economic activity rate is **63.9%**, suggesting a vibrant workforce.\n\n### Restaurant Landscape\n- **Total Restaurants**: There are **603** restaurants in Shoreditch, indicating a competitive environment.\n- **Average Rating**: The average restaurant rating in the area is **4.45**, reflecting a quality-conscious market.\n- **Total Reviews**: The total number of reviews across all restaurants is **833,990**, showing a high level of customer engagement.\n\n### Sentiment Analysis for Italian Cuisine\n- **Positive Reviews**: There are **767 positive reviews** for Italian restaurants, with a **positive rate of 0.8**.\n- **Negative Reviews**: There are **141 negative reviews**, indicating some areas for improvement.\n- **Average Sentiment Score**: The average sentiment score for Italian cuisine is **0.669**, which is relatively positive but lower than the overall sentiment score for Shoreditch (**0.745**).\n\n### Cuisine Gaps\n- The Italian cuisine segment has a **positive rate of 0.8** with **504 reviews**, indicating a healthy interest and satisfaction among customers. However, there are other cuisines like Thai (0.852) and Japanese (0.849) that have slightly higher positive rates, suggesting potential competition.\n\n### Conclusion\nOpening an Italian restaurant in Shoreditch could be promising due to the strong demand and positive sentiment towards Italian cuisine. However, the competitive landscape is dense, and it will be essential to differentiate the restaurant through unique offerings, quality service, and effective marketing to attract the young professional demographic.",
+      "answer": "The competitive landscape for a new Italian restaurant in Shoreditch can be summarized as follows:\n\n### Market Demand\n- **Demand Score**: Shoreditch has a demand score of **0.812**, indicating a strong market for dining.\n- **Population**: The area has a population of approximately **310,303**.\n- **Demographics**: There is a strong demographic of young professionals, particularly those aged **25-34**, who make up **28.0%** of the population. This group typically has a high propensity to dine out.\n- **Economic Activity**: The economic activity rate is **63.9%**, suggesting a vibrant workforce.\n\n### Restaurant Landscape\n- **Total Restaurants**: There are **603** restaurants in Shoreditch, indicating a competitive environment.\n- **Average Rating**: The average restaurant rating in the area is **4.45**, reflecting a quality-conscious market.\n- **Total Reviews**: There are a staggering **833,990** total reviews, showcasing a high level of customer engagement.\n\n### Sentiment Analysis\n- **Overall Sentiment**: The average sentiment score for restaurants in Shoreditch is **0.745**, indicating a generally positive dining culture.\n- **Italian Cuisine Sentiment**: For Italian restaurants specifically, the sentiment is slightly lower with an average score of **0.669**. There are **933** reviews for Italian cuisine, with **767** positive and **141** negative reviews. This suggests that while there is a demand for Italian food, there may be room for improvement in customer satisfaction.\n\n### Competitive Gaps\n- **Cuisine Gaps**: The analysis indicates that while Italian cuisine has a positive rate of **80%** based on **504** reviews, there are other cuisines like Thai (positive rate of **85.2%**) and Mexican (positive rate of **87.3%**) that are performing exceptionally well. This could indicate a potential opportunity to differentiate your Italian restaurant by offering unique dishes or experiences that stand out from the competition.\n\n### Conclusion\nOpening an Italian restaurant in Shoreditch could be promising due to the strong demand and positive dining culture. However, it will be essential to focus on quality and customer satisfaction to compete effectively in this vibrant market.",
       "valid": true,
-      "latency_ms": 7684,
+      "latency_ms": 7934,
       "verified_restaurants": []
     },
     {
       "query_id": 5,
       "question": "Which neighbourhoods have the strongest working professional demographics for a lunch restaurant?",
-      "answer": "Based on the demographic data for the three neighbourhoods, here are the insights regarding the working professional demographics, which are relevant for a lunch restaurant:\n\n1. **Shoreditch**:\n   - **Economically Active Percentage**: 63.89%\n   - **Age Group 25-34 Percentage**: 28.01%\n   - **Age Group 35-49 Percentage**: 22.70%\n   - **Single Households Percentage**: 31.52%\n\n2. **Peckham**:\n   - **Economically Active Percentage**: 67.18% (highest among the three)\n   - **Age Group 25-34 Percentage**: 23.95%\n   - **Age Group 35-49 Percentage**: 22.16%\n   - **Single Households Percentage**: 32.85%\n\n3. **Hackney**:\n   - **Economically Active Percentage**: 66.70%\n   - **Age Group 25-34 Percentage**: 24.27%\n   - **Age Group 35-49 Percentage**: 22.31%\n   - **Single Households Percentage**: 32.49%\n\n### Conclusion:\n- **Peckham** has the strongest working professional demographic with the highest economically active percentage (67.18%), making it a promising location for a lunch restaurant targeting working professionals.\n- **Shoreditch** follows closely, particularly with a significant percentage of the population in the 25-34 age group, which is often associated with a vibrant lunch scene.\n- **Hackney** also has a strong demographic but slightly lower in economically active percentage compared to Peckham and Shoreditch. \n\nThese insights suggest that Peckham and Shoreditch are the most favorable neighbourhoods for a lunch restaurant aimed at working professionals.",
+      "answer": "Based on the demographic data for Shoreditch, Peckham, and Hackney, here are the insights regarding the working professional demographics that are relevant for a lunch restaurant:\n\n1. **Shoreditch**:\n   - Average Age (25-34 years): 28.0%\n   - Average Age (35-49 years): 22.7%\n   - Economically Active Percentage: 63.9%\n   - Single Households Percentage: 31.5%\n\n2. **Peckham**:\n   - Average Age (25-34 years): 23.9%\n   - Average Age (35-49 years): 22.2%\n   - Economically Active Percentage: 67.2%\n   - Single Households Percentage: 32.9%\n\n3. **Hackney**:\n   - Average Age (25-34 years): 24.3%\n   - Average Age (35-49 years): 22.3%\n   - Economically Active Percentage: 66.7%\n   - Single Households Percentage: 32.5%\n\n### Summary:\n- **Peckham** has the highest percentage of economically active individuals at **67.2%**, making it a strong candidate for targeting working professionals for lunch.\n- **Shoreditch** follows closely with **63.9%** economically active individuals and has the highest percentage of younger professionals (28.0% aged 25-34).\n- **Hackney** also has a significant economically active population but slightly lower than Peckham and Shoreditch.\n\nIn conclusion, **Peckham** appears to have the strongest working professional demographics for a lunch restaurant, followed by **Shoreditch**.",
       "valid": true,
-      "latency_ms": 6643,
+      "latency_ms": 7062,
       "verified_restaurants": []
     },
     {
       "query_id": 6,
       "question": "What are the busiest transport hubs in Hackney and which restaurants benefit most from footfall?",
-      "answer": "In Hackney, the busiest transport hub is near **Dalston Junction Rail Station**, which has a high transport accessibility score. Here are some restaurants that benefit from the footfall in this area:\n\n1. **Dark Spring Coffee**\n   - Distance from station: 0.002 km\n   - Transport score: 0.999\n\n2. **Banhs Project Ltd**\n   - Distance from station: 0.033 km\n   - Transport score: 0.988\n\n3. **B\u00e1nh**\n   - Distance from station: 0.037 km\n   - Transport score: 0.987\n   - Google Rating: 4.8\n\n4. **SIDO The Braised Shop**\n   - Distance from station: 0.047 km\n   - Transport score: 0.983\n\n5. **Mochiya**\n   - Distance from station: 0.047 km\n   - Transport score: 0.983\n\n6. **Hanatable Bakery**\n   - Distance from station: 0.047 km\n   - Transport score: 0.983\n\n7. **The Good Front Room**\n   - Distance from station: 0.056 km\n   - Transport score: 0.980\n   - Google Rating: 4.4\n\n8. **Mildreds Restaurant**\n   - Distance from station: 0.073 km\n   - Transport score: 0.974\n\nThese restaurants are well-positioned to attract customers due to their proximity to the transport hub, making them ideal for foot traffic.",
+      "answer": "The busiest transport hub in Hackney is near **Dalston Junction Rail Station**, which has a high transport accessibility score. Here are some restaurants that benefit from the footfall in this area:\n\n1. **Dark Spring Coffee**\n   - Distance from station: 0.002 km\n   - Transport score: 0.999\n\n2. **Banhs Project Ltd**\n   - Distance from station: 0.033 km\n   - Transport score: 0.988\n\n3. **B\u00e1nh**\n   - Distance from station: 0.037 km\n   - Transport score: 0.987\n   - Google rating: 4.8\n\n4. **SIDO The Braised Shop**\n   - Distance from station: 0.047 km\n   - Transport score: 0.983\n\n5. **Mochiya**\n   - Distance from station: 0.047 km\n   - Transport score: 0.983\n\n6. **Hanatable Bakery**\n   - Distance from station: 0.047 km\n   - Transport score: 0.983\n\n7. **The Good Front Room**\n   - Distance from station: 0.056 km\n   - Transport score: 0.980\n   - Google rating: 4.4\n\n8. **Mildreds Restaurant**\n   - Distance from station: 0.073 km\n   - Transport score: 0.974\n\nThese restaurants are well-positioned to attract customers due to their proximity to the transport hub, making them ideal for foot traffic.",
       "valid": true,
-      "latency_ms": 5673,
+      "latency_ms": 5205,
       "verified_restaurants": [
         "Dark Spring Coffee",
         "Banhs Project Ltd",
@@ -189,40 +195,40 @@
     {
       "query_id": 7,
       "question": "Is there demand for late night dining in Peckham?",
-      "answer": "Yes, there is demand for late night dining in Peckham. The demand score for the area is 0.652, indicating a moderate to high interest in dining options during late hours. \n\nKey factors contributing to this demand include:\n- **High economic activity**: 67.2% of the population is economically active, suggesting a capacity for discretionary spending.\n- **Young professional demographic**: A significant portion of the population (23.9%) falls within the 25-34 age range, which often seeks late night dining options.\n- **Delivery demand**: There is a strong demand for delivery services, scoring 1.0, which often correlates with late night dining preferences.\n\nOverall, the combination of economic activity, a young demographic, and high delivery demand indicates a favorable environment for late night dining in Peckham.",
+      "answer": "Yes, there is a demand for late night dining in Peckham. The demand score for the area is 0.652, indicating a moderate to high interest in dining options during late hours. \n\nKey factors contributing to this demand include:\n- **High economic activity**: 67.2% of the population is economically active, suggesting a capacity for discretionary spending.\n- **Young professional demographic**: A significant portion of the population (23.9%) falls within the 25-34 age range, which often seeks late night dining options.\n- **Delivery demand**: There is a strong demand for delivery services, scoring 1.0, which often correlates with late night dining preferences.\n\nOverall, the combination of economic activity, a young demographic, and high delivery demand indicates a favorable environment for late night dining in Peckham.",
       "valid": true,
-      "latency_ms": 3444,
+      "latency_ms": 3276,
       "verified_restaurants": []
     },
     {
       "query_id": 8,
       "question": "What price point works best in each neighbourhood based on existing restaurant data?",
-      "answer": "Here's a summary of the price point dynamics and market signals for restaurants in Shoreditch, Peckham, and Hackney:\n\n### Shoreditch\n- **Demand Score**: 0.812\n- **Population**: 310,303\n- **Total Restaurants**: 603\n- **Average Rating**: 4.45\n- **Economic Activity**: 63.9%\n- **Key Demographic**: Strong 25-34 age group (28.0%), indicating a high propensity for dining out.\n- **Cuisine Gaps**: Notable demand for American, Chinese, African, Italian, Thai, Indian, Japanese, and Mexican cuisines, with positive review rates generally above 0.73.\n- **Market Signals**: Strong review sentiment (0.745) and high average hygiene rating (4.47).\n\n### Peckham\n- **Demand Score**: 0.652\n- **Population**: 307,609\n- **Total Restaurants**: 258\n- **Average Rating**: 4.39\n- **Economic Activity**: 67.2%\n- **Key Demographic**: 25-34 age group (23.9%).\n- **Cuisine Gaps**: Similar to Shoreditch, with strong demand for American, Chinese, African, Italian, Thai, Indian, Japanese, and Mexican cuisines.\n- **Market Signals**: High average hygiene rating (4.41) but lower review sentiment (0.527).\n\n### Hackney\n- **Demand Score**: 0.671\n- **Population**: 259,151\n- **Total Restaurants**: 285\n- **Average Rating**: 4.43\n- **Economic Activity**: 66.7%\n- **Key Demographic**: 25-34 age group (24.3%).\n- **Cuisine Gaps**: Similar cuisine preferences as Shoreditch and Peckham, with positive review rates generally above 0.73.\n- **Market Signals**: High average hygiene rating (4.42) and good review sentiment (0.692).\n\n### Conclusion\n- **Shoreditch** has the highest demand score and a vibrant dining culture, making it ideal for mid to high price points.\n- **Peckham** shows strong economic activity but a lower demand score, suggesting a more value-oriented pricing strategy may work better.\n- **Hackney** balances between the two, with a solid demand score and a diverse restaurant scene, indicating a mix of price points could be effective.\n\nOverall, Shoreditch is best suited for higher-end dining experiences, while Peckham may benefit from more affordable options. Hackney can cater to a range of price points.",
+      "answer": "Here's a summary of the price point dynamics and market signals for restaurants in Shoreditch, Peckham, and Hackney based on existing data:\n\n### Shoreditch\n- **Demand Score**: 0.812\n- **Population**: 310,303\n- **Total Restaurants**: 603\n- **Average Rating**: 4.45\n- **Economic Activity**: 63.9%\n- **Key Demographics**: Strong 25-34 demographic (28.0%), indicating a high propensity for dining out.\n- **Cuisine Gaps**: Notable demand for American, Chinese, and Mediterranean cuisines.\n- **Market Signals**: High review sentiment (0.745) and a quality-conscious market.\n\n### Peckham\n- **Demand Score**: 0.652\n- **Population**: 307,609\n- **Total Restaurants**: 258\n- **Average Rating**: 4.39\n- **Economic Activity**: 67.2%\n- **Key Demographics**: 25-34 demographic (23.9%).\n- **Cuisine Gaps**: Similar gaps as Shoreditch, with a strong demand for American and Mediterranean cuisines.\n- **Market Signals**: High average rating (4.39) but lower review sentiment (0.527) compared to Shoreditch.\n\n### Hackney\n- **Demand Score**: 0.671\n- **Population**: 259,151\n- **Total Restaurants**: 285\n- **Average Rating**: 4.43\n- **Economic Activity**: 66.7%\n- **Key Demographics**: 25-34 demographic (24.3%).\n- **Cuisine Gaps**: Similar to Shoreditch and Peckham, with demand for American and Mediterranean cuisines.\n- **Market Signals**: High average rating (4.43) and a review sentiment score of 0.692.\n\n### Conclusion\n- **Shoreditch** has the highest demand score and a vibrant dining culture, making it ideal for higher-end dining experiences.\n- **Peckham** and **Hackney** have slightly lower demand scores but still show strong economic activity and quality-conscious markets, suggesting a balanced approach to pricing that caters to both casual and mid-range dining.\n\nOverall, the best price point strategy would be to focus on quality and experience in Shoreditch, while offering a mix of casual and mid-range options in Peckham and Hackney.",
       "valid": true,
-      "latency_ms": 9628,
+      "latency_ms": 8661,
       "verified_restaurants": []
     },
     {
       "query_id": 9,
       "question": "Which existing restaurants show signs of financial distress and what gaps do they leave?",
-      "answer": "It appears that I couldn't retrieve any financial distress information for the specified restaurants in Shoreditch, Peckham, and Hackney. This may be due to a lack of available data on their financial health or business registration.\n\nIf you have specific restaurants in mind or would like to explore other options, please let me know! Alternatively, I can provide insights into the overall restaurant landscape in these neighborhoods.",
+      "answer": "It appears that I couldn't retrieve any financial distress signals for the specified restaurants in Shoreditch, Peckham, and Hackney. This may indicate that these restaurants are currently in good financial health or that there are no available records indicating distress.\n\nIf you have specific restaurants in mind or would like to explore other options, please let me know!",
       "valid": true,
-      "latency_ms": 3526,
+      "latency_ms": 3165,
       "verified_restaurants": []
     },
     {
       "query_id": 10,
       "question": "Should I open a breakfast cafe in Hackney or Shoreditch based on the data?",
-      "answer": "When considering opening a breakfast cafe, here are the insights for Hackney and Shoreditch:\n\n### Hackney\n- **Number of Breakfast Cafes**: 27\n- **Average Rating**: 4.38\n- **Notable Cafes**:\n  - **Ayva**: Google Rating 5.0, open 7 days, average open time 08:17, close time 17:17.\n  - **ZOHA. cafe**: Google Rating 4.9, open 6 days, average open time 08:00, close time 16:00.\n  - **La Mela Mediterranean Cuisine**: Google Rating 4.7, open 7 days, average open time 08:08, close time 20:42.\n\n### Shoreditch\n- **Number of Breakfast Cafes**: 65\n- **Average Rating**: 4.57\n- **Notable Cafes**:\n  - **Breeze Bistro & Lounge**: Google Rating 5.0, open 7 days, average open time 08:08, close time 19:08.\n  - **De Vine**: Google Rating 5.0, open 6 days, average open time 07:10, close time 13:32.\n  - **Ladybugs Cafe**: Google Rating 5.0, open 7 days, average open time 07:17, close time 17:17.\n\n### Summary\n- **Shoreditch** has a significantly higher number of breakfast cafes (65) compared to Hackney (27), and it also boasts a higher average rating (4.57 vs. 4.38).\n- If you are looking for a more competitive environment with a larger customer base, **Shoreditch** may be the better option for opening a breakfast cafe.",
+      "answer": "When considering opening a breakfast cafe, here are the insights for Hackney and Shoreditch:\n\n### Hackney\n- **Number of Breakfast Cafes**: 27\n- **Average Rating**: 4.38\n- **Notable Cafes**:\n  - **Ayva**: Google Rating 5.0, open 7 days, average open time 08:17, close time 17:17.\n  - **ZOHA. cafe**: Google Rating 4.9, open 6 days, average open time 08:00, close time 16:00.\n  - **Well Street Kitchen London**: Google Rating 4.7, open 7 days, average open time 07:30, close time 16:00.\n\n### Shoreditch\n- **Number of Breakfast Cafes**: 65\n- **Average Rating**: 4.57\n- **Notable Cafes**:\n  - **Ladybugs Cafe**: Google Rating 5.0, open 7 days, average open time 07:17, close time 17:17.\n  - **Afrofeast cuisine**: Google Rating 5.0, open 6 days, average open time 01:00, close time 22:00.\n  - **Breeze Bistro & Lounge**: Google Rating 5.0, open 7 days, average open time 08:08, close time 19:08.\n\n### Summary\n- **Shoreditch** has a significantly higher number of breakfast cafes (65) compared to Hackney (27) and also boasts a higher average rating (4.57 vs. 4.38).\n- If you are looking for a more competitive environment with a larger customer base, **Shoreditch** may be the better option for opening a breakfast cafe. \n\nThis data suggests that Shoreditch offers more opportunities in terms of both quantity and quality of breakfast cafes.",
       "valid": true,
-      "latency_ms": 6859,
+      "latency_ms": 8438,
       "verified_restaurants": [
         "Ayva",
         "ZOHA. cafe",
-        "La Mela Mediterranean Cuisine",
-        "Breeze Bistro & Lounge",
-        "De Vine",
-        "Ladybugs Cafe"
+        "Well Street Kitchen London",
+        "Ladybugs Cafe",
+        "Afrofeast cuisine",
+        "Breeze Bistro & Lounge"
       ]
     }
   ]
