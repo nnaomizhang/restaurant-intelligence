@@ -26,4 +26,4 @@ env/
 .ipynb_checkpoints/
 
 # Logs (keep structure but not content)
-logs/*.log
+logs/*.logchroma_db/.ipynb_checkpoints/
