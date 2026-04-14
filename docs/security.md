@@ -11,7 +11,6 @@
 Before any data is sent to the LLM:
 - Phone numbers replaced with `[PHONE]`
 - Email addresses replaced with `[EMAIL]`
-- Full postcodes replaced with `[POSTCODE]`
 - Reviewer names stripped from review objects
 - Only aggregated/anonymised data reaches external APIs
 
