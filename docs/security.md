@@ -5,7 +5,7 @@
 - `.env` is listed in `.gitignore` — never committed to GitHub
 - Keys loaded at runtime via `python-dotenv`
 - Docker Compose passes keys via `env_file` directive
-- Keys required: Google Places, Companies House, Anthropic, OpenAI
+- Keys required: Google Places, Companies House, OpenAI
 
 ## Data Anonymisation
 Before any data is sent to the LLM:
@@ -16,11 +16,11 @@ Before any data is sent to the LLM:
 - Only aggregated/anonymised data reaches external APIs
 
 ## Data Storage
-- Raw personal data stays in MongoDB and PostgreSQL locally
-- No personal data is sent to OpenAI or any external API
-- FSA data is public open data — no personal information
-- Google Places reviews are anonymised before embedding
-- Companies House data is public register data
+Processed datasets stored in PostgreSQL and MongoDB do not contain identifiable personal data. Where sensitive attributes are present in source data, they are removed or anonymised during the data cleaning stage.
+
+- FSA data is public open data and contains no personal information
+- Companies House data is sourced from a public register
+- Google Places reviews are anonymised prior to embedding and analysis
 
 ## Database Security
 - PostgreSQL protected by username/password authentication
@@ -32,5 +32,5 @@ Before any data is sent to the LLM:
 - Deliveroo menu data collected via public web scraping
 - Google Places data used within API terms of service
 - FSA data is Crown Copyright open data (OGL v3)
-- Companies House data is public register under GDPR exemption
-- No data is resold or redistributed
+- Companies House data is publicly available under UK regulatory frameworks
+No data is redistributed or monetised beyond analytical use within the system.
